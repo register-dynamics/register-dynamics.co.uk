@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<h1>Register Dynamics</h1>
+
+<ul>
+  <li>Data</li>
+  <li>Strategy</li>
+  <li>Delivery</li>
+</ul>
+
+<h2>
+  <span>Stop getting stuck with</span><br/>
+  <span>the "next big thing".</span>
+</h2>
+
+<h2>
+  <span>Start getting</span><br/>
+  <span>value from your data.</span>
+</h2>
+
+<main>
+  <p>
+    Your engineering team is amazing,
+    but they don't know how your
+    business needs their data.
+  </p>
+
+  <p>
+    Your business team is amazing,
+    but they don't know how your
+    data can help them.
+  </p>
+
+  <p>We bridge the gap.</p>
+
+  <p>
+    We develop strategies and products<br/>
+    that liberate your data<br/>
+    to solve your business problems.
+  </p>
+
+  <p>Register Dynamics has worked with companies and governments to apply their data responsibly and ethically. Our expertise ranges from the smallest telemetry systems with one or two stakeholders up to database clusters comprising thousands of nodes used by several business units.</p>
+
+  {% for project in site.projects %}
+  <section>
+    <h3>{{ project.title }}</h3>
+    <h4>We used {{ project.data | downcase }} to help {{ project.client }} {{ project.application | downcase }}.</h4>
+    {{ project.content }}
+  </section>
+  {% endfor %}
+</main>

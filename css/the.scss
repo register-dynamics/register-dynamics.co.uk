@@ -1,0 +1,262 @@
+---
+---
+$BODY_SIZE: 1024px;
+$MARGIN_CALC: "((100% - #{$BODY_SIZE})/2)";
+$RELATIVE_MARGIN_CALC: "((100vw - #{$BODY_SIZE})/2)";
+$COLOR: #009671;
+$HIGHLIGHT: adjust-color($color: $COLOR, $saturation: -50%, $lightness: +20%);
+
+$DATABASE_SVG: '<path d="M18.067 1.609c-0.497-0.326-1.193-0.615-2.069-0.858-1.742-0.484-4.050-0.75-6.498-0.75s-4.756 0.267-6.498 0.75c-0.877 0.243-1.573 0.532-2.069 0.858-0.619 0.407-0.933 0.874-0.933 1.391v12c0 0.517 0.314 0.985 0.933 1.391 0.497 0.326 1.193 0.615 2.069 0.858 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.751c0.877-0.243 1.573-0.532 2.069-0.858 0.619-0.406 0.933-0.874 0.933-1.391v-12c0-0.517-0.314-0.985-0.933-1.391zM3.27 1.714c1.658-0.46 3.87-0.714 6.23-0.714s4.573 0.254 6.23 0.714c1.795 0.499 2.27 1.059 2.27 1.286s-0.474 0.787-2.27 1.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286s0.474-0.787 2.27-1.286zM15.73 16.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.751c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286zM15.73 12.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.75c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286zM15.73 8.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.75c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286z"></path>';
+
+@mixin inline-svg($color, $svg-content) {
+  $start: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><style>path { fill: rgb(#{red($color)}, #{green($color)}, #{blue($color)}); }</style>';
+  $end:   '</svg>';
+
+  background-image: url('data:image/svg+xml;utf8, #{$start}#{$svg-content}#{$end}');
+}
+
+@mixin stroke($width, $color) {
+  text-shadow: (-$width) (-$width) 0 $color,  $width (-$width) 0 $color, (-$width) $width 0 $color, $width $width 0 $color;
+}
+
+$BACKGROUND_IMAGE_HEIGHT: 2912px;
+$BACKGROUND_IMAGE_WIDTH: 4368px;
+$ASPECT_RATIO: $BACKGROUND_IMAGE_HEIGHT / $BACKGROUND_IMAGE_WIDTH;
+$LINES_OF_TEXT: 4;
+$BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
+
+@mixin vertical-gradient($top, $bottom) {
+  background: $top;
+  background: -moz-linear-gradient(top, $top 0%, $bottom 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, $top), color-stop(100%, $bottom));
+  background: -webkit-linear-gradient(top, $top 0%, $bottom 100%);
+  background: -o-linear-gradient(top, $top 0%, $bottom 100%);
+  background: -ms-linear-gradient(top, $top 0%, $bottom 100%);
+  background: linear-gradient(to bottom, $top 0%, $bottom 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$top}', endColorstr='#{$bottom}', GradientType=0 );
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16pt;
+  margin: 0;
+
+  background-image: url(../images/banner.jpg);
+  background-color: #eaeaea;
+  background-size: contain;
+  background-position-y: -150px;
+  background-repeat: no-repeat;
+
+  > * {
+    max-width: $BODY_SIZE;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h1, ul {
+    font-family: 'Alte Haas Grotesk', sans-serif;
+    display: block;
+    color: white;
+    background: $COLOR;
+    margin: 0;
+    padding: 1ch calc(#{$MARGIN_CALC});
+    text-align: left;
+    max-width: unset;
+  }
+
+  h1 {
+    @include vertical-gradient(darken($COLOR, +5%), $COLOR);
+    font-size: 25pt;
+    line-height: 1.1em;
+    padding-bottom: 0;
+  }
+
+  ul {
+    padding-bottom: 26px;
+    font-size: 16pt;
+    font-weight: bold;
+    border-bottom: 16px $HIGHLIGHT solid;
+
+    li {
+      display: block;
+      float: left;
+      padding-right: 1.5ch;
+      color: white;
+
+      &::after {
+        content: '|';
+        padding-left: 1.5ch;
+      }
+
+      &:last-child::after {
+        content: unset;
+      }
+    }
+
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  $UNIT: "(1/14 * #{$BANNER_HEIGHT})";
+  h2 {
+    font-family: 'Alte Haas Grotesk', sans-serif;
+    font-size: 36pt;
+
+    span {
+      background-color: rgba(255,255,255,0.7);
+      padding: calc(0.5 * #{$UNIT});
+
+      &:last-child {
+        display: inline-block;
+      }
+    }
+
+    &:first-of-type {
+      text-align: left;
+      margin-top: calc(4 * #{$UNIT});
+      margin-bottom: calc(2 * #{$UNIT});
+
+      span:last-child {
+        padding-top: 0;
+        margin-top: calc(0.5 * #{$UNIT});
+      }
+    }
+
+    &:last-of-type {
+      text-align: right;
+      margin-bottom: calc(4 * #{$UNIT});
+
+      span:first-child {
+        padding-bottom: 0;
+        margin-bottom: calc(0.5 * #{$UNIT});
+      }
+    }
+  }
+
+  main {
+  @for $i from 1 through 4 {
+    > p:nth-of-type(#{$i}) {
+      font-size: 20pt;
+    }
+  }
+
+  p {
+    margin: 2em auto;
+  }
+
+  > * {
+    max-width: $BODY_SIZE;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    max-width: unset;
+    display: flex;
+    flex-wrap: wrap;
+
+  $ICON_HEIGHT: 125px;
+  > p:nth-of-type(1), > p:nth-of-type(2) {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 4ch 5ch;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 8px 0;
+    margin: 0 0 2ch 0;
+
+    background-color: white;
+    background-size: auto $ICON_HEIGHT;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+  }
+
+  > p:nth-of-type(1) {
+    padding-left: calc(#{$MARGIN_CALC} + #{$ICON_HEIGHT} + 4ch);
+    border-top-color: $COLOR;
+    border-bottom-color: $HIGHLIGHT;
+
+    background-image: url(../images/lnr-magic-wand.svg);
+    background-position: calc(#{$RELATIVE_MARGIN_CALC});
+  }
+
+  > p:nth-of-type(2) {
+    padding-right: calc(#{$MARGIN_CALC} + #{$ICON_HEIGHT} + 4ch);
+    border-top-color: $HIGHLIGHT;
+    border-bottom-color: $COLOR;
+
+    background-image: url(../images/lnr-chart-bars.svg);
+    background-position: calc(100% - #{$RELATIVE_MARGIN_CALC});
+  }
+
+  > p:nth-of-type(3), > p:nth-of-type(4) {
+    width: $BODY_SIZE;
+    clear: left;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding: 3ch calc(#{$MARGIN_CALC});
+    font-weight: bold;
+    position: relative;
+    color: white;
+    @include stroke(1px, rgba(0,0,0,0.4));
+
+    $BAR_HEIGHT: "(4em + 4*3ch)"; // TODO
+    $FIRST_BAR_HEIGHT: "(1em + 2*3ch)";
+    $ICON_HEIGHT: "(#{$BAR_HEIGHT}/1.5)";
+
+    &:nth-of-type(3) {
+      &::after, &::before {
+        background-position-y: calc((#{$BAR_HEIGHT} - #{$ICON_HEIGHT}) / 2 + 5px); //yolo
+      }
+    }
+
+    &:nth-of-type(4) {
+      &::after, &::before {
+        background-position-y: calc((#{$BAR_HEIGHT} - #{$ICON_HEIGHT}) / 2 - #{$FIRST_BAR_HEIGHT});
+      }
+    }
+
+    &::after, &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+
+      background-size: calc(#{$ICON_HEIGHT});
+      background-repeat: no-repeat;
+    }
+
+    &::after {
+      left: 50%;
+      right: 0;
+      background-color: $COLOR;
+      @include inline-svg($HIGHLIGHT, $DATABASE_SVG);
+      background-position-x: calc(-1 * #{$ICON_HEIGHT}/2);
+    }
+
+    &::before {
+      left: 0;
+      right: 50%;
+      background-color: $HIGHLIGHT;
+      @include inline-svg($COLOR, $DATABASE_SVG);
+      background-position-x: calc(100% + #{$ICON_HEIGHT}/2);
+    }
+  }
+  }
+
+  &::after {
+    content: "\24D2 Register Dynamics Ltd. Database icon, magic wand icon and bar chart icon licensed from Perxis (linearicons.com) under CC BY-SA 4.0";
+    display: block;
+    padding: 2ch calc(#{$MARGIN_CALC});
+    @include vertical-gradient(gray, darken(gray, +5%));
+    color: white;
+    font-size: 10pt;
+    margin: 2ch auto 0;
+  }
+}
