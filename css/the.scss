@@ -213,7 +213,7 @@ body {
   }
 
   main {
-    @for $i from 1 through 4 {
+    @for $i from 1 through 2 {
       > p:nth-of-type(#{$i}) {
         font-size: 20pt;
       }
@@ -221,7 +221,15 @@ body {
 
     p {
       @include expand-to-window();
-      margin: 2em auto;
+      margin: 1em auto;
+    }
+
+    p + :not(p) {
+      margin-top: 1em;
+    }
+
+    :not(p) + p {
+      margin-bottom: 1em;
     }
 
     > * {
@@ -288,6 +296,7 @@ body {
       width: 100%;
       clear: left;
       text-align: center;
+      font-size: 24pt;
       font-weight: bold;
       margin: 0;
       padding: 3ch calc(#{$MARGIN_CALC});
@@ -310,6 +319,8 @@ body {
         &::after, &::before {
           background-position-y: calc((#{$BAR_HEIGHT} - #{$ICON_HEIGHT}) / 2 - #{$FIRST_BAR_HEIGHT});
         }
+
+        margin-bottom: 1em;
       }
 
       &::after, &::before {
