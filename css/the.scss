@@ -400,8 +400,7 @@ body {
     }
   }
 
-  &::after {
-    content: "\24D2 Register Dynamics Ltd. Icons by Perxis (linearicons.com) used under CC BY-SA 4.0";
+  footer {
     display: block;
     padding-top: 2ch;
     padding-bottom: 2ch;
@@ -410,5 +409,9 @@ body {
     color: white;
     font-size: 10pt;
     margin: 2ch auto 0;
+
+    &::after {
+      content: "Icons by Perxis (linearicons.com) used under CC BY-SA 4.0";
+    }
   }
 }
