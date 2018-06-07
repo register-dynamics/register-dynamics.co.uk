@@ -85,6 +85,10 @@ body {
     font-size: 25pt;
     line-height: 1.1em;
     padding-bottom: 0;
+
+    @media screen and (max-width: 1024px) {
+      padding-right: calc(#{$COMPRESSED_PADDING} + 1em);
+    }
   }
 
   ul {
@@ -116,6 +120,40 @@ body {
       content: '';
       display: table;
       clear: both;
+    }
+  }
+
+  > a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: calc(#{$MARGIN_CALC});
+
+    @for $i from 1 through 4 {
+      &:nth-of-type(#{$i}) {
+        top: #{$i}em;
+      }
+    }
+
+    background-size: 1em;
+    padding-left: 1.5em;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: $MINIMUM_WINDOW) {
+      width: 1em;
+      right: $COMPRESSED_PADDING;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    &[href^="mailto"] {
+      background-image: url(../images/lnr-envelope.svg);
+      background-position-y: 0px;
+    }
+
+    &[href^="https://twitter"] {
+      background-image: url(../images/lnr-bubble.svg);
+      background-position-y: 3px;
     }
   }
 
