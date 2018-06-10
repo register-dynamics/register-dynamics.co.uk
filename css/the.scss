@@ -219,6 +219,10 @@ body {
       }
     }
 
+    a {
+      color: $COLOR;
+    }
+
     p {
       @include expand-to-window();
       margin: 1em auto;
