@@ -3,3 +3,11 @@ title: Register Dynamics
 collections:
   projects:
     output: no
+
+order:
+- personal-data-exchange
+- open-registers
+- wwi-archive
+- payroll-analytics
+- knodium
+- geniedb

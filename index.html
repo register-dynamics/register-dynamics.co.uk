@@ -49,7 +49,8 @@ layout: default
 
   <p><a href="mailto:hello@register-dynamics.co.uk">Get in touch</a></p>
 
-  {% for project in site.projects %}
+  {% for name in site.order %}
+  {% assign project = site.projects | where: 'slug', name | first %}
   <section>
     <h3>{{ project.title }}</h3>
     <h4>We used {{ project.data | downcase }} to help <span class="client">{{ project.client }}</span> {{ project.application | downcase }}.</h4>
