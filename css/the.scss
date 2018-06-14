@@ -356,35 +356,30 @@ body {
       }
     }
 
-    > p > a {
-      &, button {
-        margin: 0 auto;
-        display: block;
-        text-decoration: none;
+    > p > a[href^="mailto"] {
+      display: table;
+      margin: 0 auto;
+      text-decoration: none;
+
+      border: outset $COLOR 1px;
+      border-radius: 5px;
+      background-color: $COLOR;
+      padding: 1ch 3ch;
+      color: white;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 18pt;
+      text-decoration: none;
+      cursor: pointer;
+      @include stroke(1px, rgba(0,0,0,0.2));
+
+      &:active {
+        border-style: inset;
       }
 
-      button {
-        border: outset $COLOR 1px;
-        border-radius: 5px;
-        background-color: $COLOR;
-        padding: 1ch 3ch;
-        color: white;
-        font-weight: bold;
-        font-family: sans-serif;
-        font-size: 18pt;
-        text-decoration: none;
-        cursor: pointer;
-        @include stroke(1px, rgba(0,0,0,0.2));
-
-        &:active {
-          border-style: inset;
-        }
-
-        &::after {
-          content: '\0279C';
-          padding-left: 1ch;
-        }
-
+      &::after {
+        content: '\0279C';
+        padding-left: 1ch;
       }
     }
 
