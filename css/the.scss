@@ -158,7 +158,7 @@ body {
     }
   }
 
-  $UNIT: "(1/14 * #{$BANNER_HEIGHT})";
+  $UNIT: "(1/12 * #{$BANNER_HEIGHT})";
   h2 {
     font-family: 'Alte Haas Grotesk', sans-serif;
     font-size: 36pt;
@@ -191,7 +191,7 @@ body {
 
     &:first-of-type {
       text-align: left;
-      margin-top: calc(4 * #{$UNIT});
+      margin-top: calc(3 * #{$UNIT});
       margin-bottom: calc(2 * #{$UNIT});
       @include compressed-banner();
 
@@ -203,7 +203,7 @@ body {
 
     &:last-of-type {
       text-align: right;
-      margin-bottom: calc(4 * #{$UNIT});
+      margin-bottom: calc(3 * #{$UNIT});
       @include compressed-banner();
 
       span:first-child {
