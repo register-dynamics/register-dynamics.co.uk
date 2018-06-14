@@ -53,8 +53,8 @@ $BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
 }
 
 body {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 16pt;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 14pt;
   margin: 0;
 
   background-image: url(../images/banner.jpg);
