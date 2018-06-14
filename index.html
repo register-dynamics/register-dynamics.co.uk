@@ -51,10 +51,11 @@ layout: default
 
   {% for name in site.order %}
   {% assign project = site.projects | where: 'slug', name | first %}
-  <section>
+  <section id="{{ project.slug }}">
     <h3>{{ project.title }}</h3>
     <h4>We used {{ project.data | downcase }} to help <span class="client">{{ project.client }}</span> {{ project.application | downcase }}.</h4>
     {{ project.content }}
+    <a href="#{{ project.slug }}"></a>
   </section>
   {% endfor %}
 

@@ -34,6 +34,7 @@ $DATABASE_SVG: '<path d="M18.067 1.609c-0.497-0.326-1.193-0.615-2.069-0.858-1.74
   }
 }
 
+$BACKGROUND_COLOR: #eaeaea;
 $BACKGROUND_IMAGE_HEIGHT: 2912px;
 $BACKGROUND_IMAGE_WIDTH: 4368px;
 $ASPECT_RATIO: $BACKGROUND_IMAGE_HEIGHT / $BACKGROUND_IMAGE_WIDTH;
@@ -57,7 +58,7 @@ body {
   margin: 0;
 
   background-image: url(../images/banner.jpg);
-  background-color: #eaeaea;
+  background-color: $BACKGROUND_COLOR;
   background-size: contain;
   background-position-y: calc((-135/1024) * 100vw + 75px);
   background-repeat: no-repeat;
@@ -383,18 +384,65 @@ body {
       }
     }
 
-
+    $CONTRACTED_HEIGHT: 14.4em;
     section {
       @include expand-to-window();
 
-      &:nth-of-type(odd) {
-        background-color: white;
+      overflow: hidden;
+      max-height: $CONTRACTED_HEIGHT;
+      position: relative;
+      transition: max-height 0.7s ease-out;
+      padding-bottom: 1em;
+
+      a[href^="#"] {
+        display: block;
+        position: absolute;
+        top: $CONTRACTED_HEIGHT - 6em;
+        height: 2em;
+        left: 0;
+        right: 0;
+
+        text-align: right;
+        padding-right: calc(#{$MARGIN_CALC});
+        padding-top: 3em;
+
+        box-shadow: inset 0px -7em 55px -44px $BACKGROUND_COLOR;
+        outline: 0;
+        transition: top 0.7s ease-out;
+
+        &::after {
+          content: "Read more";
+        }
+      }
+
+      &:hover {
+        max-height: $CONTRACTED_HEIGHT + 1em;
+
+        a[href^="#"] {
+          top: $CONTRACTED_HEIGHT - 6em + 1em;
+        }
+      }
+
+      &:target {
+        max-height: none;
+
+        a[href^="#"] {
+          display: none;
+        }
       }
 
       .client {
         display: inline-block;
         border: 2px solid $HIGHLIGHT;
         padding: 0.5ch;
+      }
+
+      &:nth-of-type(odd) {
+        background-color: white;
+
+        a[href^="#"] {
+          box-shadow: inset 0px -7em 55px -44px white;
+        }
       }
     }
   }
