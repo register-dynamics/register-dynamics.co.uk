@@ -23,7 +23,7 @@ $DATABASE_SVG: '<path d="M18.067 1.609c-0.497-0.326-1.193-0.615-2.069-0.858-1.74
 
 @mixin expand-to-window() {
   width: 100%;
-  max-width: unset;
+  max-width: none;
   box-sizing: border-box;
   padding-left: calc(#{$MARGIN_CALC});
   padding-right: calc(#{$MARGIN_CALC});
@@ -113,7 +113,7 @@ body {
       }
 
       &:last-child::after {
-        content: unset;
+        content: none;
       }
     }
 
@@ -243,7 +243,7 @@ body {
       margin-right: auto;
     }
 
-    max-width: unset;
+    max-width: none;
     display: flex;
     flex-wrap: wrap;
 
