@@ -344,7 +344,7 @@ body {
         right: 0;
         background-color: $COLOR;
         @include inline-svg($HIGHLIGHT, $DATABASE_SVG);
-        background-position-x: calc(-1 * #{$ICON_HEIGHT}/2);
+        background-position-x: calc(-1 * #{$ICON_HEIGHT}/2 + 11px);
       }
 
       &::before {
@@ -352,7 +352,7 @@ body {
         right: 50%;
         background-color: $HIGHLIGHT;
         @include inline-svg($COLOR, $DATABASE_SVG);
-        background-position-x: calc(100% + #{$ICON_HEIGHT}/2);
+        background-position-x: calc(100% + #{$ICON_HEIGHT}/2 + 1px);
       }
     }
 
