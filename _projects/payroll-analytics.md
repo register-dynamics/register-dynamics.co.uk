@@ -1,11 +1,10 @@
 ---
 title: Payroll Analytics
-client: C-level executives
 data: Payroll data
 application: Make strategic business decisions
 ---
-We recognised the value of payroll data in modelling how a business operates, deciding what needs to change and choosing how to implement decisions. Our clients of all sizes had on-going problems getting a global view of their spend and using this to reveal new business intelligence.
+We recognise the value of payroll data in modelling how a business operates, deciding what needs to change and choosing how to implement decisions. Past clients of all sizes have experienced issues getting a view of their global spend to learn more about their business.
 
-Register Dynamics designed a SaaS product to enable on-demand reporting and analysis of payroll data from international payroll agencies, and developed a roadmap for it's delivery and growth. The unique set-based model that we developed allowed users to combine their data in arbitrary ways, giving analysts and executives the power to explore their data in new ways without a costly consultant spend.
+Register Dynamics designed a SaaS product to enable on-demand reporting and analysis of payroll data from international payroll agencies. The unique set-based model that we've developed allows users to combine their data in arbitrary ways, giving analysts and executives the power to explore it in new ways – without a costly consultant spend each time.
 
-We developed a specialist database engine for processing numerical currency data. Using this, we could read from arbitrary reporting formats, manage foreign exchange conversions and handle the structure of the business and organisation of employees changing over time.
+As part of this product we developed a specialist database engine for processing numerical currency data. It can be used to read from arbitrary reporting formats, manage foreign exchange conversions and handle the business structure as it changes over time.
