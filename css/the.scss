@@ -18,7 +18,7 @@ $DATABASE_SVG: '<path d="M18.067 1.609c-0.497-0.326-1.193-0.615-2.069-0.858-1.74
 }
 
 @mixin stroke($width, $color) {
-  text-shadow: (-$width) (-$width) 0 $color,  $width (-$width) 0 $color, (-$width) $width 0 $color, $width $width 0 $color;
+  text-shadow: $width $width $color;
 }
 
 @mixin expand-to-window() {
@@ -225,7 +225,6 @@ body {
     }
 
     p {
-      @include expand-to-window();
       margin: 1em auto;
     }
 
@@ -241,6 +240,7 @@ body {
       max-width: $BODY_SIZE;
       margin-left: auto;
       margin-right: auto;
+      @include expand-to-window();
     }
 
     max-width: none;
@@ -432,7 +432,7 @@ body {
       }
 
       .client {
-        display: inline-block;
+        display: inline;
         border: 2px solid $HIGHLIGHT;
         padding: 0.5ch;
       }
