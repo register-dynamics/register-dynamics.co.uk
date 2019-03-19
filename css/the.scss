@@ -60,16 +60,29 @@ $BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$top}', endColorstr='#{$bottom}', GradientType=0 );
 }
 
+@mixin bullet($padding) {
+  &::after {
+    content: '\025A0';
+    color: inherit;
+    text-decoration: none;
+    padding-left: 1.5ch;
+    font-size: 80%;
+    vertical-align: top;
+  }
+}
+
 body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 14pt;
   margin: 0;
 
-  background-image: url(../images/banner.jpg);
-  background-color: $BACKGROUND_COLOR;
-  background-size: contain;
-  background-position-y: calc((-135/1024) * 100vw + 75px);
-  background-repeat: no-repeat;
+  &[data-title=""] {
+    background-image: url(../images/banner.jpg);
+    background-color: $BACKGROUND_COLOR;
+    background-size: contain;
+    background-position-y: calc((-135/1024) * 100vw + 75px);
+    background-repeat: no-repeat;
+  }
 
   > * {
     max-width: $BODY_SIZE;
@@ -137,13 +150,7 @@ body {
       padding-right: 1.5ch;
       color: white;
 
-      &::after {
-        content: '\025A0';
-        color: white;
-        padding-left: 1.5ch;
-        font-size: 80%;
-        vertical-align: top;
-      }
+      @include bullet(1.5ch);
 
       &:last-child::after {
         content: none;
@@ -157,27 +164,95 @@ body {
     }
   }
 
-  > a {
+  $NAV_MENU_ITEM_PADDING: 0.5em;
+
+  > a, > nav {
     color: white;
     text-decoration: none;
     position: absolute;
     right: calc(#{$MARGIN_CALC});
 
-    @for $i from 1 through 4 {
-      &:nth-of-type(#{$i}) {
-        top: #{$i}em;
-      }
-    }
-
     background-size: 1em;
     padding-left: 1.5em;
     background-repeat: no-repeat;
 
+    &[href="#menu"] {
+      display: none;
+    }
+
     @media screen and (max-width: $MINIMUM_WINDOW) {
-      width: 1em;
       right: $COMPRESSED_PADDING;
+    }
+
+    @media screen and (max-width: $COMPRESSED_HEADER) {
+      width: 1em;
       overflow: hidden;
       box-sizing: border-box;
+      padding-left: 2*$COMPRESSED_PADDING;
+      background-position-x: $COMPRESSED_PADDING;
+      background-position-y: $NAV_MENU_ITEM_PADDING !important;
+
+      &[href="#menu"] {
+        display: block;
+        font-size: 23pt;
+        padding-left: 0;
+        top: 0.5em;
+      }
+    }
+  }
+
+  > nav {
+    top: 1em;
+    font-weight: bold;
+
+    > a:not(:last-child) {
+      padding-right: 1ch;
+      @include bullet(2ch);
+    }
+
+    @media screen and (max-width: $COMPRESSED_HEADER) {
+      &:target {
+        width: 100%;
+        right: 0;
+        padding: 0;
+        position: relative;
+        float: none;
+
+        + [href="#menu"] {
+          display: none;
+        }
+
+        > a, + a + a, + a + a + a {
+          display: block;
+          background-color: $COLOR;
+          position: relative;
+          text-align: left;
+          padding: $NAV_MENU_ITEM_PADDING $COMPRESSED_PADDING;
+          width: 100%;
+          right: 0;
+
+          &::after {
+            content: none;
+          }
+        }
+
+        + a + a, + a + a + a {
+          top: 1em;
+          padding-left: 2*$COMPRESSED_PADDING;
+        }
+      }
+    }
+  }
+
+  > a {
+    @for $i from 2 through 4 {
+      &:nth-of-type(#{$i}) {
+        top: calc(#{$i}em + 0.5em);
+      }
+    }
+
+    @media screen and (max-width: $COMPRESSED_HEADER) {
+      display: none;
     }
 
     &[href^="mailto"] {
@@ -204,7 +279,9 @@ body {
         display: inline-block;
       }
     }
+  }
 
+  &[data-title=""] h2 {
     @mixin compressed-banner() {
       @media screen and (max-width: $MINIMUM_WINDOW) {
         text-align: center;
@@ -243,6 +320,33 @@ body {
         padding-bottom: 0;
         margin-bottom: calc(0.5 * #{$UNIT});
       }
+    }
+  }
+
+  article {
+    max-width: 720px;
+
+    @media screen and (max-width: $MINIMUM_WINDOW) {
+      padding-left: $COMPRESSED_PADDING;
+      padding-right: $COMPRESSED_PADDING;
+    }
+
+    [itemprop="author"] {
+      color: inherit;
+      text-decoration: none;
+      @include bullet(2.5ch);
+      margin-right: 1ch;
+    }
+
+    a {
+      color: $COLOR;
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -426,6 +530,12 @@ body {
       position: relative;
       transition: max-height 0.7s ease-out;
       padding-bottom: 1em;
+
+      img {
+        max-height: 110px;
+        margin-right: 2ch;
+        float: left;
+      }
 
       a[href^="#"] {
         display: block;

@@ -3,6 +3,15 @@ title: Register Dynamics
 collections:
   projects:
     output: no
+  posts:
+    output: yes
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: blog
 
 order:
 - personal-data-exchange
@@ -11,3 +20,9 @@ order:
 - payroll-analytics
 - knodium
 - geniedb
+
+authors:
+  - name: Andy Bennett
+    twitter: databasescaling
+  - name: Simon Worthington
+    twitter: 51M0NW

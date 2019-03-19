@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign author = site.authors | where: 'name', page.author | first %}
+
+<article>
+  <h2>{{ page.title }}</h2>
+  <a href="https://twitter.com/{{ author.twitter }}" itemprop="author">{{ author.name }}</a>
+  <time>{{ page.date | date: '%d %B %Y' }}</time>
+  
+  {{ page.content }}
+</article>
