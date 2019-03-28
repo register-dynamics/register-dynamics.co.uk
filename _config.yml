@@ -35,8 +35,9 @@ twitter:
   username: regdyn
   card: summary
 
-authors:
-  - name: Andy Bennett
-    twitter: databasescaling
-  - name: Simon Worthington
-    twitter: 51M0NW
+data:
+  authors:
+    Andy Bennett:
+      twitter: databasescaling
+    Simon Worthington:
+      twitter: 51M0NW

@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-
-{% assign author = site.authors | where: 'name', page.author | first %}
+{% for author in site.data.authors %}
+  {% if author[0] == page.author %}
+    {% assign twitter = author[1].twitter %}
+  {% endif %}
+{% endfor %}
 
 <article>
   <h2>{{ page.title }}</h2>
-  <a href="https://twitter.com/{{ author.twitter }}" itemprop="author">{{ author.name }}</a>
+  <a href="https://twitter.com/{{ twitter }}" itemprop="author">{{ page.author }}</a>
   <time>{{ page.date | date: '%d %B %Y' }}</time>
-  
   {{ page.content }}
 </article>
