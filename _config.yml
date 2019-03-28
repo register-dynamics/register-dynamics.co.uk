@@ -1,4 +1,14 @@
 title: Register Dynamics
+description: |
+  Register Dynamics works with companies and governments to apply their data usefully,
+  responsibly and ethically. Our expertise ranges from tiny  telemetry systems with
+  one or two stakeholders up to database clusters with thousands of nodes used by
+  several business units.
+url: https://www.register-dynamics.co.uk
+logo: "images/logo-2.png"
+
+plugins:
+- jekyll-seo-tag
 
 collections:
   projects:
@@ -20,6 +30,10 @@ order:
 - payroll-analytics
 - knodium
 - geniedb
+
+twitter:
+  username: regdyn
+  card: summary
 
 authors:
   - name: Andy Bennett
