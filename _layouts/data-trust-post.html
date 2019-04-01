@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% if page.authors %}
+  {% assign authors = page.authors %}
+{% else %}
+  {% assign authors = page.author | split: ", " %}
+{% endif %}
+
+<header>
+  <h2>{{ page.title }}</h2>
+  <h3>— from the <a href="/data-trusts/">"Technology in Data trusts" report</a></h3>
+</header>
+<article>
+  {% for page_author in authors %}
+    {% for author in site.data.authors %}
+      {% if author[0] == page_author %}
+        {% assign twitter = author[1].twitter %}
+        <a href="https://twitter.com/{{ twitter }}" itemprop="author">{{ page_author }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  <time>{{ page.date | date: '%d %B %Y' }}</time>
+  {{ page.content }}
+</article>

@@ -95,7 +95,7 @@ body {
     text-decoration: none;
   }
 
-  h1, ul {
+  h1, > ul {
     @include expand-to-window();
     font-family: 'Alte Haas Grotesk', sans-serif;
     display: block;
@@ -134,7 +134,72 @@ body {
     }
   }
 
-  ul {
+  &[data-collection="data-trusts"] {
+    > ul { display: none; }
+    > nav { display: none; }
+    > a { display: none; }
+
+    h1 {
+      ::after {
+        content: "Technology for Data Trusts report";
+        float: right;
+        font-size: 16px;
+      }
+
+      a {
+        margin: 0.5em auto;
+        font-size: 16px;
+
+        &::before {
+          width: 16px;
+          height: 16px;
+          background-size: 16px;
+          margin-right: 8px;
+          margin-top: 17px;
+        }
+      }
+    }
+
+    h3 > a {
+      text-decoration: underline;
+    }
+
+    article > h2 {
+      font-size: 21pt;
+      margin-top: 2em;
+    }
+
+    section {
+      background: $BACKGROUND_COLOR;
+      padding: 2em;
+      margin-top: 4em;
+
+      h2 { margin-top: 0; }
+      //h3 { margin-top: -1em; }
+    }
+
+    [itemprop="author"], time {
+      font-weight: bold;
+      font-size: 12pt;
+
+      &::after {
+        padding-left: 3ch;
+        font-size: 60%;
+        vertical-align: super;
+      }
+    }
+
+    > header {
+      background: $COLOR;
+      color: white;
+      margin-top: 0;
+      margin-bottom: 2em;
+      padding: 2em calc((100% - 720px) / 2) 2em;
+      font-weight: bold;
+    }
+  }
+
+  > ul {
     padding-bottom: 26px;
     font-size: 12pt;
     font-weight: bold;
@@ -323,19 +388,20 @@ body {
     }
   }
 
+  [itemprop="author"] {
+    color: inherit;
+    text-decoration: none;
+    @include bullet(2.5ch);
+    margin-right: 1ch;
+  }
+
   article {
     max-width: 720px;
+    margin-bottom: 4em;
 
     @media screen and (max-width: $MINIMUM_WINDOW) {
       padding-left: $COMPRESSED_PADDING;
       padding-right: $COMPRESSED_PADDING;
-    }
-
-    [itemprop="author"] {
-      color: inherit;
-      text-decoration: none;
-      @include bullet(2.5ch);
-      margin-right: 1ch;
     }
 
     a {
@@ -347,6 +413,13 @@ body {
       max-width: 100%;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    #markdown-toc {
+      background: $BACKGROUND_COLOR;
+      line-height: 1.5em;
+      padding: 1em 2em;
+      margin-bottom: 4em;
     }
   }
 
