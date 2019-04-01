@@ -135,17 +135,11 @@ body {
   }
 
   &[data-collection="data-trusts"] {
-    > ul { display: none; }
-    > nav { display: none; }
-    > a { display: none; }
+    > ul { display: none !important; }
+    > nav { display: none !important; }
+    > a { display: none !important; }
 
     h1 {
-      ::after {
-        content: "Technology for Data Trusts report";
-        float: right;
-        font-size: 16px;
-      }
-
       a {
         margin: 0.5em auto;
         font-size: 16px;
@@ -157,6 +151,21 @@ body {
           margin-right: 8px;
           margin-top: 17px;
         }
+      }
+    }
+
+   header > [href="/data-trusts/"] {
+      font-size: 16px;
+      position: absolute;
+      top: 34px;
+      right: calc(#{$MARGIN_CALC});
+
+      @media screen and (max-width: $MINIMUM_WINDOW) {
+        right: $COMPRESSED_PADDING;
+      }
+
+      @media screen and (max-width: $HIDE_LOGO) {
+        display: none;
       }
     }
 
@@ -196,6 +205,10 @@ body {
       margin-bottom: 2em;
       padding: 2em calc((100% - 720px) / 2) 2em;
       font-weight: bold;
+
+      @media screen and (max-width: $MINIMUM_WINDOW) {
+        padding: 2em calc(#{$COMPRESSED_PADDING});
+      }
     }
   }
 
