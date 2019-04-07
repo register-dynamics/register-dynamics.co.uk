@@ -6,11 +6,13 @@ layout: default
 {% else %}
   {% assign authors = page.author | split: ", " %}
 {% endif %}
+{% assign collection = site.collections | where: "label", page.collection | first %}
+{% assign index = collection.docs | where: "slug", "index" | first %}
 
 <header>
   <h2>{{ page.title }}</h2>
-  <h3>— from the <a href="/data-trusts/">"Technology in Data trusts" report</a></h3>
-  <a href="/data-trusts/">Technology for Data Trusts report</a>
+  <h3>— from the <a href="{{ index.url }}">"{{ index.title }}" report</a></h3>
+  <a id="toplink" href="{{ index.url }}">{{ index.title }}</a>
 </header>
 <article>
   {% for page_author in authors %}

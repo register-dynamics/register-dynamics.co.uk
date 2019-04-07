@@ -1,7 +1,7 @@
 title: Register Dynamics
 description: |
   Register Dynamics works with companies and governments to apply their data usefully,
-  responsibly and ethically. Our expertise ranges from tiny  telemetry systems with
+  responsibly and ethically. Our expertise ranges from tiny telemetry systems with
   one or two stakeholders up to database clusters with thousands of nodes used by
   several business units.
 url: https://www.register-dynamics.co.uk
@@ -29,8 +29,9 @@ defaults:
       type: data-trusts
     values:
       permalink: /data-trusts/:title:output_ext
-      layout: data-trust-post
+      layout: report-article
       date: 2019-04-01 00:00:00
+      image: images/logo-2.png
       authors:
         - Andy Bennett
         - Simon Worthington
