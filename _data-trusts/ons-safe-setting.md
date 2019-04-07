@@ -1,5 +1,47 @@
 ---
-title: ONS Safe Settings
+title: The 5 Safes Framework
 excerpt: |
   When a data trust contains arbitrary data undergoing some kind of arbitrary analysis, how do you take the analysis to the data in a non-burdensome way? The answer is to audit the data as it egresses the trust. We look specifically at "Safe Settings", alternatives to downloading and processing locally, and whether these can be achieved virtually.
 ---
+In the other case studies, we looked at situations where the problem being solved by data is quite specific. In the [AQuAE case](./aquae-model.html), the problem was limited to using existing personal data to improve the experience of a single user applying for a service. This constraint made it possible to define useful technical controls that only allowed data access that fit that shape.
+
+Not all data trusts have such narrow and predefined uses for their data. The Office for National Statistics’ (ONS) [Secure Research Service](https://www.ons.gov.uk/aboutus/whatwedo/paidservices/virtualmicrodatalaboratoryvml) aims to allow people to solve problems that “serve the public good”. In this case, the specific problem being solved isn’t known when the data is given to the ONS. Each research project that will use the data will be solving a different problem and will need to do it in a different way. This makes it difficult to use rigid technology to control the data access.
+
+In general, a data trust might define an outcome that is similarly broad. If data needs to be used freely so that being specific with technical controls isn’t possible, how else can we make data access more safe?
+
+Here we look at the 5 Safes Framework, a general purpose data access framework developed by the UK Data Service. It is a governance and security framework that a data trust can use to both manage the use of the data that they hold and to give assurances to their data providers that their most sensitive data assets will be managed appropriately.
+
+The ONS and UK Data Service use this framework to provide approved researchers with access to sensitive data that would be otherwise unavailable to them. For example, fine-grained data collected via census might allow individuals to be identified. The framework provides assurance that allows dozens of government departments and other agencies to regularly supply their data. This makes government’s very sensitive data more useful and widely applicable.
+
+At a high-level, the [5 Safes](https://blog.ons.gov.uk/2017/01/27/the-five-safes-data-privacy-at-ons/) aim to answer:
+* Safe projects: is this use of the data appropriate, lawful, ethical and sensible?
+* Safe people: can the researchers be trusted to use it in an appropriate manner?
+* Safe data: does the data itself contain sufficient information to allow confidentiality to be breached?
+* Safe settings: does the access facility limit unauthorised use or mistakes?
+* Safe outputs: are the statistical results non-disclosive?
+
+Safe settings are where technology can be most relevantly applied so that is where we will focus our post. The goal of a safe setting is to keep control of data by bringing researchers to the data, rather than sending out copies of the data that could otherwise be misused.
+
+## Safe settings
+Traditionally, a safe setting is a physical location that researchers can enter, with physical controls that ensure they can’t take sensitive data with them when they leave. For example, this might be a secure room with a special computer that doesn't have any USB ports, cannot access the Internet, has a fresh and clean copy of the source data, doesn't allow cross-referencing with any other analysis and is reset back to its initial configuration after a single session in the safe setting.
+
+Whilst inside the safe setting, the researchers may access and manipulate data that would not be safe as an output. This allows them the flexibility to do their best work. When they leave, the material they take with them is checked manually to ensure that its a “safe output”.
+
+Facilities like these are expensive to build and run and require researchers to be physically present. However, they can offer a very high level of assurance of compliance and make very sensitive data much more useful and widely applicable.
+
+The safety of a safe setting can be directly traded off against the sensitivity of the data in them. If the setting is safer then the data available can be more sensitive. If the setting is "published to everyone" then the data safety must meet a high bar.
+
+For them to be widely applicable to data trusts, it must be possible to arrange for a whole range of safe settings, not just "published to everyone" and "secure facility", at affordable prices.
+
+## A spectrum of safety
+The Holy Grail would be to find a way to effectively trade off the assurance against the expense to make the safety available in more situations. For example, it might be appropriate to be able to provide a virtual-safe-setting inside a web browser on a corporate device so that data could be used in a regular office.
+
+As the ONS's Secure Research Service has matured, they have started to use technology to offer at-desk access to data to people who are part of particular government organisations and who meet [particular connection criteria](http://www.bristol.ac.uk/media-library/sites/cmpo/documents/mcivor2018.pdf). Their five nationwide approved safe settings remain available for other users.
+
+Products such as Google Docs already offers functionality that disables the copy and paste, printing and exporting facilities for particular documents. Remote desktop products also have ways to restrict the use of copy and paste to and from the remote machine.
+
+This considerably raises the bar for removing data from the controlled environment. Whilst it doesn't make it impossible, especially for a determined and skillful operator, it does stop casual mistakes and provides a conscious decision point where someone remembers the handling guidelines of the data and has to take an active step to circumvent them.
+
+Using a “virtual” safe setting extracts more value from the data by providing it safely to more people. However, there is still diligence required in how the other four "safes" are applied and may even raise the assurance required there.
+
+Using the 5 Safes Framework, a data trust can ensure access and use of its data is meeting the purpose set out in its charter – even in cases where the trust’s purpose is quite broad and problems the data users wish to solve are unknown ahead of time. By applying technology to broaden the access to the safe setting, more value can be derived from the data from more people, thereby increasing the ability of the trust to bring benefit to its beneficiaries.
