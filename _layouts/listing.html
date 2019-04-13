@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% if page.list %}
+  {% assign list = page.list %}
+  {% assign docs = "" | split: "" %}
+  {% for meta in page.list %}
+    {% assign collection = site.collections | where: "label", meta.collection | first %}
+    {% assign doc = collection.docs | where: "slug", meta.slug | first %}
+    {% assign docs = docs | push: doc %}
+  {% endfor %}
+{% else %}
+  {% assign collection = site.collections | where: "label", page.source | first %}
+  {% assign docs = collection.docs %}
+{% endif %}
+
+<main>
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+  {% for post in docs %}
+    <section>
+      <a href="{{ post.url }}">
+        <h3>{{ post.title }}</h3>
+        <img src="/{{ post.image }}"/>
+      </a>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
+      {{ post.excerpt | markdownify }}
+    </section>
+  {% endfor %}
+</main>
