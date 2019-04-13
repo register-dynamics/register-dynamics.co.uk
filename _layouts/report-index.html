@@ -23,6 +23,9 @@ layout: default
 </section>
 {% endfor %}
 
+<h2>Acknowledgements</h2>
+{{ page.acknowledgements | markdownify }}
+
 {% for license in page.licenses %}
 <span class="license">
   {{ license | markdownify }}
