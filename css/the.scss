@@ -72,7 +72,7 @@ $BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
 }
 
 body {
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Public Sans', sans-serif;
   font-size: 14pt;
   margin: 0;
 
@@ -348,6 +348,7 @@ body {
   h2 {
     font-family: 'Alte Haas Grotesk', sans-serif;
     font-size: 36pt;
+    line-height: normal;
 
     span {
       background-color: rgba(255,255,255,0.7);
@@ -411,6 +412,7 @@ body {
   article {
     max-width: 720px;
     margin-bottom: 4em;
+    line-height: 135%;
 
     @media screen and (max-width: $MINIMUM_WINDOW) {
       padding-left: $COMPRESSED_PADDING;
