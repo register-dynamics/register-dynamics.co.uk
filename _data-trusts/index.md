@@ -2,6 +2,7 @@
 title: Putting the trust in data trusts
 date: 2019-01-01 00:00:00
 layout: report-index
+image: "images/data-trusts-preview.jpg"
 excerpt: |
   In order to be able to offer compelling advantages, the control and enforcement powers that data trusts have needs to be high enough that misusing the data in trust is prohibitively difficult. By examining case studies in audit technology, our purpose is to show that cost-effective strong auditing is possible today and encourage others to build things that reduce the cost further in the future.
 menu:
@@ -12,6 +13,8 @@ menu:
   Technology:
     - merkle-trees
     - realising-external-audit
+licenses:
+  - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---
 
 Data trusts have shown themselves to have [many and varied potential benefits](https://theodi.org/synthesis-doc): they can increase collaboration, make data use more transparent and accountable, and unlock potential economic value of data through making it more available. The independence of the trust’s operators – the trustees – lets them balance economic incentives with social responsibilities and bring about data sharing that works for everyone: data users, data providers and society as a whole.

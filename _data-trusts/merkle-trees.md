@@ -1,5 +1,7 @@
 ---
 title: Merkle tree-based logging
+licenses:
+  - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---
 Our case studies have mentioned technical data structures called Merkle trees which are append-only and can support “proofs” and “redaction”. But what is this miracle technology? How does it store things in a way that supports strong auditing? And what does it really mean to have a “proof” or a “redacted” item?
 

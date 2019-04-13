@@ -2,6 +2,10 @@
 title: Certificate Transparency and DeepMind Health
 excerpt: |
   With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link up rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
+image: "images/key-wall.jpg"
+licenses:
+  - "\"Manufactured security\" image by [kris krüg](https://www.flickr.com/photos/kk) used under [CC-BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)."
+  - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---
 * Contents
 {:toc}
@@ -9,6 +13,8 @@ excerpt: |
 After 25 years of use and a series of [attacks](https://threatpost.com/final-report-diginotar-hack-shows-total-compromise-ca-servers-103112/77170/), compromises and [misbehaviour](https://security.googleblog.com/2016/10/distrusting-wosign-and-startcom.html) of major certificate authorities, the SSL/TLS certificate system used to secure HTTPS was showing its age. Structural flaws in the way that certificates were issued and managed were well known and several problems had been seen in the wild.
 
 Whilst originally aimed at e-commerce on the web, SSL and its successor TLS were now the mainstay of security for millions of web browser users. Things had changed: now, the rise of web-based email services like Hotmail and Gmail meant nation state adversaries targeting the inboxes of dissidents or even journalists were a threat. The technical protocols had proven difficult to evolve and the large number of certificate vendors meant that starting from scratch with a new certificate issuance process would not be viable.
+
+![Wall of keys]({{ site.url }}/{{ page.image }})
 
 Founded in 2011 and [standardised by the IETF](https://tools.ietf.org/html/rfc6962) in 2013, [Certificate Transparency](https://www.certificate-transparency.org/) is Google's effort to improve trust in the SSL Certificate ecosystem. It is a specially designed technical solution to audit the activity of certificate vendors, and is one of the first examples of applying technology to enable strong, foolproof, external auditing. The work was later applied by DeepMind who used the same audit techniques to look after data from the National Health Service (NHS).
 

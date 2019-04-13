@@ -23,4 +23,10 @@ layout: default
 </section>
 {% endfor %}
 
+{% for license in page.licenses %}
+<span class="license">
+  {{ license | markdownify }}
+</span>
+{% endfor %}
+
 </article>

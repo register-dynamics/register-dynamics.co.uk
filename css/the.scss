@@ -434,6 +434,12 @@ body {
       padding: 1em 2em;
       margin-bottom: 4em;
     }
+
+    .license {
+      color: darkgray;
+      font-style: italic;
+      font-size: 75%;
+    }
   }
 
   main {
@@ -687,7 +693,7 @@ body {
     margin: 2ch auto 0;
 
     &::after {
-      content: "Icons by Perxis (linearicons.com) used under CC BY-SA 4.0";
+      content: " Icons by Perxis (linearicons.com) used under CC BY-SA 4.0";
     }
   }
 }

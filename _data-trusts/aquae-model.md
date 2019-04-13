@@ -2,6 +2,10 @@
 title: "Aquae: Personal data for cross-Government services"
 excerpt: |
   As part of the Personal Data Exchange programme run by the Government Digital Service, the UK Government developed a new model of personal data sharing called Aquae (Attributes, Questions, Answers and Eligibility). It allows public sector services to reuse personal data from around government whilst maintaining the privacy of data subjects, allowing data controllers to retain control of their data, minimise what is shared and to audit when and how data was used.
+image: "images/digital-services-poster.jpg"
+licenses:
+  - "\"Digital services poster\" image by [Dafydd Vaughn](https://www.flickr.com/photos/dafyddbach) used under [CC By-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+  - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---
 * Contents
 {:toc}
@@ -15,6 +19,8 @@ The problem with sending data (either via spreadsheet or API) is that data provi
 As part of the Personal Data Exchange programme run by the Government Digital Service, the UK Government developed a new model of personal data sharing called Aquae (Attributes, Questions, Answers and Eligibility). It allows public sector services to reuse personal data from around government whilst maintaining the privacy of data subjects, allowing data controllers to retain control of their data, minimise what is shared and to audit when and how data was used.
 
 Aquae arranges for the processing to come to the data in a structured and machine-readable way that encodes the who, what and why of data use. With this in place, two new things are possible. Firstly, data providers (or the trust) can decide ahead of time what data uses are acceptable – just as they would with a paper agreement – and then enforce that using technology. Secondly, the system can ensure that every data use can be logged so that an external audit can take place to check that everyone involved acted properly.
+
+![Poster reading "Digital services so good that people prefer to use them"]({{ site.url }}/{{ page.image }})
 
 ## Deciding use ahead of time
 

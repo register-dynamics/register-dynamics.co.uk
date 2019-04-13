@@ -1,9 +1,15 @@
 ---
 title: "The ledger: realising the benefits of external audit"
 excerpt: |
-  Google's Certificate Transparency and DeepMind's Verifiable Data Audit are both completely custom systems, designed, and built and used by teams of experts. What changes would need to be made to more mainstream technologies and the engineering practices around them so that they could support external audit in a data trust?
+  Allowing data held in trust to be externally audited provides the hard evidence necessary for the enforcement of contracts and reputational benefits that can improve the data sharing ecosystem. But how does external auditing actually work, what information does it require, and how can it be applied to data?
+image: "images/ledger.jpg"
+licenses:
+  - "\"Ledger\" image by [George Redgrave](https://www.flickr.com/photos/funfilledgeorgie/) used under [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)."
+  - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
 ---
 Allowing data held in trust to be externally audited provides the hard evidence necessary for the enforcement of contracts and reputational benefits that can improve the data sharing ecosystem. But how does external auditing actually work, what information does it require, and how can it be applied to data?
+
+![A small book showing accounts]({{ site.url }}/{{ page.image }})
 
 In financial audit, a company’s books comprise a ledger of what the company has done with its money: what has come in, where it has come from, what has gone out and where it has gone to. A company produces its own books and these books are subject to independent scrutiny. It is possible to “cook” these books but a combination of independently controlled audit trails exist to make this more difficult than simply falsifying the books.
 
