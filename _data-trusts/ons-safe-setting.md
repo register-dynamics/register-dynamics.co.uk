@@ -3,7 +3,7 @@ title: The 5 Safes Framework
 excerpt: |
   When a data trust contains arbitrary data undergoing some kind of arbitrary analysis, how do you take the analysis to the data in a non-burdensome way? The answer is to audit the data as it egresses the trust. We look specifically at "Safe Settings", alternatives to downloading and processing locally, and whether these can be achieved virtually.
 ---
-In the other case studies, we looked at situations where the problem being solved by data is quite specific. In the [AQuAE case](./aquae-model.html), the problem was limited to using existing personal data to improve the experience of a single user applying for a service. This constraint made it possible to define useful technical controls that only allowed data access that fit that shape.
+In the other case studies, we looked at situations where the problem being solved by data is quite specific. In the [Aquae case](./aquae-model.html), the problem was limited to using existing personal data to improve the experience of a single user applying for a service. This constraint made it possible to define useful technical controls that only allowed data access that fit that shape.
 
 Not all data trusts have such narrow and predefined uses for their data. The Office for National Statistics’ (ONS) [Secure Research Service](https://www.ons.gov.uk/aboutus/whatwedo/paidservices/virtualmicrodatalaboratoryvml) aims to allow people to solve problems that “serve the public good”. In this case, the specific problem being solved isn’t known when the data is given to the ONS. Each research project that will use the data will be solving a different problem and will need to do it in a different way. This makes it difficult to use rigid technology to control the data access.
 

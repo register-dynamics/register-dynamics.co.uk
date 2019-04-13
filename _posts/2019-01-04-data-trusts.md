@@ -117,7 +117,7 @@ Register Dynamics have already been working on a proof of concept
 implementation, powered by [Registers technology](https://registers.app).
 We also embedded the ideas of mutually reinforcing audit logs and
 independent auditability in our work on the UK government's
-[AQuAE personal data exchange specification](https://docs.google.com/document/d/1bYxzS5Tmh8cn6WqfERr720JRu7Jax5jLDaiDi82c5Jc/edit).
+[Aquae personal data exchange specification](https://docs.google.com/document/d/1bYxzS5Tmh8cn6WqfERr720JRu7Jax5jLDaiDi82c5Jc/edit).
 
 If you'd like to talk more about data trusts and marrying social and
 technical trust, please [get in touch with us](mailto:hello@register-dynamics.co.uk).

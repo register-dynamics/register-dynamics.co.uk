@@ -1,5 +1,5 @@
 ---
-title: "AQuAE: Personal data for cross-Government services"
+title: "Aquae: Personal data for cross-Government services"
 excerpt: |
   As part of the Personal Data Exchange programme run by the Government Digital Service, the UK Government developed a new model of personal data sharing called Aquae (Attributes, Questions, Answers and Eligibility). It allows public sector services to reuse personal data from around government whilst maintaining the privacy of data subjects, allowing data controllers to retain control of their data, minimise what is shared and to audit when and how data was used.
 ---
@@ -38,7 +38,7 @@ There are several ways in which a system can be compromised. A participant could
 
 The goal of post-auditing is two-fold: allow compromised systems to be detected and shut down quickly and then allow the fraudulent activity to be identified and undone. In particular, it must allow the system to mitigate persistent, invisible attacks, that would allow an attacker to commit fraud for many hours, days or even weeks without detection. Keeping the exploitation window short limits the economic value of performing an attack and makes the incentives for doing so small.
 
-The post-audit model in AQuAE supports these goals efficiently by using a specialised messaging protocol along with cryptographic log technology to ensure that every participant keeps robust machine-readable logs of all of their activity in the trust. The beneficiaries then use proofs to show that they are logging correctly, take part in a gossip protocol to quickly detect if anyone is lying, and then implement redaction to allow trustees to audit their logs whilst keeping personal data private.
+The post-audit model in Aquae supports these goals efficiently by using a specialised messaging protocol along with cryptographic log technology to ensure that every participant keeps robust machine-readable logs of all of their activity in the trust. The beneficiaries then use proofs to show that they are logging correctly, take part in a gossip protocol to quickly detect if anyone is lying, and then implement redaction to allow trustees to audit their logs whilst keeping personal data private.
 
 Once a node is compromised, there are multiple ways it might attempt to obscure it’s fraudulent behaviour. Firstly, a compromised system could simply not submit any logs for queries it doesn’t want to record, such as if a service provider starts making illegal queries. Secondly, a compromised system could make up answers or tell different things to different beneficiaries, such as if a query provider ignores the answer it receives from a data authority and passes the service provider something incorrect.
 
