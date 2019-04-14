@@ -16,7 +16,7 @@ Whilst originally aimed at e-commerce on the web, SSL and its successor TLS were
 
 ![Wall of keys]({{ site.url }}/{{ page.image }})
 
-Founded in 2011 and [standardised by the IETF](https://tools.ietf.org/html/rfc6962) in 2013, [Certificate Transparency](https://www.certificate-transparency.org/) is Google's effort to improve trust in the SSL Certificate ecosystem. It is a specially designed technical solution to audit the activity of certificate vendors, and is one of the first examples of applying technology to enable strong, foolproof, external auditing. The work was later applied by DeepMind who used the same audit techniques to look after data from the National Health Service (NHS).
+Created in 2011 and [standardised by the IETF](https://tools.ietf.org/html/rfc6962) in 2013, [Certificate Transparency](https://www.certificate-transparency.org/) is Google's effort to improve trust in the SSL Certificate ecosystem. It is a specially designed technical solution to audit the activity of certificate vendors, and is one of the first examples of applying technology to enable strong, foolproof, external auditing. The work was later applied by DeepMind who used the same audit techniques to look after data from the National Health Service (NHS).
 
 Data trusts are a formal multi-party legal pattern developed for data, and establishing trust between parties is critical. Being able to augment existing processes with security and audit controls to establish trust is of specific interest to data trusts. With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link up rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
 
@@ -26,13 +26,13 @@ Certificate Authorities issue certificates to their customers to allow web users
 
 Certificate authenticity relies on a hierarchy of trust. Certificates for websites might be issued by an intermediate authority, which is itself issued by another authority. All of the certificates eventually lead back to one of many root certificate authorities who are well-known corporations with tight security controls and are assumed to be absolutely trustworthy.
 
-If this absolute trust is in doubt, the entire model is at risk of falling apart. If a certificate authority could be coerced into giving out false certificates, even for a very short period of time, users could no longer have trust that their private communications were not being intercepted.
+If this absolute trust is in doubt, the entire model is at risk of falling apart. If a certificate authority could be coerced or tricked into giving out false certificates, even for a very short period of time, users could no longer have trust that their private communications were not being intercepted.
 
 ## Logging certificates
 
 Under Certificate Transparency, certificate authorities issue certificates to their customers as they always have but also send them to be included in a publicly available "log". When a browser wants to check the validity of a certificate, after performing all its usual checks, it now also checks for the existence of that certificate in one of the logs.
 
-The result of this is that if a certificate is issued by a certificate authority it has to be publicly announced. This means that a certificate authority cannot be coerced into privately issuing a valid certificate for, say, gmail.com, to a someone who wants to perform a man-in-the-middle attack on an inbox. If such a certificate was to be issued, it would appear in the log where everyone would be able to see it. Certificate Transparency ensures that if a certificate is issued to someone then it is issued to everyone and becomes a matter of irrefutable public record.
+The result of this is that if a certificate is issued by a certificate authority it has to be publicly announced. This means that a certificate authority cannot be coerced into privately issuing a valid certificate for, say, gmail.com, to someone who wants to perform a man-in-the-middle attack on an inbox. If such a certificate was to be issued, it would appear in the log where everyone would be able to see it. Certificate Transparency ensures that if a certificate is issued to someone then it is issued to everyone and becomes a matter of irrefutable public record.
 
 The log also acts as a more general system of record for which certificates were issued and when. If a certificate authority is later discovered to have been issuing certificates without performing the proper checks (e.g. that the person the certificate is issued to controls the domain the certificate is issued for) then all other certificates from that authority can be retrieved from the log and checked.
 
@@ -66,7 +66,7 @@ DeepMind talked about possible extensions to the system that would allow slices 
 
 Despite being a more private and centralised system than Certificate Transparency, DeepMind were still interested in using the same high-strength audit technology. Their desire to do this, we believe, was two fold.
 
-Firstly, they recognised that patient records are some of the most sensitive data around. In order to give confidence to ethics boards that their use was appropriate they would need to build in controls to show that no data had been used improperly, deliberately or otherwise.
+Firstly, they recognised that patient records are some of the most sensitive data around. In order to give confidence to patients and patients and ethics boards that their use was appropriate they would need to build in controls to show that no data had been used improperly, deliberately or otherwise.
 
 Secondly, they could unlock reputational benefits for themselves as a responsible data user by having an independent auditor vouch for their good standing. In the eyes of the NHS, future clients and the general public, their reputation for being able to safely realise value from latent data would be enhanced.
 
@@ -74,7 +74,6 @@ However, despite promises to build in the open, no more about this was ever said
 
 DeepMind and Google have found themselves the subject of much discussion in the press about how to show the proprietary and ethics of their data and AI programmes. They have also been the target of difficult questions about how they intend to move forward with their work. They have also [consistently had difficulty](https://www.theverge.com/2019/4/4/18296113/google-ai-ethics-board-ends-controversy-kay-coles-james-heritage-foundation) in applying independent ethical oversight to their activities.
 
-There is no doubt that DeepMind can make a massive and substantial contribution to medical science. As a society, we would be failing if we were unable to allow them to do so. There is also no doubt that they can bring the expertise to bear to implement the ideas that they talk about around verifiable audit.
+There is no doubt that DeepMind have a team that can make a massive and substantial contribution to medical science. As a society, we would be failing if we were unable to allow them to do so. There is also no doubt that they can bring the expertise to bear to implement the ideas that they talk about around verifiable audit.
 
-However, until the general structure of a data trust, and the fact that it must be audited, is well understood by the public and required by social norms, it will be very difficult for companies such as DeepMind to build the solid reputations as responsible data handlers that will enable society at large to be confident letting them do this valuable research with this incredibly sensitive data.
-
+We hope that they continue their work in this area – and we encourage others to do the same – for the benefits it could bring to society and the research opportunities that solid reputations could unlock across the industry as a whole.

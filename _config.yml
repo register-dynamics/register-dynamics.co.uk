@@ -30,8 +30,10 @@ defaults:
     values:
       permalink: /data-trusts/:title:output_ext
       layout: report-article
-      date: 2019-04-01 00:00:00
+      date: 2019-04-14 00:00:00
       image: images/logo-2.png
+      seo:
+        type: Report
       authors:
         - Andy Bennett
         - Simon Worthington
