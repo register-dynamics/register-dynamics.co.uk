@@ -34,7 +34,7 @@ We don't have to look far to see examples of data sharing going badly wrong. "Ca
 
 Having a contract or agreement between data providers and data users has frequently been shown to be insufficient. In the Cambridge Analytica example, the contract terms were completely ignored and personal data was misused. [Facebook's defence](https://www.theguardian.com/us-news/2015/dec/11/senator-ted-cruz-president-campaign-facebook-user-data) was that the parties involved had acted outside of the terms of the data share and Facebook was therefore not at fault. The lack of any hard, technical evidence may deprive courts of useful information and has made it difficult for regulators, politicians, journalists and the general public to understand what happened.
 
-This doesn't give much confidence to individuals – without proactive enforcement of their terms, it's difficult to see how Facebook will prevent this behaviour from occurring again.
+This doesn't give much confidence to individuals – without proactive enforcement of their terms, it is difficult to see how Facebook will prevent this behaviour from occurring again.
 
 Traditionally, our most valuable assets have been financial and severe penalties for mismanaging them have been enforced. Over the last 20 years, data has become almost equivalently valuable. The best technique that society has come up with for holding people to account whilst they look after our most valuable assets is _auditing_.
 
@@ -48,11 +48,11 @@ Reputation usually comes from someone vouching that a person has conducted thems
 
 The financial records of the person or institution they are auditing, along with supporting records from other institutions such as customers, suppliers and banks, provide the hard evidence for the audit. If the data-use records of a data trust can be made robust and complete enough to be auditable then [external audit can provide similar reputational benefits](https://www.register-dynamics.co.uk/2019/01/04/data-trusts.html) to data providers and data users in data handling circles. This will make data trusts, and similar collaborative  approaches like data cooperatives, the vehicle of choice for data sharing and over time people who choose not to use them will miss out on reputational benefits and will look like they have questionable behaviour to hide.
 
-In addition to all of this, it's important for trustees to be able to build their own reputation and show that they are fulfilling their purpose. Risk that the data providers or data users in the trust can misbehave in an invisible manner is reputational risk for the trustee. Being able to audit the activity on the data in trust is the most effective way to reduce this risk to their reputation.
+In addition to all of this, it is important for trustees to be able to build their own reputation and show that they are fulfilling their purpose. Risk that the data providers or data users in the trust can misbehave in an invisible manner is reputational risk for the trustee. Being able to audit the activity on the data in trust is the most effective way to reduce this risk to their reputation.
 
 ## Making audit practical
 
-Audit brings benefits to everyone – beneficiaries, trustees and the general public – but no-one will choose to do something that isn't pragmatic. On the surface, it's difficult to imagine how an audit process could work that wouldn't require as much effort put in as the original data use itself. These benefits can only be unlocked if actually doing auditing represents a good return on the time and effort involved.
+Audit brings benefits to everyone – beneficiaries, trustees and the general public – but no-one will choose to do something that isn't pragmatic. On the surface, it is difficult to imagine how an audit process could work that wouldn't require as much effort put in as the original data use itself. These benefits can only be unlocked if actually doing auditing represents a good return on the time and effort involved.
 
 Enabling reliable and repeatable audit to be automated (and therefore cost-effective) is exactly the end goal of audit technology. The vision is to allow trustees or specialist auditors to have a complete view of the who, what and, most importantly, why of data use – something that would otherwise be too burdensome to be realistic.
 

@@ -1,7 +1,7 @@
 ---
 title: Certificate Transparency and DeepMind Health
 excerpt: |
-  With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link up rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
+  With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
 image: "images/key-wall.jpg"
 licenses:
   - "\"Manufactured security\" image by [kris krüg](https://www.flickr.com/photos/kk) used under [CC-BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)."
@@ -16,7 +16,7 @@ Whilst originally aimed at e-commerce on the web, SSL and its successor TLS were
 
 ![Wall of keys]({{ site.url }}/{{ page.image }})
 
-Created in 2011 and [standardised by the IETF](https://tools.ietf.org/html/rfc6962) in 2013, [Certificate Transparency](https://www.certificate-transparency.org/) is Google's effort to improve trust in the SSL Certificate ecosystem. It is a specially designed technical solution to audit the activity of certificate vendors, and is one of the first examples of applying technology to enable strong, foolproof, external auditing. The work was later applied by DeepMind who used the same audit techniques to look after data from the National Health Service (NHS).
+Created in 2011 and [standardised by the IETF](https://tools.ietf.org/html/rfc6962) in 2013, [Certificate Transparency](https://www.certificate-transparency.org/) is Google's effort to improve trust in the SSL Certificate ecosystem. It is a specially designed technical solution to audit the activity of certificate vendors, and is one of the first examples of applying technology to enable strong, foolproof, external auditing. The work was later applied by DeepMind who used the same audit techniques to look after data from the UK's National Health Service (NHS).
 
 Data trusts are a formal multi-party legal pattern developed for data, and establishing trust between parties is critical. Being able to augment existing processes with security and audit controls to establish trust is of specific interest to data trusts. With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link up rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
 
@@ -32,7 +32,7 @@ If this absolute trust is in doubt, the entire model is at risk of falling apart
 
 Under Certificate Transparency, certificate authorities issue certificates to their customers as they always have but also send them to be included in a publicly available "log". When a browser wants to check the validity of a certificate, after performing all its usual checks, it now also checks for the existence of that certificate in one of the logs.
 
-The result of this is that if a certificate is issued by a certificate authority it has to be publicly announced. This means that a certificate authority cannot be coerced into privately issuing a valid certificate for, say, gmail.com, to someone who wants to perform a man-in-the-middle attack on an inbox. If such a certificate was to be issued, it would appear in the log where everyone would be able to see it. Certificate Transparency ensures that if a certificate is issued to someone then it is issued to everyone and becomes a matter of irrefutable public record.
+The result of this is that if a certificate is issued by a certificate authority it has to be publicly announced. This means that a certificate authority cannot be coerced into privately issuing a valid certificate for, say, gmail.com, to someone who wants to perform a man-in-the-middle attack on an inbox. If such a certificate was to be issued, it would appear in the log where everyone would be able to see it. If it did not appear in the log then web browsers would reject it. Certificate Transparency ensures that if a certificate is shown to someone then it is shown to everyone and becomes a matter of irrefutable public record.
 
 The log also acts as a more general system of record for which certificates were issued and when. If a certificate authority is later discovered to have been issuing certificates without performing the proper checks (e.g. that the person the certificate is issued to controls the domain the certificate is issued for) then all other certificates from that authority can be retrieved from the log and checked.
 
