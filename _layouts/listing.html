@@ -11,7 +11,7 @@ layout: default
   {% endfor %}
 {% else %}
   {% assign collection = site.collections | where: "label", page.source | first %}
-  {% assign docs = collection.docs %}
+  {% assign docs = collection.docs | sort: "date" | reverse %}
 {% endif %}
 
 <main>
