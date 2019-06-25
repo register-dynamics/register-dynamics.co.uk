@@ -8,6 +8,8 @@ excerpt: |
   combines the two to allow data use to be auditable and acceptable practice
   to be enforcable. In this post we discuss this concept of a data trust,
   explore what benefits they could bring and how they could be achieved.
+licenses:
+  - "\"System lock\" image by [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/) used under CC-BY 3.0."
 ---
 
 <img src="/images/system-lock.jpg">
@@ -126,5 +128,3 @@ technical trust, please [get in touch with us](mailto:hello@register-dynamics.co
 [Ade Adewunmi](https://twitter.com/Adewunmi), and
 [Kate Roselli](https://www.katertalks.com/)
 for their helpful comments and feedback.*
-
-*Picture: [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/), CC-BY 3.0.*
