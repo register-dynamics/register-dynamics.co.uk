@@ -1,0 +1,8 @@
+<section>
+  <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url }}{% endif %}">
+    <h3>{{ post.title }}</h3>
+    <img src="/{{ post.image }}"/>
+  </a>
+  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
+  {{ post.excerpt | markdownify }}
+</section>

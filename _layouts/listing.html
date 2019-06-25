@@ -18,13 +18,6 @@ layout: default
   <h2>{{ page.title }}</h2>
   {{ content }}
   {% for post in docs %}
-    <section>
-      <a href="{{ post.url }}">
-        <h3>{{ post.title }}</h3>
-        <img src="/{{ post.image }}"/>
-      </a>
-      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
-      {{ post.excerpt | markdownify }}
-    </section>
+    {% include post.html %}
   {% endfor %}
 </main>
