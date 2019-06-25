@@ -447,6 +447,47 @@ body {
       font-style: italic;
       font-size: 75%;
     }
+
+    .sharezone {
+      float: right;
+      font-weight: bold;
+      line-height: 45px;
+      margin-bottom: 2em;
+
+      a {
+        float: right;
+        margin-left: 10px;
+        border-radius: 3em;
+        text-indent: 100%;
+        overflow: hidden;
+        width: 48px;
+        height: 48px;
+        background-color: $COLOR;
+        background-size: 32px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+
+        &:last-of-type {
+          margin-left: 15px;
+        }
+
+        &[href^="https://twitter.com/intent/tweet"] {
+          background-image: url(/images/Twitter_Logo.svg);
+        }
+
+        &[href^="https://facebook.com/sharer"] {
+          background-image: url(/images/Facebook_Logo.png);
+        }
+
+        &[href^="https://www.linkedin.com/shareArticle"] {
+          background-image: url(/images/LinkedIn_Logo.svg);
+        }
+      }
+
+      & + * {
+        clear: right;
+      }
+    }
   }
 
   main {
