@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-{% for author in site.data.authors %}
-  {% if author[0] == page.author %}
-    {% assign twitter = author[1].twitter %}
+{% for author in site.authors %}
+  {% if author.title == page.author %}
+    {% assign biog = author %}
   {% endif %}
 {% endfor %}
 
 <article>
   <h2>{{ page.title }}</h2>
-  <a href="https://twitter.com/{{ twitter }}" itemprop="author">{{ page.author }}</a>
+  <a href="{{ biog.url }}" itemprop="author">{{ page.author }}</a>
   <time>{{ page.date | date: '%d %B %Y' }}</time>
   {{ page.content }}
 </article>
@@ -21,6 +21,14 @@ layout: default
     <a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url | url_encode }}&via={{ site.twitter_username }}" target="_blank">Twitter</a>
     <a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | url_encode }}" target="_blank">Facebook</a>
   </div>
+
+  {% if biog.content %}
+  <div class="biog">
+    <img src="{{ site.url }}/{{ biog.image }}"/>
+    <span>{{ page.author }}</span>
+    {{ biog.content | markdownify }}
+  </div>
+  {% endif %}
 
   {% for license in page.licenses %}
   <span class="license">

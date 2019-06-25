@@ -18,6 +18,8 @@ collections:
     permalink: /blog/:title
   data-trusts:
     output: yes
+  authors:
+    output: yes
 
 defaults:
   - scope:
@@ -25,6 +27,11 @@ defaults:
       type: posts
     values:
       layout: blog
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
   - scope:
       path: ""
       type: data-trusts

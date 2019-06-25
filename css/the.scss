@@ -488,6 +488,35 @@ body {
         clear: right;
       }
     }
+
+    h2 + img {
+      /* Author biog image */
+      float: left;
+      max-height: 5em;
+      border-radius: 50%;
+      margin-right: 2ch;
+      margin-bottom: 2ch;
+    }
+
+    .biog {
+      background-color: #eee;
+      margin-top: 2em;
+      padding: 2em;
+      padding-left: calc(2em + 64px + 1.5em);
+      position: relative;
+
+      img {
+        max-width: 64px;
+        position: absolute;
+        border-radius: 50%;
+        left: 2em;
+      }
+
+      span {
+        font-size: 120%;
+        font-weight: bold;
+      }
+    }
   }
 
   main {
