@@ -15,6 +15,7 @@ collections:
     output: no
   posts:
     output: yes
+    permalink: /blog/:title
   data-trusts:
     output: yes
 
