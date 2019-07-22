@@ -55,8 +55,8 @@ order:
 - geniedb
 
 twitter:
-  username: regdyn
-  card: summary
+  username: RegDyn
+  card: summary_large
 
 data:
   authors:
