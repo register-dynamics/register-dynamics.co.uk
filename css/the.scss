@@ -471,7 +471,7 @@ body {
           margin-left: 15px;
         }
 
-        &[href^="https://twitter.com/intent/tweet"] {
+        &[href^="https://www.twitter.com/intent/tweet"] {
           background-image: url(/images/Twitter_Logo.svg);
         }
 
@@ -479,7 +479,7 @@ body {
           background-image: url(/images/Facebook_Logo.png);
         }
 
-        &[href^="https://www.linkedin.com/shareArticle"] {
+        &[href^="https://linkedin.com/shareArticle"] {
           background-image: url(/images/LinkedIn_Logo.svg);
         }
       }
