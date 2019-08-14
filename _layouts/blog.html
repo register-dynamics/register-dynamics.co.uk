@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
-{% for author in site.authors %}
-  {% if author.title == page.author %}
-    {% assign biog = author %}
-  {% endif %}
-{% endfor %}
+{% if page.author %}
+  {% assign authors = page.author | split: ';' %}
+{% else %}
+  {% assign authors = page.authors %}
+{% endif %}
+
 
 <article>
   <h2>{{ page.title }}</h2>
-  <a href="{{ biog.url }}" itemprop="author">{{ page.author }}</a>
+  {% for pageauthor in authors %}
+    {% for author in site.authors %}
+      {% if author.title == pageauthor %}
+        {% assign biog = author %}
+      {% endif %}
+    {% endfor %}
+  <a href="{{ biog.url }}" itemprop="author">{{ pageauthor }}</a>
+  {% endfor %}
   <time>{{ page.date | date: '%d %B %Y' }}</time>
   {{ page.content }}
 </article>
@@ -22,13 +30,21 @@ layout: default
     <a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | url_encode }}" target="_blank">Facebook</a>
   </div>
 
+{% for pageauthor in authors %}
+  {% for author in site.authors %}
+    {% if author.title == pageauthor %}
+      {% assign biog = author %}
+    {% endif %}
+  {% endfor %}
+
   {% if biog.content %}
   <div class="biog">
     <img src="{{ site.url }}/{{ biog.image }}"/>
-    <span>{{ page.author }}</span>
+    <span>{{ pageauthor }}</span>
     {{ biog.content | markdownify }}
   </div>
   {% endif %}
+{% endfor %}
 
   {% for license in page.licenses %}
   <span class="license">
