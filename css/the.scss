@@ -467,8 +467,16 @@ body {
         background-repeat: no-repeat;
         background-position: 50%;
 
+        @media screen and (max-width: 385px) {
+          float: left;
+          margin-left: 0;
+          margin-right: 10px;
+        }
+
         &:last-of-type {
-          margin-left: 15px;
+          @media screen and (min-width: 386px) {
+            margin-left: 15px;
+          }
         }
 
         &[href^="https://www.twitter.com/intent/tweet"] {
@@ -486,6 +494,13 @@ body {
 
       & + * {
         clear: right;
+      }
+
+      span {
+        @media screen and (max-width: 385px) {
+          width: 100%;
+          display: inline-block;
+        }
       }
     }
 
