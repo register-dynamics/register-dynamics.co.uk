@@ -16,7 +16,7 @@ layout: default
         {% assign biog = author %}
       {% endif %}
     {% endfor %}
-  <a href="{{ biog.url }}" itemprop="author">{{ pageauthor }}</a>
+  <a href="{{ biog.url | prepend: site.baseurl }}" itemprop="author">{{ pageauthor }}</a>
   {% endfor %}
   <time>{{ page.date | date: '%d %B %Y' }}</time>
   {{ page.content }}
@@ -39,7 +39,7 @@ layout: default
 
   {% if biog.content %}
   <div class="biog">
-    <img src="{{ site.url }}/{{ biog.image }}"/>
+    <img src="{{ biog.image | prepend: '/' | prepend: site.baseurl }}"/>
     <span>{{ pageauthor }}</span>
     {{ biog.content | markdownify }}
   </div>

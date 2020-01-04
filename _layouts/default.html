@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='icon' type='image/svg+xml' sizes='any' href='/images/logo.svg'>
-    <link rel='icon' type='image/png' sizes='400x400' href='/images/logo-2.png'>
-    <link rel='icon' type='image/png' sizes='32x32' href='/images/logo-small.png'>
-    <link rel='stylesheet' type='text/css' href='/fonts/stylesheet.css'>
-    <link rel='stylesheet' type='text/css' href='/css/the.css'>
+    <link rel='icon' type='image/svg+xml' sizes='any' href='{{ "/images/logo.svg" | prepend: site.baseurl }}'>
+    <link rel='icon' type='image/png' sizes='400x400' href='{{ "/images/logo-2.png" | prepend: site.baseurl }}'>
+    <link rel='icon' type='image/png' sizes='32x32' href='{{ "/images/logo-small.png" | prepend: site.baseurl }}'>
+    <link rel='stylesheet' type='text/css' href='{{ "/fonts/stylesheet.css" | prepend: site.baseurl }}'>
+    <link rel='stylesheet' type='text/css' href='{{ "/css/the.css" | prepend: site.baseurl }}'>
     {% seo %}
   </head>
   <body data-title="{{ page.title }}" data-collection="{{ page.collection }}">
-    <h1><a href="/">Register Dynamics</a></h1>
+    <h1><a href='{{"/" | prepend: site.baseurl }}'>Register Dynamics</a></h1>
     <ul>
       <li>Data</li>
       <li>Strategy</li>
       <li>Delivery</li>
     </ul>
     <nav id="menu">
-      <a href="/blog">Blog</a>
-      <a href="/publications">Publications</a>
-      <a href="/#work">Case Studies</a>
+      <a href='{{"/blog" | prepend: site.baseurl }}'>Blog</a>
+      <a href='{{"/publications" | prepend: site.baseurl }}'>Publications</a>
+      <a href='{{"/#work" | prepend: site.baseurl }}'>Case Studies</a>
     </nav>
     <a href="#menu">☰</a>
     <a href="mailto:hello@register-dynamics.co.uk">hello@register-dynamics.co.uk</a>

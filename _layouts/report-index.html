@@ -5,8 +5,8 @@ layout: default
 
 <header>
   <h2 style="font-size: 58pt">{{ page.title }}</h2>
-  <h3>A report by <a href="{{ site.url }}">Register Dynamics</a> &bull; {{ page.date | date: "%d %B %Y" }}</h3>
-  <a id="toplink" href="{{ page.url }}">{{ page.title }}</a>
+  <h3 id="byline">A report by <a href="{{ site.url }}">Register Dynamics</a> &bull; {{ page.date | date: "%d %B %Y" }}</h3>
+  <a id="toplink" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 </header>
 
 <article>
@@ -17,7 +17,7 @@ layout: default
   <h2>{{ section[0] }}</h2>
     {% for slug in section[1] %}
     {% assign post = collection.docs | where: 'slug', slug | first %}
-      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
       <p>{{post.excerpt}}</p>
     {% endfor %}
 </section>

@@ -11,8 +11,8 @@ layout: default
 
 <header>
   <h2>{{ page.title }}</h2>
-  <h3>— from the <a href="{{ index.url }}">"{{ index.title }}" report</a></h3>
-  <a id="toplink" href="{{ index.url }}">{{ index.title }}</a>
+  <h3>— from the <a href="{{ index.url | prepend: site.baseurl }}">"{{ index.title }}" report</a></h3>
+  <a id="toplink" href="{{ index.url | prepend: site.baseurl }}">{{ index.title }}</a>
 </header>
 <article>
   {% for page_author in authors %}

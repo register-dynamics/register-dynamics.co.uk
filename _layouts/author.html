@@ -5,7 +5,7 @@ layout: default
 <aside>
 <h2>{{ page.title }}</h2>
 {% if page.image %}
-  <img src="{{ site.url }}/{{ page.image }}"/>
+  <img src="{{ page.image | prepend: '/' | prepend: site.baseurl }}"/>
 {% endif %}
 {{ content }}
 <aside>

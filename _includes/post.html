@@ -1,7 +1,7 @@
 <section>
-  <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url }}{% endif %}">
+  <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
     <h3>{{ post.title }}</h3>
-    <img src="/{{ post.image }}"/>
+    <img src="{{ post.image | prepend: '/' | prepend: site.baseurl }}"/>
   </a>
   <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
   {{ post.excerpt | markdownify }}
