@@ -1,0 +1,29 @@
+{% if include.list %}
+  {% assign list = include.list %}
+  {% assign docs = "" | split: "" %}
+  {% for meta in include.list %}
+    {% assign collection = site.collections | where: "label", meta.collection | first %}
+    {% assign doc = collection.docs | where: "slug", meta.slug | first %}
+    {% assign docs = docs | push: doc %}
+  {% endfor %}
+{% else %}
+  {% assign collection = site.collections | where: "label", include.source | first %}
+  {% assign docs = collection.docs | sort: "date" | reverse %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign limit = include.limit %}
+{% else %}
+  {% assign limit = 999 %}
+{% endif %}
+
+<section id="{{include.source}}">
+{% for post in docs limit:limit %}
+  {% if include.template %}
+    {% assign template = include.template %}
+  {% else %}
+    {% assign template = "post.html" %}
+  {% endif %}
+  {% include {{ template }} %}
+{% endfor %}
+</section>

@@ -1,8 +1,21 @@
-<section>
+<div class="post {{ post.collection }}">
+  {% assign collection = site.collections | where: "label", post.collection | first %}
+  {% if collection.output %}
   <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
-    <h3>{{ post.title }}</h3>
+  {% endif %}
+    {% if post.image %}
     <img src="{{ post.image | prepend: '/' | prepend: site.baseurl }}"/>
+    {% endif %}
+    <h2>{{ post.title }}</h2>
+  {% if collection.output %}
   </a>
-  <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
-  {{ post.excerpt | markdownify }}
-</section>
+  {% endif %}
+  {% if post.date %}
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">({{ post.date | date: "%b %Y" }})</time>
+  {% endif %}
+  {% if page.full %}
+    {{ post.content }}
+  {% else %}
+    {{ post.excerpt | markdownify }}
+  {% endif %}
+</div>

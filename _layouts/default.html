@@ -6,25 +6,18 @@
     <link rel='icon' type='image/svg+xml' sizes='any' href='{{ "/images/logo.svg" | prepend: site.baseurl }}'>
     <link rel='icon' type='image/png' sizes='400x400' href='{{ "/images/logo-2.png" | prepend: site.baseurl }}'>
     <link rel='icon' type='image/png' sizes='32x32' href='{{ "/images/logo-small.png" | prepend: site.baseurl }}'>
-    <link rel='stylesheet' type='text/css' href='{{ "/fonts/stylesheet.css" | prepend: site.baseurl }}'>
     <link rel='stylesheet' type='text/css' href='{{ "/css/the.css" | prepend: site.baseurl }}'>
     {% seo %}
   </head>
   <body data-title="{{ page.title }}" data-collection="{{ page.collection }}">
-    <h1><a href='{{"/" | prepend: site.baseurl }}'>Register Dynamics</a></h1>
-    <ul>
-      <li>Data</li>
-      <li>Strategy</li>
-      <li>Delivery</li>
-    </ul>
     <nav id="menu">
-      <a href='{{"/blog" | prepend: site.baseurl }}'>Blog</a>
-      <a href='{{"/publications" | prepend: site.baseurl }}'>Publications</a>
-      <a href='{{"/#work" | prepend: site.baseurl }}'>Case Studies</a>
+      <a href='{{"/" | prepend: site.baseurl }}' id=logo><img src='{{ "/images/logo-landscape.svg" | prepend: site.baseurl }}' alt="Register Dynamics"></a>
+      <a href="#menu">Menu</a>
+      <a href='{{"/what-we-do" | prepend: site.baseurl }}'>What We Do</a>
+      <a href='{{"/case-studies" | prepend: site.baseurl }}'>Case Studies</a>
+      <a href='{{"/insights" | prepend: site.baseurl }}'>Insights</a>
+      <a href='mailto:hello@register-dynamics.co.uk' role="button">Let's Talk</a>
     </nav>
-    <a href="#menu">☰</a>
-    <a href="mailto:hello@register-dynamics.co.uk">hello@register-dynamics.co.uk</a>
-    <a href="https://twitter.com/{{ site.twitter.username }}">@{{ site.twitter.username }}</a>
     {{ content }}
     <script type="text/javascript">
       var sc_project=11787269;
@@ -33,6 +26,26 @@
     </script>
     <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
     <noscript><img src="//c.statcounter.com/11787269/0/0dacb22d/1/" alt=""></noscript>
-    <footer>&copy; Register Dynamics Ltd. Best viewed in w3m.</footer>
+    <footer>
+      <div>
+        <img src='{{ "/images/logo-landscape-darkgreen.svg" | prepend: site.baseurl }}' alt="Register Dynamics" />
+        <h3>&copy;&nbsp;<a href='{{ "/" | prepend: site.baseurl }}'>Register Dynamics</a> {{ 'now' | date: "%Y" }}</h3>
+        <p><a href='mailto:hello@register-dynamics.co.uk'>Contact us</a></p>
+      </div>
+      <nav>
+        <div>
+          <h3>Resources</h3>
+          <a href="https://registers.blog">Blog</a>
+          <a href="https://www.digitalmarketplace.service.gov.uk/g-cloud/services/623011781239799">G-Cloud</a>
+          <a href="https://www.github.com/register-dynamics">Github</a>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="https://twitter.com/RegDyn">Twitter</a>
+          <a href="https://facebook.com/registerdynamics">Facebook</a>
+          <a href="https://uk.linkedin.com/company/register-dynamics">LinkedIn</a>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>

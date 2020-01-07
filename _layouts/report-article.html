@@ -9,8 +9,8 @@ layout: default
 {% assign collection = site.collections | where: "label", page.collection | first %}
 {% assign index = collection.docs | where: "slug", "index" | first %}
 
-<header>
-  <h2>{{ page.title }}</h2>
+<header class=report>
+  <h1>{{ page.title }}</h1>
   <h3>— from the <a href="{{ index.url | prepend: site.baseurl }}">"{{ index.title }}" report</a></h3>
   <a id="toplink" href="{{ index.url | prepend: site.baseurl }}">{{ index.title }}</a>
 </header>

@@ -1,28 +1,44 @@
 ---
 ---
 $MINIMUM_WINDOW: 1024px - 1px;
+
 $BODY_SIZE: 960px;
-$HIDE_LOGO: 550px - 1px;
-$COMPRESSED_HEADER: 720px - 1px;
-$COMPRESSED_PADDING: ($MINIMUM_WINDOW - $BODY_SIZE) / 2;
-$MARGIN_CALC: "((100% - #{$BODY_SIZE})/2)";
-$RELATIVE_MARGIN_CALC: "((100vw - #{$BODY_SIZE})/2)";
-$COLOR: #009671;
-$HIGHLIGHT: adjust-color($color: $COLOR, $saturation: -50%, $lightness: +20%);
-
-$DATABASE_SVG: '<path d="M18.067 1.609c-0.497-0.326-1.193-0.615-2.069-0.858-1.742-0.484-4.050-0.75-6.498-0.75s-4.756 0.267-6.498 0.75c-0.877 0.243-1.573 0.532-2.069 0.858-0.619 0.407-0.933 0.874-0.933 1.391v12c0 0.517 0.314 0.985 0.933 1.391 0.497 0.326 1.193 0.615 2.069 0.858 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.751c0.877-0.243 1.573-0.532 2.069-0.858 0.619-0.406 0.933-0.874 0.933-1.391v-12c0-0.517-0.314-0.985-0.933-1.391zM3.27 1.714c1.658-0.46 3.87-0.714 6.23-0.714s4.573 0.254 6.23 0.714c1.795 0.499 2.27 1.059 2.27 1.286s-0.474 0.787-2.27 1.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286s0.474-0.787 2.27-1.286zM15.73 16.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.751c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286zM15.73 12.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.75c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286zM15.73 8.286c-1.658 0.46-3.87 0.714-6.23 0.714s-4.573-0.254-6.23-0.714c-1.795-0.499-2.27-1.059-2.27-1.286v-2.566c0.492 0.309 1.164 0.583 2.002 0.816 1.742 0.484 4.050 0.75 6.498 0.75s4.756-0.267 6.498-0.75c0.838-0.233 1.511-0.507 2.002-0.816v2.566c0 0.227-0.474 0.787-2.27 1.286z"></path>';
-
-$LOGO_SVG: '<path d="m 190.21724,136.46575 c -45.29472,-0.89609 -85.42254,-9.48532 -99.27385,-21.24924 -1.963124,-1.66728 -3.198432,-3.57369 -3.197001,-4.93384 0.0037,-3.49904 6.86969,-8.55997 17.149641,-12.640983 16.68839,-6.62507 40.89736,-11.042765 71.48534,-13.044756 7.65119,-0.500773 30.82833,-0.673052 39.92226,-0.296748 36.80992,1.523183 67.36953,7.308334 84.81028,16.055207 4.31308,2.16309 6.92396,3.96586 9.07715,6.26763 1.8296,1.95585 2.35236,3.17156 1.98801,4.62325 -0.28896,1.15133 -2.30635,3.45424 -4.40092,5.02383 -14.76436,11.06372 -54.75986,19.41738 -96.2306,20.09919 -4.75608,0.0782 -9.36083,0.17423 -10.23278,0.21341 -0.87195,0.0392 -5.86584,-0.0134 -11.09753,-0.11695 z" /><path d="m 182.00219,194.08334 c -35.93777,-1.71149 -66.0796,-7.49891 -82.871109,-15.91177 -5.381818,-2.6964 -8.215392,-4.75919 -10.304842,-7.50174 l -1.080928,-1.41879 V 151.8374 134.42376 l 1.104754,0.69741 c 1.91021,1.20586 6.682739,3.49622 10.42514,5.00308 16.234025,6.53655 39.623765,11.29557 66.152765,13.45982 11.10558,0.90601 15.0152,1.06823 29.54536,1.22597 18.92416,0.20543 31.63772,-0.31664 47.56081,-1.95302 29.06042,-2.98649 54.81292,-9.60039 68.26553,-17.53234 l 1.49033,-0.87872 v 17.12447 c 0,10.78429 -0.10734,17.40679 -0.28992,17.887 -0.47008,1.23642 -3.42628,4.11858 -5.9074,5.75948 -14.28314,9.44613 -44.26608,16.18241 -82.87111,18.61867 -6.31902,0.39877 -34.49247,0.56812 -41.21938,0.24776 z" /><path d="m 188.34364,251.85459 c -6.26268,-0.21905 -15.76376,-0.7414 -20.75381,-1.141 -36.9809,-2.96142 -66.88335,-10.98705 -77.208129,-20.72217 -2.824976,-2.66364 -2.63639,-1.18166 -2.63639,-20.71774 v -17.11985 l 4.972267,2.49288 c 18.361332,9.20559 47.504022,15.17648 84.528532,17.31861 13.5914,0.78635 36.08752,0.64562 50.44329,-0.31556 34.779,-2.32862 63.16161,-8.46962 80.49307,-17.41587 l 4.10753,-2.12025 v 17.21615 17.21614 l -0.81806,1.28149 c -4.78248,7.49171 -24.73169,15.0661 -51.51838,19.56067 -11.54585,1.9373 -24.51444,3.30668 -38.46148,4.06125 -5.48921,0.29698 -28.27845,0.57558 -33.14844,0.40525 z"/><path d="m 189.49663,309.42323 c -33.64354,-0.75664 -64.80178,-5.71737 -84.45648,-13.44639 -8.094822,-3.18321 -14.41872,-7.1861 -16.4748,-10.42821 l -0.820039,-1.29306 v -17.23841 c 0,-9.48112 0.06588,-17.23841 0.146394,-17.23841 0.08052,0 1.280346,0.64378 2.666288,1.43063 3.3894,1.92427 10.184877,4.80091 15.635147,6.6186 28.20027,9.40497 71.65285,13.89299 114.4342,11.81939 38.4648,-1.86438 71.17484,-8.6911 89.06906,-18.58907 1.27228,-0.70375 2.37633,-1.27955 2.45342,-1.27955 0.0771,0 0.14018,7.72635 0.14018,17.16967 0,12.33448 -0.0929,17.34697 -0.32996,17.79927 -2.15452,4.11117 -10.12067,8.92846 -21.09862,12.75876 -18.86533,6.58227 -49.1592,11.20246 -77.34201,11.79561 -3.93817,0.0829 -8.84656,0.19146 -10.90753,0.24128 -2.06097,0.0498 -7.96283,-0.004 -13.11525,-0.12011 z" />';
-
-@mixin inline-svg($color, $svg-content, $width: 20, $height: 20, $startX: 0, $startY: 0) {
-  $start: '<svg xmlns="http://www.w3.org/2000/svg" width="#{$width}" height="#{$height}" viewBox="#{$startX} #{$startY} #{$width + $startX} #{$height + $startY}"><style>path { fill: rgb(#{red($color)}, #{green($color)}, #{blue($color)}); }</style>';
-  $end:   '</svg>';
-
-  background-image: url('data:image/svg+xml;utf8, #{$start}#{$svg-content}#{$end}');
+$COLUMNS: 12;
+$COLUMN_SIZE: ($BODY_SIZE / $COLUMNS) * 4/5;
+$COLUMN_GAP: ($BODY_SIZE / $COLUMNS) * 1/5;
+@function columns($n) {
+  @return ($COLUMN_SIZE + $COLUMN_GAP) * $n - $COLUMN_GAP;
 }
 
-@mixin logo($color) {
-  @include inline-svg($color, $LOGO_SVG, 165, 165, 85, 85);
+$HIDE_LOGO: 550px - 1px;
+$HIDE_MENU: 800px; // trial and error
+$COMPRESSED_HEADER: 720px - 1px;
+$COMPRESSED_PADDING: ($MINIMUM_WINDOW - $BODY_SIZE) / 2;
+$MARGIN_CALC: '((100% - #{$BODY_SIZE})/2)';
+$RELATIVE_MARGIN_CALC: '((100vw - #{$BODY_SIZE})/2)';
+
+$DARK_GREEN: rgb(0, 70, 30);
+$LIGHT_GREEN: rgb(200, 250, 100);
+$TEXT_GREEN: rgb(75, 95, 70);
+$ILLUS_BLUE: rgb(180, 250, 255);
+$ILLUS_ORANGE: rgb(250, 212, 100);
+$ILLUS_RED: rgb(250, 130, 130);
+$ILLUS_PURPLE: rgb(159, 107, 255);
+
+$HEADLINE: 'DM Serif Display', serif;
+$SUBHEADS: 'Chivo', sans-serif;
+$BODYTEXT: 'Chivo', sans-serif;
+
+@function inline-svg($svg) {
+  @return url('data:image/svg+xml;utf8, #{$svg}');
+}
+
+@function expand-color($color) {
+  @return 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+}
+
+@page {
+  margin-top: 2em;
 }
 
 @mixin stroke($width, $color) {
@@ -42,24 +58,6 @@ $LOGO_SVG: '<path d="m 190.21724,136.46575 c -45.29472,-0.89609 -85.42254,-9.485
   }
 }
 
-$BACKGROUND_COLOR: #eaeaea;
-$BACKGROUND_IMAGE_HEIGHT: 2912px;
-$BACKGROUND_IMAGE_WIDTH: 4368px;
-$ASPECT_RATIO: $BACKGROUND_IMAGE_HEIGHT / $BACKGROUND_IMAGE_WIDTH;
-$LINES_OF_TEXT: 4;
-$BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
-
-@mixin vertical-gradient($top, $bottom) {
-  background: $top;
-  background: -moz-linear-gradient(top, $top 0%, $bottom 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, $top), color-stop(100%, $bottom));
-  background: -webkit-linear-gradient(top, $top 0%, $bottom 100%);
-  background: -o-linear-gradient(top, $top 0%, $bottom 100%);
-  background: -ms-linear-gradient(top, $top 0%, $bottom 100%);
-  background: linear-gradient(to bottom, $top 0%, $bottom 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$top}', endColorstr='#{$bottom}', GradientType=0 );
-}
-
 @mixin bullet($padding) {
   &::after {
     content: '\025A0';
@@ -71,733 +69,660 @@ $BANNER_HEIGHT: "((#{$ASPECT_RATIO} * 95vw) - 300px - #{$LINES_OF_TEXT}*36pt)";
   }
 }
 
-body {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 14pt;
-  margin: 0;
-
-  &[data-title=""] {
-    background-image: url(../images/banner.jpg);
-    background-color: $BACKGROUND_COLOR;
-    background-size: contain;
-    background-position-y: calc((-135/1024) * 100vw + 75px);
-    background-repeat: no-repeat;
+@mixin mobile-menu-button($id, $size) {
+  a[href='##{$id}'] {
+    display: none;
   }
 
-  &[data-title="Publications"] main section a img {
-    box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.3);
-    max-height: 200px;
-  }
-
-  > * {
-    max-width: $BODY_SIZE;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  h1, > ul {
-    @include expand-to-window();
-    font-family: 'Alte Haas Grotesk', sans-serif;
-    display: block;
-    color: white;
-    background: $COLOR;
-    margin: 0;
-    padding-top: 1ch;
-    padding-bottom: 1ch;
-    text-align: left;
-  }
-
-  h1 {
-    @include vertical-gradient(darken($COLOR, +5%), $COLOR);
-    font-size: 25pt;
-    line-height: 1.1em;
-    padding-bottom: 0;
-
-    > a::before {
-      content: "";
+  @media screen and (max-width: $HIDE_MENU) {
+    &:not(:target) a[href='##{$id}'] {
       display: block;
-      width: 64px;
-      height: 64px;
-      float: left;
-      background-size: 64px;
-      margin-right: 16px;
-      margin-top: 6px;
-      @include logo(white);
-
-      @media screen and (max-width: $HIDE_LOGO) {
-        content: none;
-      }
-    }
-
-    @media screen and (max-width: $MINIMUM_WINDOW) {
-      padding-right: calc(#{$COMPRESSED_PADDING} + 1em);
-    }
-  }
-
-  &[data-collection="data-trusts"] {
-    > ul { display: none !important; }
-    > nav { display: none !important; }
-    > a { display: none !important; }
-
-    h1 {
-      a {
-        margin: 0.5em auto;
-        font-size: 16px;
-
-        &::before {
-          width: 16px;
-          height: 16px;
-          background-size: 16px;
-          margin-right: 8px;
-          margin-top: 17px;
-        }
-      }
-    }
-
-   header > #toplink {
-      font-size: 16px;
-      position: absolute;
-      top: 34px;
-      right: calc(#{$MARGIN_CALC});
-
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        right: $COMPRESSED_PADDING;
-      }
-
-      @media screen and (max-width: $HIDE_LOGO) {
-        display: none;
-      }
-    }
-
-    h3 > a {
-      text-decoration: underline;
-    }
-
-    article > h2 {
-      font-size: 21pt;
-      margin-top: 2em;
-    }
-
-    section {
-      background: $BACKGROUND_COLOR;
-      padding: 2em;
-      margin-top: 4em;
-
-      h2 { margin-top: 0; }
-      //h3 { margin-top: -1em; }
-    }
-
-    [itemprop="author"], time {
-      font-weight: bold;
-      font-size: 12pt;
-
-      &::after {
-        padding-left: 3ch;
-        font-size: 60%;
-        vertical-align: super;
-      }
-    }
-
-    > header {
-      background: $COLOR;
-      color: white;
-      margin-top: 0;
-      margin-bottom: 2em;
-      padding: 2em calc((100% - 720px) / 2) 2em;
-      font-weight: bold;
-
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        padding: 2em calc(#{$COMPRESSED_PADDING});
-      }
-    }
-  }
-
-  > ul {
-    padding-bottom: 26px;
-    font-size: 12pt;
-    font-weight: bold;
-    border-bottom: 16px $HIGHLIGHT solid;
-
-    @media screen and (min-width: $HIDE_LOGO) {
-      padding-left: 72px;
-    }
-
-    li {
-      display: block;
-      float: left;
-      padding-right: 1.5ch;
-      color: white;
-
-      @include bullet(1.5ch);
-
-      &:last-child::after {
-        content: none;
-      }
-    }
-
-    &::after {
-      content: '';
-      display: table;
-      clear: both;
-    }
-  }
-
-  $NAV_MENU_ITEM_PADDING: 0.5em;
-
-  > a, > nav {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    right: calc(#{$MARGIN_CALC});
-
-    background-size: 1em;
-    padding-left: 1.5em;
-    background-repeat: no-repeat;
-
-    &[href="#menu"] {
-      display: none;
-    }
-
-    @media screen and (max-width: $MINIMUM_WINDOW) {
-      right: $COMPRESSED_PADDING;
-    }
-
-    @media screen and (max-width: $COMPRESSED_HEADER) {
-      width: 1em;
+      text-indent: 100%;
       overflow: hidden;
-      box-sizing: border-box;
-      padding-left: 2*$COMPRESSED_PADDING;
-      background-position-x: $COMPRESSED_PADDING;
-      background-position-y: $NAV_MENU_ITEM_PADDING !important;
-
-      &[href="#menu"] {
-        display: block;
-        font-size: 23pt;
-        padding-left: 0;
-        top: 0.5em;
-      }
-    }
-  }
-
-  > nav {
-    top: 1em;
-    font-weight: bold;
-
-    > a:not(:last-child) {
-      padding-right: 1ch;
-      @include bullet(2ch);
-    }
-
-    @media screen and (max-width: $COMPRESSED_HEADER) {
-      &:target {
-        width: 100%;
-        right: 0;
-        padding: 0;
-        position: relative;
-        float: none;
-
-        + [href="#menu"] {
-          display: none;
-        }
-
-        > a, + a + a, + a + a + a {
-          display: block;
-          background-color: $COLOR;
-          position: relative;
-          text-align: left;
-          padding: $NAV_MENU_ITEM_PADDING $COMPRESSED_PADDING;
-          width: 100%;
-          right: 0;
-
-          &::after {
-            content: none;
-          }
-        }
-
-        + a + a, + a + a + a {
-          top: 1em;
-          padding-left: 2*$COMPRESSED_PADDING;
-        }
-      }
-    }
-  }
-
-  > a {
-    @for $i from 2 through 4 {
-      &:nth-of-type(#{$i}) {
-        top: calc(#{$i}em + 0.5em);
-      }
-    }
-
-    @media screen and (max-width: $COMPRESSED_HEADER) {
-      display: none;
-    }
-
-    &[href^="mailto"] {
-      background-image: url(../images/lnr-envelope.svg);
-      background-position-y: 0px;
-    }
-
-    &[href^="https://twitter"] {
-      background-image: url(../images/lnr-bubble.svg);
-      background-position-y: 3px;
-    }
-  }
-
-  $UNIT: "(1/12 * #{$BANNER_HEIGHT})";
-  h2 {
-    font-family: 'Alte Haas Grotesk', sans-serif;
-    font-size: 36pt;
-    line-height: normal;
-
-    span {
-      background-color: rgba(255,255,255,0.7);
-      padding: calc(0.5 * #{$UNIT});
-
-      &:last-child {
-        display: inline-block;
-      }
-    }
-  }
-
-  &[data-title=""] h2 {
-    @mixin compressed-banner() {
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        @include expand-to-window();
-      }
-
-      @media screen and (max-width: 414px) {
-        font-size: 26pt;
-
-        span {
-          display: inline;
-        }
-      }
-    }
-
-    &:first-of-type {
-      text-align: left;
-      margin-top: calc(3 * #{$UNIT});
-      margin-bottom: calc(2 * #{$UNIT});
-      @include compressed-banner();
-
-      span:last-child {
-        padding-top: 0;
-        margin-top: calc(0.5 * #{$UNIT});
-      }
-    }
-
-    &:last-of-type {
-      text-align: right;
-      margin-bottom: calc(3 * #{$UNIT});
-      @include compressed-banner();
-
-      span:first-child {
-        padding-bottom: 0;
-        margin-bottom: calc(0.5 * #{$UNIT});
-      }
-    }
-  }
-
-  [itemprop="author"] {
-    color: inherit;
-    text-decoration: none;
-    @include bullet(2.5ch);
-    margin-right: 1ch;
-  }
-
-  article, aside {
-    max-width: 720px;
-    margin-bottom: 4em;
-    line-height: 135%;
-
-    @media screen and (max-width: $MINIMUM_WINDOW) {
-      padding-left: $COMPRESSED_PADDING;
-      padding-right: $COMPRESSED_PADDING;
-    }
-
-    a {
-      color: $COLOR;
-      text-decoration: underline;
-    }
-
-    img {
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    #markdown-toc {
-      background: $BACKGROUND_COLOR;
-      line-height: 1.5em;
-      padding: 1em 2em;
-      margin-bottom: 4em;
-    }
-
-    .license {
-      color: darkgray;
-      font-style: italic;
-      font-size: 75%;
-    }
-
-    .sharezone {
-      float: right;
-      font-weight: bold;
-      line-height: 45px;
-      margin-bottom: 2em;
-
-      a {
-        float: right;
-        margin-left: 10px;
-        border-radius: 3em;
-        text-indent: 100%;
-        overflow: hidden;
-        width: 48px;
-        height: 48px;
-        background-color: $COLOR;
-        background-size: 32px;
-        background-repeat: no-repeat;
-        background-position: 50%;
-
-        @media screen and (max-width: 385px) {
-          float: left;
-          margin-left: 0;
-          margin-right: 10px;
-        }
-
-        &:last-of-type {
-          @media screen and (min-width: 386px) {
-            margin-left: 15px;
-          }
-        }
-
-        &[href^="https://www.twitter.com/intent/tweet"] {
-          background-image: url(/images/Twitter_Logo.svg);
-        }
-
-        &[href^="https://facebook.com/sharer"] {
-          background-image: url(/images/Facebook_Logo.png);
-        }
-
-        &[href^="https://linkedin.com/shareArticle"] {
-          background-image: url(/images/LinkedIn_Logo.svg);
-        }
-      }
-
-      & + * {
-        clear: right;
-      }
-
-      span {
-        @media screen and (max-width: 385px) {
-          width: 100%;
-          display: inline-block;
-        }
-      }
-    }
-
-    h2 + img {
-      /* Author biog image */
-      float: left;
-      max-height: 5em;
-      border-radius: 50%;
-      margin-right: 2ch;
-      margin-bottom: 2ch;
-    }
-
-    .biog {
-      background-color: #eee;
-      margin-top: 2em;
-      padding: 2em;
-      padding-left: calc(2em + 64px + 1.5em);
-      position: relative;
-
-      img {
-        max-width: 64px;
-        position: absolute;
-        border-radius: 50%;
-        left: 2em;
-      }
-
-      span {
-        font-size: 120%;
-        font-weight: bold;
-      }
-    }
-  }
-
-  main {
-    @for $i from 1 through 2 {
-      > p:nth-of-type(#{$i}) {
-        font-size: 20pt;
-      }
-    }
-
-    a {
-      color: $COLOR;
-    }
-
-    p {
-      margin: 1em auto;
-    }
-
-    p + :not(p) {
-      margin-top: 1em;
-    }
-
-    :not(p) + p {
-      margin-bottom: 1em;
-    }
-
-    > * {
-      max-width: $BODY_SIZE;
-      margin-left: auto;
-      margin-right: auto;
-      @include expand-to-window();
-    }
-
-    max-width: none;
-    display: flex;
-    flex-wrap: wrap;
-
-    $ICON_HEIGHT: 125px;
-    > p:nth-of-type(1), > p:nth-of-type(2) {
-      display: block;
-      width: 50%;
-      float: left;
-      padding: 4ch 5ch;
-      box-sizing: border-box;
-      border-style: solid;
-      border-width: 8px 0;
-      margin: 0 0 2ch 0;
-
-      background-color: white;
-      background-size: auto $ICON_HEIGHT;
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        @include expand-to-window();
-        background-size: 4em;
-      }
-    }
-
-    > p:nth-of-type(1) {
-      padding-left: calc(#{$MARGIN_CALC} + #{$ICON_HEIGHT} + 4ch);
-      border-top-color: $COLOR;
-      border-bottom-color: $HIGHLIGHT;
-
-      background-image: url(../images/lnr-magic-wand.svg);
-      background-position-x: calc(#{$RELATIVE_MARGIN_CALC});
-
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        padding-left: calc(2*#{$COMPRESSED_PADDING} + 4em);
-        background-position-x: $COMPRESSED_PADDING;
-      }
-    }
-
-    > p:nth-of-type(2) {
-      padding-right: calc(#{$MARGIN_CALC} + #{$ICON_HEIGHT} + 4ch);
-      border-top-color: $HIGHLIGHT;
-      border-bottom-color: $COLOR;
-
-      background-image: url(../images/lnr-chart-bars.svg);
-      background-position: calc(100% - #{$RELATIVE_MARGIN_CALC});
-
-      @media screen and (max-width: $MINIMUM_WINDOW) {
-        padding-right: calc(2*#{$COMPRESSED_PADDING} + 4em);
-        background-position-x: calc(100% - #{$COMPRESSED_PADDING});
-      }
-    }
-
-    > p:nth-of-type(3), > p:nth-of-type(4) {
-      width: 100%;
-      clear: left;
-      text-align: center;
-      font-size: 24pt;
-      font-weight: bold;
+      width: $size;
+      min-width: $size;
+      min-height: $size;
+      padding: 0 !important;
       margin: 0;
-      padding: 3ch calc(#{$MARGIN_CALC});
-      font-weight: bold;
-      position: relative;
-      color: white;
-      @include stroke(1px, rgba(0,0,0,0.2));
-
-      $BAR_HEIGHT: "(4em + 4*3ch)"; // TODO
-      $FIRST_BAR_HEIGHT: "(1em + 2*3ch)";
-      $ICON_HEIGHT: "(#{$BAR_HEIGHT}/1.5)";
-
-      &:nth-of-type(3) {
-        &::after, &::before {
-          background-position-y: calc((#{$BAR_HEIGHT} - #{$ICON_HEIGHT}) / 2 + 5px); //yolo
-        }
-      }
-
-      &:nth-of-type(4) {
-        &::after, &::before {
-          background-position-y: calc((#{$BAR_HEIGHT} - #{$ICON_HEIGHT}) / 2 - #{$FIRST_BAR_HEIGHT});
-        }
-
-        margin-bottom: 1em;
-      }
-
-      &::after, &::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
-
-        background-size: calc(#{$ICON_HEIGHT});
-        background-repeat: no-repeat;
-      }
-
-      &::after {
-        left: 50%;
-        right: 0;
-        background-color: $COLOR;
-        @include inline-svg($HIGHLIGHT, $DATABASE_SVG);
-        background-position-x: calc(-1 * #{$ICON_HEIGHT}/2 + 11px);
-      }
-
-      &::before {
-        left: 0;
-        right: 50%;
-        background-color: $HIGHLIGHT;
-        @include inline-svg($COLOR, $DATABASE_SVG);
-        background-position-x: calc(100% + #{$ICON_HEIGHT}/2 + 1px);
-      }
+      align-self: stretch;
+      background-size: $size 100%;
+      background-image: inline-svg(
+        '<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="141.91602" height="133.70395" viewBox="0 0 141.91602 133.70395"> <style type="text/css">*{stroke: #{expand-color($LIGHT_GREEN)}; stroke-width:21.16666603; stroke-linecap:round}</style> <path d="M 10.734066,10.58439 H 131.18195" /> <path d="M 10.734066,123.11955 H 131.18195" /> <path d="M 10.734066,66.85197 H 131.18195" /> </svg>'
+      );
+      background-repeat: no-repeat;
     }
 
-    > p > a[href^="mailto"] {
-      display: table;
-      margin: 0 auto;
-      text-decoration: none;
-
-      border: outset $COLOR 1px;
-      border-radius: 5px;
-      background-color: $COLOR;
-      padding: 1ch 3ch;
-      color: white;
-      font-weight: bold;
-      font-family: sans-serif;
-      font-size: 18pt;
-      text-decoration: none;
-      cursor: pointer;
-      @include stroke(1px, rgba(0,0,0,0.2));
-
-      &:active {
-        border-style: inset;
-      }
-
-      &::after {
-        content: '\0279C';
-        padding-left: 1ch;
-      }
-    }
-
-    section {
-      @include expand-to-window();
-      padding-bottom: 1em;
-
-      time {
-        font-weight: bold;
-        float: left;
-        margin-right: 1ch;
-      }
-
-      img {
-        max-height: 110px;
-        margin-right: 4ch;
-        float: left;
-      }
-
-      h3 {
-        font-size: 150%;
-      }
-    }
-  }
-
-  $CONTRACTED_HEIGHT: 14.4em;
-  &[data-title=""] main section {
-    overflow: hidden;
-    max-height: $CONTRACTED_HEIGHT;
-    position: relative;
-    transition: max-height 0.7s ease-out;
-
-    .client {
-      display: inline;
-      border: 2px solid $HIGHLIGHT;
-      padding: 0.5ch;
-    }
-
-    &:hover {
-      max-height: $CONTRACTED_HEIGHT + 1em;
-
-      a[href^="#"] {
-        top: $CONTRACTED_HEIGHT - 6em + 1em;
-      }
-    }
-
-    &:target {
-      max-height: none;
-
-      a[href^="#"] {
-        display: none;
-      }
-    }
-
-    a[href^="#"] {
-      display: block;
-      position: absolute;
-      top: $CONTRACTED_HEIGHT - 6em;
-      height: 2em;
-      left: 0;
-      right: 0;
-
-      text-align: right;
-      padding-right: calc(#{$MARGIN_CALC});
-      padding-top: 3em;
-
-      box-shadow: inset 0px -7em 55px -44px $BACKGROUND_COLOR;
-      outline: 0;
-      transition: top 0.7s ease-out;
-
-      &::after {
-        content: "Read more";
-      }
-    }
-
-    &:nth-of-type(odd) {
-      background-color: white;
-
-      a[href^="#"] {
-        box-shadow: inset 0px -7em 55px -44px white;
-      }
-    }
-  }
-
-  footer {
-    display: block;
-    padding-top: 2ch;
-    padding-bottom: 2ch;
-    @include vertical-gradient(gray, darken(gray, +5%));
-    @include expand-to-window();
-    color: white;
-    font-size: 10pt;
-    margin: 2ch auto 0;
-
-    &::after {
-      content: " Icons by Perxis (linearicons.com) used under CC BY-SA 4.0";
+    &:target a[href='##{$id}'] {
+      display: none;
     }
   }
 }
+
+body {
+  width: 100%;
+  margin: 0;
+  background: white;
+  color: $TEXT_GREEN;
+  font-family: $BODYTEXT;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: $HEADLINE;
+  color: $DARK_GREEN;
+  font-size: 44px;
+  letter-spacing: -1px;
+  margin-top: $COLUMN_SIZE;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: $SUBHEADS;
+  font-weight: bold;
+  color: $DARK_GREEN;
+}
+
+a {
+  color: inherit;
+}
+
+[role~='button'] {
+  display: inline-block;
+  padding: $COLUMN_GAP/2 $COLUMN_GAP;
+  background: $DARK_GREEN;
+  color: white;
+  font-weight: bold;
+  border-radius: $COLUMN_GAP * 2;
+  text-decoration: none;
+}
+
+#menu {
+  background: $DARK_GREEN;
+  color: $LIGHT_GREEN;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: $COLUMN_GAP * 2 $COLUMN_GAP;
+  @include expand-to-window();
+  @include mobile-menu-button('menu', $COLUMN_GAP * 1.5);
+
+  a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  [role~='button'] {
+    background: $LIGHT_GREEN;
+    color: $DARK_GREEN;
+  }
+
+  > * {
+    flex-grow: 0;
+    margin-right: 2ch;
+
+    &:first-child {
+      margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: $HIDE_MENU) {
+    &:not(:target) > *:not(:first-child) {
+      display: none;
+    }
+    &:target {
+      flex-direction: column;
+      align-items: start;
+
+      > * { margin-bottom: $COLUMN_GAP; }
+    }
+  }
+
+  #logo {
+    width: columns(2.5);
+    display: flex; // alignment fix
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+main {
+  max-width: $BODY_SIZE;
+  margin: 0 auto;
+
+  @media screen and (max-width: #{960px + 2*$COLUMN_GAP}) {
+    margin: auto $COLUMN_GAP;
+  }
+}
+
+header, footer, header *, footer * {
+  background: $DARK_GREEN;
+  color: white;
+
+  @media screen and (max-width: $BODY_SIZE) {
+    overflow: hidden;
+
+    svg {
+      margin: 0 -50%;
+      min-height: 33vh;
+    }
+  }
+}
+
+header.report {
+  @include expand-to-window();
+  padding-top: $COLUMN_SIZE;
+  padding: $COLUMN_SIZE calc((100% - 720px)/2);
+  margin-bottom: $COLUMN_SIZE;
+  position: relative;
+
+  h1 {
+    font-size: 65px;
+    margin-top: 0;
+  }
+}
+
+article, aside {
+  margin: 0 auto;
+  max-width: 720px;
+
+  h1 {
+    font-size: 65px;
+    line-height: 1.1;
+    margin-bottom: 0.5em;
+  }
+
+  .client {
+    margin-bottom: 2em;
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: #{720px + 2*$COLUMN_GAP}) {
+    margin: 0 $COLUMN_GAP;
+  }
+}
+
+.license {
+  font-style: italic;
+}
+
+#markdown-toc {
+  padding: $COLUMN_GAP $COLUMN_GAP*2;
+  border: 1px solid $DARK_GREEN;
+}
+
+.sharezone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+
+  :first-child {
+    margin-left: auto;
+  }
+
+  a {
+    margin-left: 10px;
+    border-radius: 3em;
+    text-indent: 100%;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    background-color: $DARK_GREEN;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    &[href^="https://www.twitter.com/intent/tweet"] {
+      background-image: url({{ "/images/Twitter_Logo.svg" | prepend: site.baseurl }});
+    }
+
+    &[href^="https://facebook.com/sharer"] {
+      background-image: url({{ "/images/Facebook_Logo.png" | prepend: site.baseurl }});
+    }
+
+    &[href^="https://linkedin.com/shareArticle"] {
+      background-image: url({{ "/images/LinkedIn_Logo.svg" | prepend: site.baseurl }});
+    }
+  }
+}
+
+.biog {
+  display: grid;
+  grid-template-columns: 1*$COLUMN_SIZE 5fr;
+  grid-column-gap: 2*$COLUMN_GAP;
+  grid-row-gap: 1em;
+  margin-top: 3*$COLUMN_GAP;
+  padding: 2*$COLUMN_GAP;
+  background: $LIGHT_GREEN;
+
+  * {
+    margin: 0;
+  }
+
+  @media screen and (max-width: $HIDE_LOGO) {
+    grid-template-columns: 100%;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+    grid-column: 1;
+    grid-row: span 4;
+
+    @media screen and (max-width: $HIDE_LOGO) {
+      width: $COLUMN_SIZE;
+    }
+  }
+
+  span {
+    font-weight: bold;
+    font-size: 130%;
+  }
+
+  @media screen and (min-width: $HIDE_LOGO) {
+    span, p {
+      grid-column: 2;
+    }
+  }
+}
+
+.highlight {
+  background: $LIGHT_GREEN;
+  color: $DARK_GREEN;
+}
+
+// Front-page
+section {
+  display: grid;
+  grid-template-columns: repeat(12, $COLUMN_SIZE);
+  grid-column-gap: $COLUMN_GAP;
+  grid-row-gap: 1em;
+  margin-top: 3*$COLUMN_GAP;
+
+  @media screen and (max-width: $BODY_SIZE) {
+    grid-template-columns: repeat(2, 1fr);
+
+    > * {
+      grid-column: span 1 !important;
+    }
+  }
+
+  @media screen and (max-widtH: $BODY_SIZE * 0.66) {
+    grid-template-columns: 100%;
+  }
+}
+
+#top {
+  margin-top: $COLUMN_SIZE;
+
+  img {
+    width: 100%;
+    height: 100%;
+    grid-column: span 5;
+    grid-row: span 2;
+  }
+
+  h1 {
+    line-height: 1em;
+  }
+
+  h1, h2 {
+    margin: 0;
+    grid-column: 7 / span 6;
+  }
+
+  p {
+    margin: 0;
+    grid-column: span 12;
+
+    [role~=button] {
+      margin-left: 1ch;
+    }
+  }
+}
+
+#logos {
+  grid-auto-rows: 160px;
+
+  img {
+    grid-column: span 4;
+    height: 100%;
+  }
+}
+
+#registers {
+  padding: $COLUMN_SIZE 0;
+  margin-top: $COLUMN_SIZE;
+  position: relative;
+
+  @media screen and (max-width: $BODY_SIZE) {
+    padding: $COLUMN_SIZE/2;
+  }
+
+  h1 {
+    margin: 0;
+    grid-column: 2 / -2;
+  }
+
+  [role~='button'] {
+    position: absolute;
+    right: columns(2.5);
+    bottom: 9em;
+
+    @media screen and (max-width: $BODY_SIZE) {
+      right: $COLUMN_GAP;
+      bottom: $COLUMN_GAP;
+    }
+  }
+
+  .window {
+    $VERT_PAD: $COLUMN_GAP;
+    $HORZ_PAD: $COLUMN_GAP * 2;
+
+    grid-column: 3 / span 7;
+    border: 5px solid $DARK_GREEN;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: $VERT_PAD $HORZ_PAD;
+
+    font-size: 86%;
+    line-height: 28px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: calc(100% + #{$HORZ_PAD});
+      height: 25px;
+      position: relative;
+      left: -5px - $HORZ_PAD;
+      top: -$VERT_PAD;
+      border-bottom: inherit;
+      background-size: auto 80%;
+      background-repeat: no-repeat;
+      background-position-y: 100%;
+      background-image: inline-svg(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="155" height="45" viewBox="0 0 155 45" version="1.1"><style>rect{fill:#{expand-color($LIGHT_GREEN)}} circle{fill:white}</style> <rect width="20" height="25" x="0" y="20" /> <circle cx="45" cy="15" r="15" /> <circle cx="90" cy="15" r="15" /> <circle cx="135" cy="15" r="15" /> </svg>'
+      );
+    }
+
+    > * {
+      max-width: columns(5);
+    }
+
+    > svg {
+      max-width: columns(3);
+    }
+  }
+}
+
+.projects {
+  display: block;
+  grid-column: span 4;
+  height: $COLUMN_SIZE * 4;
+  padding: $COLUMN_GAP;
+  text-decoration: none;
+  position: relative;
+
+  &:nth-child(4n + 1) { background-color: $ILLUS_RED; }
+  &:nth-child(4n + 2) { background-color: $ILLUS_ORANGE; }
+  &:nth-child(4n + 3) { background-color: $ILLUS_PURPLE; }
+  &:nth-child(4n + 4) { background-color: $ILLUS_BLUE; }
+  &:nth-child(2n + 1) h2 { color: white; }
+
+  a {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+    font-family: $HEADLINE;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: normal;
+  }
+
+  h4 {
+    margin: 0;
+    position: absolute;
+    bottom: $COLUMN_GAP;
+  }
+}
+
+.client {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 130%;
+}
+
+footer {
+  @include expand-to-window();
+  min-height: 20vh;
+  padding-top: 3*$COLUMN_GAP;
+  padding-bottom: 3*$COLUMN_GAP;
+  margin-top: 3*$COLUMN_GAP;
+
+  *, h2, h3 {
+    color: white;
+  }
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  > * {
+    float: left;
+  }
+
+  img {
+    width: 200px;
+    max-width: 75%;
+  }
+
+  nav {
+    display: flex;
+    float: right;
+
+    @media screen and (max-width: 690px) {
+      float: left;
+      flex-direction: column;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    > * {
+      width: 200px;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+// What we do
+#services {
+  grid-template-columns: 100% !important;
+  grid-row-gap: 3 * $COLUMN_GAP;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(12, #{$COLUMN_SIZE});
+  grid-column-gap: $COLUMN_GAP;
+  grid-row-gap: $COLUMN_GAP;
+
+  @media screen and (max-width: $BODY_SIZE) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  @media screen and (max-width: $HIDE_LOGO) {
+    grid-template-columns: 100%;
+
+    > * {
+      grid-column: span 1 !important;
+    }
+  }
+
+  h2 {
+    font-size: 200%;
+  }
+
+  h3 {
+    font-size: 140%;
+    font-weight: normal;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  img {
+    max-height: none !important;
+    grid-row: 1 / span 5;
+  }
+
+  $IMG_WIDTH: 4;
+
+  &:nth-of-type(odd) {
+    *   { grid-column: #{$IMG_WIDTH + 2} / -1; }
+    img { grid-column: 1 / span #{$IMG_WIDTH}; }
+  }
+
+  &:nth-of-type(even) {
+    *   { grid-column: 1 / -#{$IMG_WIDTH + 2}; }
+    img { grid-column: span #{$IMG_WIDTH} / -1; }
+  }
+}
+
+#posts > * {
+  grid-column: span 4;
+}
+
+.post img {
+  max-width: 100%;
+  max-height: 220px;
+  margin: 0 auto;
+  display: block;
+}
+
+#insights {
+  > h2:first-of-type {
+    grid-column: 1 / 8;
+    grid-row: 1;
+  }
+
+  @media screen and (max-width: $HIDE_LOGO) {
+    grid-template-columns: 100%;
+
+    > h2 {
+      grid-row: auto !important;
+    }
+  }
+
+  #posts {
+    margin-top: 0;
+    grid-column: 1 / 8;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3*$COLUMN_GAP;
+    grid-row-gap: 3*$COLUMN_GAP;
+
+    @media screen and (max-width: $HIDE_LOGO) {
+      grid-template-columns: 100%;
+    }
+
+    > * {
+      grid-column: span 1;
+    }
+  }
+
+  > h2:last-of-type {
+    grid-column: 9 / -1;
+    grid-row: 1;
+  }
+
+  [id=""] {
+    margin-top: 0;
+    grid-column: 8 / -1;
+    grid-template-columns: repeat(1, 1fr);
+
+    @media screen and (min-width: $HIDE_LOGO) {
+      border-left: 2px solid $DARK_GREEN;
+      padding-left: $COLUMN_SIZE/2 + $COLUMN_GAP;
+      margin-left:  $COLUMN_SIZE/2;
+    }
+  }
+}
+
+// Reports
+[data-collection='data-trusts'] {
+  #menu :not(:first-child), #menu [href="#menu"] {
+    display: none;
+  }
+
+  #toplink {
+    position: absolute;
+    font-weight: bold;
+    right: calc(#{$RELATIVE_MARGIN_CALC});
+    top: -$COLUMN_SIZE;
+  }
+
+  h2 {
+    margin-top: 3em;
+  }
+
+  section {
+    padding: 2*$COLUMN_GAP;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 5px solid transparent;
+
+    h2 {
+      font-family: $HEADLINE;
+      margin: -2*$COLUMN_GAP -2*$COLUMN_GAP $COLUMN_GAP;
+      padding: 2*$COLUMN_GAP;
+
+      grid-column: span 2;
+      font-size: 250%;
+    }
+
+    @mixin block-color($index, $color) {
+      &:nth-of-type(4n+#{$index}) {
+        border-color: $color;
+        h2 { background: $color; }
+      }
+    }
+
+    @include block-color(1, $ILLUS_ORANGE);
+    @include block-color(2, $ILLUS_PURPLE);
+    @include block-color(3, $ILLUS_BLUE);
+    @include block-color(4, $ILLUS_RED);
+
+    &:nth-of-type(even) h2 {
+      color: white;
+    }
+  }
+}
+
+[itemprop='author'], time {
+  font-weight: bold;
+  font-size: 12pt;
+  margin-right: 2.5ch;
+
+  &::after {
+    padding-left: 3ch;
+    font-size: 60%;
+    vertical-align: super;
+  }
+}
+
+// {% include fonts.css %}

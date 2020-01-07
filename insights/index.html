@@ -1,0 +1,20 @@
+---
+title: Insights
+layout: default
+publications:
+- collection: data-trusts
+  slug: index
+---
+<main>
+  <h1>Insights</h1>
+
+  Welcome to Register Dynamics Insights! Here we aim to keep you up to date with the latest news, reports and findings from the Register Dynamics team. We will be sharing what we can with you about the work we do with data in government and what we’re learning from it.
+
+  <section id=insights>
+    <h2>Latest articles</h2>
+    {% include listing.html source="posts" %}
+
+    <h2>Featured publications</h2>
+    {% include listing.html list=page.publications %}
+  </section>
+</main>

@@ -1,57 +1,59 @@
 ---
 layout: default
+logos:
+  - name: GDS_logo.png
+    alt: Government Digital Service
+  - name: MOJ_logo.png
+    alt: Ministry of Justice
+  - name: defra_logo.svg
+    alt: Department for Environment Food & Rural Affairs
+  - name: knodium_logo.png
+    alt: Knodium
+  - name: "Office for AI logo.png"
+    alt: Office for Artificial Intelligence
+  - name: desmog_logo.jpg
+    alt: DeSmog UK
 ---
-<h2>
-  <span>Stop getting stuck with</span><br/>
-  <span>the "next big thing".</span>
-</h2>
-
-<h2>
-  <span>Start getting</span><br/>
-  <span>value from your data.</span>
-</h2>
+<header>
+  {% include illustration-seethebigpicture.svg %}
+</header>
 
 <main>
-  <p>
-    Your engineering team is amazing,
-    but they don't know how your
-    business needs to use data.
-  </p>
+<section id=top>
+  <img src='{{ "Combination.svg" | prepend: "images/" | prepend: site.baseurl }}'>
+  <h1>We develop new technology, frameworks and models to support better use of data.</h1>
+  <h2>We are a team of data strategists and technologists supporting organisations in the public and private sectors to embed best practises in data.</h2>
+  <p>Our specialisms are in emerging technologies (such as data trusts and personal data exchange), and linked reference data.</p>
+  <p>Our mission is to instil best practises in data within government and to make data truly useful for everyone.</p>
+  <p>Need help with data? <a role="button" href='mailto:hello@register-dynamics.co.uk'>Let's Talk</a></p>
+</section>
 
-  <p>
-    Your business team is amazing,
-    but they don't know how your
-    data can help them.
-  </p>
-
-  <p>We bridge the gap.</p>
-
-  <p>
-    We develop strategies and products<br/>
-    that let you use your data<br/>
-    to strengthen your business.
-  </p>
-
-  <p>Register Dynamics works with companies and governments to apply their data usefully, responsibly and ethically. Our expertise ranges from tiny  telemetry systems with one or two stakeholders up to database clusters with thousands of nodes used by several business units.</p>
-
-  <p>We identify areas where organisations aren't using data effectively, develop a strategy to fix this, and carry it out with help from specialist data technology.</p>
-
-  <p><a href="mailto:hello@register-dynamics.co.uk">Get in touch</a></p>
-
-  <h3 id="work">What we've done for our users</h3>
-
-  {% for name in site.order %}
-  {% assign project = site.projects | where: 'slug', name | first %}
-  <section id="{{ project.slug }}">
-    <h3>{{ project.title }}</h3>
-    {% if project.client %}
-      <h4 class="client">{{ project.client }}</h4>
-    {% endif %}
-    <h4>We used {{ project.data | downcase }} to help {{ project.application | downcase }}.</h4>
-    {{ project.content }}
-    <a href="#{{ project.slug }}"></a>
-  </section>
+<h1>Who we work with</h1>
+<section id=logos>
+  {% for logo in page.logos %}
+  <img src='{{ logo.name | prepend: "images/" | prepend: site.baseurl }}' alt='{{ logo.alt }}'>
   {% endfor %}
+</section>
 
-  <p><a href="mailto:hello@register-dynamics.co.uk">Get in touch</a></p>
+<section id=registers class=highlight>
+  <h1>
+    Need a home for your data?<br>
+    We've got a service for that too.
+  </h1>
+  <div class=window>
+    {% include registers-logo.svg %}
+    <h2>
+      A digital service for creating, maintaining and sharing
+      linked reference data with accuracy and ease, made by us.
+    </h2>
+  </div>
+  <a role=button href="https://registers.app">Find out more</a>
+</section>
+
+<h1>What we've done for our users</h1>
+{% include listing.html source="projects" template="project.html" limit=6 %}
+
+<h1>Our latest insights</h1>
+{% include listing.html source="posts" limit=3 %}
+
 </main>

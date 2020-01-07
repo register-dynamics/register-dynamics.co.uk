@@ -3,8 +3,8 @@ layout: default
 ---
 {% assign collection = site.collections | where: "label", page.collection | first %}
 
-<header>
-  <h2 style="font-size: 58pt">{{ page.title }}</h2>
+<header class=report>
+  <h1 style="font-size: 65pt">{{ page.title }}</h1>
   <h3 id="byline">A report by <a href="{{ site.url }}">Register Dynamics</a> &bull; {{ page.date | date: "%d %B %Y" }}</h3>
   <a id="toplink" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 </header>

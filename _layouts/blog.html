@@ -9,7 +9,7 @@ layout: default
 
 
 <article>
-  <h2>{{ page.title }}</h2>
+  <h1>{{ page.title }}</h1>
   {% for pageauthor in authors %}
     {% for author in site.authors %}
       {% if author.title == pageauthor %}
@@ -18,13 +18,16 @@ layout: default
     {% endfor %}
   <a href="{{ biog.url | prepend: site.baseurl }}" itemprop="author">{{ pageauthor }}</a>
   {% endfor %}
-  <time>{{ page.date | date: '%d %B %Y' }}</time>
-  {{ page.content }}
+  {% if page.date %}
+    <time>{{ page.date | date: '%d %B %Y' }}</time>
+  {% endif %}
+  {{ content }}
 </article>
 
 <aside>
   <div class="sharezone">
-    <span>Share this post:</span>
+    {% assign len = page.collection | size | minus: 1 %}
+    <span>Share this {{ page.collection | slice: 0, len }}:</span>
     <a href="https://linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.url | url_encode }}" target="_blank">LinkedIn</a>
     <a href="https://www.twitter.com/intent/tweet?url={{ page.url | prepend: site.url | url_encode }}&via={{ site.twitter.username }}" target="_blank">Twitter</a>
     <a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url | url_encode }}" target="_blank">Facebook</a>
@@ -38,11 +41,7 @@ layout: default
   {% endfor %}
 
   {% if biog.content %}
-  <div class="biog">
-    <img src="{{ biog.image | prepend: '/' | prepend: site.baseurl }}"/>
-    <span>{{ pageauthor }}</span>
-    {{ biog.content | markdownify }}
-  </div>
+    {% include biog.html %}
   {% endif %}
 {% endfor %}
 

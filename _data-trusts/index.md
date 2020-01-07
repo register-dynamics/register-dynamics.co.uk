@@ -1,10 +1,10 @@
 ---
 title: Putting the trust in data trusts
 layout: report-index
-image: "images/data-trusts-preview.jpg"
+image: "images/Data-trust-social-card.png"
 excerpt: |
   In order to be able to offer compelling advantages, the control and enforcement powers that data trusts have needs to be high enough that misusing the data in trust is prohibitively difficult. By examining case studies in audit technology, our purpose is to show that cost-effective strong auditing is possible today and encourage others to build things that reduce the cost further in the future.
-  
+
   ![Open Data Institute](/images/odi-logo.svg)
 menu:
   Case studies:
@@ -16,9 +16,9 @@ menu:
     - realising-external-audit
 acknowledgements: |
   This report was produced as part of a [data trusts project](http://theodi.org/data-trusts) funded by the UK Government's [Office for Artificial Intelligence](https://twitter.com/OfficeForAI) and [Innovate UK](https://www.gov.uk/government/organisations/innovate-uk). It builds on research from the ODI's Innovation programme funded by Innovate UK. The views in this report are those of the authors.
-  
+
   We would like to thank [Rachel Wilson](https://uk.linkedin.com/in/rachel-wilson-739b2630), [Olivier Thereaux](https://twitter.com/olivierthereaux), [Celia Killen](https://twitter.com/celiakillen) and [Peter Wells](https://twitter.com/peterkwells) for their feedback and support.
-  
+
   ![Open Data Institute](/images/odi-logo.svg)
 licenses:
   - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."

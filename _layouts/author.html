@@ -2,17 +2,14 @@
 layout: default
 ---
 <main>
-<aside>
-<h2>{{ page.title }}</h2>
-{% if page.image %}
-  <img src="{{ page.image | prepend: '/' | prepend: site.baseurl }}"/>
-{% endif %}
-{{ content }}
-<aside>
+{% assign biog = page %}
+{% include biog.html %}
 
-<h3>Blogs</h3>
+<h2>Blogs</h2>
+<section id=posts>
 {% assign posts = site.posts | where: "author", page.title %}
 {% for post in posts %}
   {% include post.html %}
 {% endfor %}
+</section>
 </main>

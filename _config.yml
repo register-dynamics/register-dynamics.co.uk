@@ -1,18 +1,23 @@
 title: Register Dynamics
 description: |
-  Register Dynamics works with companies and governments to apply their data usefully,
-  responsibly and ethically. Our expertise ranges from tiny telemetry systems with
-  one or two stakeholders up to database clusters with thousands of nodes used by
-  several business units.
+  Register Dynamics is a team of data strategists and technologists supporting government to embed best practises in data.
+  We develop new technology, frameworks and operational models to support the better use of data both in the public and private sectors.
+baseurl: ""
 url: https://www.register-dynamics.co.uk
 logo: "images/logo-2.png"
 
 plugins:
 - jekyll-seo-tag
+- jekyll-feed
+- jekyll-sitemap
+
+sass:
+  style: compressed
 
 collections:
   projects:
-    output: no
+    output: yes
+    permalink: /case-studies/:title
   posts:
     output: yes
     permalink: /blog/:title
@@ -20,8 +25,16 @@ collections:
     output: yes
   authors:
     output: yes
+  services:
+    output: no
 
 defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      date: 2016-02-24 00:00:00
   - scope:
       path: ""
       type: posts
@@ -45,14 +58,6 @@ defaults:
       authors:
         - Andy Bennett
         - Simon Worthington
-
-order:
-- personal-data-exchange
-- open-registers
-- wwi-archive
-- payroll-analytics
-- knodium
-- geniedb
 
 twitter:
   username: RegDyn
