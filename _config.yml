@@ -29,6 +29,8 @@ collections:
     output: no
 
 defaults:
+  - values:
+      image: "images/logo-slide.png"
   - scope:
       path: ""
       type: projects
