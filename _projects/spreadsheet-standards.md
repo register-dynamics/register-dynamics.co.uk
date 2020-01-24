@@ -1,5 +1,5 @@
 ---
-title: User-friendly standards for Goverment spreadsheets
+title: User-friendly standards for Government spreadsheets
 client: Government Digital Service
 date: 2019-06-01
 excerpt: |

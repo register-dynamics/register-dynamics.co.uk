@@ -5,6 +5,7 @@ data: Student engagement metrics
 application: Support students likely to drop out
 excerpt: |
   We extended Knodium's platform to capture data from student communities and created data workflows to structure the data for easy analysis. This included displaying student interactions based on social groups and let universities help prevent student drop-out and understand risks.
+video: "https://www.youtube-nocookie.com/embed/gOPuWi-dbQg"
 ---
 Knodium works with universities to offer collaboration tools for students. Founded in 2012, it hopes to grow its network to over 120 institutions around the globe so that students anywhere can study together online using their open collaboration platform.
 
