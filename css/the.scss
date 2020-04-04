@@ -112,7 +112,7 @@ h1 {
   color: $DARK_GREEN;
   font-size: 44px;
   letter-spacing: -1px;
-  margin-top: $COLUMN_SIZE;
+  margin-top: $COLUMN_SIZE*2;
 }
 
 h2, h3, h4, h5, h6 {
@@ -231,6 +231,7 @@ article, aside {
     font-size: 65px;
     line-height: 1.1;
     margin-bottom: 0.5em;
+    margin-top: $COLUMN_SIZE;
   }
 
   .client {
@@ -343,7 +344,7 @@ section {
   grid-template-columns: repeat(12, $COLUMN_SIZE);
   grid-column-gap: $COLUMN_GAP;
   grid-row-gap: 1em;
-  margin-top: 3*$COLUMN_GAP;
+  margin-top: $COLUMN_SIZE;
 
   @media screen and (max-width: $BODY_SIZE) {
     grid-template-columns: repeat(2, 1fr);
@@ -359,7 +360,8 @@ section {
 }
 
 #top {
-  margin-top: $COLUMN_SIZE;
+  margin-top: $COLUMN_SIZE * 1.5;
+  grid-row-gap: 2em;
 
   img {
     width: 100%;
@@ -369,17 +371,17 @@ section {
   }
 
   h1 {
-    line-height: 1em;
+    line-height: 1.1em;
   }
 
-  h1, h2 {
+  h1, h2, p {
     margin: 0;
     grid-column: 7 / span 6;
   }
 
   p {
     margin: 0;
-    grid-column: span 12;
+    font-size: 120%;
 
     [role~=button] {
       margin-left: 1ch;
@@ -388,17 +390,19 @@ section {
 }
 
 #logos {
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 4em;
   grid-auto-rows: 160px;
 
   img {
-    grid-column: span 4;
-    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
   }
 }
 
 #registers {
   padding: $COLUMN_SIZE 0;
-  margin-top: $COLUMN_SIZE;
+  margin-top: $COLUMN_SIZE*2;
   position: relative;
 
   @media screen and (max-width: $BODY_SIZE) {
