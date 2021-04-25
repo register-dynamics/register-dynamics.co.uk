@@ -112,7 +112,7 @@ h1 {
   color: $DARK_GREEN;
   font-size: 44px;
   letter-spacing: -1px;
-  margin-top: $COLUMN_SIZE*2;
+  margin-top: $COLUMN_SIZE;
 }
 
 h2, h3, h4, h5, h6 {
@@ -609,7 +609,7 @@ footer {
   }
 }
 
-#posts > * {
+section > .post {
   grid-column: span 4;
 }
 

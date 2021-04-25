@@ -27,6 +27,8 @@ collections:
     output: yes
   services:
     output: no
+  jobs:
+    output: yes
 
 defaults:
   - values:
@@ -60,6 +62,12 @@ defaults:
       authors:
         - Andy Bennett
         - Simon Worthington
+  - scope:
+      path: ""
+      type: jobs
+    values:
+      seo:
+        type: JobPosting
 
 twitter:
   username: RegDyn
