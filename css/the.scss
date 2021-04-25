@@ -607,6 +607,21 @@ footer {
     *   { grid-column: 1 / -#{$IMG_WIDTH + 2}; }
     img { grid-column: span #{$IMG_WIDTH} / -1; }
   }
+
+  time {
+    display: none;
+  }
+}
+
+.authors {
+  img {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  time {
+    display: none;
+  }
 }
 
 section > .post {
