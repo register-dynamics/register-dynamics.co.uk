@@ -729,4 +729,34 @@ section > .post {
   }
 }
 
-// {% include fonts.css %}
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+@mixin font($family, $variant, $weight, $style) {
+  @font-face {
+      font-family: $family;
+      font-weight: $weight;
+      font-style: $style;
+      src: {% for type in site.data.fonttypes -%}
+        url('#{to-lower-case(str-replace($family, ' ', ''))}-#{to-lower-case($variant)}.{{ type.ext }}') format('{{ type.format }}'),
+      {%- endfor %};
+      font-display: swap;
+  }
+}
+
+{% for font in site.data.fonts %}
+{% if font.bold %}
+@include font('{{ font.name }}', 'bold', 'bold', 'normal');
+{% endif %}
+{% if font.italic %}
+@include font('{{ font.name }}', 'italic', 'normal', 'italic');
+{% endif %}
+@include font('{{ font.name }}', 'regular', 'normal', 'normal');
+{% endfor %}
