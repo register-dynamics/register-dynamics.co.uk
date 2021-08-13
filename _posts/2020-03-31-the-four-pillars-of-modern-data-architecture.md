@@ -5,7 +5,7 @@ excerpt: |
 authors:
   - Simon Worthington
   - Andy Bennett
-image: "images/four-pillars.jpg"
+image: "four-pillars.jpg"
 licenses:
   - "\"Four\" image by [Not So Dusty](https://www.flickr.com/photos/harryh1882/32070099588) used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)."
 ---

@@ -1,7 +1,7 @@
 ---
 title: Legal trust + technical trust = data trusts
 author: Andy Bennett
-image: "images/system-lock.jpg"
+image: "system-lock.jpg"
 excerpt: |
   Technical trust and legal trust are both insufficient by themselves
   to ensure protection of valuable data. Instead we need a vehicle that
@@ -12,7 +12,7 @@ licenses:
   - "\"System lock\" image by [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/) used under CC-BY 3.0."
 ---
 
-<img src="/images/system-lock.jpg">
+![System lock](/images/system-lock.jpg)
 
 Society demands a certain amount of transparency and [auditability over
 financial matters](https://www.gov.uk/guidance/audit-accounting-and-reporting-guidance-for-uk-companies#company-reporting).

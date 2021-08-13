@@ -1,6 +1,6 @@
 ---
 title: Data Management Tools
-image: "images/Delivery.svg"
+image: "Delivery.svg"
 ---
 ### Do you have data sets that you don’t know what to do with? Are you looking for a one-stop-solution for managing your data?
 

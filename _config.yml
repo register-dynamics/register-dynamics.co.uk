@@ -32,7 +32,7 @@ collections:
 
 defaults:
   - values:
-      image: "images/logo-slide.png"
+      image: "logo-slide.png"
   - scope:
       path: ""
       type: projects
@@ -56,7 +56,7 @@ defaults:
       permalink: /data-trusts/:title:output_ext
       layout: report-article
       date: 2019-04-14 00:00:00
-      image: images/logo-2.png
+      image: "logo-2.png"
       seo:
         type: Report
       authors:

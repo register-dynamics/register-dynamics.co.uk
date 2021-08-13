@@ -1,7 +1,7 @@
 ---
 title: Personal data in Government is broken
 author: Simon Worthington
-image: "images/Personal data in Government is broken 3 - citizens expect joined up government.png"
+image: "Personal data in Government is broken 3 - citizens expect joined up government.png"
 excerpt: |
   Something is very wrong with personal data in Government. Citizens still submit their personal data using paper and pictures of letters, and services bear the burden of low-quality evidence. Why isn't Government more joined up in it's data sharing, what are the dangers, and how do we solve this problem once and for all?
 ---

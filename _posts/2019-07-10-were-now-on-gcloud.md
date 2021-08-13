@@ -1,7 +1,7 @@
 ---
 title: Registers.app is now on G-Cloud
 author: Simon Worthington
-image: "images/registers-app-linked-reference-data-platform.png"
+image: "registers-app-linked-reference-data-platform.png"
 excerpt: |
   Our Register-based products and services are now available on G-Cloud, a public sector procurement framework offered by Crown Commercial Service. Public sector buyers can unlock the benefits of canonical data management more easily than ever before!
 ---

@@ -1,5 +1,5 @@
 <div class="biog">
-  <img src="{{ biog.image | prepend: '/' | prepend: site.baseurl }}"/>
+  {% include image.html src=biog.image %}
   <span>{{ biog.title }}</span>
   {{ biog.content | markdownify }}
 </div>

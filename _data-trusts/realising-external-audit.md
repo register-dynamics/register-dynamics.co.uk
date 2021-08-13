@@ -2,7 +2,7 @@
 title: "The ledger: realising the benefits of external audit"
 excerpt: |
   Allowing data held in trust to be externally audited provides the hard evidence necessary for the enforcement of contracts and reputational benefits that can improve the data sharing ecosystem. But how does external auditing actually work, what information does it require, and how can it be applied to data?
-image: "images/ledger.jpg"
+image: "ledger.jpg"
 licenses:
   - "\"Ledger\" image by [George Redgrave](https://www.flickr.com/photos/funfilledgeorgie/) used under [CC BY-ND 2.0](https://creativecommons.org/licenses/by-nd/2.0/)."
   - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."

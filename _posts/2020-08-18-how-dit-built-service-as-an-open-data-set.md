@@ -1,7 +1,7 @@
 ---
 title: How DIT built a service as an open dataset
 author: Simon Worthington
-image: "images/DIT_global_tariff-620x413.png"
+image: "DIT-huddle-in-office.png"
 location: https://dataingovernment.blog.gov.uk/2020/08/18/how-dit-have-built-a-service-as-an-open-data-set/
 layout: redirect
 excerpt: |

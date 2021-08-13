@@ -1,18 +1,12 @@
 ---
 layout: default
 logos:
-  - name: GDS_logo.png
-    alt: Government Digital Service
-  - name: MOJ_logo.png
-    alt: Ministry of Justice
-  - name: defra_logo.svg
-    alt: Department for Environment Food & Rural Affairs
-  - name: desmog_logo.jpg
-    alt: DeSmog UK
-  - name: "Office for AI logo.png"
-    alt: Office for Artificial Intelligence
-  - name: knodium-logo.svg
-    alt: Knodium
+  - GDS_logo.png
+  - MOJ_logo.png
+  - defra_logo.svg
+  - desmog_logo.jpg
+  - "Office for AI logo.png"
+  - knodium-logo.svg
 ---
 <header>
   {% include illustration-seethebigpicture.svg %}
@@ -20,7 +14,7 @@ logos:
 
 <main>
 <section id=top>
-  <img src='{{ "Combination.svg" | prepend: "images/" | prepend: site.baseurl }}'>
+  <img src='{{ "Combination.svg" | prepend: "images/" | prepend: site.baseurl }}' alt="Image of database cylinder connected to a big bald head and a cube">
   <h1>We develop new technology, frameworks and models to support better use of data.</h1>
   <h2>We are a team of data strategists and technologists supporting organisations in the public and private sectors to embed best practises in data.</h2>
   <p>Our specialisms are in emerging technologies (such as data trusts and personal data exchange), and linked reference data.</p>
@@ -31,7 +25,7 @@ logos:
 <h1>Who we work with</h1>
 <section id=logos>
   {% for logo in page.logos %}
-  <img src='{{ logo.name | prepend: "images/" | prepend: site.baseurl }}' alt='{{ logo.alt }}'>
+    {% include image.html src=logo %}
   {% endfor %}
 </section>
 

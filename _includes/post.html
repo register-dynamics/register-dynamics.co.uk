@@ -4,7 +4,7 @@
   <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
   {% endif %}
     {% if post.image %}
-    <img src="{{ post.image | prepend: '/' | prepend: site.baseurl }}"/>
+      {% include image.html src=post.image %}
     {% endif %}
     <h2>{{ post.title }}</h2>
   {% if collection.output %}

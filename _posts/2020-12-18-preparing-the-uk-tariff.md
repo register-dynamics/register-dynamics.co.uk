@@ -1,7 +1,7 @@
 ---
 title: Preparing the UK Tariff
 author: Simon Worthington
-image: "images/UKGT-stand-up.jpg"
+image: "UKGT-stand-up.jpg"
 location: https://digitaltrade.blog.gov.uk/2020/12/18/preparing-the-uk-tariff/
 layout: redirect
 excerpt: |

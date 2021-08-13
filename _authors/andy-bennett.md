@@ -1,6 +1,6 @@
 ---
 title: Andy Bennett
-image: "images/andy.jpg"
+image: "andy.jpg"
 ---
 Andy trained as an Electronic and Electrical Engineer and has a background in consumer electronics, FPGAs, operating systems and device drivers. For the last 10 years he has been building companies around distributed database technology.
 

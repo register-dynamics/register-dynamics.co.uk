@@ -1,6 +1,6 @@
 ---
 title: Simon Worthington
-image: "images/simon.jpg"
+image: "simon.jpg"
 ---
 Simon is a founder of [Register Dynamics](https://www.register-dynamics.co.uk),
 a data consultancy on a mission to make data more useful for everyone,

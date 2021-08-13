@@ -1,6 +1,6 @@
 ---
 title: Technical Leadership
-image: "images/Direction.svg"
+image: "Direction.svg"
 ---
 ### If you’re in need of technical expertise, direction and leadership, we can help. Our experts will ensure that you’re using your data as effectively as possible and with the best technology available.
 
