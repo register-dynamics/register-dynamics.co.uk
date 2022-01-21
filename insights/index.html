@@ -2,6 +2,8 @@
 title: Insights
 layout: default
 publications:
+- collection: insights
+  slug: ieee-open-data-whats-new
 - collection: data-trusts
   slug: index
 ---
@@ -15,6 +17,8 @@ publications:
     {% include listing.html source="posts" %}
 
     <h2>Featured publications</h2>
+    {% assign collection = site.collections | where: "label", "posts" | first %}
+    <style type="text/css">#insights [id=""] { grid-template-rows: repeat({{ collection.docs.size | divided_by: 2 }}, 1fr); }</style>
     {% include listing.html list=page.publications %}
   </section>
 </main>

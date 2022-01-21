@@ -23,6 +23,8 @@ collections:
     permalink: /blog/:title
   data-trusts:
     output: yes
+  insights:
+    output: no
   authors:
     output: yes
   services:
