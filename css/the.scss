@@ -111,6 +111,30 @@ a {
   color: inherit;
 }
 
+pre {
+  padding: 1ch;
+  border-radius: $COLUMN_GAP / 2;
+  background: #eee;
+  color: black;
+}
+
+blockquote {
+  border-left: 4px solid $DARK_GREEN;
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+table {
+  thead tr {
+    background: $DARK_GREEN;
+    color: white;
+  }
+
+  td, th {
+    padding: 0 1ch;
+  }
+}
+
 [role~='button'] {
   display: inline-block;
   padding: $COLUMN_GAP/2 $COLUMN_GAP;
@@ -320,7 +344,7 @@ article, aside {
   }
 }
 
-.highlight {
+.bright {
   background: $LIGHT_GREEN;
   color: $DARK_GREEN;
 }

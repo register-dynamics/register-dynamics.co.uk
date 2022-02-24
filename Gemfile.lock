@@ -5,6 +5,8 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
+    dbml (0.3.0)
+      rsec (~> 1.0)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -58,6 +60,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (3.26.0)
+    rsec (1.0.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -70,6 +73,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  dbml
   jekyll
   jekyll-feed
   jekyll-seo-tag
