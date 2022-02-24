@@ -1,7 +1,7 @@
 ---
 title: Putting the trust in data trusts
 layout: report-index
-image: "Data-trust-social-card.png"
+image: "images/Data-trust-social-card.png"
 excerpt: |
   In order to be able to offer compelling advantages, the control and enforcement powers that data trusts have needs to be high enough that misusing the data in trust is prohibitively difficult. By examining case studies in audit technology, our purpose is to show that cost-effective strong auditing is possible today and encourage others to build things that reduce the cost further in the future.
 

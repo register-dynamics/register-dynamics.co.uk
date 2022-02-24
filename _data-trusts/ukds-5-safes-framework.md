@@ -2,7 +2,7 @@
 title: The 5 Safes Framework
 excerpt: |
   When a data trust contains arbitrary data undergoing arbitrary analysis, it is not always possible or feasible to set up data access mechanisms that are easy to audit, or to perform that audit automatically. The 5 Safes Framework proposes “Safe Settings” where the analysis is brought to the data, rather than the traditional practice of downloading data and analysing it locally. This allows the analysis to be secured and for the results to be audited at the point they leave the control of the trust.
-image: "bank-vault.jpg"
+image: "images/bank-vault.jpg"
 licenses:
   - "\"Bank vault\" image by [Jonathunder](https://commons.wikimedia.org/wiki/File:WinonaSavingsBankVault.JPG) used under [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=5765999)."
   - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."

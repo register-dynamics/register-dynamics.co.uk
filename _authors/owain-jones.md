@@ -1,6 +1,6 @@
 ---
 title: Owain Jones
-image: "owain.jpeg"
+image: "images/owain.jpeg"
 ---
 Owain is a senior technologist with considerable experience in how to both generate and use data in a way that provides meaningful insights in a range of situations.
 

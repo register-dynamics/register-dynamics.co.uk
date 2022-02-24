@@ -2,7 +2,7 @@
 title: "Aquae: Personal data for cross-Government services"
 excerpt: |
   As part of the Personal Data Exchange programme run by the Government Digital Service, the UK Government developed a new model of personal data sharing called Aquae (Attributes, Questions, Answers and Eligibility). It allows public sector services to reuse personal data from around government whilst maintaining the privacy of data subjects, allowing data controllers to retain control of their data, minimise what is shared and to audit when and how data was used.
-image: "digital-services-poster.jpg"
+image: "images/digital-services-poster.jpg"
 licenses:
   - "\"Digital services poster\" image by [Dafydd Vaughn](https://www.flickr.com/photos/dafyddbach) used under [CC By-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
   - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."

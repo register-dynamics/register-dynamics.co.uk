@@ -1,2 +1,3 @@
-{% assign alt = include.src | split: '/' | last | split: '.' | first | split: '-' | join: ' ' %}
-<img src="{{ include.src | prepend: '/images/' | prepend: site.baseurl }}" alt="{{ alt }}"/>
+{% assign src = include.src | split: '/' | last %}
+{% assign alt = src | split: '.' | first | split: '-' | join: ' ' %}
+<img src="{{ src | prepend: '/images/' | prepend: site.baseurl }}" alt="{{ include.alt | default: alt }}"/>

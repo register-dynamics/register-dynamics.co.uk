@@ -1,7 +1,7 @@
 ---
 title: Legal trust + technical trust = data trusts
 author: Andy Bennett
-image: "system-lock.jpg"
+image: "images/system-lock.jpg"
 excerpt: |
   Technical trust and legal trust are both insufficient by themselves
   to ensure protection of valuable data. Instead we need a vehicle that

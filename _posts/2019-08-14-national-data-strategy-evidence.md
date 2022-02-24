@@ -5,7 +5,7 @@ authors:
 - Simon Worthington
 excerpt: |
   Register Dynamics made a submission to the National Data Strategy open call for evidence, in which we discuss the difficulties with data that Government faces which could be fixed with a better approach to data infrastructure.
-image: "national-data-strategy-call-for-evidence.jpg"
+image: "images/national-data-strategy-call-for-evidence.jpg"
 ---
 ### Introduction
 

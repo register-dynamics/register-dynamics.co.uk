@@ -1,6 +1,6 @@
 ---
 title: Data Strategy Consulting
-image: "Strategy.svg"
+image: "images/Strategy.svg"
 ---
 ### Whatever your challenge is, our team is ready to support you and to help create the best strategies to handle your data.
 

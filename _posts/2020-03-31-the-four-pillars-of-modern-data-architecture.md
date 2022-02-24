@@ -5,7 +5,7 @@ excerpt: |
 authors:
   - Simon Worthington
   - Andy Bennett
-image: "four-pillars.jpg"
+image: "images/four-pillars.jpg"
 licenses:
   - "\"Four\" image by [Not So Dusty](https://www.flickr.com/photos/harryh1882/32070099588) used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)."
 ---
@@ -15,7 +15,7 @@ Traditional data architecture techniques assume that the architect is in full co
 
 This assumption held true in the mainframe era when organisational data was centralised, but today data is spread more evenly across organisations. Data now exists in a multitude of different systems and applications, each under control of a different individual, team or organisation. Attitudes however have not changed – it surprises (and scares) many people that today it might make sense for there to be multiple "customer" datasets.
 
-![Image of a set of columns from Washington D.C.]({{ site.url }}/{{ page.image }})
+![Image of a set of columns from Washington D.C.]({{ site.base_url }}/{{ page.image }})
 
 The way in which data is created and used [is changing](https://medium.com/@AdeAdewunmi/the-world-as-it-is-versus-the-world-as-it-should-be-ee3eac22eb91). User-centered design is increasingly affecting the shape of data and not just the services that generate it. Latent data is being treated as a first-class asset with the expectation of re-use rather than just a by-product.
 

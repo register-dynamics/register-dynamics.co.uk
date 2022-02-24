@@ -1,6 +1,6 @@
 ---
 title: Alaric Snell-Pym
-image: "alaric.jpeg"
+image: "images/alaric.jpeg"
 ---
 Alaric is an engineer specialising in understanding complex problems and
 producing simple solutions. He has a wide range of experience implementing

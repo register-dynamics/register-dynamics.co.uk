@@ -2,7 +2,7 @@
 title: Certificate Transparency and DeepMind Health
 excerpt: |
   With their work on Certificate Transparency, Google engineers Emilia Kasper, Adam Langley and Ben Laurie have shown that it is possible to link rigid technical trust with fuzzy social trust. Their solution does this without needing more trust in new parties and without needing to change existing power structures, making pragmatic audit possible and easy to adopt.
-image: "key-wall.jpg"
+image: "images/key-wall.jpg"
 licenses:
   - "\"Manufactured security\" image by [kris krüg](https://www.flickr.com/photos/kk) used under [CC-BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)."
   - "This report is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/)."
