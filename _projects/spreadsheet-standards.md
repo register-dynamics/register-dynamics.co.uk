@@ -23,7 +23,7 @@ Through user research and discussions with various teams across government, we d
 
 Spreadsheets were being thought of and treated like any other office productivity tool, and not like a data management tool. On GOV.UK alone, there were 31,121 files with spreadsheet extensions (like .ods, .xlsx or .xls) and 19,251 CSV files, many of which were not in the suggested tidy, tabular data format.
 
-We established that attempting to move people away from using office tools to manage data was impractical and wouldn't succeed because it doesn't benefit indiviudal users. We instead proposed that it was important to be able to extract structured data from spreadsheets.
+We established that attempting to move people away from using office tools to manage data was impractical and wouldn't succeed because it doesn't benefit individual users. We instead proposed that it was important to be able to extract structured data from spreadsheets.
 
 We therefore developed a tool, called the [Metadata Standards Description Language](https://alphagov.github.io/metadata-standards-description-language/) to enable this. We created this new simple metadata language and designed a service to enable users to upload a spreadsheet and then describe the data within it. By making spreadsheets interoperable, the data becomes more valuable and opens up opportunities for multidimensional analysis and reuse.
 
