@@ -38,7 +38,7 @@ and sell to might exist in both `Supplier` and `Customer` tables, with their
 contact details potentially getting updated in one and not the other, leading to
 confusing problems.
 
-A common solution with it's own problems is to use flags and type fields to
+A common solution with its own problems is to use flags and type fields to
 differentiate objects within a type. Invariably this leads to a bunch of
 optional fields relevant only to some combinations of flags complicating the
 structure of what usually becomes a very wide table.
