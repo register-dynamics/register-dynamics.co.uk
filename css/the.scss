@@ -118,6 +118,15 @@ pre {
   color: black;
 }
 
+code {
+  font-size: 95%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: inline-block;
+  padding: 0 0.5ch;
+  background: #eee;
+  border-radius: $COLUMN_GAP / 2;
+}
+
 blockquote {
   border-left: 4px solid $DARK_GREEN;
   margin-left: 0;
