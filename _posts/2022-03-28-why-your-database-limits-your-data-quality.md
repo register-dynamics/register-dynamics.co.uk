@@ -7,7 +7,7 @@ excerpt: |
   really understand, and trying to fit those complications into the rigid type
   system of SQL is much like fitting a round peg into a square hole.
 licenses:
-  – "\"Chess\" image by [ejaugsburg](https://pixabay.com/users/ejaugsburg-148268/) used under the [Pixabay License](https://pixabay.com/service/license/)."
+  - "\"Chess\" image by [ejaugsburg](https://pixabay.com/users/ejaugsburg-148268/) used under the [Pixabay License](https://pixabay.com/service/license/)."
 ---
 
 Maximising quality is a major tenet to most organisational strategies for data.
