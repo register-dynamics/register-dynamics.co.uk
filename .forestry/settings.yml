@@ -23,11 +23,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: _insights
-  label: Insights
-  create: all
-  match: "**/*"
-- type: directory
   path: _data-trusts
   label: Data trusts
   create: all
