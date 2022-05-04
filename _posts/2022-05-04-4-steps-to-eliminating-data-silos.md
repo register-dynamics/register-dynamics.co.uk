@@ -1,5 +1,5 @@
 ---
-title: 4 Steps to Eliminating Data Silos
+title: 4 steps to eliminating data silos
 author: Nisa Chitakasem
 image: "/images/stairs-gd7a9325a6_640.jpg"
 excerpt: Does your organisation suffer from data silos? Have you noticed the impact
@@ -9,6 +9,8 @@ excerpt: Does your organisation suffer from data silos? Have you noticed the imp
 licenses: []
 
 ---
+{% include image.html src=page.image alt="Person taking a set of steps upwards" %}
+
 Does your organisation suffer from data silos? Have you noticed the impact this is having on your organisation and are you keen to stop this? If so, hopefully these tips will help to give you some ideas and options on how to break down data silos and to get your organisation working more effectively.
 
 Recently, we shared an article taking a look at [four reasons why data silos are dangerous to ignore](https://www.register-dynamics.co.uk/blog/4-reasons-why-data-silos-are-dangerous-to-ignore). This covered what a data silo is and why they can be harmful. Here we will aim to offer different ways to tackle the challenges that data silos create. Let’s explore what steps we can take to eliminate data silos for good:
