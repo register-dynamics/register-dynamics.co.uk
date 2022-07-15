@@ -17,5 +17,3 @@ fields:
 - type: list
   name: licenses
   label: licenses
-pages:
-- _posts/4-steps-to-eliminating-data-silos.md
