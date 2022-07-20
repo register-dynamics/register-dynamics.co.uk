@@ -33,4 +33,4 @@ Build trust between teams and across your organisation by securing your data, ma
 
 So those are our 3 top ways to promote better data sharing across an organisation. If you have any experience of ways that have encouraged greater data sharing across your team or organisation, we would love to hear about it.
 
-If you’re currently experiencing data sharing challenges or any other data challenges and feel you could do with some help, we’d be delighted to talk to you about your situation. Get in touch now and let’s see how we can find a solution together.
+If you’re currently experiencing data sharing challenges or any other data challenges and feel you could do with some help, we’d be delighted to talk to you about your situation. [Get in touch now](hello@register-dynamics.co.uk) and let’s see how we can find a solution together.
