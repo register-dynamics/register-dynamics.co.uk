@@ -1,11 +1,12 @@
 ---
 title: '3 Ways to Encourage Better Data Sharing '
 author: Nisa Chitakasem
-image: "/images/conference-g751ae9a4d_640.jpg"
+image: "/images/balloons-gd6aafc181_640.jpg"
 excerpt: 'Data sharing is incredibly important for all organisations, yet continues
   to be a real challenge for many. In this article we share our thoughts on 3 different
   ways to encourage better data sharing across organisations. '
-licenses: []
+licenses:
+- 'Image by PIRO4D from Pixabay '
 
 ---
 Data sharing is incredibly important for all organisations, yet continues to be a real challenge for many. According to the Gartner’s report: [_Data Sharing Is a Business Necessity to Accelerate Digital Business_](https://www.gartner.com/smarterwithgartner/data-sharing-is-a-business-necessity-to-accelerate-digital-business)_,_ it predicts that “By 2023 organizations that promote data sharing will outperform their peers on most business value metrics.”
