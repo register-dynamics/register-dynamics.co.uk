@@ -17,3 +17,5 @@ fields:
 - type: list
   name: licenses
   label: licenses
+pages:
+- _posts/3-ways-to-encourage-better-data-sharing.md
