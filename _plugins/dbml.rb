@@ -8,6 +8,8 @@ module Jekyll
       alt = ""
       code = /<svg.*<\/svg>/m.match(svg)[0]
       code.insert(4, " aria-label=\"#{alt.gsub('"', '&quot;')}\"")
+    rescue
+      super
     end
 
     def unique_id prefix
