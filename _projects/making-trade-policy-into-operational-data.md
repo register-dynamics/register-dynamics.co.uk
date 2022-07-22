@@ -1,12 +1,11 @@
 ---
 title: Making trade policy into operational data
-date: 2022-07-28
-client: The Department of International Trade
+date: 2022-07-27
+client: Department of International Trade
 excerpt: 'For DIT, we developed a new data management tool to support the new UK trade
   policy that came into affect following the UK''s decision to leave the EU. This
   involved the development of both the technical and data architecture of the new
   system and the migration of all the data i.e. over 400k data records. '
-published: false
 
 ---
 The [Department of International Trade](https://www.gov.uk/government/organisations/department-for-international-trade) (DIT) is a UK government department formed by Prime Minister Theresa May in 2016 following the UK’s vote to leave the European Union (also referred to as Brexit). It is responsible for negotiating and securing trade agreements between the UK and foreign countries and for encouraging foreign investment and export trade. They also help overseas companies locate and grow in the UK as well as championing free trade.
@@ -23,13 +22,13 @@ This meant that the new system needed to be intuitive and easy to use by non-tec
 
 Register Dynamics were brought in to lead a team of 10-14 researchers, designers and developers to build and deliver the new system to handle all the data associated with the new independent trade policy. Our leadership approach focused on setting direction, making prioritisation decisions and defining agile sprints.
 
-We developed both the technical and data architecture for the new system, working to understand and evolve a legacy EU defined data model to ensure that it met the needs of the UK and allowed for efficient digital journeys for the users. We implemented and expanded upon the strategic vision for the system and evolved the data architecture much further beyond the initial brief. This new tool is called the Tariff Management tool. See more about this in our article on [How DIT have built a service as an open data set](https://dataingovernment.blog.gov.uk/2020/08/18/how-dit-have-built-a-service-as-an-open-data-set/).
+We developed both the [technical and data architecture for the new system](https://digitaltrade.blog.gov.uk/2021/06/08/how-dit-developers-keep-uk-businesses-up-to-date-with-tariff-changes/), called the [Tariff Management Tool](https://github.com/uktrade/tamato), working to understand and evolve a legacy EU defined data model to ensure that it met the needs of the UK and allowed for efficient digital journeys for the users. We implemented and expanded upon the strategic vision for the system and evolved the data architecture much further beyond the initial brief.
 
 Our work involved us engaging closely with many policy stakeholders across the Department and wider Government. We developed excellent relationships with them and carefully ensured that their requirements were always well understood and that they were a part of the agile process. We also took on board what reporting needs they each had and made sure that these were embedded into the data management tool too.
 
-As well as developing the Tariff Management tool, it was also important to find a way to migrate all of the data representing the new trade policies of 30 policy teams across 11 UK government departments into it. This was a major data migration operation and we were pleased to have successfully completed this, which involved migrating over 400,000 data records, before the Tariff Management tool had reached full operational maturity.
+As well as developing the Tariff Management Tool, it was also important to find a way to migrate all of the data representing the new trade policies of 30 policy teams across 11 UK government departments into it. This was a major data migration operation and we were pleased to have successfully completed this, which involved migrating over 400,000 data records, before the Tariff Management Tool had reached full operational maturity.
 
-As part of our work we recognised that the UK Tariff data product we had created had significant value to a wide set of users. To support this, DIT decided to release the data as an open data set under an open licence and provided a manual of explanatory guidance to help users get the most out of the data and the service.
+As part of our work we recognised that the UK Tariff data product we had created had significant value to a wide set of users. To support this, [DIT decided to release the data as an open data set under an open licence](https://dataingovernment.blog.gov.uk/2020/08/18/how-dit-have-built-a-service-as-an-open-data-set/) and provided a [manual of explanatory guidance](https://uktrade.github.io/tariff-data-manual/) to help users get the most out of the data and the service.
 
 We also designed and implemented a training programme to help up-skill team members in-house and to explain the complexities of the legacy data model. This included creating many hours of video content, which each new team member now views, and uses as a key part of their onboarding.
 
@@ -41,6 +40,6 @@ The [UK Global Tariff service](https://digitaltrade.blog.gov.uk/2020/12/18/prepa
 
 The [full UK Tariff data set ](https://data.gov.uk/dataset/3bee9a8a-e69c-400e-add5-3345a87a8e25/tariffs-to-trade-with-the-uk-from-1-january-2021)is now live and in active use. It includes commodity codes, more items of reference data, legislated preferential rates and many more components not available previously.
 
-We continue to support all of the new services that have gone live and have done so for more than 18 months already. (See H[ow DIT Developers keep UK businesses up to date with tariff changes](https://digitaltrade.blog.gov.uk/2021/06/08/how-dit-developers-keep-uk-businesses-up-to-date-with-tariff-changes/).)
+We continue to support all of the new services that have gone live and have done so for more than 18 months already.
 
-We have also been asked to continue with our pioneering user research and explorations on different ways to further utilise the data. This includes establishing new ways to make the data more user-friendly and accessible, as well as developing further content to support better understanding of the concepts behind the data in detail.
+We have also been asked to continue with our[ pioneering user research and explorations on different ways to further utilise the data](https://www.computer.org/csdl/magazine/so/2022/01/09576893/1xNJfq0SwG4). This includes establishing new ways to make the data more user-friendly and accessible, as well as developing further content to support better understanding of the concepts behind the data in detail.
