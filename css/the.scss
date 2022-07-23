@@ -216,6 +216,11 @@ main {
   }
 }
 
+body[data-title=''] header {
+  margin-bottom: -$COLUMN_SIZE;
+  margin-top: $COLUMN_SIZE;
+}
+
 header, footer, header *, footer * {
   background: $DARK_GREEN;
   color: white;
@@ -381,24 +386,25 @@ section {
 }
 
 #top {
-  margin-top: $COLUMN_SIZE * 1.5;
+  margin: #{$COLUMN_SIZE * 2} auto;
   grid-row-gap: 2em;
 
   img {
     width: 100%;
-    grid-column: span 5;
+    grid-column: span 4;
     grid-row: span 2;
   }
 
   h1 {
     line-height: 1.1em;
-    grid-column: 7 / span 5;
+    font-size: 64px;
+    grid-column: 6 / span 7;
     margin: 0;
   }
 
   h2, p {
     margin: 0;
-    grid-column: 7 / span 6;
+    grid-column: 6 / span 5;
   }
 
   p {
@@ -408,6 +414,15 @@ section {
     [role~=button] {
       margin-left: 1ch;
     }
+  }
+
+  ~ h1 {
+    margin: #{$COLUMN_SIZE* 2.5} auto 0;
+  }
+
+  ~ section {
+    margin-top: $COLUMN_SIZE * 3/4;
+    margin-bottom: $COLUMN_SIZE * 1/2;
   }
 }
 
@@ -690,6 +705,12 @@ section > .post {
 
     @media screen and (max-width: $HIDE_LOGO) {
       grid-template-columns: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: calc(100%/4);
+      object-fit: cover;
     }
 
     > * {
