@@ -4,5 +4,7 @@ layout: blog
 <h2 class=client>{{ page.client }}</h2>
 {% if page.video %}
 <iframe width="720" height="405" src="{{ page.video }}" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+{% elsif page.image %}
+{% include image.html src=page.image %}
 {% endif %}
 {{ content }}

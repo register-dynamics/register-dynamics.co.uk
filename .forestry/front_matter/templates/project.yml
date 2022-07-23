@@ -12,6 +12,9 @@ fields:
     date_format: MMM YYYY
     time_format: 
     export_format: YYYY-MM-DD
+- type: file
+  name: image
+  label: image
 - type: text
   name: client
   label: client

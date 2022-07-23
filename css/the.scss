@@ -490,7 +490,7 @@ section {
 .projects {
   display: block;
   grid-column: span 4;
-  height: $COLUMN_SIZE * 4;
+  height: $COLUMN_SIZE * 7;
   padding: $COLUMN_GAP;
   text-decoration: none;
   position: relative;
@@ -500,6 +500,15 @@ section {
   &:nth-child(4n + 3) { background-color: $ILLUS_PURPLE; }
   &:nth-child(4n + 4) { background-color: $ILLUS_BLUE; }
   &:nth-child(4n + 3) h2 { color: white; }
+
+  img {
+    object-fit: cover;
+    width: calc(100% + #{$COLUMN_GAP}*2);
+    height: $COLUMN_SIZE * 3;
+    margin-top: -$COLUMN_GAP;
+    margin-left: -$COLUMN_GAP;
+    margin-bottom: $COLUMN_GAP / 2;
+  }
 
   a {
     margin: 0;
