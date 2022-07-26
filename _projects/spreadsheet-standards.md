@@ -2,8 +2,14 @@
 title: User-friendly standards for Government spreadsheets
 client: Government Digital Service
 date: 2019-06-01
-excerpt: |
-  For GDS, we developed a tool, called the Metadata Standards Description Language to record and extract structed data from spreadsheets. We created this new simple metadata language and designed a service to enable users to upload a spreadsheet and then describe the data within it.
+excerpt: 'For GDS, we developed a tool, called the Metadata Standards Description
+  Language to record and extract structed data from spreadsheets. We created this
+  new simple metadata language and designed a service to enable users to upload a
+  spreadsheet and then describe the data within it.
+
+  '
+image: "/images/bookkeeping-g97d8610ae_640.jpg"
+
 ---
 The [Government Digital Service (GDS)](https://gds.blog.gov.uk/about/) is responsible for the digital transformation of government. It is part of the Cabinet Office and it runs [GOV.UK](https://gov.uk), the best place to find government services and information. It focuses on making public services simpler and better, building platforms, ensuring government data is good data and helping departments with new technologies and digital services.
 
