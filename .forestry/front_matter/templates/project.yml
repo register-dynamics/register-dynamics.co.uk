@@ -23,6 +23,7 @@ fields:
   label: excerpt
 pages:
 - _projects/defra-data-catalog.md
+- _projects/knodium.md
 - _projects/making-trade-policy-into-operational-data.md
 - _projects/personal-data-exchange.md
 - _projects/spreadsheet-standards.md
