@@ -2,9 +2,18 @@
 title: Cutting edge research into data trusts
 client: Office for AI, Innovate UK
 date: 2019-04-14
-excerpt: |
-  For the Open Data Institute, we examined the role of external audit in building reputation and improving trust in organisations that use data. We explored how different organisations approach the challenges currently inherent in auditing data and discovered that organisations could demonstrate trustworthiness through being vouched for by a qualified auditor and by using audit technology and verifiable data to record purpose at point of use.
+excerpt: 'For the Open Data Institute, we examined the role of external audit in building
+  reputation and improving trust in organisations that use data. We explored how different
+  organisations approach the challenges currently inherent in auditing data and discovered
+  that organisations could demonstrate trustworthiness through being vouched for by
+  a qualified auditor and by using audit technology and verifiable data to record
+  purpose at point of use.
+
+  '
+
 ---
+![](/images/library-gc77b1b604_640.jpg)
+
 [The Open Data Institute (ODI)](https://theodi.org) is an independent, non-profit organisation founded in 2012. Their mission is to connect, equip and inspire people around the world to innovate with data. They work with companies and governments to build an open and trustworthy data ecosystem.
 
 ## The challenge
