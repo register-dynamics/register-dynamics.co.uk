@@ -23,6 +23,7 @@ fields:
   label: excerpt
 pages:
 - _projects/cddo-data-procurement.md
+- _projects/data-trusts.md
 - _projects/defra-data-catalog.md
 - _projects/desmog.md
 - _projects/geniedb.md
