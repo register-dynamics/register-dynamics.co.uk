@@ -22,6 +22,7 @@ fields:
   name: excerpt
   label: excerpt
 pages:
+- _projects/cddo-data-procurement.md
 - _projects/defra-data-catalog.md
 - _projects/knodium.md
 - _projects/making-trade-policy-into-operational-data.md
