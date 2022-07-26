@@ -3,8 +3,15 @@ title: Developing cross-service data infrastructure
 client: UK Government
 data: Public lists of Government data
 application: Develop accurate and up-to-date services
-excerpt: |
-  We helped move the GOV.UK Open Registers service from proof-of-concept into production. We grew the ecosystem from a single register to many more across a range of government departments. We designed and introduced a strategic technical roadmap to drive adoption and solve real user problems.
+excerpt: 'We helped move the GOV.UK Open Registers service from proof-of-concept into
+  production. We grew the ecosystem from a single register to many more across a range
+  of government departments. We designed and introduced a strategic technical roadmap
+  to drive adoption and solve real user problems.
+
+  '
+image: "/images/developing_cross-service_data_infrastructure.jpg"
+date: 
+
 ---
 The Government Digital Service (GDS), part of the Cabinet Office, focuses on the digital transformation of government. It’s a centre of excellence in digital, technology and data, and it supports government departments to build platforms, standards and digital services.
 
