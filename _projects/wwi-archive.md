@@ -4,8 +4,14 @@ client: King Edward's School
 date: 2017-10-07
 data: Archival biography data
 application: Develop an interactive exhibition kiosk and website
-excerpt: |
- For King Edward's School, we developed an automated data flow to transform hundreds of biographies of former pupils from a proprietary, unstructured format into a structured dataset. Working with a graphic designer, we built an iPad app for the profiles which easily deployed to an offline kiosk.
+excerpt: 'For King Edward''s School, we developed an automated data flow to transform
+  hundreds of biographies of former pupils from a proprietary, unstructured format
+  into a structured dataset. Working with a graphic designer, we built an iPad app
+  for the profiles which easily deployed to an offline kiosk.
+
+  '
+image: "/images/soldier-g731db2be0_640.jpg"
+
 ---
 King Edward’s School is one of the leading independent schools in the UK. Founded in 1552 by King Edward VI, it is one of the most successful and diverse boys’ schools in the country.
 
@@ -32,4 +38,3 @@ We saved our client hundreds of hours of manual work and created a long lasting 
 Through our technical leadership and our careful implementation of specialised digital data engineering techniques, we were able to carry this project out at a competitive rate, with no manual processing required, whilst yielding high quality results.
 
 Through our work, we are proud to know that we have helped to ensure that the pupils of King Edward’s School who served in the First World War will never be forgotten.
-
