@@ -2,8 +2,14 @@
 title: Assuring new technology for a leading SME
 date: 2021-01-25
 client: A renewable energy business
-excerpt: |
-  Register Dynamics technically assured a new CRM system, delivering an in-depth report outlining all areas where the vendor’s product was fit for purpose and areas of risk along with recommendations of how to fully optimise the tool and protect the business in the long term.
+excerpt: 'Register Dynamics technically assured a new CRM system, delivering an in-depth
+  report outlining all areas where the vendor’s product was fit for purpose and areas
+  of risk along with recommendations of how to fully optimise the tool and protect
+  the business in the long term.
+
+  '
+image: "/images/assuring_new_technology.jpg"
+
 ---
 A leading renewable energy business based in London was founded in 2010 with the aim of offering better green energy solutions to people in the UK.
 
