@@ -12,8 +12,6 @@ excerpt: 'For the Open Data Institute, we examined the role of external audit in
   '
 
 ---
-![](/images/library-gc77b1b604_640.jpg)
-
 [The Open Data Institute (ODI)](https://theodi.org) is an independent, non-profit organisation founded in 2012. Their mission is to connect, equip and inspire people around the world to innovate with data. They work with companies and governments to build an open and trustworthy data ecosystem.
 
 ## The challenge
