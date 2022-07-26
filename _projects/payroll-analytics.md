@@ -10,7 +10,7 @@ excerpt: 'We designed a SaaS product to enable on-demand reporting and analysis 
 
   '
 image: "/images/developing_market-leading_payroll_analytics.jpg"
-client: A Financial Big Data Start-Up
+client: A Big Data Start-Up
 date: 
 
 ---
