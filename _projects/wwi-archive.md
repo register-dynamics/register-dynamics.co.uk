@@ -10,7 +10,7 @@ excerpt: 'For King Edward''s School, we developed an automated data flow to tran
   for the profiles which easily deployed to an offline kiosk.
 
   '
-image: "/images/soldier-g731db2be0_640.jpg"
+image: "/images/making_history_accessible.jpg"
 
 ---
 King Edward’s School is one of the leading independent schools in the UK. Founded in 1552 by King Edward VI, it is one of the most successful and diverse boys’ schools in the country.
