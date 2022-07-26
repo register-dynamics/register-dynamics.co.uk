@@ -2,10 +2,15 @@
 title: Making federated data more discoverable
 client: DEFRA
 date: 2019-05-07
-excerpt: |
-  For the Department for Environment, Food and Rural Affairs (DEFRA), we developed a prototype for a metadata catalogue which all DEFRA agencies would have access to. This new data catalogue offers domain-specific search experiences and various dataset visualisation features.
----
+excerpt: 'For the Department for Environment, Food and Rural Affairs (DEFRA), we developed
+  a prototype for a metadata catalogue which all DEFRA agencies would have access
+  to. This new data catalogue offers domain-specific search experiences and various
+  dataset visualisation features.
 
+  '
+image: "/images/making_federated_data_more_discoverable.jpg"
+
+---
 [The Department for Environment, Food and Rural Affairs (DEFRA)](https://defra.gov.uk) is a UK government department responsible for safeguarding our natural environment, supporting our food and farming industry and sustaining a thriving economy. They have around 3,500 staff, including policy makers, scientists and research specialists, based in London, Bristol, York and other offices throughout England.
 
 ## The challenge
