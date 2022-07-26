@@ -6,7 +6,7 @@ excerpt: 'For DIT, we developed a new data management tool to support the new UK
   policy that came into affect following the UK''s decision to leave the EU. This
   involved the development of both the technical and data architecture of the new
   system and the migration of all the data i.e. over 400k data records. '
-image: "/images/container-g9a36c4edc_640.jpg"
+image: "/images/making_trade_policy_into_operational_data.jpg"
 
 ---
 The [Department of International Trade](https://www.gov.uk/government/organisations/department-for-international-trade) (DIT) is a UK government department formed by Prime Minister Theresa May in 2016 following the UK’s vote to leave the European Union (also referred to as Brexit). It is responsible for negotiating and securing trade agreements between the UK and foreign countries and for encouraging foreign investment and export trade. They also help overseas companies locate and grow in the UK as well as championing free trade.
