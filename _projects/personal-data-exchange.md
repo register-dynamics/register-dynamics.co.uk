@@ -4,8 +4,14 @@ client: UK Government
 data: Private data in government
 application: Make services easier for citizens
 date: 2018-12-12
-excerpt: |
-  For GDS and the UK government, we created a cutting-edge model to describe how personal data could work in government, developed the Personal Data Exchange architecture and open standard to query personal data in a private, secure, and ethical way that works within the existing structure of government.
+excerpt: 'For GDS and the UK government, we created a cutting-edge model to describe
+  how personal data could work in government, developed the Personal Data Exchange
+  architecture and open standard to query personal data in a private, secure, and
+  ethical way that works within the existing structure of government.
+
+  '
+image: "/images/network-g57a252160_640.jpg"
+
 ---
 The Government Digital Service (GDS), part of the Cabinet Office, focuses on the digital transformation of government. It’s a centre of excellence in digital, technology and data, and it supports government departments to build platforms, standards and digital services.
 

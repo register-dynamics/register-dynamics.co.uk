@@ -23,5 +23,6 @@ fields:
   label: excerpt
 pages:
 - _projects/making-trade-policy-into-operational-data.md
+- _projects/personal-data-exchange.md
 - _projects/spreadsheet-standards.md
 - _projects/transforming-uk-prisons.md
