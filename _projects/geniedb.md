@@ -3,9 +3,15 @@ title: Hardening and geo-diversifying databases
 client: GenieDB
 data: a distributed database engine
 application: achieve horizontal geo‑diverse scalability
-excerpt: |
-  We helped GenieDB change the narrative by bringing the advantages of NoSQL to existing MySQL-based applications. We let organisations scale their MySQL clusters horizontally, keeping their existing code unchanged.
-video: "https://www.youtube-nocookie.com/embed/YN75I7D49_E"
+excerpt: 'We helped GenieDB change the narrative by bringing the advantages of NoSQL
+  to existing MySQL-based applications. We let organisations scale their MySQL clusters
+  horizontally, keeping their existing code unchanged.
+
+  '
+video: https://www.youtube-nocookie.com/embed/YN75I7D49_E
+image: "/images/hardening_and_geo-diversifying_databases.jpg"
+date: 
+
 ---
 During the "NoSQL revolution", clients consistently found their existing databases were unable to scale to keep up with demand. Their only choice was to completely rewrite their applications using new database technology.
 
