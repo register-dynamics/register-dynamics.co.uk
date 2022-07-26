@@ -2,8 +2,17 @@
 title: Developing market-leading payroll analytics
 data: Payroll data
 application: Make strategic business decisions
-excerpt: |
-  We designed a SaaS product to enable on-demand reporting and analysis of payroll data from international payroll agencies. The unique set-based model that we developed allows users to combine their data in arbitrary ways, giving analysts and executives the power to explore it in new ways – without a costly consultant spend each time.
+excerpt: 'We designed a SaaS product to enable on-demand reporting and analysis of
+  payroll data from international payroll agencies. The unique set-based model that
+  we developed allows users to combine their data in arbitrary ways, giving analysts
+  and executives the power to explore it in new ways – without a costly consultant
+  spend each time.
+
+  '
+image: "/images/developing_market-leading_payroll_analytics.jpg"
+client: A Financial Big Data Start-Up
+date: 
+
 ---
 A financial big data start-up created in 2015, specialising in payroll solutions wanted to provide a SaaS based ‘Global Payroll Reporting and Analysis’ tool. Their customers needed the consolidation, storage, reporting and analysis of payroll output for any number of payrolls, irrespective of country or currency.
 
