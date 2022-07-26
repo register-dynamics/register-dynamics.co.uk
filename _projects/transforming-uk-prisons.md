@@ -2,8 +2,15 @@
 title: Transforming UK prisons
 client: MOJ, HMPPS
 date: 2019-01-08
-excerpt: |
-  For MoJ, we scoped out the transformation of an existing service for prison categorisation, including development of an AI capability, a data integration platform and a cross-agency data collaboration. Our roadmap brought together the policy and technical teams and enabled them to work together to deliver the project successfully. We achieved sign-off on the programme of work from senior stakeholders.
+excerpt: 'For MoJ, we scoped out the transformation of an existing service for prison
+  categorisation, including development of an AI capability, a data integration platform
+  and a cross-agency data collaboration. Our roadmap brought together the policy and
+  technical teams and enabled them to work together to deliver the project successfully.
+  We achieved sign-off on the programme of work from senior stakeholders.
+
+  '
+image: "/images/guard-g2a15acb59_640.jpg"
+
 ---
 The Ministry of Justice (MoJ) is a major UK government department at the heart of the justice system. They are focused on protecting and advancing the principles of justice, which includes being responsible for prisons, courts, probation services and attendance centres.
 
@@ -32,6 +39,3 @@ This project was successfully delivered and extremely well received by all depar
 The Justice Secretary David Gauke announced in [a press release](https://www.gov.uk/government/news/justice-secretary-launches-fresh-crackdown-on-crime-in-prison) that they are committed to rolling this tool out across the UK with a £1m investment and that this new technology has already led to 12 of the most prolific criminals being moved to different prisons.
 
 Our work here supports the MoJ’s objective of becoming a more data driven department and we are excited about the improvements and transformations still to come.
-
-
-
