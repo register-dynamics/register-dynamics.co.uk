@@ -11,6 +11,8 @@ licenses:
 - 'Image by Gerd Altmann from Pixabay '
 
 ---
+![](/images/what-is-data-governance-and-why-is-it-important.jpg "What is data governance and why is it important")
+
 As we all know, today’s world is filled with data. Wherever you look, wherever you are, data exists and is a big part of what we do and how we operate. For organisations and modern businesses the management of data and how they use it is becoming a critical part of that organisation’s success.
 
 Whilst many people recognise that data needs to be governed it is often unclear how to do this or where to start. Who should take responsibility for implementing this can also be a source of confusion.
