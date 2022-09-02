@@ -8,6 +8,18 @@ fields:
 - type: text
   name: author
   label: author
+- name: date
+  type: datetime
+  label: Publication date
+  description: The date that this post was published. If this is in the future, the
+    post won't appear until this date.
+  config:
+    required: true
+    date_format: YYYY-MM-DD
+    time_format: " "
+    display_utc: false
+    export_format: YYYY-MM-DD
+  default: now
 - type: file
   name: image
   label: image
