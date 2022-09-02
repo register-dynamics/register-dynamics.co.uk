@@ -2,9 +2,6 @@
 label: Content grid
 hide_body: true
 fields:
-- name: coloured
-  type: boolean
-  label: Coloured
 - name: columns
   type: number
   label: Columns
@@ -16,3 +13,36 @@ fields:
     max: 4
     step: 1
     required: true
+- name: coloured
+  type: boolean
+  label: Coloured
+- name: numbered
+  type: boolean
+  label: Numbered
+- name: content
+  type: field_group_list
+  fields:
+  - name: icon
+    type: file
+    config:
+      maxSize: 1
+    label: Icon
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Content
