@@ -2,6 +2,11 @@
 label: Content grid
 hide_body: true
 fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Section heading
 - name: columns
   type: number
   label: Columns
