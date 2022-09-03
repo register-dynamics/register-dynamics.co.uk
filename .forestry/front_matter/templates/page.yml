@@ -15,3 +15,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- cdo-as-a-service.md
