@@ -25,7 +25,10 @@ fields:
   - banner
   - masthead
 pages:
-- case-studies/index.md
-- cdo-as-a-service.md
 - index.md
+- cdo-as-a-service.md
+- what-we-do/index.md
+- case-studies/index.md
 - jobs/index.md
+- insights/index.md
+- insights/index.md
