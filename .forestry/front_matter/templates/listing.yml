@@ -11,12 +11,12 @@ fields:
     source:
       type: custom
     options:
-      - authors
-      - jobs
-      - posts
-      - projects
-      - publications
-      - services
+    - authors
+    - jobs
+    - posts
+    - projects
+    - publications
+    - services
 - name: limit
   label: Limit
   type: number
@@ -27,4 +27,3 @@ fields:
   template: grid-options
   label: Common grid options
   name: grid-options
----
