@@ -6,10 +6,10 @@ layout: default
 {% include biog.html %}
 
 <h2>Blogs</h2>
-<section id=posts>
 {% assign posts = site.posts | where: "author", page.title %}
-{% for post in posts %}
-  {% include post.html %}
-{% endfor %}
-</section>
+{% include listing.html
+  list=posts
+  columns=3
+  coloured=false
+%}
 </main>

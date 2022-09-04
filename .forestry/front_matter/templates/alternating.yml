@@ -1,0 +1,15 @@
+---
+label: Image side-by-side
+hide_body: true
+fields:
+- type: file
+  name: image
+  label: image
+- name: sections
+  type: blocks
+  label: Content
+  template_types:
+  - heading
+  - content
+  - call-to-action
+---

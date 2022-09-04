@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<main>
+{% unless page.hide_title %}
+{% include heading.html level=1 text=page.title %}
+{% endunless %}
+{% include blocks.liquid blocks=page.sections %}
+</main>

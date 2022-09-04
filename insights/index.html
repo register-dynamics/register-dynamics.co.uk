@@ -1,24 +1,29 @@
 ---
 title: Insights
-layout: default
+layout: page
 publications:
 - collection: insights
   slug: ieee-open-data-whats-new
 - collection: data-trusts
   slug: index
+sections:
+- template: content
+  content: |
+    Welcome to Register Dynamics Insights! Here we aim to keep you up to date with the latest news,
+    reports and findings from the Register Dynamics team. We will be sharing what we can with you
+    about the work we do with data in government and what we're learning from it.
+- template: heading
+  text: Publications
+- template: listing
+  source: publications
+  columns: 2
+  coloured: no
+  numbered: no
+- template: heading
+  text: Posts
+- template: listing
+  source: posts
+  columns: 3
+  coloured: no
+  numbered: no
 ---
-<main>
-  <h1>Insights</h1>
-
-  Welcome to Register Dynamics Insights! Here we aim to keep you up to date with the latest news, reports and findings from the Register Dynamics team. We will be sharing what we can with you about the work we do with data in government and what we’re learning from it.
-
-  <section id=insights>
-    <h2>Latest articles</h2>
-    {% include listing.html source="posts" %}
-
-    <h2>Featured publications</h2>
-    {% assign collection = site.collections | where: "label", "posts" | first %}
-    <style type="text/css">#insights [id=""] { grid-template-rows: repeat({{ collection.docs.size | divided_by: 2 }}, 1fr); }</style>
-    {% include listing.html list=page.publications %}
-  </section>
-</main>

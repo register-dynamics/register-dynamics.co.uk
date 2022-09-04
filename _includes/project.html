@@ -1,3 +1,4 @@
+{% assign post = include.post | default: post %}
 <a id="{{ post.slug }}" class=projects href="{{ post.url }}">
   {% if post.image %}
     {% include image.html src=post.image %}

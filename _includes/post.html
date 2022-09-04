@@ -1,4 +1,5 @@
-<div class="post {{ post.collection }}">
+{% assign post = include.post | default: post %}
+<div class="post {{ post.collection }} {{ include.classes }}">
   {% assign collection = site.collections | where: "label", post.collection | first %}
   {% if collection.output or post.location %}
   <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">

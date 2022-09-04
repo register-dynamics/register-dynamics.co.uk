@@ -1,0 +1,4 @@
+{% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
+<aside class="banner">
+  {% include blocks.liquid blocks=main.sections %}
+</aside>

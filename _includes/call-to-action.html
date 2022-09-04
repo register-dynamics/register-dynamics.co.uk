@@ -1,0 +1,14 @@
+{% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
+<p class="call-to-action">
+  {% if main.intro and main.intro != "" %}
+    <span>{{ main.intro }}</span>
+  {% endif %}
+  {% case main.link_type %}
+    {% when 'internal' %}
+      {% assign target = site.pages | where:"path", main.link | first %}
+      {% assign link = target.url | prepend: site.base_url %}
+    {% when 'contact' %}
+      {% assign link = "mailto:" | append: site.email %}
+  {% endcase %}
+  <a role="button" href='{{ link }}'>{{ main.button }}</a>
+</p>

@@ -1,39 +1,51 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: jekyll-pages
   label: Pages
   create: all
+  templates:
+  - page
 - type: directory
   path: _jobs
   label: Jobs
   create: all
+  templates:
+  - post
   match: "**/*"
 - type: directory
   path: _services
   label: Services
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: _authors
   label: Authors
   create: all
   match: "**/*"
-- type: directory
-  path: _data-trusts
-  label: Data trusts
-  create: all
-  match: "**/*"
+  templates:
+  - post
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - post
 - type: directory
   path: _projects
   label: Projects
   create: all
+  match: "**/*"
+  templates:
+  - project
+- type: directory
+  label: Publications
+  create: none
+  path: _publications
   match: "**/*"
 upload_dir: images
 public_path: "/images"
@@ -48,4 +60,4 @@ build:
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: bundle exec jekyll serve --drafts --trace --future -d _site
+  instant_preview_command: bundle exec jekyll serve --drafts --future -d _site

@@ -1,16 +1,19 @@
 ---
 title: What We Do
-layout: default
+layout: page
 full: yes
+sections:
+- template: content
+  content: |
+    We work with organisations to help them make better use of their data.
+    We can support you in these main areas:
+- template: listing
+  source: services
+  columns: 1
+- template: heading
+  text: Who we are
+- template: listing
+  source: authors
+  columns: 3
+  image_mode: icon
 ---
-<main>
-<h1>{{ page.title }}</h1>
-
-We work with organisations to help them make better use of their data. We can support you in these main areas:
-
-{% include listing.html source="services" %}
-
-<h1>Who We Are</h1>
-
-{% include listing.html source="authors" %}
-</main>

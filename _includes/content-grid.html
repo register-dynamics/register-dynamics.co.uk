@@ -1,0 +1,13 @@
+{% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
+{% if main.numbered %}
+  {% assign tag = 'ol' %}
+{% else %}
+  {% assign tag = 'ul' %}
+{% endif %}
+
+<{{tag}} class="content-grid" data-cols="{{main.columns}}" {% if main.coloured %}data-coloured{% endif %} data-image-mode="{{ main.image_mode }}">
+  {% assign item_template = main.item_template | default: 'content-grid-item' %}
+    {% for item in main.content %}
+      <li>{% include {{ item_template }}.html post=item %}</li>
+    {% endfor %}
+</{{tag}}>

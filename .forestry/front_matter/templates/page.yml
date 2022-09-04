@@ -7,13 +7,27 @@ fields:
   config:
     required: true
   label: Title
-- name: content
+- name: hide-title
+  label: Hide Title
+  type: boolean
+  description: When switched off, the title will automatically be at the top the page.
+  default: false
+- name: sections
   type: blocks
   label: Content
   template_types:
+  - heading
   - content-grid
-  config:
-    min: 
-    max: 
+  - content
+  - call-to-action
+  - listing
+  - alternating
+  - banner
+  - masthead
 pages:
+- index.md
 - cdo-as-a-service.md
+- what-we-do/index.md
+- case-studies/index.md
+- jobs/index.md
+- insights/index.md

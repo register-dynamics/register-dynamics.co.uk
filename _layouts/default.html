@@ -9,7 +9,7 @@
     <link rel='stylesheet' type='text/css' href='{{ "/css/the.css" | prepend: site.baseurl }}'>
     {% seo %}
   </head>
-  <body data-title="{{ page.title }}" data-collection="{{ page.collection }}">
+  <body data-title="{{ page.title }}" data-collection="{{ page.collection }}" id="{{ page.path | split: '.' | first | slugify }}">
     <nav id="menu">
       <a href='{{"/" | prepend: site.baseurl }}' id=logo><img src='{{ "/images/logo-landscape.svg" | prepend: site.baseurl }}' alt="Register Dynamics"></a>
       <a href="#menu">Menu</a>
@@ -17,7 +17,7 @@
       <a href='{{"/case-studies" | prepend: site.baseurl }}'>Case Studies</a>
       <a href='{{"/insights" | prepend: site.baseurl }}'>Insights</a>
       <a href='{{"/jobs" | prepend: site.baseurl }}'>Jobs</a>
-      <a href='mailto:hello@register-dynamics.co.uk' role="button">Let's Talk</a>
+      <a href='{{ "mailto:" | append: site.email }}' role="button">Let's Talk</a>
     </nav>
     {{ content }}
     <script type="text/javascript">

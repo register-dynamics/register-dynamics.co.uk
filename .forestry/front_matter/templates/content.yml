@@ -1,0 +1,14 @@
+---
+label: Content
+hide_body: false
+display_field: content
+fields:
+- name: content
+  label: Content
+  type: textarea
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+---

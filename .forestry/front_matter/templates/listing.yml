@@ -1,4 +1,30 @@
 ---
 label: Listing
 hide_body: true
-fields: []
+display_field: source
+fields:
+- name: source
+  label: Source
+  type: select
+  config:
+    required: true
+    source:
+      type: custom
+    options:
+      - authors
+      - jobs
+      - posts
+      - projects
+      - publications
+      - services
+- name: limit
+  label: Limit
+  type: number
+  config:
+    required: false
+    min: 1
+- type: include
+  template: grid-options
+  label: Common grid options
+  name: grid-options
+---

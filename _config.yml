@@ -4,6 +4,7 @@ description: |
   We develop new technology, frameworks and operational models to support the better use of data both in the public and private sectors.
 baseurl: ""
 url: https://www.register-dynamics.co.uk
+email: hello@register-dynamics.co.uk
 logo: "images/logo-2.png"
 
 plugins:
@@ -23,7 +24,7 @@ collections:
     permalink: /blog/:title
   data-trusts:
     output: yes
-  insights:
+  publications:
     output: no
   authors:
     output: yes
@@ -70,6 +71,11 @@ defaults:
     values:
       seo:
         type: JobPosting
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
 
 twitter:
   username: RegDyn

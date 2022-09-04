@@ -1,25 +1,12 @@
 ---
-label: Grid
+label: Static Grid
 hide_body: true
 display_field: heading
 fields:
-- name: columns
-  type: number
-  label: Columns
-  description: ''
-  default: 1
-  required: true
-  config:
-    min: 1
-    max: 4
-    step: 1
-    required: true
-- name: coloured
-  type: boolean
-  label: Coloured
-- name: numbered
-  type: boolean
-  label: Numbered
+- type: include
+  template: grid-options
+  label: Common grid options
+  name: grid-options
 - name: content
   type: field_group_list
   fields:

@@ -1,0 +1,38 @@
+---
+label: Call to action
+hide_body: true
+display_field: button
+fields:
+- name: intro
+  type: text
+  label: Intro text
+  description: Text that will appear before the button
+  config:
+    required: false
+- name: button
+  type: text
+  label: Button text
+  description: Text that will appear on the button
+  config:
+    required: true
+- name: link_type
+  label: Type of link
+  type: select
+  description: |
+    When 'contact', will make a button for emailing.
+    When 'internal', you can specify a page on the site to link to.
+  config:
+    required: true
+    source:
+      type: custom
+    options:
+      - internal
+      - contact
+- name: link
+  type: select
+  label: Link
+  config:
+    required: false
+    source:
+      type: pages
+      section: pages

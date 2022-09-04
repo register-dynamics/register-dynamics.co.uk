@@ -1,9 +1,18 @@
 ---
 label: Heading
 hide_body: true
+display_field: text
 fields:
 - name: text
   type: text
   config:
     required: true
   label: Text
+- name: level
+  label: Heading Level
+  type: number
+  default: 2
+  config:
+    min: 1
+    max: 6
+---
