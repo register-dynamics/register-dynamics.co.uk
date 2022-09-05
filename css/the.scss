@@ -306,10 +306,6 @@ article, aside {
     margin-top: $COLUMN_SIZE;
   }
 
-  .client {
-    margin-bottom: 2em;
-  }
-
   img {
     margin: 0 auto;
     max-width: 100%;
@@ -405,11 +401,6 @@ article, aside {
   }
 }
 
-.bright {
-  background: $LIGHT_GREEN;
-  color: $DARK_GREEN;
-}
-
 .content-grid {
   display: grid;
   grid-template-columns: repeat(12, $COLUMN_SIZE);
@@ -429,7 +420,7 @@ article, aside {
         grid-column: span #{12 / $SIZE};
       }
 
-      &[data-image-mode=cover] img:first-child {
+      &[data-image-mode=cover] > li > *:not(.alternating) img:first-child {
         $ASPECT_RATIO: 11/16;
         $COLUMN_WIDTH: 12/$SIZE;
         height: $COLUMN_SIZE * $COLUMN_WIDTH * $ASPECT_RATIO;
@@ -458,14 +449,14 @@ article, aside {
   }
 
   &[data-image-mode=cover] {
-    img:first-child {
+    > li > *:not(.alternating) img:first-child {
       object-fit: cover;
       width: 100%;
       margin-left: 0;
       margin-right: 0;
     }
 
-    &[data-coloured] img:first-child {
+    &[data-coloured] > li > *:not(.alternating) img:first-child {
       width: calc(100% + #{$COLUMN_GAP}*2);
       margin-left: -$COLUMN_GAP;
       margin-bottom: $COLUMN_GAP / 2;
@@ -557,7 +548,7 @@ aside.banner {
 
   > img {
     width: 100%;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
   }
 
   &:nth-of-type(odd) {
@@ -585,71 +576,6 @@ aside.banner {
 
 .masthead {
   @include window-width();
-}
-
-#registers {
-  padding: $COLUMN_SIZE 0;
-  margin-top: $COLUMN_SIZE*2;
-  position: relative;
-
-  @media screen and (max-width: $BODY_SIZE) {
-    padding: $COLUMN_SIZE/2;
-  }
-
-  h1 {
-    margin: 0;
-    grid-column: 2 / -2;
-  }
-
-  [role~='button'] {
-    position: absolute;
-    right: columns(2.5);
-    bottom: 9em;
-
-    @media screen and (max-width: $BODY_SIZE) {
-      right: $COLUMN_GAP;
-      bottom: $COLUMN_GAP;
-    }
-  }
-
-  .window {
-    $VERT_PAD: $COLUMN_GAP;
-    $HORZ_PAD: $COLUMN_GAP * 2;
-
-    grid-column: 3 / span 7;
-    border: 5px solid $DARK_GREEN;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: $VERT_PAD $HORZ_PAD;
-
-    font-size: 86%;
-    line-height: 28px;
-
-    &::before {
-      content: '';
-      display: block;
-      width: calc(100% + #{$HORZ_PAD});
-      height: 25px;
-      position: relative;
-      left: -5px - $HORZ_PAD;
-      top: -$VERT_PAD;
-      border-bottom: inherit;
-      background-size: auto 80%;
-      background-repeat: no-repeat;
-      background-position-y: 100%;
-      background-image: inline-svg(
-        '<svg xmlns="http://www.w3.org/2000/svg" width="155" height="45" viewBox="0 0 155 45" version="1.1"><style>rect{fill:#{expand-color($LIGHT_GREEN)}} circle{fill:white}</style> <rect width="20" height="25" x="0" y="20" /> <circle cx="45" cy="15" r="15" /> <circle cx="90" cy="15" r="15" /> <circle cx="135" cy="15" r="15" /> </svg>'
-      );
-    }
-
-    > * {
-      max-width: columns(5);
-    }
-
-    > svg {
-      max-width: columns(3);
-    }
-  }
 }
 
 .projects, .jobs {
