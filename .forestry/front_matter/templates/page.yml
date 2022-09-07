@@ -25,8 +25,8 @@ fields:
   - banner
   - masthead
 pages:
-- "./technical-and-data-strategy-1.md"
-- "./technical-and-data-strategy.md"
+- technical-and-data-strategy-1.md
+- technical-and-data-strategy.md
 - case-studies/index.md
 - cdo-as-a-service.md
 - data-management.md
