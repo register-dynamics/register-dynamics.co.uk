@@ -2,9 +2,12 @@
 title: Jobs
 layout: page
 sections:
-- template: content
-  content: We are always looking for exceptional people who share our values, to join
-    our team and to help us build a company we can all be proud of.
+- template: alternating
+  sections:
+  - template: content
+    content: We are always looking for exceptional people who share our values, to
+      join our team and to help us build a company we can all be proud of.
+  image: ''
 - template: heading
   level: 2
   text: Why work with us?
