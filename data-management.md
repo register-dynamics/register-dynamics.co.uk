@@ -74,11 +74,20 @@ sections:
     numbered: false
     image_mode: ''
 - template: content-grid
-  columns: 1
-  coloured: false
+  columns: 3
+  coloured: true
   numbered: false
-  image_mode: ''
-  content: []
+  image_mode: cover
+  content:
+  - body: ''
+    icon: ''
+    heading: ''
+  - body: ''
+    icon: ''
+    heading: ''
+  - body: ''
+    icon: ''
+    heading: ''
 - template: heading
   level: 2
   text: Data management insights
@@ -91,6 +100,23 @@ sections:
 - template: heading
   level: 2
   text: Related services
+- template: content-grid
+  columns: 3
+  content:
+  - heading: Data governance
+    body: "Strategic, tactical and technical support \n\nLearn more"
+    icon: ''
+  - heading: Data discovery and cataloging
+    body: "Making data accessible and discoverable \nLearn more"
+    icon: ''
+  - heading: Data standards
+    body: |-
+      Establishing ‘best in class’ data standards
+      Learn more
+    icon: ''
+  image_mode: icon
+  coloured: false
+  numbered: false
 published: false
 
 ---
