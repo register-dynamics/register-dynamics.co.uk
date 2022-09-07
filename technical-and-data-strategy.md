@@ -97,15 +97,20 @@ sections:
 - template: content-grid
   columns: 3
   content:
-  - heading: Data governance
-    body: "Strategic, tactical and technical support \n\nLearn more"
+  - heading: Digital delivery
+    body: |2-
+
+
+      Learn more
     icon: ''
-  - heading: Data discovery and cataloging
-    body: "Making data accessible and discoverable \nLearn more"
+  - heading: Building data maturity
+    body: |2-
+
+      Learn more
     icon: ''
-  - heading: Data standards
-    body: |-
-      Establishing ‘best in class’ data standards
+  - heading: Technical assurance
+    body: |2-
+
       Learn more
     icon: ''
   image_mode: icon
