@@ -42,18 +42,12 @@ sections:
   level: 2
   text: Roles we are hiring for
 - template: content
-  content: "These are the current vacancies and jobs that we are hiring for. To apply
-    simply send us your CV along with a cover letter/email telling us why you think
-    you'd be a good fit for us and for the role. \n\nSend your CV to <a href=\"mailto:hello@register-dynamics.co.uk\">hello@register-dynamics.co.uk</a>
-    and it'll be picked up by <a href=\"{{ '/authors/andy-bennett' | prepend: site.baseurl
-    }}\">Andy Bennett</a> or <a href=\"{{ '/authors/simon-worthington' | prepend:
-    site.baseurl }}\">Simon Worthington</a>. If you've got the sort of skills and
-    experience the role is looking for, we'll get in touch to arrange an interview
-    in our London offce or via video call.\n\nIf you want to see the sort of projects
-    you'll be working on, check out <a href=\"{{ '/case-studies' | prepend: site.baseurl
-    }}\">the interesting work we've done</a>.\n\nIf you don't see a role that's right
-    for you now, we may still be excited to hear from you! [Drop us a message]() and
-    tell us why you think you should join us."
+  content: |-
+    These are the current vacancies and jobs that we are hiring for. To apply simply send us your CV along with a cover letter/email telling us why you think you'd be a good fit for us and for the role.
+
+    Send your CV to <a href="mailto:hello@register-dynamics.co.uk">hello@register-dynamics.co.uk</a> and it'll be picked up by <a href="{{ '/authors/andy-bennett' | prepend: site.baseurl }}">Andy Bennett</a> or <a href="{{ '/authors/simon-worthington' | prepend: site.baseurl }}">Simon Worthington</a>. If you've got the sort of skills and experience the role is looking for, we'll get in touch to arrange an interview in our London offce or via video call.
+
+    If you want to see the sort of projects you'll be working on, check out <a href="{{ '/case-studies' | prepend: site.baseurl }}">the interesting work we've done</a>.
 - template: listing
   source: jobs
   columns: 3
@@ -61,6 +55,10 @@ sections:
   limit: 
   numbered: false
   image_mode: ''
+- template: content
+  content: If you don't see a role that's right for you now, we may still be excited
+    to hear from you! [Drop us a message]() and tell us why you think you should join
+    us.
 hide-title: false
 
 ---
