@@ -5,42 +5,36 @@ sections:
 - template: alternating
   sections:
   - template: content
-    content: "Empower your organisation and staff to get the most out of your data
-      by having a data management system you can be confident in.  \n  \nWe offer
-      bespoke data management solutions tailored to your specific needs."
-  image: "/images/Data.svg"
+    content: |-
+      ###### We support organisations to design, develop and enhance their technical and data strategies.
+
+      With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
+
+      Our work involves in-depth evaluations, technical research and discovery, expert technical interventions, the development of new and improved systems, processes and platforms, and also technical leadership and oversight, depending on what you and your organisation need.
+  image: "/images/Strategy.svg"
 - template: heading
   level: 2
-  text: Work with us to
+  text: Our technical and data strategy service will help you
 - template: content-grid
   columns: 3
   content:
   - icon: ''
-    heading: Eliminate data silos
-    body: Enable easy data sharing and collaboration between teams. Let us help you
-      to eliminate data silos across your organisation and to make data a shared resource
-      for everyone.
+    heading: Find and eliminate weak points
+    body: Assess your current data ecosystem, identify areas of potential weakness
+      and establish the best ways to tackle these. Get tailored solutions for your
+      specific challenges and strengthen your offering to users and customers.
   - icon: ''
-    heading: Establish accurate and trusted data
-    body: Create a single source of truth that everyone can use and draw data insights
-      from. Know that your data is accurate, up-to-date, safe and secure. Make data
-      easy to find and understand.
+    heading: " Enhance business operations"
+    body: Improve and future proof your business processes through automation, streamlining
+      and technical optimisation. Increase efficiency to maximise progress and unlock
+      potential.
   - icon: ''
-    heading: Streamline your business process
-    body: Develop simple and accessible data management that drives efficiency of
-      your operations. Enhance productivity with seamless collaboration between processes
-      and teams.
-  coloured: false
+    heading: Set data standards, principles and policies
+    body: 'Design and develop a set of solid data standards, principles and policies
+      that can be embedded easily throughout your organisation. '
+  coloured: true
   numbered: false
   image_mode: ''
-- template: content
-  content: Through our user-centric, agile and customised approach, we can help you
-    to improve your data management set up and processes now.
-- template: call-to-action
-  link_type: contact
-  button: Talk to us
-  intro: Talk to one of our data management experts to discuss your specific needs.
-  link: ''
 - template: banner
   sections:
   - template: heading
@@ -59,20 +53,9 @@ sections:
     **Easy migration and integration**
 
     Migrate all of your existing data easily into the new system and be confident that everything integrates seamlessly with your current business operations and processes.
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Data management success stories
-  - template: content-grid
-    columns: '3'
-    content:
-    - icon: ''
-      heading: ''
-      body: ''
-    coloured: true
-    numbered: false
-    image_mode: ''
+- template: heading
+  level: 2
+  text: Why work with us on your technical strategy?
 - template: content-grid
   columns: 3
   coloured: true
@@ -88,15 +71,15 @@ sections:
   - body: ''
     icon: ''
     heading: ''
+- template: call-to-action
+  link_type: internal
+  intro: 'Ready to talk and explore how we can help you with your technical and data
+    strategy? '
+  button: Get in touch
+  link: ''
 - template: heading
   level: 2
   text: Data management insights
-- template: call-to-action
-  link_type: internal
-  intro: Ready to talk to one of our data management experts to discuss your specific
-    needs?
-  button: Contact us now
-  link: ''
 - template: heading
   level: 2
   text: Related services
