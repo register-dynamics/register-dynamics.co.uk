@@ -7,7 +7,7 @@ sections:
   - template: content
     content: We are always looking for exceptional people who share our values, to
       join our team and to help us build a company we can all be proud of.
-  image: ''
+  image: "/images/icon-team2.png"
 - template: heading
   level: 2
   text: Why work with us?
@@ -57,7 +57,7 @@ sections:
   coloured: true
   limit: 
   numbered: false
-  image_mode: ''
+  image_mode: icon
 - template: content
   content: If you don't see a role that's right for you now, we may still be excited
     to hear from you! [Drop us a message]() and tell us why you think you should join
