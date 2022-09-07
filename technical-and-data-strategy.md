@@ -72,14 +72,25 @@ sections:
     icon: ''
     heading: ''
 - template: call-to-action
-  link_type: internal
+  link_type: contact
   intro: 'Ready to talk and explore how we can help you with your technical and data
     strategy? '
   button: Get in touch
   link: ''
+- template: banner
+  sections:
+  - template: heading
+    level: 2
+    text: Technical and data strategy success stories
 - template: heading
   level: 2
-  text: Data management insights
+  text: Technical and data strategy insights
+- template: call-to-action
+  link_type: contact
+  button: Ready to talk to one of our data management experts to discuss your specific
+    needs?
+  intro: Contact us now
+  link: ''
 - template: heading
   level: 2
   text: Related services
