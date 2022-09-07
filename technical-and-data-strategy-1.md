@@ -5,10 +5,13 @@ sections:
 - template: alternating
   sections:
   - template: content
-    content: "Empower your organisation and staff to get the most out of your data
-      by having a data management system you can be confident in.  \n  \nWe offer
-      bespoke data management solutions tailored to your specific needs."
-  image: "/images/Data.svg"
+    content: |-
+      ##### We support organisations to design, develop and enhance their technical and data strategies.
+
+      With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
+
+      Our work involves in-depth evaluations, technical research and discovery, expert technical interventions, the development of new and improved systems, processes and platforms, and also technical leadership and oversight, depending on what you and your organisation need.
+  image: "/images/Strategy.svg"
 - template: heading
   level: 2
   text: Work with us to
