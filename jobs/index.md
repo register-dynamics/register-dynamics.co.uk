@@ -57,7 +57,7 @@ sections:
   coloured: true
   limit: 
   numbered: false
-  image_mode: icon
+  image_mode: ''
 - template: content
   content: If you don't see a role that's right for you now, we may still be excited
     to hear from you! [Drop us a message]() and tell us why you think you should join
