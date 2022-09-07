@@ -27,6 +27,7 @@ fields:
 pages:
 - case-studies/index.md
 - cdo-as-a-service.md
+- data-management.md
 - index.md
 - jobs/index.md
 - what-we-do-new.md
