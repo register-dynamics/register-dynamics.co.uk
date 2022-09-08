@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 255.07 286.43"
+   version="1.1"
+   sodipodi:docname="Icon-Team.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata2690">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2035"
+     id="namedview2688"
+     showgrid="false"
+     inkscape:zoom="0.82393606"
+     inkscape:cx="127.535"
+     inkscape:cy="143.215"
+     inkscape:window-x="1051"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="logo_mark_2" />
+  <defs
+     id="defs2670">
+    <style
+       id="style2668">.cls-1{fill:#3278ff;}.cls-2{fill:#731e14;}</style>
+  </defs>
+  <title
+     id="title2672">Icon-Team</title>
+  <g
+     id="logo_mark_2"
+     data-name="logo mark 2">
+    <path
+       class="cls-1"
+       d="M132,26.87a45.72,45.72,0,1,0,45.72,45.72A45.72,45.72,0,0,0,132,26.87Zm0,72.92a27.2,27.2,0,1,1,27.2-27.2A27.2,27.2,0,0,1,132,99.79Z"
+       id="path2674" />
+    <path
+       class="cls-1"
+       d="M132,172a10.17,10.17,0,0,0-10.17,10.17h20.35A10.17,10.17,0,0,0,132,172Z"
+       id="path2676" />
+    <path
+       class="cls-1"
+       d="M132,138.31a43.87,43.87,0,0,0-43.87,43.87h16.67a27.2,27.2,0,0,1,54.4,0h16.67A43.87,43.87,0,0,0,132,138.31Z"
+       id="path2678" />
+    <path
+       class="cls-1"
+       d="M132,100a82.18,82.18,0,0,0-82.18,82.17H68.35a63.66,63.66,0,0,1,127.32,0h18.52A82.18,82.18,0,0,0,132,100Z"
+       id="path2680" />
+  </g>
+</svg>
