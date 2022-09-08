@@ -6,11 +6,9 @@ sections:
   sections:
   - template: content
     content: |-
-      ##### We support organisations to design, develop and enhance their technical and data strategies.
+      ##### **Establish strong data governance to enable you to get the best value out of your data**
 
-      With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
-
-      Our work involves in-depth evaluations, technical research and discovery, expert technical interventions, the development of new and improved systems, processes and platforms, and also technical leadership and oversight, depending on what you and your organisation need.
+      We offer strategic, tactical and technical support around all aspects of data governance.
   image: "/images/Strategy.svg"
 - template: heading
   level: 2
@@ -19,20 +17,17 @@ sections:
   columns: 3
   content:
   - icon: ''
-    heading: Eliminate data silos
-    body: Enable easy data sharing and collaboration between teams. Let us help you
-      to eliminate data silos across your organisation and to make data a shared resource
-      for everyone.
+    heading: Gain clarity and control
+    body: Know who is responsible for what data and when. Have policies, processes,
+      data standards and metrics in place to help you keep on top of all your data.
   - icon: ''
-    heading: Establish accurate and trusted data
-    body: Create a single source of truth that everyone can use and draw data insights
-      from. Know that your data is accurate, up-to-date, safe and secure. Make data
-      easy to find and understand.
+    heading: Build confidence in your data
+    body: Make sure that you and your organisation are always working with high quality,
+      accurate data all the time.
   - icon: ''
-    heading: Streamline your business process
-    body: Develop simple and accessible data management that drives efficiency of
-      your operations. Enhance productivity with seamless collaboration between processes
-      and teams.
+    heading: Leverage your data
+    body: Let your data and insights from it, drive your business forwards. Trust
+      your data to propel your organisation into the future.
   coloured: false
   numbered: false
   image_mode: ''
