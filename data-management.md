@@ -46,8 +46,31 @@ sections:
   - template: heading
     level: 2
     text: Why trust us with your data management?
+- template: content-grid
+  columns: 3
+  content:
+  - icon: "/images/icon-team.svg"
+    heading: User-centric approach
+    body: We create bespoke data management systems with the user at the centre of
+      our approach. We will take the time to gain a deep understanding of all of your
+      needs and create a customisable, intuitive system to manage all of your data.
+  - icon: "/images/icon-beready.svg"
+    heading: Expert help at all stages
+    body: We can help you at any stage of your data management journey. Whether you
+      need help to design, develop and/or deliver a new data management system, we
+      have experts on-hand to support you.
+  - icon: "/images/download-g118d5d2cf_640.png"
+    heading: Easy migration and integration
+    body: Migrate all of your existing data easily into the new system and be confident
+      that everything integrates seamlessly with your current business operations
+      and processes.
+  coloured: false
+  numbered: false
+  image_mode: ''
 - template: content
   content: |-
+    **![](/images/icon-team.svg)![](/images/icon-team.svg)![](/images/icon-team.svg)**
+
     **User-centric approach**
 
     We create bespoke data management systems with the user at the centre of our approach. We will take the time to gain a deep understanding of all of your needs and create a customisable, intuitive system to manage all of your data.
