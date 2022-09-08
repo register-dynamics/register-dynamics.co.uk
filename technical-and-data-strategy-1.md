@@ -62,7 +62,7 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Data management success stories
+    text: Data governance success stories
   - template: content-grid
     columns: '3'
     content:
@@ -89,10 +89,10 @@ sections:
     heading: ''
 - template: heading
   level: 2
-  text: Data management insights
+  text: Data governance insights
 - template: call-to-action
   link_type: internal
-  intro: Ready to talk to one of our data management experts to discuss your specific
+  intro: Ready to talk to one of our data governance experts to discuss your specific
     needs?
   button: Contact us now
   link: ''
@@ -102,8 +102,8 @@ sections:
 - template: content-grid
   columns: 3
   content:
-  - heading: Data governance
-    body: "Strategic, tactical and technical support \n\nLearn more"
+  - heading: Data management
+    body: "Bespoke data management solutions \n\nLearn more"
     icon: ''
   - heading: Data discovery and cataloging
     body: "Making data accessible and discoverable \nLearn more"
