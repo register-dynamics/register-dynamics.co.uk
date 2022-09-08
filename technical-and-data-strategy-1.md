@@ -32,31 +32,32 @@ sections:
   numbered: false
   image_mode: ''
 - template: content
-  content: Through our user-centric, agile and customised approach, we can help you
-    to improve your data management set up and processes now.
+  content: We can help you to identify, create and implement the right data governance
+    strategy for your organisation.
 - template: call-to-action
   link_type: contact
-  button: Talk to us
-  intro: Talk to one of our data management experts to discuss your specific needs.
+  button: Talk to us now
+  intro: Whether you need advice, guidance or  help with technical implementation,
+    we can help.
   link: ''
 - template: banner
   sections:
   - template: heading
     level: 2
-    text: Why trust us with your data management?
+    text: Why trust us with your data governance?
 - template: content
   content: |-
-    **User-centric approach**
+    **Industry standards and best practice**
 
-    We create bespoke data management systems with the user at the centre of our approach. We will take the time to gain a deep understanding of all of your needs and create a customisable, intuitive system to manage all of your data.
+    Our team are recognised experts in developing best practices for companies and governments. We apply industry standard models and responsibilities so that you benefit from our tried and tested methods.
 
-    **Expert help at all stages**
+    **Innovation with direction**
 
-    We can help you at any stage of your data management journey. Whether you need help to design, develop and/or deliver a new data management system, we have experts on-hand to support you.
+    Our unique approach ensures that your data is governed well and meets all compliance requirements, whilst also exploring the best and most innovative ways to harness your data. Explore the possibilities with confidence and control, and be guided at every step of the way.
 
-    **Easy migration and integration**
+    **Decades of experience**
 
-    Migrate all of your existing data easily into the new system and be confident that everything integrates seamlessly with your current business operations and processes.
+    Our team offers a wealth of experience in implementing data governance across organisations. We can help you through the earliest phases of data governance, right through to creating an ongoing roadmap for the future.
 - template: banner
   sections:
   - template: heading
