@@ -21,6 +21,18 @@ sections:
   - icon: ''
     heading: 'Our specialisms:'
     body: ''
+  - icon: "/images/Strategy.svg"
+    heading: Technical and data strategy
+    body: ''
+  - icon: "/images/Data.svg"
+    heading: Data management
+    body: ''
+  - icon: ''
+    heading: ''
+    body: ''
+  - icon: ''
+    heading: ''
+    body: ''
   coloured: false
   numbered: false
   image_mode: ''
