@@ -1,5 +1,5 @@
 ---
-title: Technical and data strategy
+title: Data governance
 hide-title: false
 sections:
 - template: alternating
