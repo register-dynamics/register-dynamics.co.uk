@@ -39,7 +39,7 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Why trust us with your data management?
+    text: Why work with us on your technical strategy?
 - template: content
   content: |-
     **User-centric approach**
@@ -58,19 +58,27 @@ sections:
   text: Why work with us on your technical strategy?
 - template: content-grid
   columns: 3
-  coloured: true
+  coloured: false
   numbered: false
-  image_mode: cover
+  image_mode: icon
   content:
-  - body: ''
+  - body: Whatever your data or technical challenges are, we will approach them with
+      curiosity, passion and an experienced eye. We are also recognised industry leaders
+      in data technology and data standards and continue to push the boundaries and
+      explore new emerging technologies each day.
     icon: ''
-    heading: ''
-  - body: ''
+    heading: We love all things technical
+  - body: We can offer you advice, guidance and also support through all stages of
+      implementation and beyond.  As pioneers in data technology and emerging tech,
+      we are in a unique position to be able to support you at any and all stages
+      of your development.
     icon: ''
-    heading: ''
-  - body: ''
+    heading: Support at all stages
+  - body: We believe in getting real results. Whether this means building a prototype
+      to test out new ideas, developing new tools from scratch or working with you
+      in-house and leading projects from within; we are ready to get stuck in!
     icon: ''
-    heading: ''
+    heading: Getting things done
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk and explore how we can help you with your technical and data
@@ -82,6 +90,13 @@ sections:
   - template: heading
     level: 2
     text: Technical and data strategy success stories
+  - template: listing
+    columns: 1
+    source: posts
+    image_mode: cover
+    limit: 
+    coloured: false
+    numbered: false
 - template: heading
   level: 2
   text: Technical and data strategy insights
@@ -100,17 +115,17 @@ sections:
   - heading: Digital delivery
     body: |2-
 
-
+      Digital products and solutions
       Learn more
     icon: ''
   - heading: Building data maturity
-    body: |2-
-
+    body: |-
+      Data culture and community
       Learn more
     icon: ''
   - heading: Technical assurance
-    body: |2-
-
+    body: |-
+      Technology review and option evaluation
       Learn more
     icon: ''
   image_mode: icon
