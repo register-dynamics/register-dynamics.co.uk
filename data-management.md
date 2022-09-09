@@ -69,8 +69,6 @@ sections:
   image_mode: ''
 - template: content
   content: |-
-    **![](/images/icon-team.svg)![](/images/icon-team.svg)![](/images/icon-team.svg)**
-
     **User-centric approach**
 
     We create bespoke data management systems with the user at the centre of our approach. We will take the time to gain a deep understanding of all of your needs and create a customisable, intuitive system to manage all of your data.
