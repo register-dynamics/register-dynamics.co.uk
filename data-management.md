@@ -115,11 +115,12 @@ sections:
     body: "Strategic, tactical and technical support \n\nLearn more"
     icon: ''
   - heading: Data discovery and cataloging
-    body: "Making data accessible and discoverable \nLearn more"
+    body: "Making data accessible and discoverable \n\nLearn more"
     icon: ''
   - heading: Data standards
     body: |-
       Establishing ‘best in class’ data standards
+
       Learn more
     icon: ''
   image_mode: icon
