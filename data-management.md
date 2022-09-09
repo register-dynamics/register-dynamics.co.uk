@@ -67,19 +67,6 @@ sections:
   coloured: false
   numbered: false
   image_mode: ''
-- template: content
-  content: |-
-    **User-centric approach**
-
-    We create bespoke data management systems with the user at the centre of our approach. We will take the time to gain a deep understanding of all of your needs and create a customisable, intuitive system to manage all of your data.
-
-    **Expert help at all stages**
-
-    We can help you at any stage of your data management journey. Whether you need help to design, develop and/or deliver a new data management system, we have experts on-hand to support you.
-
-    **Easy migration and integration**
-
-    Migrate all of your existing data easily into the new system and be confident that everything integrates seamlessly with your current business operations and processes.
 - template: banner
   sections:
   - template: heading
@@ -98,7 +85,7 @@ sections:
   columns: 3
   coloured: true
   numbered: false
-  image_mode: cover
+  image_mode: icon
   content:
   - body: ''
     icon: ''
