@@ -30,7 +30,7 @@ sections:
     body: Develop simple and accessible data management that drives efficiency of
       your operations. Enhance productivity with seamless collaboration between processes
       and teams.
-  coloured: false
+  coloured: true
   numbered: false
   image_mode: ''
 - template: content
