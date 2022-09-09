@@ -95,7 +95,7 @@ sections:
       We can also provide training and mentoring to your teams as well as ad-hoc support on a retainer basis if required.
   image_mode: ''
 - template: call-to-action
-  intro: Want to know more?
+  intro: 'Want to know more?  '
   button: Get in touch
   link_type: contact
   link: ''
