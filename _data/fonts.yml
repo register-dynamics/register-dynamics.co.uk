@@ -1,0 +1,7 @@
+---
+- name: Chivo
+  bold: yes
+  italic: yes
+- name: DM Serif Display
+  bold: no
+  italic: yes

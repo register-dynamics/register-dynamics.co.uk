@@ -1,0 +1,13 @@
+---
+- format: embedded-opentype
+  ext: eot
+  mime: application/vnd.ms-fontobject
+  preload: no
+- format: woff
+  ext: woff
+  mime: font/woff
+  preload: yes
+- format: woff2
+  ext: woff2
+  mime: font/woff2
+  preload: yes
