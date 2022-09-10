@@ -5,9 +5,18 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: author
-  label: author
+- name: authors
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: authors
+      file: 
+      path: 
+  label: Authors
 - name: date
   type: datetime
   label: Publication date
