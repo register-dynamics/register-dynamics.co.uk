@@ -16,13 +16,13 @@ licenses:
 ---
 Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
 
-If you want to be able to make a change and to get more people within your organisation to see the value in data like you do, the first step is to try and get a better understanding of why they might not care about data as much as you.  What’s stopping them from embracing data and leveraging all that it has to offer? 
+If you want to be able to make a change and to get more people within your organisation to see the value in data like you do, the first step is to try and get a better understanding of why they might not care about data as much as you.  What’s stopping them from embracing data and leveraging all that it has to offer?
 
-In our work helping organisations build their data maturity, we’ve encountered several common reasons that stop staff and colleagues from taking that next step and really caring about data.
+In [our work helping organisations build their data maturity](/case-studies/), we’ve encountered several common reasons that stop staff and colleagues from taking that next step and really caring about data.
 
 ## 1. They think only data specialists have a role to play
 
-It’s a common myth that data is solely the domain of specialists, and that understanding or handling data is a practice that must be left only to the experts. Wider industry has perpetuated this myth with memes like “data is the new oil” – and hence solely the domain of specialists. 
+It’s a common myth that data is solely the domain of specialists, and that understanding or handling data is a practice that must be left only to the experts. Wider industry has perpetuated this myth with memes like “data is the new oil” – and hence solely the domain of specialists.
 
 Where this myth persists, staff feel that they have no ability or responsibility to consider data in their role. Working with data is in fact a common part of most roles these days, but because of this perception staff don’t consider what they do as anything to do with data.
 
@@ -30,17 +30,17 @@ Organisations need all of their staff to have a basic level of data literacy –
 
 ## 2. They think data requires technical skills
 
-Although more and more of us have access to more and more data these days, being able to really understand it, interpret it and use it can feel hard for some. 
+Although more and more of us have access to more and more data these days, being able to really understand it, interpret it and use it can feel hard for some.
 
 Many people believe that working with data requires strong technical skills (such as working with SQL or APIs) that can only be developed through learning or fulfilled by hiring. So, people shy away from it and thus, data becomes a low priority for them and something they’d rather avoid than embrace.
 
-In practice, even large organisations might only need a few technical specialists. The skills that the majority of staff actually need are the basics: understanding what business insight can be driven with data, what sort of processes it can help automate, and how to collect and handle it well. 
+In practice, even large organisations might only need a few technical specialists. The skills that the majority of staff actually need are the basics: understanding what business insight can be driven with data, what sort of processes it can help automate, and how to collect and handle it well.
 
 If staff have a basic level of data literacy they will be able to and implement more of this themselves with the simpler tools they have access to. They will also know when it is time to hand off to a technical specialist and can communicate with them effectively.
 
 ## 3. They don’t understand what data exists
 
-The amount of effort required to find, analyse and use data can feel like more than it’s worth. If data in the organisation is confusing or ill-organised, it can present a major barrier to use. 
+The amount of effort required to find, analyse and use data can feel like more than it’s worth. If data in the organisation is confusing or ill-organised, it can present a major barrier to use.
 
 Some people may struggle to find or gain access to the data they need. It might be impossible for them to discover data or challenging governance might prevent them from accessing it. When it’s not clear what data the organisation already has, new data collection efforts will tend to collect duplicate data or use inconsistent formats – making it harder to combine with existing data.
 
@@ -58,9 +58,9 @@ Instead, staff’s work with data needs to be rewarded and shared. Let them inte
 
 ## 5. They lack confidence in data quality
 
-It’s difficult to care about and appreciate data if it’s essentially always wrong.  If your staff can’t rely on the accuracy of the data they gather or are given then why would they use it and how can they possibly trust it? 
+It’s difficult to care about and appreciate data if it’s essentially always wrong.  If your staff can’t rely on the accuracy of the data they gather or are given then why would they use it and how can they possibly trust it?
 
-When staff see a “broken window” in data – evidence that something is incorrect – it undermines trust in the whole data process even if the error is small or localised. Once standards slip, staff lack motivation to put effort into data collection and processing, and low-quality inputs lead to low-quality outputs. This is a vicious cycle with data getting worse over time. 
+When staff see a “broken window” in data – evidence that something is incorrect – it undermines trust in the whole data process even if the error is small or localised. Once standards slip, staff lack motivation to put effort into data collection and processing, and low-quality inputs lead to low-quality outputs. This is a vicious cycle with data getting worse over time.
 
 If there’s no single source of truth for any part of your organisation’s data, it means that different teams are left to their own devices and to define their own ‘truths’. This leads to much confusion over whose data is correct – and the true answer is usually “neither”.
 
