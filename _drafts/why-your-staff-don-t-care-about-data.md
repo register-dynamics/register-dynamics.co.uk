@@ -2,9 +2,9 @@
 date: 2022-09-28
 title: Why your staff don’t care about data
 authors:
-- author: _authors/nisa-chitakasem.md
-- author: _authors/alaric-snell-pym.md
-- author: _authors/simon-worthington.md
+- author: Nisa Chitakasem
+- author: Alaric Snell-Pym
+- author: Simon Worthington
 image: "/images/g35ab0fc39954f0422004aebecfc238dc23999549ed9218953fe1f3feeaf23a07ee09fbc579403268c3ebcf22d9254a1d652aaca7e2fe832470e0bd9394143adda1af6defbdda72b397768c23eeb3ea05_1280-1.jpg"
 excerpt: Are you passionate about data but don’t understand why others aren’t? There
   are several common reasons that stop staff and colleagues from taking that next
