@@ -23,7 +23,7 @@ fields:
   config:
     min: 1
     max: 
-    labelField: authors
+    labelField: author
   label: Authors
 - name: date
   type: datetime
