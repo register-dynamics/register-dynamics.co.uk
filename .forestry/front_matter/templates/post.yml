@@ -6,16 +6,24 @@ fields:
   name: title
   label: title
 - name: authors
-  type: select
-  default: []
+  type: field_group_list
+  fields:
+  - name: author
+    type: select
+    default: []
+    config:
+      required: true
+      options: []
+      source:
+        type: pages
+        section: authors
+        file: 
+        path: 
+    label: Author
   config:
-    required: true
-    options: []
-    source:
-      type: pages
-      section: authors
-      file: 
-      path: 
+    min: 1
+    max: 
+    labelField: authors
   label: Authors
 - name: date
   type: datetime
