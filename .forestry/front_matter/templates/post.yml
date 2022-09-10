@@ -15,10 +15,10 @@ fields:
       required: true
       options: []
       source:
-        type: pages
-        section: authors
-        file: 
-        path: 
+        type: documents
+        section: data
+        file: _data/authors.yml
+        path: ''
     label: Author
   config:
     min: 1
