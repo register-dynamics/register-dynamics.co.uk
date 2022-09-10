@@ -14,6 +14,8 @@ licenses:
   used under the [Pixabay License](https://pixabay.com/service/license/).
 
 ---
+![Woman looking bored](/images/g35ab0fc39954f0422004aebecfc238dc23999549ed9218953fe1f3feeaf23a07ee09fbc579403268c3ebcf22d9254a1d652aaca7e2fe832470e0bd9394143adda1af6defbdda72b397768c23eeb3ea05_1280-1.jpg)
+
 Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
 
 If you want to be able to make a change and to get more people within your organisation to see the value in data like you do, the first step is to try and get a better understanding of why they might not care about data as much as you.  What’s stopping them from embracing data and leveraging all that it has to offer?
