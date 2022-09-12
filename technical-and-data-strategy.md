@@ -81,8 +81,7 @@ sections:
     heading: Getting things done
 - template: call-to-action
   link_type: contact
-  intro: 'Ready to talk and explore how we can help you with your technical and data
-    strategy? '
+  intro: 'Ready to talk? Tell us about your technical and data strategy now '
   button: Get in touch
   link: ''
 - template: banner
