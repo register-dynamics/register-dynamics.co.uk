@@ -1,5 +1,5 @@
 ---
-title: Technical and data strategy
+title: Building data maturity
 hide-title: false
 sections:
 - template: alternating
