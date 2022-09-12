@@ -75,14 +75,14 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Technical and data strategy success stories
+    text: Building data maturity success stories
 - template: heading
   level: 2
-  text: Technical and data strategy insights
+  text: Building data maturity insights
 - template: call-to-action
   link_type: contact
   button: Let's talk
-  intro: Ready to discuss your specific technical and data challenges?
+  intro: Ready to discuss your specific data maturity challenges?
   link: ''
 - template: heading
   level: 2
@@ -94,16 +94,16 @@ sections:
     body: |2-
 
       Digital products and solutions
+
       Learn more
     icon: ''
-  - heading: Building data maturity
-    body: |-
-      Data culture and community
-      Learn more
+  - heading: Data management
+    body: "Bespoke data management solutions \n\nLearn more"
     icon: ''
   - heading: Technical assurance
     body: |-
       Technology review and option evaluation
+
       Learn more
     icon: ''
   image_mode: icon
