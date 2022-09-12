@@ -90,13 +90,6 @@ sections:
   - template: heading
     level: 2
     text: Technical and data strategy success stories
-  - template: listing
-    columns: 1
-    source: posts
-    image_mode: cover
-    limit: 
-    coloured: false
-    numbered: false
 - template: heading
   level: 2
   text: Technical and data strategy insights
