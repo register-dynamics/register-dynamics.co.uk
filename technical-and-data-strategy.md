@@ -95,7 +95,7 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Let's talk
-  intro: Ready to discuss your specific needs?
+  intro: Ready to discuss your specific technical and data challenges?
   link: ''
 - template: heading
   level: 2
