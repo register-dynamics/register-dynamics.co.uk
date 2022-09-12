@@ -68,7 +68,7 @@ sections:
     heading: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
-  intro: Ready to explore your options and build your organisation’s data maturity?
+  intro: Ready to explore your options and discuss your specific needs?
   button: Get in touch
   link: ''
 - template: banner
