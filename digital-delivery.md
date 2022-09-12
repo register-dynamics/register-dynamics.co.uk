@@ -6,32 +6,32 @@ sections:
   sections:
   - template: content
     content: |-
-      We support organisations to design, develop and enhance their technical and data strategies.
+      Empower your staff to get the most out of your organisation’s data by making sure you have the best user-centred tools and technology to help them achieve this
 
-      With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
-
-      Our work involves in-depth evaluations, technical research and discovery, expert technical interventions, the development of new and improved systems, processes and platforms, and also technical leadership and oversight, depending on what you and your organisation need.
-  image: "/images/Strategy.svg"
+      We help you be confident with digital change by delivering digital products. We work with user researchers, service designers and multi-disciplinary teams to lead and develop your data intensive services
+  image: "/images/Delivery.svg"
 - template: heading
   level: 2
-  text: Our technical and data strategy service will help you
+  text: Our digital delivery service will help you
 - template: content-grid
   columns: 3
   content:
   - icon: ''
-    heading: Find and eliminate weak points
-    body: Assess your current data ecosystem, identify areas of potential weakness
-      and establish the best ways to tackle these. Get tailored solutions for your
-      specific challenges and strengthen your offering to users and customers.
+    heading: Build better services with your data
+    body: 'Prototype new ideas, integrate them with your existing set up and ensure
+      that the best technological solutions are available to you. Establish new ways
+      to access, manage and share your data more effectively. '
   - icon: ''
-    heading: " Enhance business operations"
-    body: Improve and future proof your business processes through automation, streamlining
-      and technical optimisation. Increase efficiency to maximise progress and unlock
-      potential.
+    heading: " Drive efficiency that gets results"
+    body: Through the enhancement of your data management and data handling processes
+      and tools, we will help you to optimise your business operations to support
+      better decision-making. Ensure new digital delivery happens on time, to budget
+      and with minimal risk.
   - icon: ''
-    heading: Set data standards, principles and policies
-    body: 'Design and develop a set of solid data standards, principles and policies
-      that can be embedded easily throughout your organisation. '
+    heading: Move your vision forwards
+    body: Implement and execute your technical and data strategies in line with your
+      overall business goals and user needs. Help your users, staff and stakeholders
+      to embrace the new technology and support your vision.
   coloured: true
   numbered: false
   image_mode: ''
@@ -39,63 +39,47 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Why work with us on your technical strategy?
-- template: content
-  content: |-
-    **User-centric approach**
-
-    We create bespoke data management systems with the user at the centre of our approach. We will take the time to gain a deep understanding of all of your needs and create a customisable, intuitive system to manage all of your data.
-
-    **Expert help at all stages**
-
-    We can help you at any stage of your data management journey. Whether you need help to design, develop and/or deliver a new data management system, we have experts on-hand to support you.
-
-    **Easy migration and integration**
-
-    Migrate all of your existing data easily into the new system and be confident that everything integrates seamlessly with your current business operations and processes.
-- template: heading
-  level: 2
-  text: Why work with us on your technical strategy?
+    text: Why work with us on your digital delivery?
 - template: content-grid
   columns: 3
   coloured: false
   numbered: false
   image_mode: icon
   content:
-  - body: Whatever your data or technical challenges are, we will approach them with
-      curiosity, passion and an experienced eye. We are also recognised industry leaders
-      in data technology and data standards and continue to push the boundaries and
-      explore new emerging technologies each day.
-    icon: "/images/icon-g484ea42b6_640.png"
-    heading: We love all things technical
-  - body: We can offer you advice, guidance and also support through all stages of
-      implementation and beyond.  As pioneers in data technology and emerging tech,
-      we are in a unique position to be able to support you at any and all stages
-      of your development.
+  - body: Our experience has shown us that user-led solutions offer the best results
+      for both the users of the end system and the organisation as a whole. That is
+      why we take pride in our user focused approach which underpins all of the digital
+      delivery work that we do.
     icon: "/images/icon-team.svg"
-    heading: Support at all stages
-  - body: We believe in getting real results. Whether this means building a prototype
-      to test out new ideas, developing new tools from scratch or working with you
-      in-house and leading projects from within; we are ready to get stuck in!
+    heading: User focused
+  - body: 'We believe that all the technology we create is there to support and underpin
+      your organisational strategies and goals. Our approach focuses our energy on
+      building that strong connection between strategy and delivery. '
+    icon: "/images/icon-team.svg"
+    heading: Marrying strategy and delivery
+  - body: 'When you work with us, you can choose to gain a gentle guiding hand or
+      a full-on technical lead to oversea and lead your project from beginning to
+      end. Gain technical expertise, direction and leadership at whichever level is
+      most useful to you. '
     icon: "/images/icon-workflow.png"
-    heading: Getting things done
+    heading: Support your teams your way
 - template: call-to-action
   link_type: contact
-  intro: 'Ready to talk? Tell us about your technical and data strategy now '
+  intro: Ready to talk or have a question about your digital delivery?
   button: Get in touch
   link: ''
 - template: banner
   sections:
   - template: heading
     level: 2
-    text: Technical and data strategy success stories
+    text: Digital delivery success stories
 - template: heading
   level: 2
-  text: Technical and data strategy insights
+  text: Digital delivery insights
 - template: call-to-action
   link_type: contact
   button: Let's talk
-  intro: Ready to discuss your specific technical and data challenges?
+  intro: Ready to discuss your specific needs?
   link: ''
 - template: heading
   level: 2
@@ -103,12 +87,9 @@ sections:
 - template: content-grid
   columns: 3
   content:
-  - heading: Digital delivery
-    body: |2-
-
-      Digital products and solutions
-      Learn more
-    icon: ''
+  - heading: Data management
+    body: "Bespoke data management solutions \n\nLearn more"
+    icon: "/images/Data.svg"
   - heading: Building data maturity
     body: |-
       Data culture and community
