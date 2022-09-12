@@ -5,10 +5,11 @@ sections:
 - template: alternating
   sections:
   - template: content
-    content: "Empower your organisation and staff to get the most out of your data
-      by having a data management system you can be confident in.  \n  \nWe offer
-      bespoke data management solutions tailored to your specific needs."
-  image: "/images/Data.svg"
+    content: "Make better business decisions through deeper insights from your data.
+      Ensure your staff have everything they need to get the most out of your organisation’s
+      data assets.  \n  \nWe can help you to organise your data and to build a data
+      catalogue that is easily accessible and discoverable by everyone in your organisation. "
+  image: "/images/Delivery.svg"
 - template: heading
   level: 2
   text: Work with us to
@@ -16,54 +17,56 @@ sections:
   columns: 3
   content:
   - icon: ''
-    heading: Eliminate data silos
-    body: Enable easy data sharing and collaboration between teams. Let us help you
-      to eliminate data silos across your organisation and to make data a shared resource
-      for everyone.
+    heading: Capitalise on opportunities in your data
+    body: Ensure that all of your data is easy to find, understand and draw insight
+      from. Know that your staff are able to exploit your data to its full potential.
   - icon: ''
-    heading: Establish accurate and trusted data
-    body: Create a single source of truth that everyone can use and draw data insights
-      from. Know that your data is accurate, up-to-date, safe and secure. Make data
-      easy to find and understand.
+    heading: Become a clean data organisation
+    body: Create a single source of truth with accurate, clean data that everyone
+      can leverage and use easily. Build trust that decisions are based on up-to-date,
+      reliable data.
   - icon: ''
-    heading: Streamline your business process
-    body: Develop simple and accessible data management that drives efficiency of
-      your operations. Enhance productivity with seamless collaboration between processes
-      and teams.
+    heading: Establish transparency and control
+    body: 'Know where your data is, who is using it, what they are doing with it and
+      why. Be confident that your data is safe and secure at all times and that it
+      is only ever being accessed by the right people. '
   coloured: true
   numbered: false
   image_mode: ''
 - template: content
-  content: Through our user-centric, agile and customised approach, we can help you
-    to improve your data management set up and processes now.
+  content: Whether you need help with data cataloging, metadata management, data cleansing,
+    data tagging, data discovery or anything else to do with organising your data,
+    we can help.
 - template: call-to-action
   link_type: contact
-  button: Talk to us
-  intro: Talk to one of our data management experts to discuss your specific needs.
+  button: Let's talk
+  intro: " Talk to one of our team now to discuss your specific challenge."
   link: ''
 - template: banner
   sections:
   - template: heading
     level: 2
-    text: Why trust us with your data management?
+    text: Why trust us with your data discovery and cataloging?
 - template: content-grid
   columns: 3
   content:
+  - icon: "/images/icon-reliable.svg"
+    heading: " Experts in authoritative data"
+    body: We are recognised as industry experts in helping organisations to establish,
+      manage and share their authoritative data. Our standards, principles, processes
+      and technologies are used by companies and governments for keeping their critical
+      data clean and up-to-date.
   - icon: "/images/icon-team.svg"
-    heading: User-centric approach
-    body: We create bespoke data management systems with the user at the centre of
-      our approach. We will take the time to gain a deep understanding of all of your
-      needs and create a customisable, intuitive system to manage all of your data.
-  - icon: "/images/icon-beready.svg"
-    heading: Expert help at all stages
-    body: We can help you at any stage of your data management journey. Whether you
-      need help to design, develop and/or deliver a new data management system, we
-      have experts on-hand to support you.
+    heading: " User focused"
+    body: We believe in empowering staff to manage and share data easily and responsibly.
+      By focusing on their specific needs, our approach ensures that users reap the
+      benefits of our work and embrace any new data tools or processes introduced.
   - icon: "/images/download-g118d5d2cf_640.png"
-    heading: Easy migration and integration
-    body: Migrate all of your existing data easily into the new system and be confident
-      that everything integrates seamlessly with your current business operations
-      and processes.
+    heading: Technology made easy
+    body: Our deep knowledge, expertise and passion in data technology enables us
+      to find and create the best solutions for each of our clients.  Let us handle
+      the technical complexities and nuances in what is possible, and together we
+      can create the best data catalogs and discovery experience for you.
   coloured: false
   numbered: false
   image_mode: ''
@@ -71,7 +74,7 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Data management success stories
+    text: Data discovery and cataloging success stories
   - template: content-grid
     columns: '3'
     content:
@@ -98,10 +101,10 @@ sections:
     heading: ''
 - template: heading
   level: 2
-  text: Data management insights
+  text: Data discovery and cataloging insights
 - template: call-to-action
   link_type: internal
-  intro: Ready to talk to one of our data management experts to discuss your specific
+  intro: Ready to talk to one of our data discovery experts to discuss your specific
     needs?
   button: Contact us now
   link: ''
@@ -114,8 +117,8 @@ sections:
   - heading: Data governance
     body: "Strategic, tactical and technical support \n\nLearn more"
     icon: ''
-  - heading: Data discovery and cataloging
-    body: "Making data accessible and discoverable \n\nLearn more"
+  - heading: Data management
+    body: "Bespoke data management solutions \n\nLearn more"
     icon: ''
   - heading: Data standards
     body: |-
