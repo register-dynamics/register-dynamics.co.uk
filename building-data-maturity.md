@@ -6,32 +6,35 @@ sections:
   sections:
   - template: content
     content: |-
-      We support organisations to design, develop and enhance their technical and data strategies.
+      Maximise the value of your data by developing a strong data culture and community across your organisation.
 
-      With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
+      Encourage better communication and collaboration by giving your staff the tools to find, share and use data more effectively. Enable them to make better informed business decisions and to accomplish effective, meaningful work.
 
-      Our work involves in-depth evaluations, technical research and discovery, expert technical interventions, the development of new and improved systems, processes and platforms, and also technical leadership and oversight, depending on what you and your organisation need.
+      We offer support in building in-house data maturity across your organisation. Our work will enable you to explore new possibilities with data, focus your efforts more effectively and push the boundaries of what your data can do for you.
   image: "/images/Strategy.svg"
 - template: heading
   level: 2
-  text: Our technical and data strategy service will help you
+  text: Our building data maturity service will help you
 - template: content-grid
   columns: 3
   content:
   - icon: ''
-    heading: Find and eliminate weak points
-    body: Assess your current data ecosystem, identify areas of potential weakness
-      and establish the best ways to tackle these. Get tailored solutions for your
-      specific challenges and strengthen your offering to users and customers.
+    heading: Establish and maintain a data driven culture
+    body: Review your current culture trends and build on these to embed data more
+      deeply across the whole of your organisation. Implement long-lasting frameworks
+      to support a healthy and growing data culture and that cultivates a data driven
+      mindset.
   - icon: ''
-    heading: " Enhance business operations"
-    body: Improve and future proof your business processes through automation, streamlining
-      and technical optimisation. Increase efficiency to maximise progress and unlock
-      potential.
+    heading: Build your data community
+    body: Foster a community that understands, embraces and harnesses your organisation’s
+      data effectively.  Improve data literacy, encourage better data sharing and
+      knowledge transfer, and develop a community of data champions and advocates
+      for your data.
   - icon: ''
-    heading: Set data standards, principles and policies
-    body: 'Design and develop a set of solid data standards, principles and policies
-      that can be embedded easily throughout your organisation. '
+    heading: Improve data quality, accessibility and governance
+    body: Enable staff to manage, find and leverage data with confidence. Solidify
+      the importance of data within the organisation and ensure that the data you
+      have is accurate, trustworthy and well governed.
   coloured: true
   numbered: false
   image_mode: ''
@@ -39,33 +42,33 @@ sections:
   sections:
   - template: heading
     level: 2
-    text: Why work with us on your technical strategy?
+    text: Why trust us with building your data maturity?
 - template: content-grid
   columns: 3
   coloured: false
   numbered: false
   image_mode: icon
   content:
-  - body: Whatever your data or technical challenges are, we will approach them with
-      curiosity, passion and an experienced eye. We are also recognised industry leaders
-      in data technology and data standards and continue to push the boundaries and
-      explore new emerging technologies each day.
-    icon: "/images/icon-g484ea42b6_640.png"
-    heading: We love all things technical
-  - body: We can offer you advice, guidance and also support through all stages of
-      implementation and beyond.  As pioneers in data technology and emerging tech,
-      we are in a unique position to be able to support you at any and all stages
-      of your development.
-    icon: "/images/icon-team.svg"
-    heading: Support at all stages
-  - body: We believe in getting real results. Whether this means building a prototype
-      to test out new ideas, developing new tools from scratch or working with you
-      in-house and leading projects from within; we are ready to get stuck in!
-    icon: "/images/icon-workflow.png"
-    heading: Getting things done
+  - body: Our team has a wealth of experience in developing successful maturity models
+      and frameworks for government departments and private clients. We’ll help you
+      become clear about what areas to focus on and how to go about your data maturity
+      journey.
+    icon: "/images/icon-team2.png"
+    heading: " Experienced team"
+  - body: We pride ourselves on our pragmatic approach which focuses on identifying
+      and understanding the incentives and drivers that fuel the data and the key
+      users of it. This enables us to gain an in-depth view on the challenges at hand
+      and to establish solutions that can offer a positive impact for the long term.
+    icon: "/images/icon-uptodate.png"
+    heading: Incentives-led approach
+  - body: Our unique approach enables us to easily identify which simple interventions
+      will offer the greatest value and biggest impact to the organisation and to
+      your teams. We believe in finding simple solutions to big problems.
+    icon: "/images/light-bulb-g42dd97171_640.png"
+    heading: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
-  intro: 'Ready to talk? Tell us about your technical and data strategy now '
+  intro: Ready to explore your options and build your organisation’s data maturity?
   button: Get in touch
   link: ''
 - template: banner
