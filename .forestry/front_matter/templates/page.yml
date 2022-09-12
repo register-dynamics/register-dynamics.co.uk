@@ -25,6 +25,7 @@ fields:
   - banner
   - masthead
 pages:
+- "./data-discovery-and-cataloging.md"
 - case-studies/index.md
 - cdo-as-a-service.md
 - data-management.md
