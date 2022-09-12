@@ -26,6 +26,7 @@ fields:
   - masthead
 pages:
 - "./data-discovery-and-cataloging.md"
+- "./digital-delivery.md"
 - case-studies/index.md
 - cdo-as-a-service.md
 - data-management.md
