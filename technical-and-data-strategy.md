@@ -6,7 +6,7 @@ sections:
   sections:
   - template: content
     content: |-
-      ###### We support organisations to design, develop and enhance their technical and data strategies.
+      We support organisations to design, develop and enhance their technical and data strategies.
 
       With our team’s wealth of technical expertise, we can work with you to help you align and achieve your technical and business goals.
 
