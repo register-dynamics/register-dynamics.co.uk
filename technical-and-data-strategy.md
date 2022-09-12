@@ -94,9 +94,8 @@ sections:
   text: Technical and data strategy insights
 - template: call-to-action
   link_type: contact
-  button: Ready to talk to one of our data management experts to discuss your specific
-    needs?
-  intro: Contact us now
+  button: Let's talk
+  intro: Ready to discuss your specific needs?
   link: ''
 - template: heading
   level: 2
