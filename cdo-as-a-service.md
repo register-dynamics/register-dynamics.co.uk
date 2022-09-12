@@ -133,7 +133,7 @@ sections:
 - template: banner
   sections:
   - template: call-to-action
-    intro: Want to find out more about how our CDO as a service could work for you?
+    intro: Want to find out how our CDO as a service could work for you?
     button: Get in touch
     link_type: contact
     link: ''
