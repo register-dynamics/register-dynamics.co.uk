@@ -41,7 +41,7 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Let's talk
-  intro: ''
+  intro: Ready to discuss your options?
   link: ''
 - template: banner
   sections:
@@ -107,8 +107,8 @@ sections:
   text: Data standards insights
 - template: call-to-action
   link_type: internal
-  intro: Ready to get help with your data standards?
-  button: Contact us now
+  intro: 'Ready to get help with your data standards?  '
+  button: Contact us
   link: ''
 - template: heading
   level: 2
