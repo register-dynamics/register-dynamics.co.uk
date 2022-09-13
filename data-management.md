@@ -38,8 +38,8 @@ sections:
     to improve your data management set up and processes now.
 - template: call-to-action
   link_type: contact
-  button: Talk to us
-  intro: Talk to one of our data management experts to discuss your specific needs.
+  button: Let's talk
+  intro: Ready to explore your options?
   link: ''
 - template: banner
   sections:
