@@ -27,6 +27,7 @@ fields:
 pages:
 - "./building-data-maturity.md"
 - "./data-discovery-and-cataloging.md"
+- "./data-standards.md"
 - "./digital-delivery.md"
 - "./technical-assurance.md"
 - case-studies/index.md
