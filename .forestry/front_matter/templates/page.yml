@@ -28,6 +28,7 @@ pages:
 - "./building-data-maturity.md"
 - "./data-discovery-and-cataloging.md"
 - "./digital-delivery.md"
+- "./technical-assurance.md"
 - case-studies/index.md
 - cdo-as-a-service.md
 - data-management.md
