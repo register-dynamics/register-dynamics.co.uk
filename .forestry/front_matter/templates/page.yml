@@ -25,11 +25,11 @@ fields:
   - banner
   - masthead
 pages:
-- "./building-data-maturity.md"
-- "./data-discovery-and-cataloging.md"
-- "./data-standards.md"
-- "./digital-delivery.md"
-- "./technical-assurance.md"
+- building-data-maturity.md
+- data-discovery-and-cataloging.md
+- data-standards.md
+- digital-delivery.md
+- technical-assurance.md
 - case-studies/index.md
 - cdo-as-a-service.md
 - data-management.md
