@@ -28,10 +28,10 @@ sections:
     heading: Data management
     body: ''
   - icon: ''
-    heading: ''
+    heading: Digital delivery
     body: ''
   - icon: ''
-    heading: ''
+    heading: Data governance
     body: ''
   coloured: false
   numbered: false
@@ -39,7 +39,7 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Get in touch
-  intro: Ready to talk or have a question about a data challenge you need help with?
+  intro: 'Ready to talk or have a question for us?  '
   link: ''
 published: false
 
