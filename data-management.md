@@ -101,9 +101,8 @@ sections:
   text: Data management insights
 - template: call-to-action
   link_type: internal
-  intro: Ready to talk to one of our data management experts to discuss your specific
-    needs?
-  button: Contact us now
+  intro: Ready to discuss your specific needs?
+  button: Contact us
   link: ''
 - template: heading
   level: 2
