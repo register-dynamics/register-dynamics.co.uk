@@ -87,9 +87,12 @@ sections:
 - template: content-grid
   columns: 3
   content:
-  - heading: Data management
-    body: "Bespoke data management solutions \n\nLearn more"
-    icon: "/images/Data.svg"
+  - heading: Technical and data strategy
+    body: |-
+      Advice, support and leadership
+
+      Learn more
+    icon: "/images/Strategy.svg"
   - heading: Building data maturity
     body: |-
       Data culture and community
@@ -99,7 +102,7 @@ sections:
     body: |-
       Technology review and option evaluation
       Learn more
-    icon: ''
+    icon: "/images/Security.svg"
   image_mode: icon
   coloured: false
   numbered: false
