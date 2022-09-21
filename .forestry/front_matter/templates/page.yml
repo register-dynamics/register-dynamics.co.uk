@@ -26,15 +26,15 @@ fields:
   - masthead
 pages:
 - building-data-maturity.md
-- data-discovery-and-cataloging.md
-- data-standards.md
-- digital-delivery.md
-- technical-assurance.md
 - case-studies/index.md
 - cdo-as-a-service.md
+- data-discovery-and-cataloging.md
 - data-management.md
+- data-standards.md
+- digital-delivery.md
 - index.md
 - jobs/index.md
 - technical-and-data-strategy-1.md
 - technical-and-data-strategy.md
+- technical-assurance.md
 - what-we-do-new.md
