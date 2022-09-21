@@ -98,7 +98,7 @@ sections:
   text: We also follow 3 main mantras in all of our work we do
 - template: content-grid
   columns: 3
-  coloured: true
+  coloured: false
   numbered: true
   content:
   - icon: ''
