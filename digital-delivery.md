@@ -65,7 +65,7 @@ sections:
     heading: Support your teams your way
 - template: call-to-action
   link_type: contact
-  intro: Ready to talk or have a question about your digital delivery?
+  intro: 'Ready to talk or have a question about your digital delivery?   '
   button: Get in touch
   link: ''
 - template: banner
