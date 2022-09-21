@@ -25,6 +25,7 @@ fields:
   - banner
   - masthead
 pages:
+- about-us.md
 - building-data-maturity.md
 - case-studies/index.md
 - cdo-as-a-service.md
