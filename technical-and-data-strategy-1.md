@@ -104,15 +104,16 @@ sections:
   content:
   - heading: Data management
     body: "Bespoke data management solutions \n\nLearn more"
-    icon: ''
+    icon: "/images/Data.svg"
   - heading: Data discovery and cataloging
     body: "Making data accessible and discoverable \nLearn more"
-    icon: ''
+    icon: "/images/Delivery.svg"
   - heading: Data standards
     body: |-
       Establishing ‘best in class’ data standards
+
       Learn more
-    icon: ''
+    icon: "/images/Direction.svg"
   image_mode: icon
   coloured: false
   numbered: false
