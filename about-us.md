@@ -50,7 +50,7 @@ sections:
   level: 2
   text: Our 4 core business values
 - template: content-grid
-  columns: 1
+  columns: 2
   coloured: true
   content:
   - icon: ''
