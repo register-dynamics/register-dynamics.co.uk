@@ -31,16 +31,19 @@ sections:
 
       We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
   image: "/images/home-square-3.png"
-- template: heading
-  level: 2
-  text: Where we are now
-- template: content
-  content: |-
-    ![](/images/icon-reuse.svg)Since our company began, we have learned a lot, we have grown and we have had the honour of working with some amazing and diverse organisations (see our Case Studies).
+- template: alternating
+  sections:
+  - template: heading
+    level: 2
+    text: Where we are now
+  - template: content
+    content: |-
+      Since our company began, we have learned a lot, we have grown and we have had the honour of working with some amazing and diverse organisations (see our Case Studies).
 
-    We believe in developing long lasting relationships with each of our clients and strive to be their trusted partners.
+      We believe in developing long lasting relationships with each of our clients and strive to be their trusted partners.
 
-    Each of us in our team has different passions and motivations that drive us and that have brought us to where we are today. As a company we appreciate our similarities and celebrate our differences. Every day we continue to build this dream together.
+      Each of us in our team has different passions and motivations that drive us and that have brought us to where we are today. As a company we appreciate our similarities and celebrate our differences. Every day we continue to build this dream together.
+  image: "/images/icon-reuse.svg"
 - template: heading
   level: 2
   text: Meet the team
