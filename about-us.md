@@ -18,16 +18,19 @@ sections:
     we could all be proud of. We wanted to create a business where technology could
     blossom, where we could enjoy the work that we do and where we would also have
     time for everything else that matters in life too!
-- template: heading
-  level: 2
-  text: Our shared vision
-- template: content
-  content: |-
-    ![](/images/home-square-3.png)When we formed the business, we knew that we wanted to create a company based on our shared values of openness, honesty and integrity. A place where people come first, where everyone’s voice is equal and where technology can be harnessed as a tool to support everything that we do.
+- template: alternating
+  sections:
+  - template: heading
+    level: 2
+    text: Our shared vision
+  - template: content
+    content: |-
+      When we formed the business, we knew that we wanted to create a company based on our shared values of openness, honesty and integrity. A place where people come first, where everyone’s voice is equal and where technology can be harnessed as a tool to support everything that we do.
 
-    We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
+      We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
 
-    We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
+      We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
+  image: "/images/home-square-3.png"
 - template: heading
   level: 2
   text: Where we are now
@@ -101,11 +104,11 @@ sections:
 
       What sets us apart is our ability to combine our deep knowledge in technology with our strong business acumen. This is made possible from our wealth of experience working at and with senior executives at the highest levels in a variety of organisations.
 - template: heading
-  level: 2
+  level: '3'
   text: We also follow 3 main mantras in all of our work we do
 - template: content-grid
   columns: 3
-  coloured: false
+  coloured: true
   numbered: true
   content:
   - icon: ''
