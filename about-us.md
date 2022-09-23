@@ -25,7 +25,7 @@ sections:
   content: |-
     When we formed the business, we knew that we wanted to create a company based on our shared values of openness, honesty and integrity. A place where people come first, where everyone’s voice is equal and where technology can be harnessed as a tool to support everything that we do.
 
-    We (Andrew and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
+    We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
 
     We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
 - template: heading
@@ -62,26 +62,26 @@ sections:
   content:
   - icon: ''
     heading: People matter
-    body: |-
+    body: |
       In everything that we approach and do, for us, people always come first.
 
-      At Register Dynamics, we pride ourselves on only doing work that we love and on making sure that everyone has the time and space to explore all of their interests both inside and outside of work.
+      At Register Dynamics we pride ourselves on only doing work that we love, and on making sure that everyone has the time and space to explore all of their interests - both inside and outside of work.
 
       With our clients we form deep, long-term relationships and focus on what matters most to them. We focus on the user needs and work hard to ensure that their voice is heard and taken seriously.
   - icon: ''
     heading: Quality solutions
     body: "We deliver solutions that we believe are the very best solutions for our
-      clients.  \n\nWhat this means is that quality always comes first along with
-      creating solutions that endure and that are built with longevity and scalability
+      clients.  \n\nWhat this means is that quality always comes first, along with
+      creating solutions that endure, and that are built with longevity and scalability
       in mind.\n\nWe want our work to support our clients far into the future and
-      to create a positive and lasting impact with our clients. "
+      to create a positive and lasting impact with our clients. \n"
   - icon: ''
     heading: Open communication
     body: "We believe in openness and transparency and that positive outcomes can
       only come as a result of open communication.\n\nWith us, you will always know
-      where you stand and we will always encourage everyone to speak their minds.
-      \n\nBy taking the time to understand each others needs and situation, and encouraging
-      greater transparency between teams, we can accomplish great things."
+      where you stand; and we will always encourage everyone to speak their minds.
+      \n\nBy taking the time to understand each others’ needs and situation, and encouraging
+      greater transparency between teams, we can accomplish great things.\n"
   - icon: ''
     heading: Working side-by-side
     body: |
@@ -109,9 +109,9 @@ sections:
   numbered: true
   content:
   - icon: ''
-    body: "We believe that making users needs central to everything that we do is
+    body: "We believe that making users’ needs central to everything that we do is
       really important.  \n\nWhether we are developing or designing new technology,
-      or coming up with a specific solution or strategy, the users needs always come
+      or coming up with a specific solution or strategy, the users’ needs always come
       first.  This approach ensures we can offer the most successful and long lasting
       outcomes.\n"
     heading: "'The User is King'"
@@ -129,7 +129,7 @@ sections:
       and autonomy over their own technology and data. \n\nThe solutions and tools
       we create all focus on enabling this to happen.  \n\nWe also focus on ensuring
       that our work has longevity and that it can become embedded deeply into the
-      organisation as a whole and embraced by all parties involved.\n"
+      organisation as a whole, and embraced by all parties involved.\n"
   image_mode: ''
 - template: call-to-action
   link_type: contact
