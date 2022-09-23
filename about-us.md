@@ -33,7 +33,7 @@ sections:
   text: Where we are now
 - template: content
   content: |-
-    Since our company began, we have learned a lot, we have grown and we have had the honour of working with some amazing and diverse organisations (see our Case Studies).
+    ![](/images/icon-reuse.svg)Since our company began, we have learned a lot, we have grown and we have had the honour of working with some amazing and diverse organisations (see our Case Studies).
 
     We believe in developing long lasting relationships with each of our clients and strive to be their trusted partners.
 
