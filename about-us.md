@@ -41,6 +41,13 @@ sections:
 - template: heading
   level: 2
   text: Meet the team
+- template: listing
+  columns: '3'
+  source: authors
+  limit: 
+  coloured: false
+  numbered: false
+  image_mode: ''
 - template: call-to-action
   link_type: contact
   intro: 'Read more about what we do and what services we offer '
