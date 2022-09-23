@@ -114,14 +114,14 @@ sections:
   coloured: true
   numbered: true
   content:
-  - icon: ''
+  - icon: "/images/icon-team.svg"
     body: "We believe that making users’ needs central to everything that we do is
       really important.  \n\nWhether we are developing or designing new technology,
       or coming up with a specific solution or strategy, the users’ needs always come
       first.  This approach ensures we can offer the most successful and long lasting
       outcomes.\n"
     heading: "'The User is King'"
-  - icon: ''
+  - icon: "/images/icon-unleash.svg"
     heading: "'See the big picture'"
     body: "We approach all of our work with the whole business in mind. \n\nWe take
       pride in understanding the bigger picture and ensuring that our technology and
@@ -129,7 +129,7 @@ sections:
       work hard to liaise with everyone involved, helping to build bridges between
       teams and key stakeholders so that everyone can work together towards the same
       goals."
-  - icon: ''
+  - icon: "/images/icon-beready.svg"
     heading: "'Empower, embed and embrace'"
     body: "We believe in empowering our clients and their staff to have full control
       and autonomy over their own technology and data. \n\nThe solutions and tools
