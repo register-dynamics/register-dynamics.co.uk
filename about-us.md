@@ -50,7 +50,7 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: 'Read more about what we do and what services we offer '
+  intro: 'Read more about the services we offer    '
   button: What we do
   link: ''
 - template: heading
@@ -133,7 +133,7 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: Why not speak to one of us to explore your options?
+  intro: 'Why not speak to one of us to explore your options?  '
   button: Start the conversation
   link: ''
 published: false
