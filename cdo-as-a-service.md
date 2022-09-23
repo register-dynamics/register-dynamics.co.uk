@@ -139,7 +139,7 @@ sections:
 - template: banner
   sections:
   - template: call-to-action
-    intro: 'Want to find out more?  '
+    intro: 'Ready to find out how CDO as a service could work for you?  '
     button: Get in touch
     link_type: contact
     link: ''
