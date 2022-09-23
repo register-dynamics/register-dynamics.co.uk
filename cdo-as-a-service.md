@@ -144,6 +144,5 @@ sections:
     link_type: contact
     link: ''
 hide-title: false
-published: false
 
 ---
