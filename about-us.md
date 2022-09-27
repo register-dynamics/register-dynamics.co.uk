@@ -9,6 +9,11 @@ sections:
       Register Dynamics is an independent data and technology consultancy based in the UK.
 
       We are a team of technical, data and business specialists working with public and private organisations to support them with their technical and data challenges.
+  - template: heading
+    level: 2
+    text: This is our story...
+  - template: content
+    content: ''
   image: "/images/square-withbg.svg"
 - template: heading
   level: 2
