@@ -142,7 +142,7 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: 'Why not speak to one of us to explore your options?   '
+  intro: 'Why not speak to one of us to explore your options?     '
   button: Let's talk
   link: ''
 
