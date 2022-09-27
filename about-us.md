@@ -145,6 +145,5 @@ sections:
   intro: 'Why not speak to one of us to explore your options?   '
   button: Let's talk
   link: ''
-published: false
 
 ---
