@@ -53,7 +53,7 @@ sections:
   limit: 
   coloured: false
   numbered: false
-  image_mode: ''
+  image_mode: icon
 - template: call-to-action
   link_type: contact
   intro: 'Read more about the services we offer    '
