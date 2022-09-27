@@ -24,13 +24,16 @@ sections:
     level: 2
     text: Our shared vision
   - template: content
-    content: |-
-      When we formed the business, we knew that we wanted to create a company based on our shared values of openness, honesty and integrity. A place where people come first, where everyone’s voice is equal and where technology can be harnessed as a tool to support everything that we do.
-
-      We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
-
-      We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
+    content: When we formed the business, we knew that we wanted to create a company
+      based on our shared values of openness, honesty and integrity. A place where
+      people come first, where everyone’s voice is equal and where technology can
+      be harnessed as a tool to support everything that we do.
   image: "/images/home-square-3.png"
+- template: content
+  content: |-
+    We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
+
+    We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
 - template: alternating
   sections:
   - template: heading
