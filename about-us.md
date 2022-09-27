@@ -111,8 +111,8 @@ sections:
   text: We also follow 3 main mantras in all of our work we do
 - template: content-grid
   columns: 3
-  coloured: true
-  numbered: true
+  coloured: false
+  numbered: false
   content:
   - icon: "/images/icon-team.svg"
     body: "We believe that making users’ needs central to everything that we do is
@@ -139,8 +139,8 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: 'Why not speak to one of us to explore your options?  '
-  button: Start the conversation
+  intro: 'Why not speak to one of us to explore your options?   '
+  button: Let's talk
   link: ''
 published: false
 
