@@ -13,16 +13,11 @@ sections:
     level: 2
     text: This is our story...
   - template: content
-    content: ''
+    content: We created Register Dynamics in 2016, with the dream to build a business
+      we could all be proud of. We wanted to create a business where technology could
+      blossom, where we could enjoy the work that we do and where we would also have
+      time for everything else that matters in life too!
   image: "/images/square-withbg.svg"
-- template: heading
-  level: 2
-  text: This is our story...
-- template: content
-  content: We created Register Dynamics in 2016, with the dream to build a business
-    we could all be proud of.  We wanted to create a business where technology could
-    blossom, where we could enjoy the work that we do and where we would also have
-    time for everything else that matters in life too!
 - template: alternating
   sections:
   - template: heading
