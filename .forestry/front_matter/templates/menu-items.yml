@@ -12,3 +12,5 @@ fields:
       type: pages
       section: jekyll-pages
   label: Links
+pages:
+- _data/menu-items.yml

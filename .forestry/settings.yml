@@ -58,7 +58,6 @@ sections:
 - type: document
   path: _data/menu-items.yml
   label: Menu Items
-  match: "**/*"
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''
