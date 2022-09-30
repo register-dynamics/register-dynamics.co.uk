@@ -12,3 +12,5 @@ fields:
     source:
       type: pages
       section: jekyll-pages
+pages:
+- _data/menu-items.yml
