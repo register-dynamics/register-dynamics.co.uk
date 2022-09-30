@@ -76,7 +76,7 @@ sections:
   columns: 3
   coloured: true
   numbered: false
-  image_mode: cover
+  image_mode: icon
   content:
   - body: ''
     icon: ''
