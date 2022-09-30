@@ -50,8 +50,11 @@ sections:
 - type: directory
   path: _data
   label: Data
-  create: none
+  create: documents
   match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - menu-items
 - type: document
   path: _data/menu-items.yml
   label: Menu Items
