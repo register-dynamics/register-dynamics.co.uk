@@ -16,16 +16,12 @@ fields:
 - name: coloured
   type: boolean
   label: Coloured
-  description: 'When switched on, each item will have an alternating coloured background.
-
-    '
+  description: 'When switched on, each item will have an alternating coloured background.'
 - name: numbered
   type: boolean
   label: Numbered
   description: 'When switched on, numbers in order will automatically be added to
-    each item.
-
-    '
+    each item.'
 - name: image_mode
   label: Image Mode
   type: select
@@ -38,3 +34,5 @@ fields:
     options:
     - icon
     - cover
+    - alternating
+

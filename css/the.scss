@@ -539,11 +539,9 @@ aside.banner {
   background-color: $LIGHT_GREEN;
 }
 
-.alternating {
+.alternating, [data-image-mode=alternating] > li > * {
   @include grid();
   font-size: 1rem;
-
-  $IMG_WIDTH: 4;
 
   > * {
     margin: 0;
@@ -554,6 +552,14 @@ aside.banner {
     grid-row: 1 / span 4;
   }
 
+  p:first-of-type {
+    font-size: 1.5rem;
+  }
+}
+
+.alternating, [data-image-mode=alternating] > li {
+  $IMG_WIDTH: 4;
+
   &:nth-of-type(odd) {
     *   { grid-column: #{$IMG_WIDTH + 2} / -1; }
     img { grid-column: 1 / span #{$IMG_WIDTH}; }
@@ -562,10 +568,6 @@ aside.banner {
   &:nth-of-type(even) {
     *   { grid-column: 1 / -#{$IMG_WIDTH + 2}; }
     img { grid-column: span #{$IMG_WIDTH} / -1; }
-  }
-
-  p:first-of-type {
-    font-size: 1.5rem;
   }
 }
 
