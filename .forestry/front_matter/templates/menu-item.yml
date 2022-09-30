@@ -11,4 +11,4 @@ fields:
     max: 4
     source:
       type: pages
-      section: pages
+      section: jekyll-pages
