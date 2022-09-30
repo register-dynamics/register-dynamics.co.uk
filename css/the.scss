@@ -33,6 +33,10 @@ $BODYTEXT: 'Chivo', sans-serif;
   @return url('data:image/svg+xml;utf8, #{$svg}');
 }
 
+@function expand-color($color) {
+  @return 'rgb(#{red($color)}, #{green($color)}, #{blue($color)})';
+}
+
 @page {
   margin-top: 2em;
 }
@@ -111,7 +115,7 @@ $BODYTEXT: 'Chivo', sans-serif;
       align-self: stretch;
       background-size: $size 100%;
       background-image: inline-svg(
-        '<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="141.91602" height="133.70395" viewBox="0 0 141.91602 133.70395"> <style type="text/css">*{stroke: #{expand-color($LIGHT_GREEN)}; stroke-width:21.16666603; stroke-linecap:round}</style> <path d="M 10.734066,10.58439 H 131.18195" /> <path d="M 10.734066,123.11955 H 131.18195" /> <path d="M 10.734066,66.85197 H 131.18195" /> </svg>'
+        '<svg xmlns="http://www.w3.org/2000/svg" width="141.9" height="133.7" viewBox="0 0 142 134"><style>*{stroke:#{expand-color($LIGHT_GREEN)};stroke-width:21.16;stroke-linecap:round}</style><path d="M11 11h120M11 123h120M11 67h120"/></svg>'
       );
       background-repeat: no-repeat;
     }
