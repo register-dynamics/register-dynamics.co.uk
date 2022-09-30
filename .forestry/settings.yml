@@ -52,6 +52,11 @@ sections:
   label: Data
   create: none
   match: "**/*"
+- type: document
+  path: _data/menu-items.yml
+  label: Menu Items
+  templates:
+  - menu-item
 upload_dir: images
 public_path: "/images"
 front_matter_path: ''

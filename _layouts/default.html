@@ -13,10 +13,10 @@
     <nav id="menu">
       <a href='{{"/" | prepend: site.baseurl }}' id=logo><img src='{{ "/images/logo-landscape.svg" | prepend: site.baseurl }}' alt="Register Dynamics"></a>
       <a href="#menu">Menu</a>
-      <a href='{{"/what-we-do" | prepend: site.baseurl }}'>What We Do</a>
-      <a href='{{"/case-studies" | prepend: site.baseurl }}'>Case Studies</a>
-      <a href='{{"/insights" | prepend: site.baseurl }}'>Insights</a>
-      <a href='{{"/jobs" | prepend: site.baseurl }}'>Jobs</a>
+      {% for item in site.data['menu-items'].links %}
+        {% assign target = site.pages | where:"path", item | first %}
+        <a href="{{ target.url | prepend: site.baseurl }}">{{ target.title }}</a>
+      {% endfor %}
       <a href='{{ "mailto:" | append: site.email }}' role="button">Let's Talk</a>
     </nav>
     {{ content }}

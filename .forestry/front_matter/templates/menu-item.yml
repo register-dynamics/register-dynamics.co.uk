@@ -1,0 +1,14 @@
+---
+label: Menu Items
+hide_body: true
+fields:
+- name: links
+  type: list
+  label: Links
+  config:
+    use_select: true
+    min: 0
+    max: 4
+    source:
+      type: pages
+      section: pages
