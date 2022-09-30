@@ -11,4 +11,4 @@ fields:
     source:
       type: pages
       section: jekyll-pages
-  label: Link
+  label: Links
