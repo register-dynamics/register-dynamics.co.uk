@@ -9,6 +9,9 @@ excerpt: As we all know, today’s world is filled with data. Wherever you look,
   really is and why it is important to get right.
 licenses:
 - 'Image by Gerd Altmann from Pixabay '
+authors:
+- Nisa Chitakasem
+date: 2022-10-22
 
 ---
 ![](/images/what-is-data-governance-and-why-is-it-important.jpg "What is data governance and why is it important")
@@ -17,7 +20,7 @@ As we all know, today’s world is filled with data. Wherever you look, wherever
 
 Whilst many people recognise that data needs to be governed it is often unclear how to do this or where to start. Who should take responsibility for implementing this can also be a source of confusion.
 
-Perhaps you are already well aware of data governance and its importance, and maybe you are already implementing your carefully constructed data governance strategy. Wherever you are in the process it can always be helpful to take a step back and we hope that this article offers some insight to help you with your next steps.
+Perhaps you are already well aware of [data governance](https://www.register-dynamics.co.uk/data-governance) and its importance, and maybe you are already implementing your carefully constructed data governance strategy. Wherever you are in the process it can always be helpful to take a step back and we hope that this article offers some insight to help you with your next steps.
 
 First, let’s take a deeper look at what data governance really is:
 
@@ -25,7 +28,7 @@ First, let’s take a deeper look at what data governance really is:
 
 In very simple terms, data governance is a set of principles, practices, standards and metrics that help an organisation to manage their data effectively. Together these principles, practises, standards and metrics help to ensure that data is consistent, reliable and trustworthy enough to drive business decisions, business initiatives and business needs and goals.
 
-Data governance ensures that an organisation has control over their data and that their data is well protected. It outlines the processes, policies and responsibilities that ensure the quality and security of data across the organisation.
+[Data governance]() ensures that an organisation has control over their data and that their data is well protected. It outlines the processes, policies and responsibilities that ensure the quality and security of data across the organisation.
 
 ## What is a Data Governance Framework?
 
@@ -63,4 +66,4 @@ Data governance is vital for any data-driven organisation. It is also something 
 
 Data governance will also become more and more critical as the reliance on data to fuel business decisions grows. Even if you already have a data governance framework set up, it will be important to keep reviewing and re-evaluating each aspect of it, as your business needs change.
 
-We hope that this brief introduction and overview of data governance has given you some ideas around what data governance encompasses and why it’s important to get right. If you’d like to share your experiences with data governance or want to discuss how we can help you with your specific data governance needs, do [get in touch](hello@register-dynamics.co.uk) with us.
+We hope that this brief introduction and overview of data governance has given you some ideas around what data governance encompasses and why it’s important to get right. If you’d like to share your experiences with data governance or want to discuss how we can help you with your specific data governance needs, do [get in touch](hello@register-dynamics.co.uk) with us or see our [Data Governance page](https://www.register-dynamics.co.uk/data-governance).
