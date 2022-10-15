@@ -1,1 +1,15 @@
-{% include post.html %}
+{% assign post = include.post | default: post %}
+<div class="card icon-img circle-img">
+  {% assign collection = site.collections | where: "label", post.collection | first %}
+  {% if collection.output or post.location %}
+  <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+  {% endif %}
+    {% if post.image %}
+      {% include image.html src=post.image %}
+    {% endif %}
+    <h2>{{ post.title }}</h2>
+  {% if collection.output or post.location %}
+  </a>
+  {% endif %}
+  {{ post.excerpt | markdownify }}
+</div>

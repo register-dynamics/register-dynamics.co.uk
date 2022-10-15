@@ -1,5 +1,5 @@
 {% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
-<div class="alternating">
+<div class="{{ main.image_mode }}-img">
   {% include image.html src=main.image %}
   {% include blocks.liquid blocks=main.sections %}
   {{ post.content | markdownify }}

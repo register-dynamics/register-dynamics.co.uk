@@ -8,4 +8,6 @@ excerpt: |
   _This is a guest post on the Government Digital Service "Data in Government" blog._
 layout: redirect
 location: https://dataingovernment.blog.gov.uk/2019/06/10/improving-how-we-manage-spreadsheet-data/
+tags:
+- data-maturity
 ---

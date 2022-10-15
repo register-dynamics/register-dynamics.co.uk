@@ -3,6 +3,7 @@ title: Jobs
 layout: page
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: We are always looking for exceptional people who share our values, to
@@ -21,17 +22,19 @@ sections:
   sections:
   - template: content-grid
     columns: '2'
-    content:
-    - icon: ''
-      heading: How we work
+    sections:
+    - template: card
+      image: ''
+      title: How we work
       body: "With us you can work flexibly and remotely if you wish and/or at our
         client's sites depending on the role that you take on and what works best
         for you. \n\nWe are all self-starters and pride ourselves on only working
         on projects that stimulate and interest us. We work on projects that matter
         (in government and for private companies) and that have a real impact on people's
         lives.  \n"
-    - icon: ''
-      heading: Work life balance
+    - template: card
+      image: ''
+      title: Work life balance
       body: "Work life balance isn't something we just say we do. It is at the heart
         of all of us. We know just how important it is to be able to live your life
         and appreciate everything that it offers us. \n\nWe want you to enjoy your
@@ -54,10 +57,8 @@ sections:
 - template: listing
   source: jobs
   columns: 3
-  coloured: true
+  item_template: project
   limit: 
-  numbered: false
-  image_mode: ''
 - template: content
   content: If you don't see a role that's right for you now, we may still be excited
     to hear from you! [Drop us a message]() and tell us why you think you should join

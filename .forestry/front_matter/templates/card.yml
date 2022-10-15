@@ -1,0 +1,43 @@
+---
+label: Card
+display_field: title
+hide_body: true
+fields:
+- name: coloured
+  type: boolean
+  label: Coloured
+  description: When switched on, each item will have an alternating coloured background.
+- name: image_mode
+  label: Image Mode
+  type: select
+  description: |
+    When 'icon' is selected, the image will appear as a small icon.
+    When 'cover' is selected, the image will expand to fill the column width.
+    When 'left-side' or 'right-side' is selected, the image will appear on that side.
+  config:
+    source:
+      type: custom
+    options:
+    - icon
+    - cover
+    - right-side
+    - left-side
+- name: image
+  type: file
+  config:
+    maxSize: 1
+  label: Icon
+- name: title
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body

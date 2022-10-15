@@ -12,6 +12,9 @@ fields:
   type: boolean
   description: When switched off, the title will automatically be at the top the page.
   default: false
+- type: file
+  name: image
+  label: image
 - name: sections
   type: blocks
   label: Content

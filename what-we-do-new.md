@@ -3,6 +3,7 @@ title: What we do (new)
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   image: "/images/Combination.svg"
   sections:
   - template: content
@@ -14,33 +15,23 @@ sections:
       By working at the executive level we help to deliver business value to our clients by helping them to harness their data more effectively.
 - template: content-grid
   columns: 2
-  content:
-  - icon: ''
-    heading: 'Our 4 main services:'
-    body: ''
-  - icon: ''
-    heading: 'Our specialisms:'
-    body: ''
-  - icon: "/images/Strategy.svg"
-    heading: Technical and data strategy
-    body: ''
-  - icon: "/images/Data.svg"
-    heading: Data management
-    body: ''
-  - icon: ''
-    heading: Digital delivery
-    body: ''
-  - icon: ''
-    heading: Data governance
-    body: ''
-  coloured: false
-  numbered: false
-  image_mode: ''
+  sections:
+  - template: heading
+    text: 'Our 4 main services:'
+  - template: heading
+    text: 'Our specialisms:'
+  - template: listing
+    source: services
+    item_template: title-icon
+    numbered: false
+  - template: listing
+    source: specialisms
+    item_template: title-icon
+    numbered: false
 - template: call-to-action
   link_type: contact
   button: Get in touch
   intro: 'Ready to talk or have a question for us?  '
   link: ''
 published: false
-
 ---

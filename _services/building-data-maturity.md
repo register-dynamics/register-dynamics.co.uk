@@ -1,8 +1,10 @@
 ---
 title: Building data maturity
+image: "/images/Strategy.svg"
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -17,21 +19,24 @@ sections:
   text: Our building data maturity service will help you
 - template: content-grid
   columns: 3
-  content:
-  - icon: ''
-    heading: Establish and maintain a data driven culture
+  sections:
+  - template: card
+    image: ''
+    title: Establish and maintain a data driven culture
     body: Review your current culture trends and build on these to embed data more
       deeply across the whole of your organisation. Implement long-lasting frameworks
       to support a healthy and growing data culture and that cultivates a data driven
       mindset.
-  - icon: ''
-    heading: Build your data community
+  - template: card
+    image: ''
+    title: Build your data community
     body: Foster a community that understands, embraces and harnesses your organisation’s
       data effectively.  Improve data literacy, encourage better data sharing and
       knowledge transfer, and develop a community of data champions and advocates
       for your data.
-  - icon: ''
-    heading: Improve data quality, accessibility and governance
+  - template: card
+    image: ''
+    title: Improve data quality, accessibility and governance
     body: Enable staff to manage, find and leverage data with confidence. Solidify
       the importance of data within the organisation and ensure that the data you
       have is accurate, trustworthy and well governed.
@@ -45,27 +50,34 @@ sections:
     text: Why trust us with building your data maturity?
 - template: content-grid
   columns: 3
-  coloured: false
   numbered: false
-  image_mode: icon
-  content:
-  - body: Our team has a wealth of experience in developing successful maturity models
+  sections:
+  - template: card
+    coloured: false
+    image_mode: icon
+    body: Our team has a wealth of experience in developing successful maturity models
       and frameworks for government departments and private clients. We’ll help you
       become clear about what areas to focus on and how to go about your data maturity
       journey.
-    icon: "/images/icon-team2.png"
-    heading: " Experienced team"
-  - body: We pride ourselves on our pragmatic approach which focuses on identifying
+    image: "/images/icon-team2.png"
+    title: " Experienced team"
+  - template: card
+    coloured: false
+    image_mode: icon
+    body: We pride ourselves on our pragmatic approach which focuses on identifying
       and understanding the incentives and drivers that fuel the data and the key
       users of it. This enables us to gain an in-depth view on the challenges at hand
       and to establish solutions that can offer a positive impact for the long term.
-    icon: "/images/icon-uptodate.png"
-    heading: Incentives-led approach
-  - body: Our unique approach enables us to easily identify which simple interventions
+    image: "/images/icon-uptodate.png"
+    title: Incentives-led approach
+  - template: card
+    coloured: false
+    image_mode: icon
+    body: Our unique approach enables us to easily identify which simple interventions
       will offer the greatest value and biggest impact to the organisation and to
       your teams. We believe in finding simple solutions to big problems.
-    icon: "/images/light-bulb-g42dd97171_640.png"
-    heading: Big impact via simple interventions
+    image: "/images/light-bulb-g42dd97171_640.png"
+    title: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
   intro: Ready to explore your options and discuss your specific needs?
@@ -76,9 +88,19 @@ sections:
   - template: heading
     level: 2
     text: Building data maturity success stories
+  - template: listing
+    source: projects
+    tag: data-maturity
+    columns: 3
+    limit: 3
 - template: heading
   level: 2
   text: Building data maturity insights
+- template: listing
+  source: posts
+  tag: data-maturity
+  columns: 3
+  limit: 3
 - template: call-to-action
   link_type: contact
   button: Let's talk
@@ -87,28 +109,11 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: content-grid
+- template: listing
+  source: services
+  item_template: title-icon
   columns: 3
-  content:
-  - heading: Digital delivery
-    body: |2-
-
-      Digital products and solutions
-
-      Learn more
-    icon: ''
-  - heading: Data management
-    body: "Bespoke data management solutions \n\nLearn more"
-    icon: ''
-  - heading: Technical assurance
-    body: |-
-      Technology review and option evaluation
-
-      Learn more
-    icon: ''
   image_mode: icon
-  coloured: false
-  numbered: false
 published: false
 
 ---

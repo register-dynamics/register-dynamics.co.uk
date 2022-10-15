@@ -3,6 +3,7 @@ title: Register Dynamics
 hide_title: yes
 sections:
 - template: alternating
+  image_mode: left-side
   image: '/images/Combination.svg'
   sections:
     - template: heading
@@ -24,35 +25,38 @@ sections:
   text: Who we work with
 - template: content-grid
   columns: 3
-  coloured: false
   numbered: false
-  content:
-  - icon: 'images/GDS_logo.png'
-    heading: ''
+  sections:
+  - template: card
+    image: 'images/GDS_logo.png'
+    title: ''
     text: ''
-  - icon: 'images/MOJ_logo.png'
-    heading: ''
+  - template: card
+    image: 'images/MOJ_logo.png'
+    title: ''
     text: ''
-  - icon: 'images/defra_logo.svg'
-    heading: ''
+  - template: card
+    image: 'images/defra_logo.svg'
+    title: ''
     text: ''
-  - icon: 'images/desmog_logo.jpg'
-    heading: ''
+  - template: card
+    image: 'images/desmog_logo.jpg'
+    title: ''
     text: ''
-  - icon: 'images/Office for AI logo.png'
-    heading: ''
+  - template: card
+    image: 'images/Office for AI logo.png'
+    title: ''
     text: ''
-  - icon: 'images/knodium-logo.svg'
-    heading: ''
+  - template: card
+    image: 'images/knodium-logo.svg'
+    title: ''
     text: ''
 - template: heading
   text: Recent work
 - template: listing
   limit: 6
   columns: 3
-  coloured: yes
   numbered: no
-  image_mode: cover
   source: projects
 - template: call-to-action
   intro: ''
@@ -65,9 +69,7 @@ sections:
   limit: 3
   source: posts
   columns: 3
-  coloured: no
   numbered: no
-  image_mode: cover
 - template: call-to-action
   intro: ''
   button: Explore our blog

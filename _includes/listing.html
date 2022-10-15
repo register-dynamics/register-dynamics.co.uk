@@ -1,6 +1,10 @@
 {% assign main = include.page | default: include %}
 {% assign limit = main.limit | default: 999 %}
 {% assign image_mode = main.image_mode | default: 'cover' %}
+{% assign columns = main.columns | default: 1 %}
+{% assign numbered = main.numbered | default: false %}
+{% assign self_url = page.url %}
+{% assign tag = main.tag %}
 
 {% if main.list %}
   {% assign list = main.list %}
@@ -12,20 +16,44 @@
   {% endfor %}
 {% else %}
   {% assign collection = site.collections | where: "label", main.source | first %}
-  {% assign docs = collection.docs | sort: "date" | reverse | slice: 0, limit %}
+  {% assign docs = collection.docs | sort: "date" | reverse %}
 {% endif %}
 
+{% assign temp = "" | split: "" %}
+{% for doc in docs %}
+  {% if doc.url == self_url %}
+    {% continue %}
+  {% endif %}
+
+  {% if tag %}
+    {% for doctag in doc.tags %}
+      {% if tag == doctag %}
+        {% assign temp = temp | push: doc %}
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    {% assign temp = temp | push: doc %}
+  {% endif %}
+{% endfor %}
+
+{% assign docs = temp | slice: 0, limit %}
+
 {% assign len = main.source | size | minus: 1 %}
-{% assign template = main.source | slice: 0, len %}
+{% assign default_template = main.source | slice: 0, len %}
+{% assign template = main.item_template | default: default_template %}
 {% if template == empty or template == '' %}
   {% assign template = "post" %}
 {% endif %}
 
-{% include content-grid.html
-    content=docs
-    item_template=template
-    columns=main.columns
-    coloured=main.coloured
-    numbered=main.numbered
-    image_mode=image_mode
+{% assign content = "" | split: "" %}
+{% for doc in docs %}
+  {% capture str %}{% include {{ template }}.html page=doc post=doc %}{% endcapture %}
+  {% assign content = content | push: str %}
+{% endfor %}
+
+
+{% include grid.html
+    content=content
+    columns=columns
+    numbered=numbered
 %}

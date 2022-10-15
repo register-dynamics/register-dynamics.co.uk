@@ -9,7 +9,8 @@ excerpt: 'Register Dynamics technically assured a new CRM system, delivering an 
 
   '
 image: "/images/assuring_new_technology.jpg"
-
+tags:
+  - technical-assurance
 ---
 A leading renewable energy business based in London was founded in 2010 with the aim of offering better green energy solutions to people in the UK.
 

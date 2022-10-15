@@ -1,0 +1,13 @@
+{% assign main = include.page | default: include %}
+
+{% if main.numbered %}
+  {% assign tag = 'ol' %}
+{% else %}
+  {% assign tag = 'ul' %}
+{% endif %}
+
+<{{tag}} class="content-grid" data-cols="{{main.columns}}">
+    {% for item in main.content %}
+      <li>{{ item }}</li>
+    {% endfor %}
+</{{tag}}>

@@ -1,8 +1,10 @@
 ---
 title: Technical and data strategy
+image: "/images/Strategy.svg"
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -17,19 +19,22 @@ sections:
   text: Our technical and data strategy service will help you
 - template: content-grid
   columns: 3
-  content:
-  - icon: ''
-    heading: Find and eliminate weak points
+  sections:
+  - template: card
+    image: ''
+    title: Find and eliminate weak points
     body: Assess your current data ecosystem, identify areas of potential weakness
       and establish the best ways to tackle these. Get tailored solutions for your
       specific challenges and strengthen your offering to users and customers.
-  - icon: ''
-    heading: " Enhance business operations"
+  - template: card
+    image: ''
+    title: " Enhance business operations"
     body: Improve and future proof your business processes through automation, streamlining
       and technical optimisation. Increase efficiency to maximise progress and unlock
       potential.
-  - icon: ''
-    heading: Set data standards, principles and policies
+  - template: card
+    image: ''
+    title: Set data standards, principles and policies
     body: 'Design and develop a set of solid data standards, principles and policies
       that can be embedded easily throughout your organisation. '
   coloured: true
@@ -45,24 +50,27 @@ sections:
   coloured: false
   numbered: false
   image_mode: icon
-  content:
-  - body: Whatever your data or technical challenges are, we will approach them with
+  sections:
+  - template: card
+    body: Whatever your data or technical challenges are, we will approach them with
       curiosity, passion and an experienced eye. We are also recognised industry leaders
       in data technology and data standards and continue to push the boundaries and
       explore new emerging technologies each day.
-    icon: "/images/icon-g484ea42b6_640.png"
-    heading: We love all things technical
-  - body: We can offer you advice, guidance and also support through all stages of
+    image: "/images/icon-g484ea42b6_640.png"
+    title: We love all things technical
+  - template: card
+    body: We can offer you advice, guidance and also support through all stages of
       implementation and beyond.  As pioneers in data technology and emerging tech,
       we are in a unique position to be able to support you at any and all stages
       of your development.
-    icon: "/images/icon-team.svg"
-    heading: Support at all stages
-  - body: We believe in getting real results. Whether this means building a prototype
+    image: "/images/icon-team.svg"
+    title: Support at all stages
+  - template: card
+    body: We believe in getting real results. Whether this means building a prototype
       to test out new ideas, developing new tools from scratch or working with you
       in-house and leading projects from within; we are ready to get stuck in!
-    icon: "/images/icon-workflow.png"
-    heading: Getting things done
+    image: "/images/icon-workflow.png"
+    title: Getting things done
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk about your technical and data needs?    '
@@ -86,23 +94,26 @@ sections:
   text: Related services
 - template: content-grid
   columns: 3
-  content:
-  - heading: Digital delivery
+  sections:
+  - template: card
+    title: Digital delivery
     body: |2-
 
       Digital products and solutions
       Learn more
-    icon: ''
-  - heading: Building data maturity
+    image: ''
+  - template: card
+    title: Building data maturity
     body: |-
       Data culture and community
       Learn more
-    icon: ''
-  - heading: Technical assurance
+    image: ''
+  - template: card
+    title: Technical assurance
     body: |-
       Technology review and option evaluation
       Learn more
-    icon: ''
+    image: ''
   image_mode: icon
   coloured: false
   numbered: false

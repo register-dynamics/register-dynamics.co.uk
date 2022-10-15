@@ -5,6 +5,15 @@ fields:
 - type: file
   name: image
   label: image
+- name: image_mode
+  type: select
+  label: Image side
+  config:
+    source:
+      type: custom
+    options:
+    - right-side
+    - left-side
 - name: sections
   type: blocks
   label: Content

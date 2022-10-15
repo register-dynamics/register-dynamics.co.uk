@@ -3,6 +3,7 @@ title: Data governance
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -15,17 +16,20 @@ sections:
   text: Work with us to
 - template: content-grid
   columns: 3
-  content:
-  - icon: ''
-    heading: Gain clarity and control
+  sections:
+  - template: card
+    image: ''
+    title: Gain clarity and control
     body: Know who is responsible for what data and when. Have policies, processes,
       data standards and metrics in place to help you keep on top of all your data.
-  - icon: ''
-    heading: Build confidence in your data
+  - template: card
+    image: ''
+    title: Build confidence in your data
     body: Make sure that you and your organisation are always working with high quality,
       accurate data all the time.
-  - icon: ''
-    heading: Leverage your data
+  - template: card
+    image: ''
+    title: Leverage your data
     body: Let your data and insights from it, drive your business forwards. Trust
       your data to propel your organisation into the future.
   coloured: false
@@ -65,9 +69,10 @@ sections:
     text: Data governance success stories
   - template: content-grid
     columns: '3'
-    content:
-    - icon: ''
-      heading: ''
+    sections:
+    - template: card
+      image: ''
+      title: ''
       body: ''
     coloured: true
     numbered: false
@@ -77,16 +82,19 @@ sections:
   coloured: true
   numbered: false
   image_mode: icon
-  content:
-  - body: ''
-    icon: ''
-    heading: ''
-  - body: ''
-    icon: ''
-    heading: ''
-  - body: ''
-    icon: ''
-    heading: ''
+  sections:
+  - template: card
+    body: ''
+    image: ''
+    title: ''
+  - template: card
+    body: ''
+    image: ''
+    title: ''
+  - template: card
+    body: ''
+    image: ''
+    title: ''
 - template: heading
   level: 2
   text: Data governance insights
@@ -101,19 +109,22 @@ sections:
   text: Related services
 - template: content-grid
   columns: 3
-  content:
-  - heading: Data management
+  sections:
+  - template: card
+    title: Data management
     body: "Bespoke data management solutions \n\nLearn more"
-    icon: "/images/Data.svg"
-  - heading: Data discovery and cataloging
+    image: "/images/Data.svg"
+  - template: card
+    title: Data discovery and cataloging
     body: "Making data accessible and discoverable \nLearn more"
-    icon: "/images/Delivery.svg"
-  - heading: Data standards
+    image: "/images/Delivery.svg"
+  - template: card
+    title: Data standards
     body: |-
       Establishing ‘best in class’ data standards
 
       Learn more
-    icon: "/images/Direction.svg"
+    image: "/images/Direction.svg"
   image_mode: icon
   coloured: false
   numbered: false

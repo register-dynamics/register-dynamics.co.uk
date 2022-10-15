@@ -3,6 +3,7 @@ title: About us
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -19,6 +20,7 @@ sections:
       time for everything else that matters in life too!
   image: "/images/square-withbg.svg"
 - template: alternating
+  image_mode: left-side
   sections:
   - template: heading
     level: 2
@@ -35,6 +37,7 @@ sections:
       We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
   image: "/images/home-square-3.png"
 - template: alternating
+  image_mode: left-side
   sections:
   - template: heading
     level: 2
@@ -54,9 +57,7 @@ sections:
   columns: '3'
   source: authors
   limit: 
-  coloured: false
   numbered: false
-  image_mode: icon
 - template: call-to-action
   link_type: contact
   intro: 'Read more about the services we offer    '
@@ -67,32 +68,39 @@ sections:
   text: Our 4 core business values
 - template: content-grid
   columns: 2
-  coloured: true
-  content:
-  - icon: ''
-    heading: People matter
+  sections:
+  - template: card
+    coloured: true
+    image: ''
+    title: People matter
     body: |
       In everything that we approach and do, for us, people always come first.
 
       At Register Dynamics we pride ourselves on only doing work that we love, and on making sure that everyone has the time and space to explore all of their interests - both inside and outside of work.
 
       With our clients we form deep, long-term relationships and focus on what matters most to them. We focus on the user needs and work hard to ensure that their voice is heard and taken seriously.
-  - icon: ''
-    heading: Quality solutions
+  - template: card
+    coloured: true
+    image: ''
+    title: Quality solutions
     body: "We deliver solutions that we believe are the very best solutions for our
       clients.  \n\nWhat this means is that quality always comes first, along with
       creating solutions that endure, and that are built with longevity and scalability
       in mind.\n\nWe want our work to support our clients far into the future and
       to create a positive and lasting impact with our clients. \n"
-  - icon: ''
-    heading: Open communication
+  - template: card
+    coloured: true
+    image: ''
+    title: Open communication
     body: "We believe in openness and transparency and that positive outcomes can
       only come as a result of open communication.\n\nWith us, you will always know
       where you stand; and we will always encourage everyone to speak their minds.
       \n\nBy taking the time to understand each others’ needs and situation, and encouraging
       greater transparency between teams, we can accomplish great things.\n"
-  - icon: ''
-    heading: Working side-by-side
+  - template: card
+    coloured: true
+    image: ''
+    title: Working side-by-side
     body: |
       Whether you are working within Register Dynamics, or with us as a client, we will be working with you side-by-side.
 
@@ -114,26 +122,28 @@ sections:
   text: We also follow 3 main mantras in all of our work we do
 - template: content-grid
   columns: 3
-  coloured: false
   numbered: false
-  content:
-  - icon: "/images/icon-team.svg"
+  sections:
+  - template: card
+    image: "/images/icon-team.svg"
     body: "We believe that making users’ needs central to everything that we do is
       really important.  \n\nWhether we are developing or designing new technology,
       or coming up with a specific solution or strategy, the users’ needs always come
       first.  This approach ensures we can offer the most successful and long lasting
       outcomes.\n"
-    heading: "'The User is King'"
-  - icon: "/images/icon-unleash.svg"
-    heading: "'See the big picture'"
+    title: "'The User is King'"
+  - template: card
+    image: "/images/icon-unleash.svg"
+    title: "'See the big picture'"
     body: "We approach all of our work with the whole business in mind. \n\nWe take
       pride in understanding the bigger picture and ensuring that our technology and
       technological solutions align with it and improve the bottom line.\n\nWe also
       work hard to liaise with everyone involved, helping to build bridges between
       teams and key stakeholders so that everyone can work together towards the same
       goals."
-  - icon: "/images/icon-beready.svg"
-    heading: "'Empower, embed and embrace'"
+  - template: card
+    image: "/images/icon-beready.svg"
+    title: "'Empower, embed and embrace'"
     body: "We believe in empowering our clients and their staff to have full control
       and autonomy over their own technology and data. \n\nThe solutions and tools
       we create all focus on enabling this to happen.  \n\nWe also focus on ensuring

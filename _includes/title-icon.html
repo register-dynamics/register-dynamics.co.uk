@@ -1,0 +1,9 @@
+{% assign main = include.page | default: include %}
+<a href="{{ main.url }}" class="title-icon">
+{% if main.image and main.image != "" %}
+  {% include image.html src=main.image %}
+{% endif %}
+{% if main.title and main.title != '' %}
+  {% include heading.html level=3 text=main.title %}
+{% endif %}
+</a>

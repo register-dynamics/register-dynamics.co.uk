@@ -22,7 +22,14 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - post
+  - page
+- type: directory
+  path: _specialisms
+  label: Specialisms
+  create: all
+  match: "**/*"
+  templates:
+  - page
 - type: directory
   path: _authors
   label: Authors

@@ -13,25 +13,9 @@ fields:
     max: 4
     step: 1
     required: true
-- name: coloured
-  type: boolean
-  label: Coloured
-  description: When switched on, each item will have an alternating coloured background.
 - name: numbered
   type: boolean
   label: Numbered
   description: When switched on, numbers in order will automatically be added to each
     item.
-- name: image_mode
-  label: Image Mode
-  type: select
-  description: |
-    When 'icon' is selected, the image will appear as a small icon.
-    When 'cover' is selected, the image will expand to fill the column width.
-  config:
-    source:
-      type: custom
-    options:
-    - icon
-    - cover
-    - alternating
+

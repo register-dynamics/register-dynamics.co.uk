@@ -1,0 +1,16 @@
+{% assign item = include.page | default: include %}
+{% assign image_mode = item.image_mode | default: 'icon' %}
+{% if item.coloured == true %}
+  {% assign coloured = 'coloured' %}
+{% else %}
+  {% assign coloured = '' %}
+{% endif %}
+<div class="{{image_mode}}-img {{coloured}}">
+{% if item.image != "" %}
+  {% include image.html src=item.image %}
+{% endif %}
+{% if item.title and item.title != '' %}
+  {% include heading.html level=3 text=item.title %}
+{% endif %}
+{{ item.body | markdownify }}
+</div>

@@ -17,6 +17,7 @@ fields:
     - projects
     - publications
     - services
+    - specialisms
 - name: limit
   label: Limit
   type: number
@@ -27,3 +28,23 @@ fields:
   template: grid-options
   label: Common grid options
   name: grid-options
+- name: tag
+  type: select
+  config:
+    required: false
+    source:
+      type: documents
+      section: data
+      file: _data/tags.yml
+- name: item_template
+  type: select
+  config:
+    required: true
+    source:
+      type: custom
+    options:
+    - post
+    - project
+    - author
+    - title-icon
+    - card

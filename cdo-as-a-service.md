@@ -2,6 +2,7 @@
 title: CDO as a Service
 sections:
 - template: alternating
+  image_mode: left-side
   image: "/images/icon-uptodate.png"
   sections:
   - template: content
@@ -14,25 +15,30 @@ sections:
       all of your data needs now.
 - template: content-grid
   columns: 3
-  coloured: true
-  content:
-  - icon: ''
-    heading: Get the support you need, now
+  sections:
+  - template: card
+    coloured: true
+    image: ''
+    title: Get the support you need, now
     body: 'Access experienced CDOs without having to justify the expense or go through
       the process of hiring one. Cut through the red tape and get the support you
       need straight away.
 
       '
-  - icon: ''
-    heading: Have confidence, control and flexibility
+  - template: card
+    coloured: true
+    image: ''
+    title: Have confidence, control and flexibility
     body: 'Get the help you need, the way you need it, when you need it. Determine
       which areas you want us to focus on, how you want us to work with you (at your
       offices or remotely, part-time or full-time, on what schedule) and how long
       for.
 
       '
-  - icon: ''
-    heading: Harness our cost effective approach
+  - template: card
+    coloured: true
+    image: ''
+    title: Harness our cost effective approach
     body: 'Reap the benefits of decades of experience, expertise and insight, for
       a fraction of the cost of hiring a permanent CDO. Get help on a part-time or
       interim basis and choose the best approach for your team and budget.
@@ -44,6 +50,7 @@ sections:
   text: What is CDO as a service?
   level: 
 - template: alternating
+  image_mode: left-side
   image: "/images/Direction.svg"
   sections:
   - template: content
@@ -78,28 +85,35 @@ sections:
 - template: content-grid
   columns: 2
   numbered: true
-  coloured: true
-  content:
-  - icon: ''
-    heading: Discovery call
+  sections:
+  - template: card
+    coloured: true
+    image: ''
+    title: Discovery call
     body: |
       Together we will explore what your organisation’s needs, goals and priorities are.
 
       We will discuss any challenges you are facing and what your best options are to tackle these. We will also agree what the best way to work together will be.
-  - icon: ''
-    heading: Scoping the work
+  - template: card
+    coloured: true
+    image: ''
+    title: Scoping the work
     body: |
       After the discovery call we will send you a proposal and we will scope out the details of the placement.
 
       We will work together to agree exactly how we want to work together, how long for, what the outcomes and expectations are and how we plan to get there.
-  - icon: ''
-    heading: Working together
+  - template: card
+    coloured: true
+    image: ''
+    title: Working together
     body: |
       Once our plan and start date has been agreed we will get to work! Your CDO is now available to you along with the rest of our team.
 
       We will work closely with you as an extension of your organisation and support you in your vision.
-  - icon: ''
-    heading: Handover and next steps
+  - template: card
+    coloured: true
+    image: ''
+    title: Handover and next steps
     body: |
       When we have accomplished what we set out to achieve together, we will arrange a thorough handover and ensure that you have everything you need to continue on without us.
 
@@ -113,24 +127,27 @@ sections:
   numbered: false
   coloured: false
   image_mode: icon
-  content:
-  - icon: "/images/icon-reliable.svg"
-    heading: Trust our experience
+  sections:
+  - template: card
+    image: "/images/icon-reliable.svg"
+    title: Trust our experience
     body: 'Our team has a wealth of experience working in CDO roles across a range
       of industries including central UK government and various small and medium sized
       companies. We know what data challenges organisations face and how to solve
       them effectively.
 
       '
-  - icon: "/images/icon-team2.png"
-    heading: Access a fully equipped data team
+  - template: card
+    image: "/images/icon-team2.png"
+    title: Access a fully equipped data team
     body: 'When you work with us, you will be working not only with the CDO expert
       assigned to you but also with our whole team of data, technology and business
       experts.
 
       '
-  - icon: "/images/icon-reuse.svg"
-    heading: Gain in-house training and mentorship
+  - template: card
+    image: "/images/icon-reuse.svg"
+    title: Gain in-house training and mentorship
     body: 'We can provide training and mentorship to key stakeholders and staff across
       a wide range of areas. We will make sure that you and your organisation have
       the skills and tools you need to continue on without us.

@@ -1,7 +1,0 @@
-{% if item.icon != "" %}
-  {% include image.html src=item.icon %}
-{% endif %}
-{% if item.heading and item.heading != '' %}
-  {% include heading.html level=3 text=item.heading %}
-{% endif %}
-{{ item.body | markdownify }}

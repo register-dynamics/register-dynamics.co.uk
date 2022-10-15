@@ -1,7 +1,5 @@
 {% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
 {% assign level = main.level %}{% unless level and level != empty %}{% assign level = 2 %}{% endunless %}
 <h{{level}}>
-  <a name="{{ main.text | slugify }}">
-    {{ main.text }}
-  </a>
+  {{ main.text }}
 </h{{level}}>

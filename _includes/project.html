@@ -1,10 +1,10 @@
-{% assign post = include.post | default: post %}
-<a id="{{ post.slug }}" class=projects href="{{ post.url }}">
-  {% if post.image %}
-    {% include image.html src=post.image %}
+{% assign main = include.page | default: page %}
+<a id="{{ main.slug }}" class="projects cover-img coloured" href="{{ main.url }}">
+  {% if main.image %}
+    {% include image.html src=main.image %}
   {% endif %}
-  <h2>{{ post.title }}</h2>
-  {% if post.client %}
-    <span class="client">{{ post.client }}</span>
+  <h2>{{ main.title }}</h2>
+  {% if main.client %}
+    <span class="client">{{ main.client }}</span>
   {% endif %}
 </a>

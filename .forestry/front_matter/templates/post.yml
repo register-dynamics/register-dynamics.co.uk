@@ -37,6 +37,17 @@ fields:
 - type: list
   name: licenses
   label: licenses
+- type: list
+  name: tags
+  label: Tags
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: documents
+      section: data
+      file: _data/tags.yml
 pages:
 - _posts/2022-08-17-3-ways-to-encourage-better-data-sharing.md
 - _posts/what-is-data-governance-and-why-is-it-important.md

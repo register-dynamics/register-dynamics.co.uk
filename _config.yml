@@ -29,7 +29,9 @@ collections:
   authors:
     output: yes
   services:
-    output: no
+    output: yes
+  specialisms:
+    output: yes
   jobs:
     output: yes
 
@@ -74,6 +76,16 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: services
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: specialisms
     values:
       layout: page
 

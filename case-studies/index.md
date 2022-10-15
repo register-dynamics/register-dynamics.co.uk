@@ -9,7 +9,4 @@ sections:
 - template: listing
   source: projects
   columns: 3
-  coloured: yes
-  numbered: no
-  image_mode: cover
 ---

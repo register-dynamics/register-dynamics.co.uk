@@ -1,8 +1,10 @@
 ---
 title: Digital delivery
+image: "/images/Delivery.svg"
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -15,20 +17,23 @@ sections:
   text: Our digital delivery service will help you
 - template: content-grid
   columns: 3
-  content:
-  - icon: ''
-    heading: Build better services with your data
+  sections:
+  - template: card
+    image: ''
+    title: Build better services with your data
     body: 'Prototype new ideas, integrate them with your existing set up and ensure
       that the best technological solutions are available to you. Establish new ways
       to access, manage and share your data more effectively. '
-  - icon: ''
-    heading: " Drive efficiency that gets results"
+  - template: card
+    image: ''
+    title: " Drive efficiency that gets results"
     body: Through the enhancement of your data management and data handling processes
       and tools, we will help you to optimise your business operations to support
       better decision-making. Ensure new digital delivery happens on time, to budget
       and with minimal risk.
-  - icon: ''
-    heading: Move your vision forwards
+  - template: card
+    image: ''
+    title: Move your vision forwards
     body: Implement and execute your technical and data strategies in line with your
       overall business goals and user needs. Help your users, staff and stakeholders
       to embrace the new technology and support your vision.
@@ -45,24 +50,27 @@ sections:
   coloured: false
   numbered: false
   image_mode: icon
-  content:
-  - body: Our experience has shown us that user-led solutions offer the best results
+  sections:
+  - template: card
+    body: Our experience has shown us that user-led solutions offer the best results
       for both the users of the end system and the organisation as a whole. That is
       why we take pride in our user focused approach which underpins all of the digital
       delivery work that we do.
-    icon: "/images/icon-team.svg"
-    heading: User focused
-  - body: 'We believe that all the technology we create is there to support and underpin
+    image: "/images/icon-team.svg"
+    title: User focused
+  - template: card
+    body: 'We believe that all the technology we create is there to support and underpin
       your organisational strategies and goals. Our approach focuses our energy on
       building that strong connection between strategy and delivery. '
-    icon: "/images/icon-team.svg"
-    heading: Marrying strategy and delivery
-  - body: 'When you work with us, you can choose to gain a gentle guiding hand or
+    image: "/images/icon-team.svg"
+    title: Marrying strategy and delivery
+  - template: card
+    body: 'When you work with us, you can choose to gain a gentle guiding hand or
       a full-on technical lead to oversea and lead your project from beginning to
       end. Gain technical expertise, direction and leadership at whichever level is
       most useful to you. '
-    icon: "/images/icon-workflow.png"
-    heading: Support your teams your way
+    image: "/images/icon-workflow.png"
+    title: Support your teams your way
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk or have a question about your digital delivery?   '
@@ -86,23 +94,26 @@ sections:
   text: Related services
 - template: content-grid
   columns: 3
-  content:
-  - heading: Technical and data strategy
+  sections:
+  - template: card
+    title: Technical and data strategy
     body: |-
       Advice, support and leadership
 
       Learn more
-    icon: "/images/Strategy.svg"
-  - heading: Building data maturity
+    image: "/images/Strategy.svg"
+  - template: card
+    title: Building data maturity
     body: |-
       Data culture and community
       Learn more
-    icon: ''
-  - heading: Technical assurance
+    image: ''
+  - template: card
+    title: Technical assurance
     body: |-
       Technology review and option evaluation
       Learn more
-    icon: "/images/Security.svg"
+    image: "/images/Security.svg"
   image_mode: icon
   coloured: false
   numbered: false

@@ -1,5 +1,5 @@
 ---
-label: Static Grid
+label: Grid
 hide_body: true
 display_field: heading
 fields:
@@ -7,30 +7,12 @@ fields:
   template: grid-options
   label: Common grid options
   name: grid-options
-- name: content
-  type: field_group_list
-  fields:
-  - name: icon
-    type: file
-    config:
-      maxSize: 1
-    label: Icon
-  - name: heading
-    type: text
-    config:
-      required: false
-    label: Heading
-  - name: body
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Body
-  config:
-    min: 
-    max: 
-    labelField: 
+- name: sections
+  type: blocks
   label: Content
+  template_types:
+  - card
+  - heading
+  - content
+  - call-to-action
+  - listing

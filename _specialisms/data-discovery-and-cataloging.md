@@ -1,8 +1,10 @@
 ---
 title: Data discovery and cataloging
+image: "/images/Delivery.svg"
 hide-title: false
 sections:
 - template: alternating
+  image_mode: left-side
   sections:
   - template: content
     content: "Make better business decisions through deeper insights from your data.
@@ -15,18 +17,21 @@ sections:
   text: Work with us to
 - template: content-grid
   columns: 3
-  content:
-  - icon: ''
-    heading: Capitalise on opportunities in your data
+  sections:
+  - template: card
+    image: ''
+    title: Capitalise on opportunities in your data
     body: Ensure that all of your data is easy to find, understand and draw insight
       from. Know that your staff are able to exploit your data to its full potential.
-  - icon: ''
-    heading: Become a clean data organisation
+  - template: card
+    image: ''
+    title: Become a clean data organisation
     body: Create a single source of truth with accurate, clean data that everyone
       can leverage and use easily. Build trust that decisions are based on up-to-date,
       reliable data.
-  - icon: ''
-    heading: Establish transparency and control
+  - template: card
+    image: ''
+    title: Establish transparency and control
     body: 'Know where your data is, who is using it, what they are doing with it and
       why. Be confident that your data is safe and secure at all times and that it
       is only ever being accessed by the right people. '
@@ -49,20 +54,23 @@ sections:
     text: Why trust us with your data discovery and cataloging?
 - template: content-grid
   columns: 3
-  content:
-  - icon: "/images/icon-reliable.svg"
-    heading: " Experts in authoritative data"
+  sections:
+  - template: card
+    image: "/images/icon-reliable.svg"
+    title: " Experts in authoritative data"
     body: We are recognised as industry experts in helping organisations to establish,
       manage and share their authoritative data. Our standards, principles, processes
       and technologies are used by companies and governments for keeping their critical
       data clean and up-to-date.
-  - icon: "/images/icon-team.svg"
-    heading: " User focused"
+  - template: card
+    image: "/images/icon-team.svg"
+    title: " User focused"
     body: We believe in empowering staff to manage and share data easily and responsibly.
       By focusing on their specific needs, our approach ensures that users reap the
       benefits of our work and embrace any new data tools or processes introduced.
-  - icon: "/images/download-g118d5d2cf_640.png"
-    heading: Technology made easy
+  - template: card
+    image: "/images/download-g118d5d2cf_640.png"
+    title: Technology made easy
     body: Our deep knowledge, expertise and passion in data technology enables us
       to find and create the best solutions for each of our clients.  Let us handle
       the technical complexities and nuances in what is possible, and together we
@@ -77,9 +85,10 @@ sections:
     text: Data discovery and cataloging success stories
   - template: content-grid
     columns: '3'
-    content:
-    - icon: ''
-      heading: ''
+    sections:
+    - template: card
+      image: ''
+      title: ''
       body: ''
     coloured: true
     numbered: false
@@ -89,16 +98,19 @@ sections:
   coloured: true
   numbered: false
   image_mode: icon
-  content:
-  - body: ''
-    icon: ''
-    heading: ''
-  - body: ''
-    icon: ''
-    heading: ''
-  - body: ''
-    icon: ''
-    heading: ''
+  sections:
+  - template: card
+    body: ''
+    image: ''
+    title: ''
+  - template: card
+    body: ''
+    image: ''
+    title: ''
+  - template: card
+    body: ''
+    image: ''
+    title: ''
 - template: heading
   level: 2
   text: Data discovery and cataloging insights
@@ -113,19 +125,22 @@ sections:
   text: Related services
 - template: content-grid
   columns: 3
-  content:
-  - heading: Data governance
+  sections:
+  - template: card
+    title: Data governance
     body: "Strategic, tactical and technical support \n\nLearn more"
-    icon: ''
-  - heading: Data management
+    image: ''
+  - template: card
+    title: Data management
     body: "Bespoke data management solutions \n\nLearn more"
-    icon: "/images/Data.svg"
-  - heading: Data standards
+    image: "/images/Data.svg"
+  - template: card
+    title: Data standards
     body: |-
       Establishing ‘best in class’ data standards
 
       Learn more
-    icon: "/images/Direction.svg"
+    image: "/images/Direction.svg"
   image_mode: icon
   coloured: false
   numbered: false
