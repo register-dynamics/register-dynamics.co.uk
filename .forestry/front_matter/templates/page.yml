@@ -29,16 +29,9 @@ fields:
   - masthead
 pages:
 - about-us.md
-- building-data-maturity.md
 - case-studies/index.md
 - cdo-as-a-service.md
-- data-discovery-and-cataloging.md
-- data-management.md
-- data-standards.md
-- digital-delivery.md
 - index.md
 - jobs/index.md
 - technical-and-data-strategy-1.md
-- technical-and-data-strategy.md
-- technical-assurance.md
 - what-we-do-new.md

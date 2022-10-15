@@ -36,6 +36,8 @@ fields:
       type: documents
       section: data
       file: _data/tags.yml
+      path: Tags
+  label: Tag
 - name: item_template
   type: select
   config:
@@ -48,3 +50,4 @@ fields:
     - author
     - title-icon
     - card
+  label: Item template

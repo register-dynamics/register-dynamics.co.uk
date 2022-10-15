@@ -1,7 +1,7 @@
 ---
 label: Card
-display_field: title
 hide_body: true
+display_field: title
 fields:
 - name: coloured
   type: boolean
