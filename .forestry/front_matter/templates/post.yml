@@ -48,6 +48,7 @@ fields:
       type: documents
       section: data
       file: _data/tags.yml
+      path: Tags
 pages:
 - _posts/2022-08-17-3-ways-to-encourage-better-data-sharing.md
 - _posts/what-is-data-governance-and-why-is-it-important.md
