@@ -3,7 +3,7 @@ title: What we do (new)
 hide-title: false
 sections:
 - template: alternating
-  image_mode: left-side
+  image_mode: right-side
   image: "/images/Combination.svg"
   sections:
   - template: content
@@ -18,20 +18,31 @@ sections:
   sections:
   - template: heading
     text: 'Our 4 main services:'
+    level: 
   - template: heading
     text: 'Our specialisms:'
+    level: 
   - template: listing
     source: services
     item_template: title-icon
     numbered: false
+    limit: 
+    columns: '1'
+    tag: ''
   - template: listing
     source: specialisms
     item_template: title-icon
     numbered: false
+    limit: 
+    columns: '1'
+    tag: ''
+  numbered: false
 - template: call-to-action
   link_type: contact
   button: Get in touch
   intro: 'Ready to talk or have a question for us?  '
   link: ''
+image: ''
 published: false
+
 ---
