@@ -102,8 +102,7 @@ sections:
   tag: data-discovery
 - template: call-to-action
   link_type: internal
-  intro: Ready to talk to one of our data discovery experts to discuss your specific
-    needs?
+  intro: Ready to talk to one of our data discovery experts?
   button: Contact us now
   link: ''
 - template: heading
