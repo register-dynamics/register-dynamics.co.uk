@@ -103,7 +103,7 @@ sections:
 - template: call-to-action
   link_type: internal
   intro: Ready to talk to one of our data discovery experts?
-  button: Contact us now
+  button: Contact us
   link: ''
 - template: heading
   level: 2
