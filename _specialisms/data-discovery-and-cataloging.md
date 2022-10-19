@@ -23,18 +23,21 @@ sections:
     title: Capitalise on opportunities in your data
     body: Ensure that all of your data is easy to find, understand and draw insight
       from. Know that your staff are able to exploit your data to its full potential.
+    coloured: true
   - template: card
     image: ''
     title: Become a clean data organisation
     body: Create a single source of truth with accurate, clean data that everyone
       can leverage and use easily. Build trust that decisions are based on up-to-date,
       reliable data.
+    coloured: true
   - template: card
     image: ''
     title: Establish transparency and control
     body: 'Know where your data is, who is using it, what they are doing with it and
       why. Be confident that your data is safe and secure at all times and that it
       is only ever being accessed by the right people. '
+    coloured: true
   coloured: true
   numbered: true
   image_mode: ''
