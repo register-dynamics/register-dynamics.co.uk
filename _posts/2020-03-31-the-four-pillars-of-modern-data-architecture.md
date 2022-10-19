@@ -13,6 +13,7 @@ licenses:
 - '"Four" image by [Not So Dusty](https://www.flickr.com/photos/harryh1882/32070099588)
   used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).'
 tags:
+- data-maturity
 - technical-strategy
 date: 2020-03-30
 
