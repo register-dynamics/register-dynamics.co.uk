@@ -87,7 +87,7 @@ sections:
 - template: listing
   columns: '3'
   source: projects
-  item_template: project
+  item_template: post
   tag: data-management
 - template: heading
   level: 2
