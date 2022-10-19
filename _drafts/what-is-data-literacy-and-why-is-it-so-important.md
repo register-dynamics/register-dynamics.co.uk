@@ -10,6 +10,8 @@ excerpt: If you have lots of data but somehow struggle to actually do anything u
   needs to have some data literacy, and that doesn't mean technical skills. Data literacy
   avoids wasted effort and the best way to spread it is by example.
 licenses: []
+tags:
+- data-maturity
 
 ---
 ![](/images/book-1171564_1280.jpg)
