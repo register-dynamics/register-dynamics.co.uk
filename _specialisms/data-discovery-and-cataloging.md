@@ -85,7 +85,7 @@ sections:
   level: 2
   text: Data discovery and cataloging success stories
 - template: listing
-  columns: '4'
+  columns: '3'
   source: projects
   item_template: post
   tag: data-discovery
