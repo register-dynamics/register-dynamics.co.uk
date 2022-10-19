@@ -11,6 +11,8 @@ excerpt: 'For GDS and the UK government, we created a cutting-edge model to desc
 
   '
 image: "/images/making_personal_data_easier_for_citizens.jpg"
+tags:
+- digital-delivery
 
 ---
 The Government Digital Service (GDS), part of the Cabinet Office, focuses on the digital transformation of government. It’s a centre of excellence in digital, technology and data, and it supports government departments to build platforms, standards and digital services.
