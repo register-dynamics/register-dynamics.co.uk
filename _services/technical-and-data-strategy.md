@@ -114,20 +114,24 @@ sections:
     body: |2-
 
       Digital products and solutions
+
       Learn more
     image: ''
   - template: card
     title: Building data maturity
     body: |-
       Data culture and community
+
       Learn more
     image: ''
   - template: card
     title: Technical assurance
     body: |-
       Technology review and option evaluation
+
       Learn more
-    image: ''
+    image: "/images/Security.svg"
+    image_mode: icon
   image_mode: icon
   coloured: false
   numbered: false
