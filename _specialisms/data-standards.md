@@ -26,9 +26,9 @@ sections:
   - template: card
     image: ''
     title: Drive adoption, awareness and advocacy
-    body: Get stakeholders involved and ensure that data standards are agreed, approved,
-      understood and embraced by all. Build a strong consensus around the data standards
-      across the organisation and drive adoption, awareness and advocacy.
+    body: "Get stakeholders involved and ensure that data standards are agreed, approved,
+      understood and embraced by all. \n\nBuild a strong consensus around the data
+      standards across the organisation and drive adoption, awareness and advocacy."
     coloured: true
   - template: card
     image: ''
