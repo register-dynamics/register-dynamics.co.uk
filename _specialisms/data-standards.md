@@ -20,8 +20,8 @@ sections:
   - template: card
     image: ''
     title: 'Create consistency '
-    body: 'Establish guidelines that standardise how data is used, stored and managed.
-      Ensure consistent use of terminology, definitions and data formats. '
+    body: "Establish guidelines that standardise how data is used, stored and managed.
+      \n\nEnsure consistent use of terminology, definitions and data formats. "
     coloured: true
   - template: card
     image: ''
