@@ -97,7 +97,7 @@ sections:
   level: 2
   text: Data standards insights
 - template: listing
-  columns: '1'
+  columns: '3'
   source: posts
   item_template: post
   tag: data-standards
