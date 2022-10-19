@@ -88,6 +88,12 @@ sections:
     limit: 3
     columns: 3
     item_template: post
+- template: listing
+  source: projects
+  tag: technical-assurance
+  limit: '3'
+  columns: 3
+  item_template: post
 - template: heading
   level: 2
   text: Technical assurance insights
@@ -96,12 +102,6 @@ sections:
   source: posts
   item_template: post
   tag: technical-assurance
-- template: listing
-  source: posts
-  tag: technical-assurance
-  limit: 3
-  columns: 3
-  item_template: post
 - template: call-to-action
   link_type: contact
   button: Let's talk
