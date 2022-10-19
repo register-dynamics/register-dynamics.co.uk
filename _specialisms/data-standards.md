@@ -90,8 +90,9 @@ sections:
 - template: listing
   columns: '4'
   source: projects
-  item_template: card
+  item_template: project
   tag: data-standards
+  limit: '4'
 - template: heading
   level: 2
   text: Data standards insights
