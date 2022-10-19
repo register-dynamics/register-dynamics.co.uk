@@ -37,7 +37,7 @@ sections:
       you to introduce, establish and maintain ‘best in class’ data standards across
       your organisation. '
   coloured: true
-  numbered: false
+  numbered: true
   image_mode: ''
 - template: content
   content: "  \nWhether you need help with the initial or later stages of data standards
