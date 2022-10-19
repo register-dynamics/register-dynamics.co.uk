@@ -3,9 +3,16 @@ title: Evidence for the National Data Strategy
 authors:
 - Andy Bennett
 - Simon Worthington
-excerpt: |
-  Register Dynamics made a submission to the National Data Strategy open call for evidence, in which we discuss the difficulties with data that Government faces which could be fixed with a better approach to data infrastructure.
-image: "images/national-data-strategy-call-for-evidence.jpg"
+excerpt: 'Register Dynamics made a submission to the National Data Strategy open call
+  for evidence, in which we discuss the difficulties with data that Government faces
+  which could be fixed with a better approach to data infrastructure.
+
+  '
+image: images/national-data-strategy-call-for-evidence.jpg
+tags:
+- technical-strategy
+date: 2019-08-13
+
 ---
 ### Introduction
 
