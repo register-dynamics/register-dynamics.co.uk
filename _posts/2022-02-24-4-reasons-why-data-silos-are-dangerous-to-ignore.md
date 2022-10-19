@@ -1,13 +1,20 @@
 ---
 title: 4 reasons why data silos are dangerous to ignore
 author: Nisa Chitakasem
-image: "images/unhappy.png"
-excerpt: |
-  Does your organisation have data silos? Getting rid of data silos can make a big difference to an organisation but first we need to understand what they are and how they can be dangerous to ignore.
-licenses:
-  - "\"Unhappy\" image by [PDPics](https://pixabay.com/users/pdpics-44804/) used under the [Pixabay License](https://pixabay.com/service/license/)."
----
+image: images/unhappy.png
+excerpt: 'Does your organisation have data silos? Getting rid of data silos can make
+  a big difference to an organisation but first we need to understand what they are
+  and how they can be dangerous to ignore.
 
+  '
+licenses:
+- '"Unhappy" image by [PDPics](https://pixabay.com/users/pdpics-44804/) used under
+  the [Pixabay License](https://pixabay.com/service/license/).'
+tags:
+- data-management
+date: 2022-02-24
+
+---
 {% include image.html src=page.image alt="Person holding a bright pink unhappy face" %}
 
 Does your organisation have data silos? Have you been wondering whether they’re harmful to your organisation or not, and how you might be able to eliminate them?
@@ -43,4 +50,3 @@ Data silos prevent data from being shared effectively. If data is stored in mult
 In summary, if your organisation has lots of data silos, compiling data, finding it, analysing it and ensuring its accuracy for good decision-making becomes tricky.  Collaboration across teams and data sharing becomes limited and inefficient. Collaborative culture is not nurtured or developed. Resources are also wasted when the same information is stored in multiple places. Overall, data silos can be detrimental to any organisation’s success.
 
 Therefore, it is really important to find ways to break down these data silos. Hopefully this article offers some insight into why we all need to take data silos seriously and find ways to prevent them. In a future post, we will cover how data silos can be discovered and broken down. In the meantime, if you need help with your organisation’s data challenges, [get in contact with us at Register Dynamics](mailto:hello@register-dynamics.co.uk) and we would be more than happy to help!
-
