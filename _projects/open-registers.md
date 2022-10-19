@@ -12,6 +12,7 @@ excerpt: 'We helped move the GOV.UK Open Registers service from proof-of-concept
 image: "/images/developing_cross-service_data_infrastructure.jpg"
 date: 
 tags:
+- digital-delivery
 - technical-strategy
 - data-management
 
