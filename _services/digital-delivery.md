@@ -117,6 +117,19 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
+- template: heading
+  level: 2
+  text: Digital delivery success stories
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: digital-delivery
+- template: listing
+  columns: '3'
+  source: projects
+  item_template: post
+  tag: digital-delivery
 published: false
 
 ---
