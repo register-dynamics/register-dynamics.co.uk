@@ -9,6 +9,8 @@ excerpt: 'For GDS, we developed a tool, called the Metadata Standards Descriptio
 
   '
 image: "/images/user-frirendly_standards_for_government_spreadsheets.jpg"
+tags:
+- data-standards
 
 ---
 The [Government Digital Service (GDS)](https://gds.blog.gov.uk/about/) is responsible for the digital transformation of government. It is part of the Cabinet Office and it runs [GOV.UK](https://gov.uk), the best place to find government services and information. It focuses on making public services simpler and better, building platforms, ensuring government data is good data and helping departments with new technologies and digital services.
