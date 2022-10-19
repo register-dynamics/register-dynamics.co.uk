@@ -79,11 +79,6 @@ sections:
   intro: 'Ready to talk or have a question about your digital delivery?   '
   button: Get in touch
   link: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Digital delivery success stories
 - template: heading
   level: 2
   text: Digital delivery success stories
