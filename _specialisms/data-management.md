@@ -80,16 +80,6 @@ sections:
   - template: heading
     level: 2
     text: Data management success stories
-  - template: content-grid
-    columns: '3'
-    sections:
-    - template: card
-      image: ''
-      title: ''
-      body: ''
-    coloured: true
-    numbered: false
-    image_mode: ''
   - template: listing
     columns: '3'
     source: projects
