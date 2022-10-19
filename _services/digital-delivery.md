@@ -83,7 +83,20 @@ sections:
     text: Digital delivery success stories
 - template: heading
   level: 2
+  text: Digital delivery success stories
+- template: listing
+  columns: '3'
+  source: projects
+  item_template: post
+  tag: digital-delivery
+- template: heading
+  level: 2
   text: Digital delivery insights
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: digital-delivery
 - template: call-to-action
   link_type: contact
   button: Let's talk
@@ -102,6 +115,7 @@ sections:
 
       Learn more
     image: "/images/Strategy.svg"
+    image_mode: icon
   - template: card
     title: Building data maturity
     body: |-
@@ -117,19 +131,6 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
-- template: heading
-  level: 2
-  text: Digital delivery success stories
-- template: listing
-  columns: '3'
-  source: posts
-  item_template: post
-  tag: digital-delivery
-- template: listing
-  columns: '3'
-  source: projects
-  item_template: post
-  tag: digital-delivery
 published: false
 
 ---
