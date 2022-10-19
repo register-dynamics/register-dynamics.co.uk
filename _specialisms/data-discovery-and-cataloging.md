@@ -62,12 +62,14 @@ sections:
       manage and share their authoritative data. Our standards, principles, processes
       and technologies are used by companies and governments for keeping their critical
       data clean and up-to-date.
+    image_mode: icon
   - template: card
     image: "/images/icon-team.svg"
     title: " User focused"
     body: We believe in empowering staff to manage and share data easily and responsibly.
       By focusing on their specific needs, our approach ensures that users reap the
       benefits of our work and embrace any new data tools or processes introduced.
+    image_mode: icon
   - template: card
     image: "/images/download-g118d5d2cf_640.png"
     title: Technology made easy
@@ -75,45 +77,26 @@ sections:
       to find and create the best solutions for each of our clients.  Let us handle
       the technical complexities and nuances in what is possible, and together we
       can create the best data catalogs and discovery experience for you.
+    image_mode: icon
   coloured: false
   numbered: false
   image_mode: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Data discovery and cataloging success stories
-  - template: content-grid
-    columns: '3'
-    sections:
-    - template: card
-      image: ''
-      title: ''
-      body: ''
-    coloured: true
-    numbered: false
-    image_mode: ''
-- template: content-grid
-  columns: 3
-  coloured: true
-  numbered: false
-  image_mode: icon
-  sections:
-  - template: card
-    body: ''
-    image: ''
-    title: ''
-  - template: card
-    body: ''
-    image: ''
-    title: ''
-  - template: card
-    body: ''
-    image: ''
-    title: ''
+- template: heading
+  level: 2
+  text: Data discovery and cataloging success stories
+- template: listing
+  columns: '4'
+  source: projects
+  item_template: post
+  tag: data-discovery
 - template: heading
   level: 2
   text: Data discovery and cataloging insights
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: data-discovery
 - template: call-to-action
   link_type: internal
   intro: Ready to talk to one of our data discovery experts to discuss your specific
