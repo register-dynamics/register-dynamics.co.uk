@@ -24,6 +24,7 @@ sections:
     body: 'Prototype new ideas, integrate them with your existing set up and ensure
       that the best technological solutions are available to you. Establish new ways
       to access, manage and share your data more effectively. '
+    coloured: true
   - template: card
     image: ''
     title: " Drive efficiency that gets results"
@@ -31,12 +32,14 @@ sections:
       and tools, we will help you to optimise your business operations to support
       better decision-making. Ensure new digital delivery happens on time, to budget
       and with minimal risk.
+    coloured: true
   - template: card
     image: ''
     title: Move your vision forwards
     body: Implement and execute your technical and data strategies in line with your
       overall business goals and user needs. Help your users, staff and stakeholders
       to embrace the new technology and support your vision.
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
