@@ -1,7 +1,7 @@
 ---
 title: Improving how we manage spreadsheet data
 author: Andy Bennett
-image: "images/vlookup.jpg"
+image: images/vlookup.jpg
 excerpt: |
   Working with GDS, we've been looking at how government can save money in business processes through the use of data standards and the interoperability they bring. Since spreadsheets are probably here to stay, we've been looking at how to extract structured data from them. We built a tool that takes a simple but messy spreadsheet and extracts tabular data from it.
 
@@ -9,5 +9,8 @@ excerpt: |
 layout: redirect
 location: https://dataingovernment.blog.gov.uk/2019/06/10/improving-how-we-manage-spreadsheet-data/
 tags:
+- data-standards
 - data-maturity
+date: 2019-06-08
+
 ---
