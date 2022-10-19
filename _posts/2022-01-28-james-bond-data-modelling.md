@@ -1,13 +1,19 @@
 ---
 title: What James Bond teaches us about data modelling
 author: Simon Worthington
-image: "images/q-standing-in-front-of-pgadmin.png"
+image: images/q-standing-in-front-of-pgadmin.png
 excerpt: |
   Whether you are a fan of James Bond or not, the latest James Bond movie _No Time to Die_ brings up quite a few interesting data modelling challenges.
 
   We lead you through all the double-o shenanigans and we'll discover some general modelling lessons for operational data.
 licenses:
-  - "\"Q\" image based on a screenshot owned by MGM/Sony Pictures."
+- '"Q" image based on a screenshot owned by MGM/Sony Pictures.'
+tags:
+- digital-delivery
+authors:
+- Simon Worthington
+date: 2022-01-28
+
 ---
 Whether you are a fan of James Bond or not, the latest James Bond movie _No Time to Die_ brings up quite a few interesting data modelling challenges.
 
