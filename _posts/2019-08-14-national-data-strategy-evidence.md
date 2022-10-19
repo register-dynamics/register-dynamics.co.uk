@@ -14,6 +14,8 @@ tags:
 date: 2019-08-13
 
 ---
+![](/images/national-data-strategy-call-for-evidence.jpg)
+
 ### Introduction
 
 This submission to the [National Data Strategy open call for evidence](https://www.gov.uk/government/publications/national-data-strategy-open-call-for-evidence/national-data-strategy-open-call-for-evidence) is by Andrew Bennett and Simon Worthington, on behalf of Register Dynamics Limited, a data consultancy working with public sector organisations.
