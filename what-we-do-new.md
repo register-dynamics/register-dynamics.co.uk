@@ -28,7 +28,7 @@ sections:
     numbered: false
     limit: 
     columns: '1'
-    tag: ''
+    tag: technical-strategy
   - template: listing
     source: specialisms
     item_template: title-icon
