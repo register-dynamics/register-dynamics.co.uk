@@ -4,6 +4,8 @@ client: DeSmog UK
 date: 2019-04-30
 image: "/images/enhancing_the_organisations_usp.jpg"
 excerpt: ''
+tags:
+- technical-strategy
 
 ---
 [DeSmog UK](https://desmog.co.uk/) was launched in 2014 as an investigative media outlet dedicated to cutting through the debate around energy and the environment in Britain. They aim to investigate and analyse the undue influence of climate science denial and the fossil fuel industry on UK energy and climate policy.
