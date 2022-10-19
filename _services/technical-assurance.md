@@ -92,6 +92,11 @@ sections:
   level: 2
   text: Technical assurance insights
 - template: listing
+  columns: 3
+  source: posts
+  item_template: post
+  tag: technical-assurance
+- template: listing
   source: posts
   tag: technical-assurance
   limit: 3
@@ -105,10 +110,6 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: listing
-  columns: 3
-  source: services
-  item_template: title-icon
 published: false
 
 ---
