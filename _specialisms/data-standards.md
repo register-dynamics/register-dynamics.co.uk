@@ -81,42 +81,22 @@ sections:
   coloured: false
   numbered: false
   image_mode: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Data standards success stories
-  - template: content-grid
-    columns: '3'
-    sections:
-    - template: card
-      image: ''
-      title: ''
-      body: ''
-    coloured: true
-    numbered: false
-    image_mode: ''
-- template: content-grid
-  columns: 3
-  coloured: true
-  numbered: false
-  image_mode: icon
-  sections:
-  - template: card
-    body: ''
-    image: ''
-    title: ''
-  - template: card
-    body: ''
-    image: ''
-    title: ''
-  - template: card
-    body: ''
-    image: ''
-    title: ''
+- template: heading
+  level: 2
+  text: Data standards success stories
+- template: listing
+  columns: '4'
+  source: projects
+  item_template: post
+  tag: data-standards
 - template: heading
   level: 2
   text: Data standards insights
+- template: listing
+  columns: '4'
+  source: posts
+  item_template: post
+  tag: data-standards
 - template: call-to-action
   link_type: internal
   intro: 'Ready to get help with your data standards?  '
