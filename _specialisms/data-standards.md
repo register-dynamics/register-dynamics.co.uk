@@ -38,6 +38,7 @@ sections:
       of change and development. Through our collaborative approach, we can work with
       you to introduce, establish and maintain ‘best in class’ data standards across
       your organisation. '
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
