@@ -14,6 +14,8 @@ licenses:
 tags:
 - technical-assurance
 date: 2019-01-04
+authors:
+- Andy Bennett
 
 ---
 ![System lock](/images/system-lock.jpg)
