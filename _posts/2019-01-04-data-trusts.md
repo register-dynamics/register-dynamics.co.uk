@@ -1,7 +1,7 @@
 ---
 title: Legal trust + technical trust = data trusts
 author: Andy Bennett
-image: "images/system-lock.jpg"
+image: images/system-lock.jpg
 excerpt: |
   Technical trust and legal trust are both insufficient by themselves
   to ensure protection of valuable data. Instead we need a vehicle that
@@ -9,9 +9,13 @@ excerpt: |
   to be enforcable. In this post we discuss this concept of a data trust,
   explore what benefits they could bring and how they could be achieved.
 licenses:
-  - "\"System lock\" image by [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/) used under CC-BY 3.0."
----
+- '"System lock" image by [Yuri Samoilov](https://www.flickr.com/photos/yusamoilov/)
+  used under CC-BY 3.0.'
+tags:
+- technical-assurance
+date: 2019-01-04
 
+---
 ![System lock](/images/system-lock.jpg)
 
 Society demands a certain amount of transparency and [auditability over
