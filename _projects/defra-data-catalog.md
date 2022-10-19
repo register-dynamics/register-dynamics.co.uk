@@ -10,6 +10,7 @@ excerpt: 'For the Department for Environment, Food and Rural Affairs (DEFRA), we
   '
 image: "/images/making_federated_data_more_discoverable.jpg"
 tags:
+- data-discovery
 - data-management
 - data-maturity
 
