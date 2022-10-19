@@ -91,6 +91,11 @@ sections:
 - template: heading
   level: 2
   text: Data management insights
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: data-management
 - template: call-to-action
   link_type: internal
   intro: Ready to discuss your specific needs?
