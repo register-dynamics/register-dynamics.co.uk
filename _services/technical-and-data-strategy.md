@@ -26,17 +26,20 @@ sections:
     body: Assess your current data ecosystem, identify areas of potential weakness
       and establish the best ways to tackle these. Get tailored solutions for your
       specific challenges and strengthen your offering to users and customers.
+    coloured: true
   - template: card
     image: ''
     title: " Enhance business operations"
     body: Improve and future proof your business processes through automation, streamlining
       and technical optimisation. Increase efficiency to maximise progress and unlock
       potential.
+    coloured: true
   - template: card
     image: ''
     title: Set data standards, principles and policies
     body: 'Design and develop a set of solid data standards, principles and policies
       that can be embedded easily throughout your organisation. '
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
