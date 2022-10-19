@@ -81,19 +81,24 @@ sections:
     image: "/images/icon-process.png"
     title: Industry standards and best practice
     coloured: false
-    image_mode: ''
+    image_mode: icon
   - template: card
-    body: ''
-    image: ''
-    title: ''
+    body: Our unique approach ensures that your data is governed well and meets all
+      compliance requirements, whilst also exploring the best and most innovative
+      ways to harness your data. Explore the possibilities with confidence and control,
+      and be guided at every step of the way.
+    image: "/images/icon-unleash.svg"
+    title: Innovation with direction
     coloured: false
-    image_mode: ''
+    image_mode: icon
   - template: card
-    body: ''
-    image: ''
-    title: ''
+    body: Our team offers a wealth of experience in implementing data governance across
+      organisations. We can help you through the earliest phases of data governance,
+      right through to creating an ongoing roadmap for the future.
+    image: "/images/Strategy.svg"
+    title: " Decades of experience "
     coloured: false
-    image_mode: ''
+    image_mode: icon
 - template: heading
   level: 2
   text: Data governance success stories
