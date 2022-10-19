@@ -55,19 +55,6 @@ sections:
   - template: heading
     level: 2
     text: Why trust us with your data governance?
-- template: content
-  content: |-
-    **Industry standards and best practice**
-
-    Our team are recognised experts in developing best practices for companies and governments. We apply industry standard models and responsibilities so that you benefit from our tried and tested methods.
-
-    **Innovation with direction**
-
-    Our unique approach ensures that your data is governed well and meets all compliance requirements, whilst also exploring the best and most innovative ways to harness your data. Explore the possibilities with confidence and control, and be guided at every step of the way.
-
-    **Decades of experience**
-
-    Our team offers a wealth of experience in implementing data governance across organisations. We can help you through the earliest phases of data governance, right through to creating an ongoing roadmap for the future.
 - template: content-grid
   columns: 3
   coloured: true
