@@ -61,6 +61,7 @@ sections:
       explore new emerging technologies each day.
     image: "/images/icon-g484ea42b6_640.png"
     title: We love all things technical
+    image_mode: icon
   - template: card
     body: We can offer you advice, guidance and also support through all stages of
       implementation and beyond.  As pioneers in data technology and emerging tech,
@@ -68,25 +69,35 @@ sections:
       of your development.
     image: "/images/icon-team.svg"
     title: Support at all stages
+    image_mode: icon
   - template: card
     body: We believe in getting real results. Whether this means building a prototype
       to test out new ideas, developing new tools from scratch or working with you
       in-house and leading projects from within; we are ready to get stuck in!
     image: "/images/icon-workflow.png"
     title: Getting things done
+    image_mode: icon
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk about your technical and data needs?    '
   button: Get in touch
   link: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Technical and data strategy success stories
+- template: heading
+  level: 2
+  text: Technical and data strategy success stories
+- template: listing
+  columns: '3'
+  source: projects
+  item_template: post
+  tag: technical-strategy
 - template: heading
   level: 2
   text: Technical and data strategy insights
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: technical-strategy
 - template: call-to-action
   link_type: contact
   button: Let's talk
@@ -120,19 +131,6 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
-- template: heading
-  level: 2
-  text: Technical and data strategy success stories
-- template: listing
-  columns: '3'
-  source: projects
-  item_template: post
-  tag: technical-strategy
-- template: listing
-  columns: '3'
-  source: posts
-  item_template: post
-  tag: technical-strategy
 published: false
 
 ---
