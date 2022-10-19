@@ -90,6 +90,11 @@ sections:
     coloured: true
     numbered: false
     image_mode: ''
+  - template: listing
+    columns: '3'
+    source: projects
+    item_template: project
+    tag: data-management
 - template: content-grid
   columns: 3
   coloured: true
