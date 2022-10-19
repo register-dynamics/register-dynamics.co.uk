@@ -123,7 +123,8 @@ sections:
       Establishing ‘best in class’ data standards
 
       Learn more
-    image: ''
+    image: "/images/Direction.svg"
+    image_mode: icon
   image_mode: icon
   coloured: false
   numbered: false
