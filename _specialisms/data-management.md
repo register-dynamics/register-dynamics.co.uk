@@ -4,7 +4,7 @@ image: "/images/Data.svg"
 hide-title: false
 sections:
 - template: alternating
-  image_mode: right-side
+  image_mode: left-side
   sections:
   - template: content
     content: "Empower your organisation and staff to get the most out of your data
