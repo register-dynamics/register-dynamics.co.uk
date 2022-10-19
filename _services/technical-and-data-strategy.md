@@ -120,6 +120,19 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
+- template: heading
+  level: 2
+  text: Technical and data strategy success stories
+- template: listing
+  columns: '3'
+  source: projects
+  item_template: post
+  tag: technical-strategy
+- template: listing
+  columns: '3'
+  source: posts
+  item_template: post
+  tag: technical-strategy
 published: false
 
 ---
