@@ -4,6 +4,8 @@ client: Central Digital and Data Office
 date: 2021-03-01
 image: "/images/helping_government_retain_control_of_data.jpg"
 excerpt: ''
+tags:
+- data-governance
 
 ---
 The [Central Digital and Data Office (CDDO)](https://www.gov.uk/government/organisations/central-digital-and-data-office) leads the digital, data and technology (DDaT) function for government. It was created in early 2021 with around 100 staff transferred from GDS (Government Digital Service). It is responsible for digital, data and technology strategy and standards, cross-government DDaT performance and assurance and DDaT capability development. 
