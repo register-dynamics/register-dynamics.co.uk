@@ -33,11 +33,11 @@ sections:
   - template: card
     image: ''
     title: Adapt data standards as you grow
-    body: 'Get ongoing support as your organisation develops and grows. Adapt your
+    body: "Get ongoing support as your organisation develops and grows. Adapt your
       data standards as your business evolves and be supported through every stage
-      of change and development. Through our collaborative approach, we can work with
-      you to introduce, establish and maintain ‘best in class’ data standards across
-      your organisation. '
+      of change and development. \n\nThrough our collaborative approach, we can work
+      with you to introduce, establish and maintain ‘best in class’ data standards
+      across your organisation. "
     coloured: true
   coloured: true
   numbered: false
