@@ -90,7 +90,7 @@ sections:
 - template: listing
   columns: '4'
   source: projects
-  item_template: project
+  item_template: author
   tag: data-standards
 - template: heading
   level: 2
