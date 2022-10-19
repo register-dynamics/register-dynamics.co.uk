@@ -36,7 +36,7 @@ sections:
       why. Be confident that your data is safe and secure at all times and that it
       is only ever being accessed by the right people. '
   coloured: true
-  numbered: false
+  numbered: true
   image_mode: ''
 - template: content
   content: Whether you need help with data cataloging, metadata management, data cleansing,
