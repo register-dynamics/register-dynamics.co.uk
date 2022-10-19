@@ -58,19 +58,22 @@ sections:
       delivery work that we do.
     image: "/images/icon-team.svg"
     title: User focused
+    image_mode: icon
   - template: card
     body: 'We believe that all the technology we create is there to support and underpin
       your organisational strategies and goals. Our approach focuses our energy on
       building that strong connection between strategy and delivery. '
-    image: "/images/icon-team.svg"
+    image: "/images/icon-shapes.svg"
     title: Marrying strategy and delivery
+    image_mode: icon
   - template: card
     body: 'When you work with us, you can choose to gain a gentle guiding hand or
       a full-on technical lead to oversea and lead your project from beginning to
       end. Gain technical expertise, direction and leadership at whichever level is
       most useful to you. '
-    image: "/images/icon-workflow.png"
+    image: "/images/icon-uptodate.png"
     title: Support your teams your way
+    image_mode: icon
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk or have a question about your digital delivery?   '
