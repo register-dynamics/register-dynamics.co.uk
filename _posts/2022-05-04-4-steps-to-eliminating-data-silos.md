@@ -7,6 +7,9 @@ excerpt: Does your organisation suffer from data silos? Have you noticed the imp
   these tips will help to give you some ideas and options on how to break down data
   silos and to get your organisation working more effectively.
 licenses: []
+tags:
+- data-management
+date: 2022-05-03
 
 ---
 {% include image.html src=page.image alt="Person taking a set of steps upwards" %}
