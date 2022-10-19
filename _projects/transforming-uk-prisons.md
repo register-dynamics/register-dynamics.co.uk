@@ -10,6 +10,8 @@ excerpt: 'For MoJ, we scoped out the transformation of an existing service for p
 
   '
 image: "/images/transforming_uk_prisons.jpg"
+tags:
+- digital-delivery
 
 ---
 The Ministry of Justice (MoJ) is a major UK government department at the heart of the justice system. They are focused on protecting and advancing the principles of justice, which includes being responsible for prisons, courts, probation services and attendance centres.
