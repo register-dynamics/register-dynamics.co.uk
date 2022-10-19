@@ -48,7 +48,7 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Let's talk
-  intro: " Talk to one of our team now to discuss your specific challenge."
+  intro: " Ready to discuss your specific challenges?"
   link: ''
 - template: banner
   sections:
