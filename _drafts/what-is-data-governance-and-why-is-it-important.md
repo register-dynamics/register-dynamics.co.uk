@@ -12,6 +12,8 @@ licenses:
 authors:
 - Nisa Chitakasem
 date: 2022-10-22
+tags:
+- data-governance
 
 ---
 ![](/images/what-is-data-governance-and-why-is-it-important.jpg "What is data governance and why is it important")
