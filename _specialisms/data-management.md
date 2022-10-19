@@ -23,18 +23,21 @@ sections:
     body: Enable easy data sharing and collaboration between teams. Let us help you
       to eliminate data silos across your organisation and to make data a shared resource
       for everyone.
+    coloured: true
   - template: card
     image: ''
     title: Establish accurate and trusted data
     body: Create a single source of truth that everyone can use and draw data insights
       from. Know that your data is accurate, up-to-date, safe and secure. Make data
       easy to find and understand.
+    coloured: true
   - template: card
     image: ''
     title: Streamline your business process
     body: Develop simple and accessible data management that drives efficiency of
       your operations. Enhance productivity with seamless collaboration between processes
       and teams.
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
