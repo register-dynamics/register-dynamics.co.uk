@@ -1,11 +1,20 @@
 ---
 title: Usable data management for everyone
 author: Andy Bennett
-image: "images/visi-calc-spreadsheets-in-the-80s.jpg"
-excerpt: |
-  In the early 1980s the spreadsheet transformed the financial and accounting industry. Over the last few years, business has once again begun to change. How are disruptive companies such as Uber and Airbnb reaping the rewards of putting cloud-based data management at the fingertips of their own teams?
+image: images/visi-calc-spreadsheets-in-the-80s.jpg
+excerpt: 'In the early 1980s the spreadsheet transformed the financial and accounting
+  industry. Over the last few years, business has once again begun to change. How
+  are disruptive companies such as Uber and Airbnb reaping the rewards of putting
+  cloud-based data management at the fingertips of their own teams?
+
+  '
 licenses:
-  - "\"Visi-calc\" image by [Betsy Weber](https://www.flickr.com/photos/betsyweber/) used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)."
+- '"Visi-calc" image by [Betsy Weber](https://www.flickr.com/photos/betsyweber/) used
+  under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).'
+tags:
+- data-management
+date: 2019-06-25
+
 ---
 [Registers.app](https://registers.app/) is a tool for creating, sharing and using Linked Reference Data. It’s a tool we’ve been working on for a while and I’m looking forward to telling you more about it.
 
