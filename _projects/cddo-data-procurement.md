@@ -5,6 +5,7 @@ date: 2021-03-01
 image: "/images/helping_government_retain_control_of_data.jpg"
 excerpt: ''
 tags:
+- technical-assurance
 - data-standards
 - data-governance
 
