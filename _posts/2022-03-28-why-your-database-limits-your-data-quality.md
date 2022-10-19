@@ -1,15 +1,19 @@
 ---
 title: Why your database limits your data quality
 author: Alaric Snell-Pym
-image: "images/chess.jpg"
+image: images/chess.jpg
 excerpt: |
   Real world objects are often more complicated than simple databases
   really understand, and trying to fit those complications into the rigid type
   system of SQL is much like fitting a round peg into a square hole.
 licenses:
-  - "\"Chess\" image by [ejaugsburg](https://pixabay.com/users/ejaugsburg-148268/) used under the [Pixabay License](https://pixabay.com/service/license/)."
----
+- '"Chess" image by [ejaugsburg](https://pixabay.com/users/ejaugsburg-148268/) used
+  under the [Pixabay License](https://pixabay.com/service/license/).'
+tags:
+- digital-delivery
+date: 2022-03-27
 
+---
 Maximising quality is a major tenet to most organisational strategies for data.
 We all want our business processes to be relying on accurate, timely data, and
 for that data to be re-used for maximum effect in decision-making.
