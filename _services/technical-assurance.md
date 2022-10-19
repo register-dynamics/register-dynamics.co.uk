@@ -44,7 +44,7 @@ sections:
     level: 2
     text: Why trust us with your technical assurance?
 - template: content-grid
-  columns: 1
+  columns: 3
   coloured: false
   numbered: false
   image_mode: icon
@@ -56,7 +56,7 @@ sections:
       them.
     image: "/images/icon-g484ea42b6_640.png"
     title: Industry veterans in technical risk
-    image_mode: left-side
+    image_mode: icon
   - template: card
     body: 'Through our deep understanding of how technology works combined with our
       in-depth knowledge of recognised standards, we always seek new ways to drive
@@ -64,14 +64,14 @@ sections:
       follows the government Technology Code of Practice (TCoP). '
     image: "/images/icon-team.svg"
     title: Experts in working with standards
-    image_mode: left-side
+    image_mode: icon
   - template: card
     body: We know how to bring confidence to executive stakeholders through our extensive
       experience working with and in senior roles. We can help inform and reassure
       seniors that their projects are on track and with minimal risk.
     image: "/images/icon-workflow.png"
     title: Experience with executive stakeholders
-    image_mode: left-side
+    image_mode: icon
 - template: call-to-action
   link_type: contact
   intro: 'Ready to talk about your technical assurance needs?  '
