@@ -11,6 +11,8 @@ excerpt: 'We helped move the GOV.UK Open Registers service from proof-of-concept
   '
 image: "/images/developing_cross-service_data_infrastructure.jpg"
 date: 
+tags:
+- data-management
 
 ---
 The Government Digital Service (GDS), part of the Cabinet Office, focuses on the digital transformation of government. It’s a centre of excellence in digital, technology and data, and it supports government departments to build platforms, standards and digital services.
