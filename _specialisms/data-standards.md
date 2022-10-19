@@ -22,12 +22,14 @@ sections:
     title: 'Create consistency '
     body: 'Establish guidelines that standardise how data is used, stored and managed.
       Ensure consistent use of terminology, definitions and data formats. '
+    coloured: true
   - template: card
     image: ''
     title: Drive adoption, awareness and advocacy
     body: Get stakeholders involved and ensure that data standards are agreed, approved,
       understood and embraced by all. Build a strong consensus around the data standards
       across the organisation and drive adoption, awareness and advocacy.
+    coloured: true
   - template: card
     image: ''
     title: Adapt data standards as you grow
@@ -37,7 +39,7 @@ sections:
       you to introduce, establish and maintain ‘best in class’ data standards across
       your organisation. '
   coloured: true
-  numbered: true
+  numbered: false
   image_mode: ''
 - template: content
   content: "  \nWhether you need help with the initial or later stages of data standards
