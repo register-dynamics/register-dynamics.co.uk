@@ -39,7 +39,7 @@ sections:
       and teams.
     coloured: true
   coloured: true
-  numbered: false
+  numbered: true
   image_mode: ''
 - template: content
   content: Through our user-centric, agile and customised approach, we can help you
