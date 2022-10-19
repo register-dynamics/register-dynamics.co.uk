@@ -68,23 +68,6 @@ sections:
     **Decades of experience**
 
     Our team offers a wealth of experience in implementing data governance across organisations. We can help you through the earliest phases of data governance, right through to creating an ongoing roadmap for the future.
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Data governance success stories
-  - template: content-grid
-    columns: '3'
-    sections:
-    - template: card
-      image: ''
-      title: ''
-      body: ''
-      coloured: false
-      image_mode: ''
-    coloured: true
-    numbered: false
-    image_mode: ''
 - template: content-grid
   columns: 3
   coloured: true
@@ -92,9 +75,11 @@ sections:
   image_mode: icon
   sections:
   - template: card
-    body: ''
-    image: ''
-    title: ''
+    body: 'Our team are recognised experts in developing best practices for companies
+      and governments. We apply industry standard models and responsibilities so that
+      you benefit from our tried and tested methods. '
+    image: "/images/icon-process.png"
+    title: Industry standards and best practice
     coloured: false
     image_mode: ''
   - template: card
