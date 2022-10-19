@@ -1,13 +1,21 @@
 ---
 title: The four pillars of modern data architecture
-excerpt: |
-   In the Internet era, the data problems we have are different. In this first in a series of posts, we’ll examine how the different ways that people create and use data today impacts how we must shape a data architecture.
+excerpt: 'In the Internet era, the data problems we have are different. In this first
+  in a series of posts, we’ll examine how the different ways that people create and
+  use data today impacts how we must shape a data architecture.
+
+  '
 authors:
-  - Simon Worthington
-  - Andy Bennett
-image: "images/four-pillars.jpg"
+- Simon Worthington
+- Andy Bennett
+image: images/four-pillars.jpg
 licenses:
-  - "\"Four\" image by [Not So Dusty](https://www.flickr.com/photos/harryh1882/32070099588) used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)."
+- '"Four" image by [Not So Dusty](https://www.flickr.com/photos/harryh1882/32070099588)
+  used under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).'
+tags:
+- technical-strategy
+date: 2020-03-30
+
 ---
 The way in which people think about data – how it should be structured, modelled and managed – is still based on techniques that were established to solve problems in the 60s and 70s. In the Internet era, the [data problems we have are different](https://public.digital/2018/10/12/internet-era-ways-of-working/) – they are more complex, involve more people and require thinking beyond a single organisation.
 
