@@ -81,16 +81,6 @@ sections:
   coloured: false
   numbered: false
   image_mode: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Data management success stories
-  - template: listing
-    columns: '3'
-    source: projects
-    item_template: project
-    tag: data-management
 - template: heading
   level: 2
   text: Data management success stories
@@ -125,7 +115,8 @@ sections:
   - template: card
     title: Data discovery and cataloging
     body: "Making data accessible and discoverable \n\nLearn more"
-    image: ''
+    image: "/images/Delivery.svg"
+    image_mode: icon
   - template: card
     title: Data standards
     body: |-
