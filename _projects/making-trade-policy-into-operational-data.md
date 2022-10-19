@@ -8,6 +8,7 @@ excerpt: 'For DIT, we developed a new data management tool to support the new UK
   system and the migration of all the data i.e. over 400k data records. '
 image: "/images/making_trade_policy_into_operational_data.jpg"
 tags:
+- data-discovery
 - data-management
 
 ---
