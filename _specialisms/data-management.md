@@ -93,6 +93,14 @@ sections:
     tag: data-management
 - template: heading
   level: 2
+  text: Data management success stories
+- template: listing
+  columns: '3'
+  source: projects
+  item_template: post
+  tag: data-management
+- template: heading
+  level: 2
   text: Data management insights
 - template: listing
   columns: '3'
