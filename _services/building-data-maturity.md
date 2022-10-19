@@ -91,7 +91,7 @@ sections:
   text: Building data maturity success stories
 - template: listing
   source: projects
-  item_template: title-icon
+  item_template: project
   columns: 3
   image_mode: icon
   tag: data-maturity
