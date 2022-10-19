@@ -27,6 +27,7 @@ sections:
       deeply across the whole of your organisation. Implement long-lasting frameworks
       to support a healthy and growing data culture and that cultivates a data driven
       mindset.
+    coloured: true
   - template: card
     image: ''
     title: Build your data community
@@ -34,12 +35,14 @@ sections:
       data effectively.  Improve data literacy, encourage better data sharing and
       knowledge transfer, and develop a community of data champions and advocates
       for your data.
+    coloured: true
   - template: card
     image: ''
     title: Improve data quality, accessibility and governance
     body: Enable staff to manage, find and leverage data with confidence. Solidify
       the importance of data within the organisation and ensure that the data you
       have is accurate, trustworthy and well governed.
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
@@ -68,7 +71,7 @@ sections:
       and understanding the incentives and drivers that fuel the data and the key
       users of it. This enables us to gain an in-depth view on the challenges at hand
       and to establish solutions that can offer a positive impact for the long term.
-    image: "/images/icon-uptodate.png"
+    image: "/images/icon-reliable.svg"
     title: Incentives-led approach
   - template: card
     coloured: false
@@ -76,23 +79,22 @@ sections:
     body: Our unique approach enables us to easily identify which simple interventions
       will offer the greatest value and biggest impact to the organisation and to
       your teams. We believe in finding simple solutions to big problems.
-    image: "/images/light-bulb-g42dd97171_640.png"
+    image: "/images/icon-lightning.svg"
     title: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
   intro: Ready to explore your options and discuss your specific needs?
   button: Get in touch
   link: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Building data maturity success stories
-  - template: listing
-    source: projects
-    tag: data-maturity
-    columns: 3
-    limit: 3
+- template: heading
+  level: 2
+  text: Building data maturity success stories
+- template: listing
+  source: projects
+  item_template: title-icon
+  columns: 3
+  image_mode: icon
+  tag: data-maturity
 - template: heading
   level: 2
   text: Building data maturity insights
@@ -101,6 +103,7 @@ sections:
   tag: data-maturity
   columns: 3
   limit: 3
+  item_template: post
 - template: call-to-action
   link_type: contact
   button: Let's talk
@@ -109,11 +112,6 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: listing
-  source: services
-  item_template: title-icon
-  columns: 3
-  image_mode: icon
 published: false
 
 ---
