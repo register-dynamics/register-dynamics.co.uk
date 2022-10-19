@@ -77,17 +77,9 @@ sections:
   intro: 'Ready to talk about your technical assurance needs?  '
   button: Get in touch
   link: ''
-- template: banner
-  sections:
-  - template: heading
-    level: 2
-    text: Technical assurance success stories
-  - template: listing
-    source: projects
-    tag: technical-assurance
-    limit: 3
-    columns: 3
-    item_template: post
+- template: heading
+  level: 2
+  text: Technical assurance success stories
 - template: listing
   source: projects
   tag: technical-assurance
