@@ -12,6 +12,8 @@ excerpt: Are you passionate about data but don’t understand why others aren’
 licenses:
 - Blog picture by [Engin Akyurt](https://pixabay.com/users/engin_akyurt-3656355/)
   used under the [Pixabay License](https://pixabay.com/service/license/).
+tags:
+- technical-strategy
 
 ---
 ![Woman looking bored](/images/g35ab0fc39954f0422004aebecfc238dc23999549ed9218953fe1f3feeaf23a07ee09fbc579403268c3ebcf22d9254a1d652aaca7e2fe832470e0bd9394143adda1af6defbdda72b397768c23eeb3ea05_1280-1.jpg)
