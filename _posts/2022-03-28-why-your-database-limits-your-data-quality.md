@@ -12,6 +12,8 @@ licenses:
 tags:
 - digital-delivery
 date: 2022-03-27
+authors:
+- Alaric Snell-Pym
 
 ---
 Maximising quality is a major tenet to most organisational strategies for data.
