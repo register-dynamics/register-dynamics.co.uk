@@ -22,12 +22,14 @@ sections:
     body: 'Get an unbiased, professional expert view on your technology options. Appraise
       technology procurements with impartial and trusted due diligence from experienced
       technologists.  '
+    coloured: true
   - template: card
     image: ''
     title: Optimise your technology and tools
     body: Understand how to fully optimise your tools and ensure that your systems
       are fully compliant, safe and secure. Establish the pros and cons of each system
       and how they will impact your operational set up and existing ways of working.
+    coloured: true
   - template: card
     image: ''
     title: Plan for the long term
@@ -35,6 +37,7 @@ sections:
       with you as your organisation grows. Set up disaster recovery and business continuity,
       be fully prepared for any potential issues or threats, and create a solid technological
       plan for the future.
+    coloured: true
   coloured: true
   numbered: false
   image_mode: ''
@@ -102,6 +105,16 @@ sections:
 - template: heading
   level: 2
   text: Related services
+- template: content-grid
+  columns: 1
+  sections:
+  - template: card
+    title: Technical and data strategy
+    body: "Advice, support and leadership \n\nLearn more"
+    image: "/images/Strategy.svg"
+    image_mode: icon
+  - template: card
+  - template: card
 published: false
 
 ---
