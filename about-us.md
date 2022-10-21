@@ -3,7 +3,7 @@ title: About us
 hide-title: false
 sections:
 - template: alternating
-  image_mode: right-side
+  image_mode: left-side
   sections:
   - template: content
     content: |-
