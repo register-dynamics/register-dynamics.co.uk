@@ -19,9 +19,6 @@ sections:
   - template: heading
     text: 'Our 4 main services:'
     level: 
-  - template: heading
-    text: 'Our specialisms:'
-    level: 
   - template: listing
     source: services
     item_template: title-icon
@@ -29,6 +26,9 @@ sections:
     limit: 
     columns: '1'
     tag: technical-strategy
+  - template: heading
+    text: 'Our specialisms:'
+    level: 
   - template: listing
     source: specialisms
     item_template: title-icon
