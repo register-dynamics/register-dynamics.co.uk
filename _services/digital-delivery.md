@@ -1,6 +1,6 @@
 ---
 title: Digital delivery
-image: "/images/Delivery.svg"
+image: "/images/1.png"
 hide-title: false
 sections:
 - template: alternating
