@@ -114,6 +114,12 @@ sections:
     image: "/images/Strategy.svg"
     image_mode: icon
   - template: card
+    title: Digital delivery
+    body: |
+      Digital products and solutions
+
+      Learn more
+    image_mode: icon
   - template: card
 published: false
 
