@@ -42,6 +42,13 @@ sections:
   button: Get in touch
   intro: 'Ready to talk or have a question for us?  '
   link: ''
+- template: listing
+  columns: 1
+  source: services
+  item_template: title-icon
+  limit: 
+  numbered: false
+  tag: ''
 image: ''
 published: false
 
