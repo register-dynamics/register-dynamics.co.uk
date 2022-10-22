@@ -1,6 +1,6 @@
 ---
 title: Digital delivery
-image: "/images/1.png"
+image: ''
 hide-title: false
 sections:
 - template: alternating
@@ -11,7 +11,7 @@ sections:
       Empower your staff to get the most out of your organisation’s data by making sure you have the best user-centred tools and technology to help them achieve this
 
       We help you be confident with digital change by delivering digital products. We work with user researchers, service designers and multi-disciplinary teams to lead and develop your data intensive services
-  image: "/images/1.png"
+  image: "/images/1-1.png"
 - template: heading
   level: 2
   text: Our digital delivery service will help you
