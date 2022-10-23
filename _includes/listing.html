@@ -25,7 +25,7 @@
     {% continue %}
   {% endif %}
 
-  {% if tag %}
+  {% if tag and tag != empty %}
     {% for doctag in doc.tags %}
       {% if tag == doctag %}
         {% assign temp = temp | push: doc %}
