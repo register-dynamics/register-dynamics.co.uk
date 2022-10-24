@@ -60,21 +60,21 @@ sections:
   columns: 3
   sections:
   - template: card
-    image: "/images/icon-team.svg"
+    image: "/images/focus-on-the-people.png"
     title: Focus on the people
     body: We believe that it is crucial to gain a deep understanding of the needs
       of those who are actively using the data. Our people-first approach ensures
       that when we introduce data standards, they benefit everyone at all levels of
       the organisation.
   - template: card
-    image: "/images/icon-workflow.png"
+    image: "/images/build-assets-that-last.png"
     title: Build assets that last
     body: When data standards are established well, they become an important asset
       to an organisation. They will stand the test of time, be embraced by all and
       help strengthen the business as a whole. Let us help to embed data standards
       and best practises deep into your ecosystem.
   - template: card
-    image: "/images/icon-reliable.svg"
+    image: "/images/strong-track-record.png"
     title: " Strong track record"
     body: Our team of data standard specialists have a wealth of experience in developing
       and documenting data standards as well as driving adoption for new data standards.
