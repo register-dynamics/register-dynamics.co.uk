@@ -59,14 +59,14 @@ sections:
       for both the users of the end system and the organisation as a whole. That is
       why we take pride in our user focused approach which underpins all of the digital
       delivery work that we do.
-    image: "/images/icon-team.svg"
+    image: "/images/user-focused.png"
     title: User focused
     image_mode: icon
   - template: card
     body: 'We believe that all the technology we create is there to support and underpin
       your organisational strategies and goals. Our approach focuses our energy on
       building that strong connection between strategy and delivery. '
-    image: "/images/icon-shapes.svg"
+    image: "/images/marrying-strategy-and-delivery.png"
     title: Marrying strategy and delivery
     image_mode: icon
   - template: card
