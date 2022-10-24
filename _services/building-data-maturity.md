@@ -62,7 +62,7 @@ sections:
       and frameworks for government departments and private clients. We’ll help you
       become clear about what areas to focus on and how to go about your data maturity
       journey.
-    image: "/images/icon-team2.png"
+    image: "/images/experienced-team.png"
     title: " Experienced team"
   - template: card
     coloured: false
@@ -71,7 +71,7 @@ sections:
       and understanding the incentives and drivers that fuel the data and the key
       users of it. This enables us to gain an in-depth view on the challenges at hand
       and to establish solutions that can offer a positive impact for the long term.
-    image: "/images/icon-reliable.svg"
+    image: "/images/incentives-led-approach.png"
     title: Incentives-led approach
   - template: card
     coloured: false
@@ -79,7 +79,7 @@ sections:
     body: Our unique approach enables us to easily identify which simple interventions
       will offer the greatest value and biggest impact to the organisation and to
       your teams. We believe in finding simple solutions to big problems.
-    image: "/images/icon-lightning.svg"
+    image: "/images/big-impact.png"
     title: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
