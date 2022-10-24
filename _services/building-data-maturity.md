@@ -71,7 +71,7 @@ sections:
       and understanding the incentives and drivers that fuel the data and the key
       users of it. This enables us to gain an in-depth view on the challenges at hand
       and to establish solutions that can offer a positive impact for the long term.
-    image: "/images/incentives-led-approach.png"
+    image: "/images/incentive-led-approach.png"
     title: Incentives-led approach
   - template: card
     coloured: false
@@ -79,7 +79,7 @@ sections:
     body: Our unique approach enables us to easily identify which simple interventions
       will offer the greatest value and biggest impact to the organisation and to
       your teams. We believe in finding simple solutions to big problems.
-    image: "/images/big-impact.png"
+    image: "/images/icon-lightning.svg"
     title: Big impact via simple interventions
 - template: call-to-action
   link_type: contact
