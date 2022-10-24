@@ -10,7 +10,7 @@ sections:
       ##### **Establish strong data governance to enable you to get the best value out of your data**
 
       We offer strategic, tactical and technical support around all aspects of data governance.
-  image: "/images/Strategy.svg"
+  image: "/images/data-governance.png"
 - template: heading
   level: 2
   text: Work with us to
@@ -142,7 +142,7 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
-image: ''
+image: "/images/data-governance.png"
 published: false
 
 ---
