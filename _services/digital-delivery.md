@@ -1,6 +1,6 @@
 ---
 title: Digital delivery
-image: ''
+image: "/images/digital-delivery.png"
 hide-title: false
 sections:
 - template: alternating
