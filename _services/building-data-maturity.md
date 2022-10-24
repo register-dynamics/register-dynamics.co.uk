@@ -1,6 +1,6 @@
 ---
 title: Building data maturity
-image: "/images/Strategy.svg"
+image: "/images/building-data-maturity.png"
 hide-title: false
 sections:
 - template: alternating
@@ -13,7 +13,7 @@ sections:
       Encourage better communication and collaboration by giving your staff the tools to find, share and use data more effectively. Enable them to make better informed business decisions and to accomplish effective, meaningful work.
 
       We offer support in building in-house data maturity across your organisation. Our work will enable you to explore new possibilities with data, focus your efforts more effectively and push the boundaries of what your data can do for you.
-  image: "/images/Strategy.svg"
+  image: "/images/building-data-maturity.png"
 - template: heading
   level: 2
   text: Our building data maturity service will help you
