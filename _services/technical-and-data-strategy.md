@@ -59,7 +59,7 @@ sections:
       curiosity, passion and an experienced eye. We are also recognised industry leaders
       in data technology and data standards and continue to push the boundaries and
       explore new emerging technologies each day.
-    image: "/images/icon-g484ea42b6_640.png"
+    image: "/images/love-all-things-technical.png"
     title: We love all things technical
     image_mode: icon
   - template: card
@@ -67,14 +67,14 @@ sections:
       implementation and beyond.  As pioneers in data technology and emerging tech,
       we are in a unique position to be able to support you at any and all stages
       of your development.
-    image: "/images/icon-team.svg"
+    image: "/images/support-at-all-stages.png"
     title: Support at all stages
     image_mode: icon
   - template: card
     body: We believe in getting real results. Whether this means building a prototype
       to test out new ideas, developing new tools from scratch or working with you
       in-house and leading projects from within; we are ready to get stuck in!
-    image: "/images/icon-workflow.png"
+    image: "/images/getting-things-done.png"
     title: Getting things done
     image_mode: icon
 - template: call-to-action
