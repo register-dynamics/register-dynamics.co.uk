@@ -133,7 +133,7 @@ sections:
   numbered: false
   sections:
   - template: card
-    image: "/images/icon-team.svg"
+    image: "/images/focus-on-the-people.png"
     body: "We believe that making users’ needs central to everything that we do is
       really important.  \n\nWhether we are developing or designing new technology,
       or coming up with a specific solution or strategy, the users’ needs always come
@@ -143,7 +143,7 @@ sections:
     coloured: false
     image_mode: icon
   - template: card
-    image: "/images/icon-unleash.svg"
+    image: "/images/see-the-big-picture.png"
     title: "'See the big picture'"
     body: "We approach all of our work with the whole business in mind. \n\nWe take
       pride in understanding the bigger picture and ensuring that our technology and
@@ -154,7 +154,7 @@ sections:
     coloured: false
     image_mode: icon
   - template: card
-    image: "/images/icon-beready.svg"
+    image: "/images/empower-embed-embrace.png"
     title: "'Empower, embed and embrace'"
     body: "We believe in empowering our clients and their staff to have full control
       and autonomy over their own technology and data. \n\nThe solutions and tools
