@@ -141,7 +141,7 @@ sections:
   - template: listing
     columns: '3'
     source: services
-    item_template: post
+    item_template: card
 published: false
 
 ---
