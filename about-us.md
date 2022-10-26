@@ -63,9 +63,9 @@ sections:
   tag: ''
   item_template: author
 - template: call-to-action
-  link_type: contact
-  intro: 'Read more about the services we offer    '
-  button: What we do
+  link_type: internal
+  intro: 'Together we can make a big impact  ->    '
+  button: Join our team
   link: ''
 - template: heading
   level: 2
