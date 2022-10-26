@@ -106,42 +106,10 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: content-grid
-  columns: 3
-  sections:
-  - template: card
-    title: Digital delivery
-    body: |2-
-
-      Digital products and solutions
-
-      Learn more
-    image: "/images/Delivery.svg"
-  - template: card
-    title: Building data maturity
-    body: |-
-      Data culture and community
-
-      Learn more
-    image: "/images/building-data-maturity.png"
-  - template: card
-    title: Technical assurance
-    body: |-
-      Technology review and option evaluation
-
-      Learn more
-    image: "/images/Security.svg"
-    image_mode: icon
-  image_mode: icon
-  coloured: false
-  numbered: false
-- template: content-grid
-  columns: 1
-  sections:
-  - template: listing
-    columns: '3'
-    source: services
-    item_template: author
+- template: listing
+  columns: '3'
+  source: services
+  item_template: author
 published: false
 
 ---
