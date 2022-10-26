@@ -139,9 +139,9 @@ sections:
   columns: 1
   sections:
   - template: listing
-    columns: '4'
+    columns: '3'
     source: services
-    item_template: post
+    item_template: title-icon
 published: false
 
 ---
