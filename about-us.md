@@ -49,7 +49,7 @@ sections:
       We believe in developing long lasting relationships with each of our clients and strive to be their trusted partners.
 
       Each of us in our team has different passions and motivations that drive us and that have brought us to where we are today. As a company we appreciate our similarities and celebrate our differences. Every day we continue to build this dream together.
-  image: "/images/experience-with-executive-stakeholders.png"
+  image: "/images/where-we-are-now.png"
 - template: banner
   sections:
   - template: heading
