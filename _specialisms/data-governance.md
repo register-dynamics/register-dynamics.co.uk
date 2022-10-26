@@ -63,7 +63,7 @@ sections:
     body: 'Our team are recognised experts in developing best practices for companies
       and governments. We apply industry standard models and responsibilities so that
       you benefit from our tried and tested methods. '
-    image: "/images/icon-process.png"
+    image: "/images/industry-standards-and-best-practice.png"
     title: Industry standards and best practice
     coloured: false
     image_mode: icon
@@ -72,7 +72,7 @@ sections:
       compliance requirements, whilst also exploring the best and most innovative
       ways to harness your data. Explore the possibilities with confidence and control,
       and be guided at every step of the way.
-    image: "/images/icon-unleash.svg"
+    image: "/images/innovation-with-direction.png"
     title: Innovation with direction
     coloured: false
     image_mode: icon
@@ -80,7 +80,7 @@ sections:
     body: Our team offers a wealth of experience in implementing data governance across
       organisations. We can help you through the earliest phases of data governance,
       right through to creating an ongoing roadmap for the future.
-    image: "/images/Strategy.svg"
+    image: "/images/decades-of-experience.png"
     title: " Decades of experience "
     coloured: false
     image_mode: icon
