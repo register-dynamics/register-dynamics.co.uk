@@ -40,9 +40,9 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Get in touch
-  intro: 'Ready to talk or have a question for us?  '
+  intro: Ready to talk or have a question for us? ->
   link: ''
-image: ''
+image: "/images/cdo-as-a-service.png"
 published: false
 
 ---
