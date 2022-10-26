@@ -2,7 +2,7 @@
 title: CDO as a Service
 sections:
 - template: alternating
-  image_mode: right-side
+  image_mode: left-side
   image: "/images/cdo-as-a-service.png"
   sections:
   - template: content
@@ -53,7 +53,7 @@ sections:
   text: What is CDO as a service?
   level: 
 - template: alternating
-  image_mode: left-side
+  image_mode: right-side
   image: "/images/cdo.png"
   sections:
   - template: content
