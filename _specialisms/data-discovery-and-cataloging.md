@@ -67,7 +67,7 @@ sections:
       data clean and up-to-date.
     image_mode: icon
   - template: card
-    image: "/images/user-focused-data-discovery.png"
+    image: "/images/focus-on-the-people.png"
     title: " User focused"
     body: We believe in empowering staff to manage and share data easily and responsibly.
       By focusing on their specific needs, our approach ensures that users reap the
