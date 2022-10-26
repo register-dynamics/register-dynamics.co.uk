@@ -136,7 +136,7 @@ sections:
   image_mode: icon
   sections:
   - template: card
-    image: "/images/icon-reliable.svg"
+    image: "/images/incentive-led-approach.png"
     title: Trust our experience
     body: 'Our team has a wealth of experience working in CDO roles across a range
       of industries including central UK government and various small and medium sized
@@ -147,7 +147,7 @@ sections:
     coloured: false
     image_mode: ''
   - template: card
-    image: "/images/icon-team2.png"
+    image: "/images/experienced-team.png"
     title: Access a fully equipped data team
     body: 'When you work with us, you will be working not only with the CDO expert
       assigned to you but also with our whole team of data, technology and business
@@ -157,7 +157,7 @@ sections:
     coloured: false
     image_mode: ''
   - template: card
-    image: "/images/icon-reuse.svg"
+    image: "/images/experience-with-executive-stakeholders.png"
     title: Gain in-house training and mentorship
     body: 'We can provide training and mentorship to key stakeholders and staff across
       a wide range of areas. We will make sure that you and your organisation have
