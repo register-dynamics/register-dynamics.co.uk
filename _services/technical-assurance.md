@@ -108,31 +108,10 @@ sections:
 - template: content-grid
   columns: 1
   sections:
-  - template: card
-    title: Technical and data strategy
-    body: "Advice, support and leadership \n\nLearn more"
-    image: "/images/Strategy.svg"
-    image_mode: icon
-  - template: card
-    title: Digital delivery
-    body: |
-      Digital products and solutions
-
-      Learn more
-    image_mode: icon
-    image: "/images/Delivery.svg"
-  - template: card
-    title: Building data maturity
-    body: |
-      Data culture and community
-
-      Learn more
-    image: "/images/building-data-maturity.png"
-    image_mode: icon
-- template: listing
-  columns: 1
-  source: services
-  item_template: author
+  - template: listing
+    columns: 1
+    source: services
+    item_template: author
 published: false
 
 ---
