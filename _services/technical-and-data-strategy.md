@@ -141,7 +141,7 @@ sections:
   - template: listing
     columns: '3'
     source: services
-    item_template: project
+    item_template: post
 published: false
 
 ---
