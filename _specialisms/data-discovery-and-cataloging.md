@@ -108,27 +108,10 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: content-grid
-  columns: 3
-  sections:
-  - template: card
-    title: Data governance
-    body: "Strategic, tactical and technical support \n\nLearn more"
-    image: ''
-  - template: card
-    title: Data management
-    body: "Bespoke data management solutions \n\nLearn more"
-    image: "/images/Data.svg"
-  - template: card
-    title: Data standards
-    body: |-
-      Establishing ‘best in class’ data standards
-
-      Learn more
-    image: "/images/Direction.svg"
-  image_mode: icon
-  coloured: false
-  numbered: false
+- template: listing
+  columns: '3'
+  source: specialisms
+  item_template: author
 published: false
 
 ---
