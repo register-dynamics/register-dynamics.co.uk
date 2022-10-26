@@ -63,7 +63,7 @@ sections:
     body: 'Our team are recognised experts in developing best practices for companies
       and governments. We apply industry standard models and responsibilities so that
       you benefit from our tried and tested methods. '
-    image: "/images/data-standards.png"
+    image: "/images/experts-working-with-standards.png"
     title: Industry standards and best practice
     coloured: false
     image_mode: icon
@@ -80,7 +80,7 @@ sections:
     body: Our team offers a wealth of experience in implementing data governance across
       organisations. We can help you through the earliest phases of data governance,
       right through to creating an ongoing roadmap for the future.
-    image: "/images/support-all-stages.png"
+    image: "/images/industry-veterans-in-technical-risk.png"
     title: " Decades of experience "
     coloured: false
     image_mode: icon
