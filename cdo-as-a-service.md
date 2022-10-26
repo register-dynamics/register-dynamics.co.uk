@@ -54,7 +54,7 @@ sections:
   level: 
 - template: alternating
   image_mode: right-side
-  image: "/images/cdo.png"
+  image: "/images/cdo-as-a-service.png"
   sections:
   - template: content
     content: |
@@ -174,6 +174,6 @@ sections:
     link_type: contact
     link: ''
 hide-title: false
-image: "/images/cdo-as-a-service.png"
+image: "/images/cdo.png"
 
 ---
