@@ -3,7 +3,7 @@ title: CDO as a Service
 sections:
 - template: alternating
   image_mode: left-side
-  image: "/images/cdo-as-a-service.png"
+  image: "/images/cdo.png"
   sections:
   - template: content
     content: |
