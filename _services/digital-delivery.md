@@ -122,7 +122,7 @@ sections:
     body: |-
       Data culture and community
       Learn more
-    image: ''
+    image: "/images/building-data-maturity.png"
   - template: card
     title: Technical assurance
     body: |-
