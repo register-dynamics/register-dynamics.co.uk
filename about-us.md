@@ -69,7 +69,7 @@ sections:
   link: ''
 - template: heading
   level: 2
-  text: Our 4 core business values
+  text: Our business values
 - template: content-grid
   columns: 2
   sections:
