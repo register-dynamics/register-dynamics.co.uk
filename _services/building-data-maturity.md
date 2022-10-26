@@ -112,6 +112,10 @@ sections:
 - template: heading
   level: 2
   text: Related services
+- template: listing
+  columns: '3'
+  source: services
+  item_template: author
 published: false
 
 ---
