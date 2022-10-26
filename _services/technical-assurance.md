@@ -112,6 +112,10 @@ sections:
     columns: '3'
     source: services
     item_template: author
+- template: listing
+  columns: '3'
+  source: services
+  item_template: title-icon
 published: false
 
 ---
