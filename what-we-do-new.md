@@ -24,7 +24,7 @@ sections:
     level: 
   - template: listing
     source: services
-    item_template: card
+    item_template: author
     numbered: false
     limit: 
     columns: '1'
