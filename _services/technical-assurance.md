@@ -120,7 +120,15 @@ sections:
 
       Learn more
     image_mode: icon
+    image: "/images/Delivery.svg"
   - template: card
+    title: Building data maturity
+    body: |
+      Data culture and community
+
+      Learn more
+    image: "/images/building-data-maturity.png"
+    image_mode: icon
 published: false
 
 ---
