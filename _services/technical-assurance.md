@@ -109,7 +109,7 @@ sections:
   columns: 1
   sections:
   - template: listing
-    columns: 1
+    columns: '3'
     source: services
     item_template: author
 published: false
