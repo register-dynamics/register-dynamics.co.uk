@@ -129,6 +129,10 @@ sections:
       Learn more
     image: "/images/building-data-maturity.png"
     image_mode: icon
+- template: listing
+  columns: 1
+  source: services
+  item_template: author
 published: false
 
 ---
