@@ -72,7 +72,7 @@ sections:
       have experts on-hand to support you.
     image_mode: icon
   - template: card
-    image: "/images/easy-migration-and-integration.png"
+    image: "/images/easy-migration.png"
     title: Easy migration and integration
     body: Migrate all of your existing data easily into the new system and be confident
       that everything integrates seamlessly with your current business operations
