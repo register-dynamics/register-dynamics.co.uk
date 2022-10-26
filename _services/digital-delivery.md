@@ -121,6 +121,7 @@ sections:
     title: Building data maturity
     body: |-
       Data culture and community
+
       Learn more
     image: "/images/building-data-maturity.png"
   - template: card
