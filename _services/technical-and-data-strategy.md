@@ -67,7 +67,7 @@ sections:
       implementation and beyond.  As pioneers in data technology and emerging tech,
       we are in a unique position to be able to support you at any and all stages
       of your development.
-    image: "/images/support-at-all-stages.png"
+    image: "/images/support-all-stages.png"
     title: Support at all stages
     image_mode: icon
   - template: card
