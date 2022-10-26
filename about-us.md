@@ -143,7 +143,7 @@ sections:
     coloured: false
     image_mode: icon
   - template: card
-    image: "/images/see-the-big-picture.png"
+    image: "/images/see-big-picture.png"
     title: "'See the big picture'"
     body: "We approach all of our work with the whole business in mind. \n\nWe take
       pride in understanding the bigger picture and ensuring that our technology and
