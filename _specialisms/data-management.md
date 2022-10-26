@@ -105,29 +105,6 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: content-grid
-  columns: 3
-  sections:
-  - template: card
-    title: Data governance
-    body: "Strategic, tactical and technical support \n\nLearn more"
-    image: "/images/data-governance.png"
-  - template: card
-    title: Data discovery and cataloging
-    body: "Making data accessible and discoverable \n\nLearn more"
-    image: "/images/Delivery.svg"
-    image_mode: icon
-  - template: card
-    title: Data standards
-    body: |-
-      Establishing ‘best in class’ data standards
-
-      Learn more
-    image: "/images/Direction.svg"
-    image_mode: icon
-  image_mode: icon
-  coloured: false
-  numbered: false
 - template: listing
   columns: '3'
   source: specialisms
