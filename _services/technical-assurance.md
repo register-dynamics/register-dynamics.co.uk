@@ -4,7 +4,7 @@ image: "/images/Security.svg"
 hide-title: false
 sections:
 - template: card
-  image_mode: right-side
+  image_mode: left-side
   body: |
     Be confident in your technical decision making and trust that the technology you and your teams are using are fit for purpose, safe and secure, and fully compliant.
 
@@ -57,7 +57,7 @@ sections:
       design and execution of technical projects involving in-house development and
       system procurement. We know where to find risks and take quick action to mitigate
       them.
-    image: "/images/industry-veterans.png"
+    image: "/images/industry-veterans-in-technical-risk.png"
     title: Industry veterans in technical risk
     image_mode: icon
   - template: card
