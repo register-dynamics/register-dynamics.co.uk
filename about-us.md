@@ -166,16 +166,9 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: 'Why not speak to one of us to explore your options?     '
-  button: Let's talk
+  intro: 'Explore who we''ve worked with and where we''ve applied our values -> '
+  button: Our clients
   link: ''
-- template: banner
-  sections:
-  - template: call-to-action
-    link_type: internal
-    intro: 'Explore where we have applied our ways of working and our values and culture. '
-    button: Case studies
-    link: ''
 image: "/images/square-withbg.svg"
 
 ---
