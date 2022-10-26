@@ -115,7 +115,7 @@ sections:
   - template: card
     title: Data governance
     body: "Strategic, tactical and technical support \n\nLearn more"
-    image: ''
+    image: "/images/data-governance.png"
   - template: card
     title: Data discovery and cataloging
     body: "Making data accessible and discoverable \n\nLearn more"
