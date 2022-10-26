@@ -45,8 +45,8 @@ sections:
     strategy for your organisation.
 - template: call-to-action
   link_type: contact
-  button: Let's have a conversation
-  intro: Ready to talk?
+  button: Let's talk
+  intro: Ready to explore your options?
   link: ''
 - template: banner
   sections:
