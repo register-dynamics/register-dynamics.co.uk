@@ -4,7 +4,7 @@ hide-title: false
 sections:
 - template: alternating
   image_mode: right-side
-  image: "/images/Strategy.svg"
+  image: "/images/cdo-as-a-service.png"
   sections:
   - template: content
     content: |-
