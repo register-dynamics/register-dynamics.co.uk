@@ -3,7 +3,7 @@ title: About us
 hide-title: false
 sections:
 - template: alternating
-  image_mode: left-side
+  image_mode: right-side
   sections:
   - template: content
     content: |-
@@ -167,6 +167,6 @@ sections:
   intro: 'Why not speak to one of us to explore your options?     '
   button: Let's talk
   link: ''
-image: ''
+image: "/images/square-withbg.svg"
 
 ---
