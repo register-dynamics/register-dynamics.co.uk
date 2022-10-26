@@ -17,7 +17,7 @@ sections:
   columns: 2
   sections:
   - template: heading
-    text: 'Our 4 main services:'
+    text: 'Our services:'
     level: 
   - template: heading
     text: 'Our specialisms:'
