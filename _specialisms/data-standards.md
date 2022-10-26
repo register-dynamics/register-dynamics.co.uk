@@ -1,6 +1,6 @@
 ---
 title: Data standards
-image: "/images/Direction.svg"
+image: "/images/data-standards.png"
 hide-title: false
 sections:
 - template: alternating
@@ -10,7 +10,7 @@ sections:
     content: "Establish clear data standards and guidelines that everybody understands
       and adheres to.  \n  \nWe offer expert advice and support to develop, implement
       and maintain ‘best in class’ data standards."
-  image: "/images/Direction.svg"
+  image: "/images/data-standards.png"
 - template: heading
   level: 2
   text: Work with us to
