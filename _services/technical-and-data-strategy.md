@@ -59,7 +59,7 @@ sections:
       curiosity, passion and an experienced eye. We are also recognised industry leaders
       in data technology and data standards and continue to push the boundaries and
       explore new emerging technologies each day.
-    image: "/images/love-all-things-technical.png"
+    image: "/images/love-things-technical.png"
     title: We love all things technical
     image_mode: icon
   - template: card
