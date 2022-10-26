@@ -135,6 +135,13 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
+- template: content-grid
+  columns: 1
+  sections:
+  - template: listing
+    columns: '4'
+    source: services
+    item_template: post
 published: false
 
 ---
