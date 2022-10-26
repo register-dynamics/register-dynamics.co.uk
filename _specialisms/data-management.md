@@ -128,6 +128,10 @@ sections:
   image_mode: icon
   coloured: false
   numbered: false
+- template: listing
+  columns: '3'
+  source: specialisms
+  item_template: author
 published: false
 
 ---
