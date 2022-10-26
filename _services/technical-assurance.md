@@ -57,7 +57,7 @@ sections:
       design and execution of technical projects involving in-house development and
       system procurement. We know where to find risks and take quick action to mitigate
       them.
-    image: "/images/icon-g484ea42b6_640.png"
+    image: "/images/industry-veterans.png"
     title: Industry veterans in technical risk
     image_mode: icon
   - template: card
@@ -65,14 +65,14 @@ sections:
       in-depth knowledge of recognised standards, we always seek new ways to drive
       better efficiency. All of our work meets the government Service Standards and
       follows the government Technology Code of Practice (TCoP). '
-    image: "/images/icon-team.svg"
+    image: "/images/experts-working-with-standards.png"
     title: Experts in working with standards
     image_mode: icon
   - template: card
     body: We know how to bring confidence to executive stakeholders through our extensive
       experience working with and in senior roles. We can help inform and reassure
       seniors that their projects are on track and with minimal risk.
-    image: "/images/icon-workflow.png"
+    image: "/images/experience-with-executive-stakeholders.png"
     title: Experience with executive stakeholders
     image_mode: icon
 - template: call-to-action
