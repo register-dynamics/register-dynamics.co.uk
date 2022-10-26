@@ -8,7 +8,7 @@ sections:
   - template: content
     content: We are always looking for exceptional people who share our values, to
       join our team and to help us build a company we can all be proud of.
-  image: "/images/icon-team2.png"
+  image: "/images/jobs.png"
 - template: heading
   level: 2
   text: Why work with us?
@@ -32,6 +32,8 @@ sections:
         on projects that stimulate and interest us. We work on projects that matter
         (in government and for private companies) and that have a real impact on people's
         lives.  \n"
+      coloured: false
+      image_mode: ''
     - template: card
       image: ''
       title: Work life balance
@@ -41,6 +43,8 @@ sections:
         work and your life outside of work too. Great people often have many interests.
         It's important to have the time and space for all of those alongside being
         able to do the great work that we do, together. \n"
+      coloured: false
+      image_mode: ''
     coloured: false
     numbered: false
     image_mode: ''
@@ -59,10 +63,13 @@ sections:
   columns: 3
   item_template: project
   limit: 
+  numbered: false
+  tag: ''
 - template: content
   content: If you don't see a role that's right for you now, we may still be excited
     to hear from you! [Drop us a message]() and tell us why you think you should join
     us.
 hide-title: false
+image: ''
 
 ---
