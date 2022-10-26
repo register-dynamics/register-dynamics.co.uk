@@ -46,8 +46,7 @@ sections:
 - template: call-to-action
   link_type: contact
   button: Talk to us now
-  intro: Whether you need advice, guidance or  help with technical implementation,
-    we can help.
+  intro: Ready to talk?
   link: ''
 - template: banner
   sections:
