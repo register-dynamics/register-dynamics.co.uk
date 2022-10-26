@@ -154,7 +154,7 @@ sections:
     coloured: false
     image_mode: icon
   - template: card
-    image: "/images/empower-embed-embrace.png"
+    image: "/images/empower-embed-and-embrace.png"
     title: "'Empower, embed and embrace'"
     body: "We believe in empowering our clients and their staff to have full control
       and autonomy over their own technology and data. \n\nThe solutions and tools
