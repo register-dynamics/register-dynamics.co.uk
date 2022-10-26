@@ -134,7 +134,7 @@ sections:
       Establishing ‘best in class’ data standards
 
       Learn more
-    image: "/images/Direction.svg"
+    image: "/images/data-standards.png"
     coloured: false
     image_mode: ''
   image_mode: icon
