@@ -58,21 +58,21 @@ sections:
   columns: 3
   sections:
   - template: card
-    image: "/images/icon-team.svg"
+    image: "/images/focus-on-the-people.png"
     title: User-centric approach
     body: We create bespoke data management systems with the user at the centre of
       our approach. We will take the time to gain a deep understanding of all of your
       needs and create a customisable, intuitive system to manage all of your data.
     image_mode: icon
   - template: card
-    image: "/images/icon-beready.svg"
+    image: "/images/expert-help-at-all-stages.png"
     title: Expert help at all stages
     body: We can help you at any stage of your data management journey. Whether you
       need help to design, develop and/or deliver a new data management system, we
       have experts on-hand to support you.
     image_mode: icon
   - template: card
-    image: "/images/download-g118d5d2cf_640.png"
+    image: "/images/easy-migration-and-integration.png"
     title: Easy migration and integration
     body: Migrate all of your existing data easily into the new system and be confident
       that everything integrates seamlessly with your current business operations
