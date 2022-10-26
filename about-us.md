@@ -35,7 +35,7 @@ sections:
       We (Andy and Simon), also shared a deep passion for data, technology and making things better. We were both well established in our careers as technologists, data specialists and as business people but we both felt as though we had much more to give.
 
       We decided to step up and to build a business where we could make a more direct, positive impact in the market and to improve how people can use technology more efficiently and access their data more effectively.
-  image: "/images/home-square-3.png"
+  image: "/images/shared-vision.png"
 - template: alternating
   image_mode: left-side
   sections:
