@@ -4,7 +4,7 @@ hide-title: false
 sections:
 - template: alternating
   image_mode: right-side
-  image: "/images/Combination.svg"
+  image: "/images/Strategy.svg"
   sections:
   - template: content
     content: |-
