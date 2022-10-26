@@ -3,7 +3,7 @@ title: CDO as a Service
 sections:
 - template: alternating
   image_mode: left-side
-  image: "/images/icon-uptodate.png"
+  image: "/images/cdo-as-a-service.png"
   sections:
   - template: content
     content: |
@@ -25,6 +25,7 @@ sections:
       need straight away.
 
       '
+    image_mode: ''
   - template: card
     coloured: true
     image: ''
@@ -35,6 +36,7 @@ sections:
       for.
 
       '
+    image_mode: ''
   - template: card
     coloured: true
     image: ''
@@ -44,6 +46,7 @@ sections:
       interim basis and choose the best approach for your team and budget.
 
       '
+    image_mode: ''
   numbered: false
   image_mode: ''
 - template: heading
@@ -94,6 +97,7 @@ sections:
       Together we will explore what your organisation’s needs, goals and priorities are.
 
       We will discuss any challenges you are facing and what your best options are to tackle these. We will also agree what the best way to work together will be.
+    image_mode: ''
   - template: card
     coloured: true
     image: ''
@@ -102,6 +106,7 @@ sections:
       After the discovery call we will send you a proposal and we will scope out the details of the placement.
 
       We will work together to agree exactly how we want to work together, how long for, what the outcomes and expectations are and how we plan to get there.
+    image_mode: ''
   - template: card
     coloured: true
     image: ''
@@ -110,6 +115,7 @@ sections:
       Once our plan and start date has been agreed we will get to work! Your CDO is now available to you along with the rest of our team.
 
       We will work closely with you as an extension of your organisation and support you in your vision.
+    image_mode: ''
   - template: card
     coloured: true
     image: ''
@@ -118,6 +124,7 @@ sections:
       When we have accomplished what we set out to achieve together, we will arrange a thorough handover and ensure that you have everything you need to continue on without us.
 
       We can also provide training and mentoring to your teams as well as ad-hoc support on a retainer basis if required.
+    image_mode: ''
   image_mode: ''
 - template: heading
   text: Why trust us to be your on-call CDO?
@@ -137,6 +144,8 @@ sections:
       them effectively.
 
       '
+    coloured: false
+    image_mode: ''
   - template: card
     image: "/images/icon-team2.png"
     title: Access a fully equipped data team
@@ -145,6 +154,8 @@ sections:
       experts.
 
       '
+    coloured: false
+    image_mode: ''
   - template: card
     image: "/images/icon-reuse.svg"
     title: Gain in-house training and mentorship
@@ -153,6 +164,8 @@ sections:
       the skills and tools you need to continue on without us.
 
       '
+    coloured: false
+    image_mode: ''
 - template: banner
   sections:
   - template: call-to-action
@@ -161,5 +174,6 @@ sections:
     link_type: contact
     link: ''
 hide-title: false
+image: ''
 
 ---
