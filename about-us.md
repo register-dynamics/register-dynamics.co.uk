@@ -3,7 +3,7 @@ title: About us
 hide-title: false
 sections:
 - template: alternating
-  image_mode: right-side
+  image_mode: left-side
   sections:
   - template: content
     content: |-
@@ -20,7 +20,7 @@ sections:
       time for everything else that matters in life too!
   image: "/images/square-withbg.svg"
 - template: alternating
-  image_mode: left-side
+  image_mode: right-side
   sections:
   - template: heading
     level: 2
@@ -49,10 +49,12 @@ sections:
       We believe in developing long lasting relationships with each of our clients and strive to be their trusted partners.
 
       Each of us in our team has different passions and motivations that drive us and that have brought us to where we are today. As a company we appreciate our similarities and celebrate our differences. Every day we continue to build this dream together.
-  image: "/images/icon-reuse.svg"
-- template: heading
-  level: 2
-  text: Meet the team
+  image: "/images/experience-with-executive-stakeholders.png"
+- template: banner
+  sections:
+  - template: heading
+    level: 2
+    text: Meet the team
 - template: listing
   columns: '3'
   source: authors
