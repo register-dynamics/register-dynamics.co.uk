@@ -88,7 +88,7 @@ sections:
   level: 2
   text: Data standards success stories
 - template: listing
-  columns: '3'
+  columns: '4'
   source: projects
   item_template: project
   tag: data-standards
