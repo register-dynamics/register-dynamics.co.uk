@@ -24,7 +24,7 @@ sections:
     level: 
   - template: listing
     source: services
-    item_template: project
+    item_template: title-icon
     numbered: false
     limit: 
     columns: '1'
