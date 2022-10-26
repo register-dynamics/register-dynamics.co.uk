@@ -106,33 +106,10 @@ sections:
 - template: heading
   level: 2
   text: Related services
-- template: content-grid
-  columns: 3
-  sections:
-  - template: card
-    title: Technical and data strategy
-    body: |-
-      Advice, support and leadership
-
-      Learn more
-    image: "/images/Strategy.svg"
-    image_mode: icon
-  - template: card
-    title: Building data maturity
-    body: |-
-      Data culture and community
-
-      Learn more
-    image: "/images/building-data-maturity.png"
-  - template: card
-    title: Technical assurance
-    body: |-
-      Technology review and option evaluation
-      Learn more
-    image: "/images/Security.svg"
-  image_mode: icon
-  coloured: false
-  numbered: false
+- template: listing
+  columns: '3'
+  source: services
+  item_template: author
 published: false
 
 ---
