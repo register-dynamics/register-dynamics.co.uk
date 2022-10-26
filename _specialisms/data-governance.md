@@ -6,10 +6,9 @@ sections:
   image_mode: left-side
   sections:
   - template: content
-    content: |-
-      ##### **Establish strong data governance to enable you to get the best value out of your data**
-
-      We offer strategic, tactical and technical support around all aspects of data governance.
+    content: "Establish strong data governance to enable you to get the best value
+      out of your data  \n  \nWe offer strategic, tactical and technical support around
+      all aspects of data governance."
   image: "/images/data-governance.png"
 - template: heading
   level: 2
