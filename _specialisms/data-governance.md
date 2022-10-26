@@ -72,7 +72,7 @@ sections:
       compliance requirements, whilst also exploring the best and most innovative
       ways to harness your data. Explore the possibilities with confidence and control,
       and be guided at every step of the way.
-    image: "/images/innovation-with-direction.png"
+    image: "/images/innovation.png"
     title: Innovation with direction
     coloured: false
     image_mode: icon
@@ -80,7 +80,7 @@ sections:
     body: Our team offers a wealth of experience in implementing data governance across
       organisations. We can help you through the earliest phases of data governance,
       right through to creating an ongoing roadmap for the future.
-    image: "/images/industry-veterans-in-technical-risk.png"
+    image: "/images/experienced-team.png"
     title: " Decades of experience "
     coloured: false
     image_mode: icon
