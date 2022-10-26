@@ -24,7 +24,7 @@ sections:
     level: 
   - template: listing
     source: services
-    item_template: author
+    item_template: project
     numbered: false
     limit: 
     columns: '1'
