@@ -59,7 +59,7 @@ sections:
   columns: 3
   sections:
   - template: card
-    image: "/images/icon-reliable.svg"
+    image: "/images/experts-in-authoritative-data.png"
     title: " Experts in authoritative data"
     body: We are recognised as industry experts in helping organisations to establish,
       manage and share their authoritative data. Our standards, principles, processes
@@ -67,14 +67,14 @@ sections:
       data clean and up-to-date.
     image_mode: icon
   - template: card
-    image: "/images/icon-team.svg"
+    image: "/images/user-focused-data-discovery.png"
     title: " User focused"
     body: We believe in empowering staff to manage and share data easily and responsibly.
       By focusing on their specific needs, our approach ensures that users reap the
       benefits of our work and embrace any new data tools or processes introduced.
     image_mode: icon
   - template: card
-    image: "/images/download-g118d5d2cf_640.png"
+    image: "/images/technology-made-easy.png"
     title: Technology made easy
     body: Our deep knowledge, expertise and passion in data technology enables us
       to find and create the best solutions for each of our clients.  Let us handle
