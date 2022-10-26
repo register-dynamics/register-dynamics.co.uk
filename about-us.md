@@ -127,7 +127,7 @@ sections:
       What sets us apart is our ability to combine our deep knowledge in technology with our strong business acumen. This is made possible from our wealth of experience working at and with senior executives at the highest levels in a variety of organisations.
 - template: heading
   level: '3'
-  text: We also follow 3 main mantras in all of our work we do
+  text: We also follow 3 main mantras in everything we do
 - template: content-grid
   columns: 3
   numbered: false
@@ -174,7 +174,7 @@ sections:
   - template: call-to-action
     link_type: internal
     intro: Together we make an impact
-    button: Join our team
+    button: What we do
     link: ''
 image: "/images/square-withbg.svg"
 
