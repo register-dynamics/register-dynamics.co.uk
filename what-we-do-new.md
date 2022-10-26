@@ -24,7 +24,7 @@ sections:
     level: 
   - template: listing
     source: services
-    item_template: title-icon
+    item_template: card
     numbered: false
     limit: 
     columns: '1'
