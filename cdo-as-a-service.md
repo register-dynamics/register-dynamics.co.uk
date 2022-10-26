@@ -157,7 +157,7 @@ sections:
     coloured: false
     image_mode: ''
   - template: card
-    image: "/images/experience-with-executive-stakeholders.png"
+    image: "/images/gain-in-house-training-and-mentorship.png"
     title: Gain in-house training and mentorship
     body: 'We can provide training and mentorship to key stakeholders and staff across
       a wide range of areas. We will make sure that you and your organisation have
