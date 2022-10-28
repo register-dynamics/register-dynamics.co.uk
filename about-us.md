@@ -64,7 +64,7 @@ sections:
   item_template: author
 - template: call-to-action
   link_type: internal
-  intro: 'Together we can make a big impact  ->    '
+  intro: 'Together we can make things better!  ->    '
   button: Join our team
   link: ''
 - template: heading
