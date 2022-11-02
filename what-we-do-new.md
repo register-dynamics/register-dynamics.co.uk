@@ -37,15 +37,6 @@ sections:
     columns: '1'
     tag: ''
   numbered: false
-- template: alternating
-  image_mode: left-side
-  image: "/images/cdo.png"
-  sections:
-  - template: heading
-    level: 2
-    text: CDO-as-a-service
-  - template: content
-    content: ''
 - template: banner
   sections:
   - template: call-to-action
