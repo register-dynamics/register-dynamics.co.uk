@@ -6,13 +6,15 @@ authors:
 - Owain Jones
 - Simon Worthington
 - Alaric Snell-Pym
-image: ''
+image: "/images/3-reasons-why-no-one-s-using-your-data-management-tool.jpg"
 excerpt: ''
-licenses: []
-tags: []
+licenses:
+- Image by Chen from Pixabay
+tags:
+- data-management
 
 ---
-Have you taken the time to carefully select a data management tool for your staff and organisation to use, but are finding that hardly anyone uses it and that the uptake is fairly low?
+![](/images/3-reasons-why-no-one-s-using-your-data-management-tool.jpg)Have you taken the time to carefully select a data management tool for your staff and organisation to use, but are finding that hardly anyone uses it and that the uptake is fairly low?
 
 This can be really demoralising especially if you’ve taken the time to carefully select and procure the tool and know that if only people used it, the whole organisation and everyone in it would really benefit from it.
 
@@ -42,4 +44,4 @@ It will be easier to get people to try the new system if you offer guidance and 
 
 These are the 3 most common problems that we see occurring when a new data management tool isn’t getting used in an organisation, and suggestions for ways to overcome them in your teams.
 
-If you need any help with your organisation’s data challenges or want to explore how we and/or our data tools could help you, feel free to get in touch!
+If you need any help with your organisation’s [data management]() or want to explore how we and/or our data tools could help you, feel free to [get in touch]()!
