@@ -37,11 +37,22 @@ sections:
     columns: '1'
     tag: ''
   numbered: false
-- template: call-to-action
-  link_type: contact
-  button: Get in touch
-  intro: Ready to talk or have a question for us? ->
-  link: ''
+- template: alternating
+  image_mode: left-side
+  image: "/images/cdo.png"
+  sections:
+  - template: heading
+    level: 2
+    text: CDO-as-a-service
+  - template: content
+    content: ''
+- template: banner
+  sections:
+  - template: call-to-action
+    link_type: internal
+    intro: Ready to talk or have a question for us? ->
+    button: Contact us
+    link: ''
 image: "/images/cdo-as-a-service.png"
 published: false
 
