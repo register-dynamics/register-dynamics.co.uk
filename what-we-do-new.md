@@ -41,7 +41,7 @@ sections:
   sections:
   - template: call-to-action
     link_type: internal
-    intro: Ready to talk or have a question for us? ->
+    intro: Ready to talk or have a question for us?
     button: Contact us
     link: ''
 image: "/images/cdo-as-a-service.png"

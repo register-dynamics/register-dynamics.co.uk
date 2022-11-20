@@ -64,7 +64,7 @@ sections:
   item_template: author
 - template: call-to-action
   link_type: internal
-  intro: 'Together we can make things better!  ->    '
+  intro: 'Together we can make things better!     '
   button: Join our team
   link: ''
 - template: heading
@@ -166,7 +166,7 @@ sections:
   image_mode: ''
 - template: call-to-action
   link_type: contact
-  intro: 'Explore who we''ve worked with and where we''ve applied our values -> '
+  intro: 'Explore who we''ve worked with and where we''ve applied our values '
   button: Our clients
   link: ''
 image: "/images/square-withbg.svg"

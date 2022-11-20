@@ -17,7 +17,7 @@ sections:
       Our team of technical, data and business specialists
       support organisations with strategy and delivery challenges.
   - template: call-to-action
-    intro: 'Explore how we can help you -> '
+    intro: 'Explore how we can help you '
     button: What we do
     link_type: internal
     link: what-we-do/index.html
