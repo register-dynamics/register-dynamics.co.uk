@@ -112,6 +112,6 @@ sections:
     columns: '3'
     source: services
     item_template: author
-published: false
+published: true
 
 ---

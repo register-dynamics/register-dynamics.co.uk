@@ -1,5 +1,5 @@
 ---
-title: What we do (new)
+title: What we do
 hide-title: false
 sections:
 - template: alternating
@@ -40,11 +40,10 @@ sections:
 - template: banner
   sections:
   - template: call-to-action
-    link_type: internal
+    link_type: contact
     intro: Ready to talk or have a question for us?
     button: Contact us
     link: ''
 image: "/images/cdo-as-a-service.png"
-published: false
-
+published: true
 ---

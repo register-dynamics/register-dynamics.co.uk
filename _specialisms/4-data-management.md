@@ -98,7 +98,7 @@ sections:
   item_template: post
   tag: data-management
 - template: call-to-action
-  link_type: internal
+  link_type: contact
   intro: Ready to discuss your specific needs?
   button: Contact us
   link: ''
@@ -109,6 +109,6 @@ sections:
   columns: '3'
   source: specialisms
   item_template: author
-published: false
+published: true
 
 ---

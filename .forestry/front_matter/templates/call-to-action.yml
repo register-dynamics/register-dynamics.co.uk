@@ -29,10 +29,7 @@ fields:
     - internal
     - contact
 - name: link
-  type: select
+  type: text
   label: Link
   config:
     required: false
-    source:
-      type: pages
-      section: pages

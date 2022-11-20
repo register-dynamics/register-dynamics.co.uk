@@ -7,6 +7,9 @@
     {% when 'internal' %}
       {% assign target = site.pages | where:"path", main.link | first %}
       {% assign link = target.url | prepend: site.base_url %}
+      {% if target == '' or target == empty %}
+        {% assign link = main.link %}
+      {% endif %}
     {% when 'contact' %}
       {% assign link = "mailto:" | append: site.email %}
   {% endcase %}

@@ -20,7 +20,7 @@ sections:
     intro: 'Explore how we can help you '
     button: What we do
     link_type: internal
-    link: what-we-do/index.html
+    link: what-we-do/index.md
 - template: heading
   text: Who we work with
   level: 

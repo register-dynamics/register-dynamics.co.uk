@@ -101,7 +101,7 @@ sections:
   item_template: post
   tag: data-discovery
 - template: call-to-action
-  link_type: internal
+  link_type: contact
   intro: Ready to talk to one of our data discovery experts?
   button: Contact us
   link: ''
@@ -112,6 +112,6 @@ sections:
   columns: '3'
   source: specialisms
   item_template: author
-published: false
+published: true
 
 ---

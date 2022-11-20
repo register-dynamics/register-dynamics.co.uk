@@ -66,7 +66,7 @@ sections:
   link_type: internal
   intro: 'Together we can make things better!     '
   button: Join our team
-  link: ''
+  link: jobs/index.md
 - template: heading
   level: 2
   text: Our business values
@@ -165,10 +165,10 @@ sections:
     image_mode: icon
   image_mode: ''
 - template: call-to-action
-  link_type: contact
+  link_type: internal
   intro: 'Explore who we''ve worked with and where we''ve applied our values '
   button: Our clients
-  link: ''
+  link: case-studies/index.md
 image: "/images/square-withbg.svg"
 
 ---

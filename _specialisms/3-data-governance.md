@@ -105,7 +105,7 @@ sections:
   limit: 
   numbered: false
 - template: call-to-action
-  link_type: internal
+  link_type: contact
   intro: Ready to talk to one of our data governance experts to discuss your specific
     needs?
   button: Contact us now
@@ -118,6 +118,6 @@ sections:
   source: specialisms
   item_template: author
 image: "/images/data-governance.png"
-published: false
+published: true
 
 ---
