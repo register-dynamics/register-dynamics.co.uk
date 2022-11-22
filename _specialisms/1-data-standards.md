@@ -40,7 +40,7 @@ sections:
       across your organisation. "
     coloured: true
   coloured: true
-  numbered: false
+  numbered: true
   image_mode: ''
 - template: content
   content: "  \nWhether you need help with the initial or later stages of data standards
@@ -108,29 +108,10 @@ sections:
   link: ''
 - template: heading
   level: 2
-  text: Related services
-- template: content-grid
-  columns: 3
-  sections:
-  - template: card
-    title: Data governance
-    body: "Strategic, tactical and technical support \n\nLearn more"
-    image: "/images/data-governance.png"
-  - template: card
-    title: Data discovery and cataloging
-    body: "Making data accessible and discoverable \n\nLearn more"
-    image: "/images/Delivery.svg"
-  - template: card
-    title: Data management
-    body: "Bespoke data management solutions \n\nLearn more"
-    image: "/images/Data.svg"
-  image_mode: icon
-  coloured: false
-  numbered: false
+  text: Related Services
 - template: listing
   columns: '3'
   source: specialisms
   item_template: author
-published: true
 
 ---
