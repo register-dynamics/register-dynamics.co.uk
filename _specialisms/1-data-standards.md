@@ -89,7 +89,7 @@ sections:
   text: Data standards success stories
 - template: listing
   columns: '3'
-  source: projects
+  source: posts
   item_template: project
   tag: data-standards
   limit: '4'
