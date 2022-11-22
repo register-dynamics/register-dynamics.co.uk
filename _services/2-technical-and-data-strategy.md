@@ -94,7 +94,7 @@ sections:
   level: 2
   text: Technical and data strategy insights
 - template: listing
-  columns: '4'
+  columns: '3'
   source: posts
   item_template: post
   tag: technical-strategy
@@ -110,6 +110,5 @@ sections:
   columns: '3'
   source: services
   item_template: author
-published: true
 
 ---
