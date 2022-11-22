@@ -89,7 +89,7 @@ sections:
   text: Data governance success stories
 - template: listing
   columns: '3'
-  source: projects
+  source: posts
   item_template: post
   tag: data-governance
   limit: 
@@ -118,6 +118,5 @@ sections:
   source: specialisms
   item_template: author
 image: "/images/data-governance.png"
-published: true
 
 ---
