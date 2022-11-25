@@ -3,7 +3,11 @@ title: Helping Government retain control of data
 client: Central Digital and Data Office
 date: 2021-03-01
 image: "/images/helping_government_retain_control_of_data.jpg"
-excerpt: ''
+excerpt: 'By working closely with top senior technology advisors across government
+  we helped to determine an updated set of guidance to support the technology procurement
+  and assurance processes across government.  This formed a key part of The Technology
+  Code of Practice, which is a cross government agreed standard created to help government
+  design, build and buy technology. '
 tags:
 - technical-assurance
 - data-standards
