@@ -3,7 +3,12 @@ title: Making export support enquiry data accessible and shareable
 date: 2022-11-01
 image: "/images/port-g3669dbbed_640.jpg"
 client: Department of International Trade
-excerpt: ''
+excerpt: The Export Support Service (ESS) is a free helpline and online advice service
+  for all UK business wanting to trade with Europe. As a new service set up following
+  the EU referendum, we needed to create the data architecture required for storing,
+  managing and sharing the data being received from multiple sources. We developed
+  a single source of truth for ESS enquiries via a master dataset and ensured that
+  the data is accurate, up-to-date, easy to access and share.
 tags:
 - data-standards
 published: false
