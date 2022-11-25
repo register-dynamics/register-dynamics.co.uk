@@ -99,7 +99,7 @@ sections:
   text: Data governance insights
 - template: listing
   columns: '3'
-  source: posts
+  source: projects
   item_template: post
   tag: data-governance
   limit: 
