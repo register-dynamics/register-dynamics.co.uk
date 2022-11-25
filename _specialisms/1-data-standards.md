@@ -89,8 +89,8 @@ sections:
   text: Data standards success stories
 - template: listing
   columns: '3'
-  source: posts
-  item_template: project
+  source: projects
+  item_template: post
   tag: data-standards
   limit: '4'
 - template: heading
