@@ -3,7 +3,11 @@ title: Enhancing the organisation’s USP
 client: DeSmog UK
 date: 2019-04-30
 image: "/images/enhancing_the_organisations_usp.jpg"
-excerpt: ''
+excerpt: DeSmog UK is an investigative media outlet with a unique way of sharing information
+  with users. It uses ‘network maps’ as part of their published articles to offer
+  an interactive experience for readers. Register Dynamics was asked to help oversee
+  and manage improvements to their unique maps producing tool in order to create higher
+  quality and more customisable maps and thus a better experience for their readers.
 tags:
 - technical-strategy
 
