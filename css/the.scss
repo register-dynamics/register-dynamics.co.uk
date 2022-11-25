@@ -65,8 +65,8 @@ $BODYTEXT: 'Chivo', sans-serif;
 }
 
 @mixin negative-margin($remaining_space) {
-  margin-left: calc(-1/2 * (#{$remaining_space}));
-  margin-right: calc(-1/2 * (#{$remaining_space}));
+  margin-left: calc(-1 * (#{$remaining_space}));
+  margin-right: calc(-1 * (#{$remaining_space}));
 }
 
 @mixin expand-to-window($max: 100%) {
@@ -88,7 +88,7 @@ $BODYTEXT: 'Chivo', sans-serif;
   width: calc(#{$max});
 
   @media screen and (max-width: $MINIMUM_WINDOW) {
-    @include negative-margin(#{$max} - 100%);
+    @include negative-margin(calc((#{$max} - 100%)/2));
   }
 }
 
@@ -379,7 +379,7 @@ article, aside {
   }
 
   @media screen and (max-width: $HIDE_LOGO) {
-    grid-template-columns: 100%;
+    grid-template-columns: 100% !important;
   }
 
   img {
@@ -442,15 +442,17 @@ article, aside {
   }
 
   @media screen and (max-width: $BODY_SIZE) {
-    grid-template-columns: repeat(2, 1fr);
+    &:not([data-cols="1"]) {
+      grid-template-columns: repeat(2, 1fr);
 
-    > * {
-      grid-column: span 1 !important;
+      > * {
+        grid-column: span 1 !important;
+      }
     }
   }
 
   @media screen and (max-widtH: $BODY_SIZE * 0.66) {
-    grid-template-columns: 100%;
+    grid-template-columns: 100% !important;
   }
 }
 

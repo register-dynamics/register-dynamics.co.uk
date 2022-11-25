@@ -1,0 +1,13 @@
+{% assign main = include.page | default: include %}
+
+{% assign st__content = "" | split: "" %}
+{% for block in main.sections %}
+  {% capture str %}{% include {{ block.template }}.html page=block %}{% endcapture %}
+  {% assign st__content = st__content | push: str %}
+{% endfor %}
+
+{% include grid.html
+    content=st__content
+    columns=1
+    numbered=false
+%}

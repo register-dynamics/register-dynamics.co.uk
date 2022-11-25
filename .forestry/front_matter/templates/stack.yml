@@ -1,12 +1,7 @@
 ---
-label: Grid
+label: Stack
 hide_body: true
-display_field: heading
 fields:
-- type: include
-  template: grid-options
-  label: Common grid options
-  name: grid-options
 - name: sections
   type: blocks
   label: Content
@@ -16,4 +11,3 @@ fields:
   - content
   - call-to-action
   - listing
-  - stack

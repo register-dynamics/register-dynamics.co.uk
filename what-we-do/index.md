@@ -15,28 +15,32 @@ sections:
       By working at the executive level we help to deliver business value to our clients by helping them to harness their data more effectively.
 - template: content-grid
   columns: 2
-  sections:
-  - template: heading
-    text: 'Our services:'
-    level: 
-  - template: heading
-    text: 'Our specialisms:'
-    level: 
-  - template: listing
-    source: services
-    item_template: title-icon
-    numbered: false
-    limit: 
-    columns: '1'
-    tag: ''
-  - template: listing
-    source: specialisms
-    item_template: title-icon
-    numbered: false
-    limit: 
-    columns: '1'
-    tag: ''
   numbered: false
+  sections:
+  - template: stack
+    sections:
+    - template: heading
+      text: 'Our services:'
+      level: 
+    - template: listing
+      source: services
+      item_template: title-icon
+      numbered: false
+      limit: 
+      columns: '1'
+      tag: ''
+  - template: stack
+    sections:
+    - template: heading
+      text: 'Our specialisms:'
+      level: 
+    - template: listing
+      source: specialisms
+      item_template: title-icon
+      numbered: false
+      limit: 
+      columns: '1'
+      tag: ''
 - template: banner
   sections:
   - template: call-to-action
