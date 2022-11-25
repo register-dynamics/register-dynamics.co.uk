@@ -616,7 +616,11 @@ aside.banner {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1ch;
+  gap: 3vw;
+
+  @media screen and (max-width: $HIDE_MENU) {
+    flex-direction: column;
+  }
 }
 
 .masthead {
