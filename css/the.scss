@@ -65,8 +65,8 @@ $BODYTEXT: 'Chivo', sans-serif;
 }
 
 @mixin negative-margin($remaining_space) {
-  margin-left: calc(-1 * (#{$remaining_space}));
-  margin-right: calc(-1 * (#{$remaining_space}));
+  margin-left: calc(-1/2 * (#{$remaining_space}));
+  margin-right: calc(-1/2 * (#{$remaining_space}));
 }
 
 @mixin expand-to-window($max: 100%) {
@@ -488,6 +488,7 @@ article, aside {
 .coloured {
   height: 100%;
   padding: $COLUMN_GAP/2 $COLUMN_GAP;
+  box-sizing: border-box;
   @include alternating-colors("")
 }
 
@@ -513,9 +514,6 @@ ol.content-grid {
         content: "#{$I}."
       }
     }
-  }
-
-  .coloured {
   }
 }
 
