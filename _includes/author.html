@@ -1,5 +1,5 @@
 {% assign post = include.post | default: post %}
-<div class="card icon-img circle-img">
+<div class="card circle-img">
   {% assign collection = site.collections | where: "label", post.collection | first %}
   {% if collection.output or post.location %}
   <a href="{% if post.location %}{{ post.location }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">

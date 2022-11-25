@@ -387,6 +387,7 @@ article, aside {
     border-radius: 50%;
     grid-column: 1;
     grid-row: span 4;
+    background: white;
 
     @media screen and (max-width: $HIDE_LOGO) {
       width: $COLUMN_SIZE;

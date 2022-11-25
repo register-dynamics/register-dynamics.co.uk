@@ -1,6 +1,6 @@
 ---
 title: Simon Worthington
-image: "images/simon.jpg"
+image: "images/Simon1.png"
 ---
 Simon is an architect and engineer working to build better interfaces between
 humans and data. Sometimes that's by leading new products developing

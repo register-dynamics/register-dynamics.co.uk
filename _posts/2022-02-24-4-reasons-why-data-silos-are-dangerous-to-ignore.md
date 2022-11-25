@@ -1,7 +1,7 @@
 ---
 title: 4 reasons why data silos are dangerous to ignore
 author: Nisa Chitakasem
-image: images/unhappy.png
+image: images/unhappy.jpg
 excerpt: 'Does your organisation have data silos? Getting rid of data silos can make
   a big difference to an organisation but first we need to understand what they are
   and how they can be dangerous to ignore.

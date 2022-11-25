@@ -1,6 +1,6 @@
 ---
 title: Nisa Chitakasem
-image: "images/nisa.jpg"
+image: "images/Nisa3.png"
 ---
 Nisa is the Chief Marketing Officer at Register Dynamics. Having studied Electrical and Electronic Engineering at Imperial College, she has a strong background in technology and a great appreciation for what technology can do.
 
