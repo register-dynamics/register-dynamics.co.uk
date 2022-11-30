@@ -11,7 +11,6 @@ excerpt: The Export Support Service (ESS) is a free helpline and online advice s
   the data is accurate, up-to-date, easy to access and share.
 tags:
 - data-standards
-published: false
 
 ---
 The Department for International Trade’s (DIT) is a UK government department responsible for helping UK businesses export and grow into global markets. In 2021, the DIT created the Export Support Service (ESS) as a free helpline and online advice service for all UK businesses exporting their products and services to customers in Europe. It was set up to assist businesses following the EU referendum (also known as Brexit) and answers questions relating to trading in Europe, with plans to expand to cover more global markets in the future.
