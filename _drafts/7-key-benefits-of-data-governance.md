@@ -1,5 +1,5 @@
 ---
-date: 2022-12-01
+date: 2023-03-07
 title: 7 Key Benefits of Data Governance
 authors:
 - Nisa Chitakasem
