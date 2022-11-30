@@ -90,8 +90,8 @@ sections:
   level: 2
   text: Building data maturity success stories
 - template: listing
-  source: posts
-  item_template: project
+  source: projects
+  item_template: post
   columns: 3
   image_mode: icon
   tag: data-maturity
