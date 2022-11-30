@@ -1,5 +1,5 @@
 ---
-date: 2022-10-09
+date: 2023-02-07
 title: What is data literacy and why is it so important?
 authors:
 - Alaric Snell-Pym
@@ -39,3 +39,5 @@ Data-literate organisations have conversations about important choices, because 
 ## Spread data literacy by iteratively improving
 
 These things can be learnt the hard way, through making mistakes and then clearing up after them. They are rarely taught in any courses (although we hope to impart some in our upcoming blog posts on data literacy!) But generally, most people learn them through absorbing them as part of a data-literate organisation’s culture: once they’ve seen how a data-literate organisation works and picked up the principles themselves, they carry that on through their career. The best way to spread data literacy in your organisation is through setting good examples - and making sure they get seen!
+
+_Data literacy is one key component to building data maturity. Explore our_ [_Building data maturity_]() _services for more options on how to maximise the value of your data in your organisation._
