@@ -1,2 +1,2 @@
 {% assign main = include.page %}{% unless main and main != empty %}{% assign main = include %}{% endunless %}
-{{ main.content | markdownify }}
+{{ main.content | markdownify | liquify}}
