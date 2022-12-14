@@ -1,5 +1,5 @@
 ---
-title: Making export support enquiry data accessible and shareable
+title: Accessible and shareable export enquiry data 
 date: 2022-11-01
 image: "/images/port-g3669dbbed_640.jpg"
 client: Department of International Trade
