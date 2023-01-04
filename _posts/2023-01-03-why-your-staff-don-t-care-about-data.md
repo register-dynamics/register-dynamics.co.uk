@@ -5,17 +5,17 @@ authors:
 - Nisa Chitakasem
 - Alaric Snell-Pym
 - Simon Worthington
-image: "/images/man-g5170ee4bd_640.jpg"
+image: "/images/team-g7d7b23732_640.jpg"
 excerpt: Are you passionate about data but don’t understand why others aren’t? There
   are several common reasons that stop staff and colleagues from taking that next
   step and really caring about data.
 licenses:
-- 'Image by Tumisu from Pixabay '
+- 'Image by Gerd Altmann from Pixabay '
 tags:
 - technical-strategy
 
 ---
-![Why your staff don’t care about data](/images/man-g5170ee4bd_640.jpg)Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
+![](/images/team-g7d7b23732_640.jpg)Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
 
 If you want to be able to make a change and to get more people within your organisation to see the value in data like you do, the first step is to try and get a better understanding of why they might not care about data as much as you.  What’s stopping them from embracing data and leveraging all that it has to offer?
 
