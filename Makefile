@@ -1,5 +1,7 @@
 .PHONY: build push
 
+SHELL := bash
+
 build:
 	bundle exec jekyll build
 

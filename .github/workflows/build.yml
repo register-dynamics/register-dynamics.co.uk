@@ -1,0 +1,65 @@
+name: Build and deploy site
+
+on:
+  schedule:
+    - cron: 0 3 * * *  # Daily at 3am
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build site
+        run: make build
+
+      - name: Save artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: _site
+          path: ./_site
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: Live
+      url:  https://www.register-dynamics.co.uk
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: _site
+
+      - name: Add host key to known hosts
+        run: |
+          mkdir -p ~/.ssh/
+          echo '${{ secrets.REGDYN_HOST_KEY }}' >> ~/.ssh/known_hosts
+
+      - name: Install key
+        run: |
+          TEMP_KEY=$(mktemp ~/.ssh/ssh_key_XXXXXX)
+          echo '${{ secrets.REGDYN_KEY }}' > $TEMP_KEY
+          eval `ssh-agent -s`
+          ssh-add $TEMP_KEY
+
+      - name: Deploy
+        env:
+          USER: ${{ secrets.REGDYN_USER }}
+          HOST: ${{ secrets.REGDYN_HOST }}
+          PORT: ${{ secrets.REGDYN_PORT }}
+        run: |
+          eval `ssh-agent -s`
+          make push
