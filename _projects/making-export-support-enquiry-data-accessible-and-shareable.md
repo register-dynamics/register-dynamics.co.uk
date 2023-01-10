@@ -1,5 +1,5 @@
 ---
-title: Accessible and shareable export enquiry data 
+title: Accessible and shareable export enquiry data
 date: 2022-11-01
 image: "/images/port-g3669dbbed_640.jpg"
 client: Department of International Trade
@@ -42,3 +42,5 @@ A single source of truth for ESS enquiries has been established via a master dat
 Given that the Export Support Service is one of the top 75 priority services in the CDDO’s [2022 to 2025 Roadmap for Digital and Data](https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data#annex), it will continue to be an important part of the government's plans to transform digital public services.
 
 We will continue to work hard to make the most out of the ESS enquiry data, including incorporating and making the most of data from more complex queries and to ensure on-going optimal data integration across the service. We will also continue to work closely with all key stakeholders and support their collaborative efforts in getting the most from their data.
+
+An article about our work has also been published on the government's Digital Trade website: [Helping exporters through joined up data]( "https://digitaltrade.blog.gov.uk/2023/01/05/helping-exporters-through-joined-up-data/").
