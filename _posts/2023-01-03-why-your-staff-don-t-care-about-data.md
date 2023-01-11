@@ -15,7 +15,9 @@ tags:
 - technical-strategy
 
 ---
-![](/images/team-g7d7b23732_640.jpg)Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
+![](/images/team-g7d7b23732_640.jpg)
+
+Are you passionate about data but don’t understand why others aren’t? Do you find it really frustrating that although data is incredibly valuable to you and your organisation, those around you don’t seem to see its value or to get the most out of the data they have access to?
 
 If you want to be able to make a change and to get more people within your organisation to see the value in data like you do, the first step is to try and get a better understanding of why they might not care about data as much as you.  What’s stopping them from embracing data and leveraging all that it has to offer?
 
@@ -71,7 +73,7 @@ Ensuring high quality data across the organisation can be a real challenge, howe
 
 Making the best use of data within your organisation doesn’t require massive investments in staff, training, and tools – but it does need the right investment. Highly paid technical specialists will struggle to succeed if there hasn’t been an investment in general data literacy throughout the organisation, pricy business intelligence dashboard tools will just gather dust if there isn’t good data for them to display, and development time invested in gathering data into massive (costly) data warehouses is all wasted if the data is never used.
 
-A good Chief Data Officer (which can be a part-time role - see [CDO-as-a-service](https://www.register-dynamics.co.uk/cdo-as-a-service)), will help you to define a data strategy and make the right investment choices. Their job will be to get your culture and processes back on track, setting data governance standards, identifying the training your existing staff need and establishing whether any technical specialists need to be hired. With that in place, your staff will be able to tell you what other tools they actually need to do their jobs – most of which will be surprisingly cheap!
+A good Chief Data Officer (which can be [a part-time role](https://www.register-dynamics.co.uk/cdo-as-a-service)), will help you to define a data strategy and make the right investment choices. Their job will be to get your culture and processes back on track, setting data governance standards, identifying the training your existing staff need and establishing whether any technical specialists need to be hired. With that in place, your staff will be able to tell you what other tools they actually need to do their jobs – most of which will be surprisingly cheap!
 
 ## Understanding these issues is the first step
 
