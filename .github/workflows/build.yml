@@ -42,18 +42,12 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: _site
+          path: _site
 
       - name: Add host key to known hosts
         run: |
           mkdir -p ~/.ssh/
           echo '${{ secrets.REGDYN_HOST_KEY }}' >> ~/.ssh/known_hosts
-
-      - name: Install key
-        run: |
-          TEMP_KEY=$(mktemp ~/.ssh/ssh_key_XXXXXX)
-          echo '${{ secrets.REGDYN_KEY }}' > $TEMP_KEY
-          eval `ssh-agent -s`
-          ssh-add $TEMP_KEY
 
       - name: Deploy
         env:
@@ -61,5 +55,6 @@ jobs:
           HOST: ${{ secrets.REGDYN_HOST }}
           PORT: ${{ secrets.REGDYN_PORT }}
         run: |
-          eval `ssh-agent -s`
-          make push
+          TEMP_KEY=$(mktemp ~/.ssh/ssh_key_XXXXXX)
+          echo '${{ secrets.REGDYN_KEY }}' > $TEMP_KEY
+          SSH_FLAGS="-i $TEMP_KEY" make push
