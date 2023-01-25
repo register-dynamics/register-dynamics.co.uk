@@ -39,7 +39,9 @@ If data is spread across multiple teams in an organisation, then knowing where t
 
 With different teams using their own pools of data separately, they can miss out on opportunities to work together and to pool all of the data together. The bigger picture and the potential that you can get from having all of the data points in one place is lost.
 
-Data silos can also widen the gap between departments, leading to the feeling of organisational fragmentation.
+Data silos can also widen the gap between departments, leading to the feeling of organisational fragmentation. 
+
+See our blog post on [How to encourage better data sharing](https://www.register-dynamics.co.uk/blog/3-ways-to-encourage-better-data-sharing)
 
 ## 3. Duplication and inefficient storage of data
 
