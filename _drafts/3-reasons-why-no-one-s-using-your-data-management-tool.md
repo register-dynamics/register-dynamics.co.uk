@@ -1,6 +1,6 @@
 ---
-date: 2022-11-02
-title: 3 reasons why no-one’s using your data management tool
+date: 2023-04-03
+title: Why no-one’s using your data management tool
 authors:
 - Nisa Chitakasem
 - Owain Jones
@@ -14,7 +14,9 @@ tags:
 - data-management
 
 ---
-![](/images/3-reasons-why-no-one-s-using-your-data-management-tool.jpg)Have you taken the time to carefully select a data management tool for your staff and organisation to use, but are finding that hardly anyone uses it and that the uptake is fairly low?
+![](/images/3-reasons-why-no-one-s-using-your-data-management-tool.jpg)
+
+Have you taken the time to carefully select a data management tool for your staff and organisation to use, but are finding that hardly anyone uses it and that the uptake is fairly low?
 
 This can be really demoralising especially if you’ve taken the time to carefully select and procure the tool and know that if only people used it, the whole organisation and everyone in it would really benefit from it.
 
