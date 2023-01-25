@@ -55,4 +55,4 @@ In summary, if your organisation has lots of data silos, compiling data, finding
 
 Therefore, it is really important to find ways to break down these data silos. Hopefully this article offers some insight into why we all need to take data silos seriously and find ways to prevent them. For more help and ideas on this, see our follow up article on [4 Steps to eliminating data silos](https://www.register-dynamics.co.uk/blog/4-steps-to-eliminating-data-silos), which explores how data silos can be discovered and broken down.
 
-For further help with your organisation’s data challenges or to discuss how we can help with your data silo issue, [get in contact with us at Register Dynamics](mailto:hello@register-dynamics.co.uk) and we would be more than happy to help!
+For further help with your organisation’s data challenges or to discuss how we can help with your data silos, [get in contact with us at Register Dynamics](mailto:hello@register-dynamics.co.uk) and we would be more than happy to help!
