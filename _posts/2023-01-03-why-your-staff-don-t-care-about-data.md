@@ -51,6 +51,8 @@ Others may become overwhelmed by the sheer volume of data available to them and 
 
 Organisations that develop a culture of “collecting data for use and reuse” will keep their data clear, organised and understandable. Developing this culture doesn’t necessarily require fancy tooling or tedious processes – it just requires staff to be open, collaborative and able to see the big picture. When staff approach a problem they want to solve with data, they will know where to look, how to access it, and will feel part of a wider support network.
 
+Also see our articles on: [4 Reasons why data silos are dangerous to ignore]() and [4 Steps to eliminating data silos]()
+
 ## 4. The data they collect doesn’t get used
 
 Sometimes the reason people don’t care much about data is simply that they don’t see their good work being used. If your staff don’t see data being used to make key decisions, being shared openly or generating insights, they won’t have confidence that the work they’ve done or could do around data is important. Teams without belief in wider data use will do the minimum required so they can move onto more apparently important tasks.
