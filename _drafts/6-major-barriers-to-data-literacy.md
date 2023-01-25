@@ -42,12 +42,16 @@ Many people also feel that they aren’t “naturally good” with data and so t
 
 In most organisations there are those who are good at working with data. These are the data champions and data experts who have very high levels of data literacy. They understand the value of data and how it is critical to the organisation. However, it is often the case that these employees are somewhat isolated from the rest of the organisation. The work that they do is specialised and so other people do not always get the opportunity to interact with these data literate employees or learn from them.
 
+See our article on: [How to Encourage Better Data Sharing]()
+
 #### 6. Bad quality data
 
 Improving data literacy is tough if people are working with bad quality data and, unfortunately, ensuring high quality data across an organisation can be a big challenge.
 
 When the data available isn’t accurate, up-to-date and in a useful format, people will find it very difficult to make any sense of it. Therefore addressing data quality is a key area to get right in the pursuit of improving data literacy.
 
-In our experience, these have been the six most common barriers to data literacy in organisations. Organisations will need to work hard to address each of these issues in order to nurture a more data literate and data confident workforce. In our next post in this series, we will reveal eight tried and tested ways to improve data literacy in your organisation - but in the meantime, if you’d like to discuss your approach to improving data literacy across your organisation or would like help with your data challenges, [get in touch]().
+In our experience, these have been the six most common barriers to data literacy in organisations. Organisations will need to work hard to address each of these issues in order to nurture a more data literate and data confident workforce. We believe strongly in [building data maturity]() across an organisation and can explain more about how we help in this area [here]().
+
+In our next post in this series, we will reveal eight tried and tested ways to improve data literacy in your organisation - but in the meantime, if you’d like to discuss your approach to improving data literacy across your organisation or would like help with your data challenges, [get in touch](https://www.register-dynamics.co.uk/blog/hello@register-dynamics.co.uk).
 
 We hope that you have found this article useful and wish you the best of luck on your data literacy journey!
