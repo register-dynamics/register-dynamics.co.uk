@@ -1,13 +1,17 @@
 ---
-date: 2023-01-25
+date: 2023-05-08
 title: 6 Major barriers to data literacy
 authors: []
-image: ''
+image: "/images/warning-sign-gdcafab753_640.jpg"
 excerpt: ''
-licenses: []
-tags: []
+licenses:
+- "Image by Nicky ❤️\U0001F33F\U0001F41E\U0001F33F❤️ from Pixabay "
+tags:
+- data-maturity
 
 ---
+![](/images/warning-sign-gdcafab753_640.jpg)
+
 In a previous blog post we explored what data literacy is and why it is so important. Here we explore what some of the most common barriers to data literacy in an organisation are.
 
 Data plays such an important part in business today; however, the level of data literacy in organisations is not always as high as one would like and there are many barriers to better data literacy.
