@@ -8,6 +8,5 @@ excerpt: "Ross is an experienced engineer with a broad range of knowledge and \n
   theory and distributed systems."
 licenses: []
 tags: []
-published: false
 
 ---
