@@ -50,6 +50,7 @@ fields:
       file: _data/tags.yml
       path: Tags
 pages:
+- _authors/al-norman.md
 - _authors/ross-jones.md
 - _posts/2022-08-17-3-ways-to-encourage-better-data-sharing.md
 - _posts/2022-10-22-what-is-data-governance-and-why-is-it-important.md
