@@ -10,3 +10,8 @@ licenses: []
 tags: []
 
 ---
+Al is a data scientist with a background in education. He wants to help 
+
+businesses and organisations extract meaningful insights from their 
+
+data, through machine learning and statistical analysis.
