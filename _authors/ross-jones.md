@@ -10,3 +10,8 @@ licenses: []
 tags: []
 
 ---
+Ross is an experienced engineer with a broad range of knowledge and 
+
+interests, ranging from data platforms, and metadata management, to programming 
+
+language theory and distributed systems.
