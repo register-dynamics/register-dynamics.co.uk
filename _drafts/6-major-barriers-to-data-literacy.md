@@ -3,7 +3,9 @@ date: 2023-05-08
 title: 6 Major barriers to data literacy
 authors: []
 image: "/images/warning-sign-gdcafab753_640.jpg"
-excerpt: ''
+excerpt: In a previous blog post we explored what data literacy is and why it is so
+  important. Here we explore what some of the most common barriers to data literacy
+  in an organisation are.
 licenses:
 - "Image by Nicky ❤️\U0001F33F\U0001F41E\U0001F33F❤️ from Pixabay "
 tags:
