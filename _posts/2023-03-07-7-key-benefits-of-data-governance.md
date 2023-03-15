@@ -6,10 +6,11 @@ authors:
 - Owain Jones
 - Alaric Snell-Pym
 image: "/images/7-key-benefits-of-data-governance.jpg"
-excerpt: |-
-  If you work with data, you will surely have a view on data governance and its importance to an organisation’s success. A well-crafted data governance strategy is vital in today’s fast-moving and competitive market. It’s what underpins a healthy data-driven organisation and gives it the discipline to get the most out of their organisation’s data, manage its risks and manage it effectively.
-
-  In an earlier article, we explored what data governance is and why it is important. Now, let’s look at some of the key benefits of data governance.
+excerpt: If you work with data, you will surely have a view on data governance and
+  its importance to an organisation’s success. A well-crafted data governance strategy
+  is vital in today’s fast-moving and competitive market. In an earlier article, we
+  explored what data governance is and why it is important. Now, let’s look at some
+  of the key benefits of data governance.
 licenses:
 - 'Image by svklimkin from Pixabay '
 tags:
